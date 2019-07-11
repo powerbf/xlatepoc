@@ -50,17 +50,45 @@ int main(int argc, char *argv[])
         const char *monstr = NULL;
         printf("\n");
 
+        string the_monster = string("the ") + monsters[i];
+        string a_monster = string("an ") + monsters[i];
+
         string sentence;
-        //sentence = translate_action("%s attacks you.", "The", monsters[i], "doing");
-        sentence = translate_sentence(string("The ") + monsters[i], "attacks",
-                "you");
+
+        sentence = translate_sentence("you", "see", a_monster);
         cout << sentence << endl;
-        //sentence = translate_action("You attack %s.", "the", monsters[i], "attacked");
-        sentence = translate_sentence("You", "attack",
-                string("the ") + monsters[i]);
+
+        sentence = translate_sentence(the_monster, "shouts");
         cout << sentence << endl;
-        sentence = translate_action("You command %s to wait here.", "the",
-                monsters[i], "commanded");
+
+        sentence = translate_action("You command %s to wait here.", "the", monsters[i], "commanded");
+        cout << sentence << endl;
+
+        sentence = translate_sentence(the_monster, "attacks", "you");
+        cout << sentence << endl;
+
+        sentence = translate_sentence(the_monster, "misses", "you");
+        cout << sentence << endl;
+
+        sentence = translate_sentence(the_monster, "hits", "you");
+        cout << sentence << endl;
+
+        sentence = translate_sentence(the_monster, "slashes", "you");
+        cout << sentence << endl;
+
+        sentence = translate_sentence("You", "attack", the_monster);
+        cout << sentence << endl;
+
+        sentence = translate_sentence("You", "miss", the_monster);
+        cout << sentence << endl;
+
+        sentence = translate_sentence("You", "hit", the_monster);
+        cout << sentence << endl;
+
+        sentence = translate_sentence("You", "slash", the_monster);
+        cout << sentence << endl;
+
+        sentence = translate_sentence("You", "kill", the_monster);
         cout << sentence << endl;
     }
 

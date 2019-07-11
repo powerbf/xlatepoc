@@ -26,11 +26,19 @@ msgstr "nominative"
 msgid "being"
 msgstr "nominative"
 
+msgid "seen"
+msgstr "accusative"
+
 # greifen jemanden an 
 msgid "attacked"
 msgstr "accusative"
 
-#
+msgid "hit"
+msgstr "accusative"
+
+msgid "missed"
+msgstr "accusative"
+
 msgid "killed"
 msgstr "accusative"
 

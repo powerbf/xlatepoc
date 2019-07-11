@@ -34,6 +34,18 @@ msgctxt "dative"
 msgid "the orc"
 msgstr "dem Ork"
 
+#msgctxt "nominative"
+msgid "an orc"
+msgstr "ein Ork"
+
+msgctxt "accusative"
+msgid "an orc"
+msgstr "einen Ork"
+
+msgctxt "dative"
+msgid "an orc"
+msgstr "einem Ork"
+
 # Elf
 
 # Since Elf is feminine it takes die in nominative.
@@ -50,6 +62,18 @@ msgstr "die Elfe"
 msgctxt "dative"
 msgid "the elf"
 msgstr "der Elfe"
+
+#msgctxt "nominative"
+msgid "an elf"
+msgstr "eine Elfe"
+
+msgctxt "accusative"
+msgid "an elf"
+msgstr "eine Elfe"
+
+msgctxt "dative"
+msgid "an elf"
+msgstr "einer Elfe"
 
 # Natasha
 

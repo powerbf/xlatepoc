@@ -100,6 +100,10 @@ static std::string derive_object_context(const std::string &verb)
     {
         return string("read");
     }
+    else if (verb == "see" || verb == "sees")
+    {
+        return string("seen");
+    }
 
     // handle the standard case
     std::string context;

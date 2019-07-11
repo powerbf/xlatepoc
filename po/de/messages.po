@@ -17,20 +17,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: main.cpp:27
 #, c-format
 msgid "Hello, world\n"
 msgstr "Grüße, Welt\n"
 
-#: main.cpp:31
+#, c-format
+msgid "You see %s."
+msgstr "Du siehst %s."
+
+#, c-format
+msgid "%s shouts."
+msgstr "%s schreit."
+
 #, c-format
 msgid "%s attacks you."
 msgstr "%s greift dich an."
 
-#: main.cpp:33
 #, c-format
 msgid "You attack %s."
 msgstr "Du greifst %s an."
+
+#, c-format
+msgid "%s misses you."
+msgstr "%s verfehlt dich."
+
+#, c-format
+msgid "You miss %s."
+msgstr "Du verfehlst %s."
+
+#, c-format
+msgid "%s hits you."
+msgstr "%s schlägt dich."
+
+#, c-format
+msgid "You hit %s."
+msgstr "Du schlägst %s."
+
+#, c-format
+msgid "%s slashes you."
+msgstr "%s schlitzt dich auf."
+
+#, c-format
+msgid "You slash %s."
+msgstr "Du schlitzt %s auf."
+
+#, c-format
+msgid "%s kills you."
+msgstr "%s tötet dich."
+
+#, c-format
+msgid "You kill %s."
+msgstr "Du tötest %s."
 
 #, c-format
 msgid "You command %s to wait here."
