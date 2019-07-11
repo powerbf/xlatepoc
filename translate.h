@@ -1,7 +1,7 @@
 /**
  * @file  translate.h
  * @brief High-level translation routines (as opposed to xlate.h which is low-level)
-**/
+ **/
 
 #pragma once
 

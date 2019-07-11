@@ -1,7 +1,7 @@
 /**
  * @file  xlate.h
  * @brief Low-level translation routines.
-**/
+ **/
 
 #pragma once
 
@@ -19,7 +19,7 @@
 #include <string>
 
 // initialize
-void init_xlate(const char* lang);
+void init_xlate(const char *lang);
 
 const char* get_xlate_language();
 
@@ -30,7 +30,7 @@ const char* get_xlate_language();
 //  (for disambiguating same English text used in different contexts which may require different translations)
 //  if no translation is found in the specified context, will look for translation at global (no) context
 // msgid = English text to be translated
-const char* dcxlate(const char* domain, const char* context, const char* msgid);
+const char* dcxlate(const char *domain, const char *context, const char *msgid);
 
 // translate with domain, context and number
 // returns the plural form corresponding to number
@@ -42,8 +42,8 @@ const char* dcxlate(const char* domain, const char* context, const char* msgid);
 // msgid1 = English singular text
 // msgid2 = English plural text
 // n = the count of whatever it is
-const char* dcnxlate(const char* domain, const char* context,
-		                    const char* msgid1, const char* msgid2, unsigned long n);
+const char* dcnxlate(const char *domain, const char *context,
+                     const char *msgid1, const char *msgid2, unsigned long n);
 
 #endif
 
