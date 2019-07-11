@@ -34,3 +34,6 @@
 # Generated translation files
 *.mo
 locale
+
+# Eclipse
+.settings
