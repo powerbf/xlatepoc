@@ -1,0 +1,64 @@
+# German translations for hello package.
+# Copyright (C) 2019 THE hello'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hello package.
+# brian <brian@gallifrey>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Monsters 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-10 00:19+1000\n"
+"PO-Revision-Date: 2019-07-09 22:05+1000\n"
+"Last-Translator: brian <brian@gallifrey>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Orc
+
+# Since Orc is masculine it takes der in nominative
+#msgctxt "nominative"
+msgid "the orc"
+msgstr "der Ork"
+
+# Since Orc is masculine it takes den in accusitive
+msgctxt "accusative"
+msgid "the orc"
+msgstr "den Ork"
+
+# Since Orc is masculine it takes dem in dative.
+msgctxt "dative"
+msgid "the orc"
+msgstr "dem Ork"
+
+# Elf
+
+# Since Elf is feminine it takes die in nominative.
+#msgctxt "nominative"
+msgid "the elf"
+msgstr "die Elfe"
+
+# Since Elf is feminine it takes die in accusative.
+msgctxt "accusative"
+msgid "the elf"
+msgstr "die Elfe"
+
+# Since Elf is feminine it takes der in dative case.
+msgctxt "dative"
+msgid "the elf"
+msgstr "der Elfe"
+
+# Natasha
+
+# is the same regardless of case
+msgid "Natasha"
+msgstr "Natascha"
+
+
+
+
+
+
