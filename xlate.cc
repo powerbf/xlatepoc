@@ -1,8 +1,8 @@
 /**
  * @file  xlate.cc
- * @brief Translation routines.
- * This implementation uses gnu gettext, but references to gettext are deliberately kept within this
- * file to allow easy change to a different implementation.
+ * @brief Low-level translation routines.
+ * This implementation uses gnu gettext, but references to gettext are deliberately kept
+ * within this file to allow easy change to a different implementation.
 **/
 
 #ifndef NO_TRANSLATE

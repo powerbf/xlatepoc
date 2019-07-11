@@ -1,7 +1,7 @@
 /**
  * @file  translate.cc
- * @brief
-**/
+ * @brief High-level translation routines (as opposed to xlate.h which is low-level)
+***/
 
 #include <sstream>
 #include <string>

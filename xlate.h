@@ -1,6 +1,6 @@
 /**
  * @file  xlate.h
- * @brief Translation routines.
+ * @brief Low-level translation routines.
 **/
 
 #pragma once
