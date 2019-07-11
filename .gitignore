@@ -30,6 +30,7 @@
 *.exe
 *.out
 *.app
+xlatepoc
 
 # Generated translation files
 *.mo
