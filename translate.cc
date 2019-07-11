@@ -72,8 +72,17 @@ static std::string compose_string(const char *fmt_string, const char *subject,
 
 // derive object context from the (English) verb
 // e.g. if the verb is "drop" then the context for the object is "dropped"
-static std::string derive_object_context(const std::string &verb)
+static std::string derive_object_context(const std::string &verb_in)
 {
+    string verb(verb_in);
+
+    // remove adverbs
+    string::size_type pos = verb.rfind("ly ");
+    if (pos != string::npos)
+    {
+        verb = verb.substr(pos+3);
+    }
+
     if (ends_with(verb, "ed"))
     {
         return verb;
@@ -122,7 +131,7 @@ static std::string derive_object_context(const std::string &verb)
         context = verb;
     }
 
-    // add "ed" if not already present
+    // add "ed"
     context += "ed";
 
     return context;
@@ -229,7 +238,10 @@ std::string translate_sentence(const string &subject, const string &verb,
         xlated_instrument = translate_entity(instrument, "with").c_str();
     }
 
-    xlated_fmt_string = xlate(fmt_ss.str().c_str());
+    // TODO: Fix subtle bug - if you call xlate with fmt_ss.str().c_str() you get empty string back
+    string fmt_string(fmt_ss.str());
+    xlated_fmt_string = xlate(fmt_string.c_str());
+
     string result = compose_string(xlated_fmt_string, xlated_subject,
             xlated_object, xlated_instrument);
     return result;

@@ -46,6 +46,22 @@ msgid "You miss %s."
 msgstr "Du verfehlst %s."
 
 #, c-format
+msgid "%s closely misses you."
+msgstr "%s verfehlt dich eng."
+
+#, c-format
+msgid "You closely miss %s."
+msgstr "Du verfehlst %s eng."
+
+#, c-format
+msgid "%s barely misses you."
+msgstr "%s verfehlt dich ganz eng."
+
+#, c-format
+msgid "You barely miss %s."
+msgstr "Du verfehlst %s ganz eng."
+
+#, c-format
 msgid "%s hits you."
 msgstr "%s schlägt dich."
 

@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
         string a_monster = string("an ") + monsters[i];
 
         string sentence;
-
+/*
         sentence = translate_sentence("you", "see", a_monster);
         cout << sentence << endl;
 
@@ -69,6 +69,12 @@ int main(int argc, char *argv[])
 
         sentence = translate_sentence(the_monster, "misses", "you");
         cout << sentence << endl;
+*/
+        sentence = translate_sentence(the_monster, "closely misses", "you");
+        cout << sentence << endl;
+
+        sentence = translate_sentence(the_monster, "barely misses", "you");
+        cout << sentence << endl;
 
         sentence = translate_sentence(the_monster, "hits", "you");
         cout << sentence << endl;
@@ -76,10 +82,19 @@ int main(int argc, char *argv[])
         sentence = translate_sentence(the_monster, "slashes", "you");
         cout << sentence << endl;
 
+        sentence = translate_sentence(the_monster, "kills", "you");
+        cout << sentence << endl;
+
         sentence = translate_sentence("You", "attack", the_monster);
         cout << sentence << endl;
 
         sentence = translate_sentence("You", "miss", the_monster);
+        cout << sentence << endl;
+
+        sentence = translate_sentence("You", "closely miss", the_monster);
+        cout << sentence << endl;
+
+        sentence = translate_sentence("You", "barely miss", the_monster);
         cout << sentence << endl;
 
         sentence = translate_sentence("You", "hit", the_monster);
