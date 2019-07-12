@@ -2,27 +2,42 @@ DEBUG_FLAGS=-g -O0
 CXX_FLAGS=$(DEBUG_FLAGS)
 
 OUTPUT_DIRS=locale/de/LC_MESSAGES
-EXE=xlatepoc
-OBJS=unicode.o stringutil.o xlate.o translate.o main.o 
-MOFILES=locale/de/LC_MESSAGES/messages.mo locale/de/LC_MESSAGES/entities.mo locale/de/LC_MESSAGES/context-map.mo
+SOURCE_DIR=.
+BUILD_DIR=.
+
+EXE=$(BUILD_DIR)/xlatepoc
+
+SOURCES:=$(wildcard $(SOURCE_DIR)/*.cc)
+OBJECTS:=$(patsubst $(SOURCE_DIR)/%.cc,$(BUILD_DIR)/%.o,$(SOURCES))
+
 LIBS=
 
-.PHONY: all clean
+LANGS:=$(patsubst %/,%,$(patsubst po/%,%,$(sort $(dir $(wildcard po/*/)))))
+MOFILES:=$(foreach lang,$(LANGS),$(patsubst po/$(lang)/%.po,locale/$(lang)/LC_MESSAGES/%.mo,$(wildcard po/$(lang)/*.po)))
 
-all: $(OUTPUT_DIRS) $(EXE) $(MOFILES)
-	
+.PHONY: all clean translations
+
+all: $(OUTPUT_DIRS) $(EXE) translations
+	@echo "done."
+
+define GEN_MO_RULE
+locale/$(lang)/LC_MESSAGES/%.mo: po/$(lang)/%.po
+	msgfmt --output-file=$$@ $$<
+endef
+
+$(foreach lang,$(LANGS),$(eval $(GEN_MO_RULE)))
+
+translations: $(MOFILES)
+	@echo "languages: $(LANGS)"
 
 $(OUTPUT_DIRS):
 	mkdir -p $(OUTPUT_DIRS)
 
-$(EXE): $(OBJS)
+$(EXE): $(OBJECTS)
 	g++ -o $@ $(DEBUG_FLAGS) $^ $(LIBS)
 
-%.o: %.cc
-	g++ -c $(CXX_FLAGS) $^
-
-locale/de/LC_MESSAGES/%.mo: po/de/%.po
-	msgfmt --output-file=$@ $<
+$(BUILD_DIR)/%.o: $(SOURCE_DIR)/%.cc
+	g++ -c -o $@ $(CXX_FLAGS) $^
 
 clean:
 	rm -rf $(EXE) *.o locale
