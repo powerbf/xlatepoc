@@ -18,6 +18,12 @@ using namespace std;
 static string compose_string(const string& fmt_string, const string& subject,
         const string& object, const string &instrument)
 {
+    // handle trivial case
+    if (subject.empty() && object.empty() && instrument.empty())
+    {
+        return fmt_string;
+    }
+
     // calculate required buffer length
     // NOTE: this works just as well for UTF-8 as for ASCII because strlen will see it as ASCII and count bytes
     int bufflen = fmt_string.length() + 1;
@@ -54,13 +60,9 @@ static string compose_string(const string& fmt_string, const string& subject,
     {
         sprintf(buff, fmt_string.c_str(), object.c_str());
     }
-    else if (!instrument.empty())
-    {
-        sprintf(buff, fmt_string.c_str(), instrument.c_str());
-    }
     else
     {
-        strcpy(buff, fmt_string.c_str());
+        sprintf(buff, fmt_string.c_str(), instrument.c_str());
     }
 
     string result(buff);
