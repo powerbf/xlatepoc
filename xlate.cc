@@ -64,7 +64,7 @@ void init_xlate(const string &lang)
 
 string get_xlate_language()
 {
-    return language.c_str();
+    return language;
 }
 
 // skip translation if language is English (or unspecified which implies English)
