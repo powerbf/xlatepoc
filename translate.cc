@@ -74,7 +74,7 @@ static string compose_string(const string& fmt_string, const string& subject,
 
 // derive object context from the (English) verb
 // e.g. if the verb is "drop" then the context for the object is "dropped"
-static std::string derive_object_context(const std::string &verb_in)
+static string derive_object_context(const string &verb_in)
 {
     string verb(verb_in);
 
@@ -117,7 +117,7 @@ static std::string derive_object_context(const std::string &verb_in)
     }
 
     // handle the standard case
-    std::string context;
+    string context;
 
     // remove third person suffix from verb
     if (ends_with(verb, "es"))
@@ -156,7 +156,7 @@ static string translate_entity(const string &entity, const string &context)
 // build and translate a sentence of the form "<subject> <verb> <object> with <instrument>"
 // (e.g. "you hit the orc with your long sword", "the orc hits you with a paralysis spell")
 // it's assumed that verb is already in the correct form for the subject (e.g. hit or hits)
-std::string translate_sentence(const string &subject, const string &verb,
+string translate_sentence(const string &subject, const string &verb,
         const string &object, const string &instrument)
 {
     stringstream fmt_ss; // form building format string
@@ -231,7 +231,7 @@ std::string translate_sentence(const string &subject, const string &verb,
 
     if (has_object && !object_is_you)
     {
-        std::string context = derive_object_context(verb);
+        string context = derive_object_context(verb);
         xlated_object = translate_entity(object, context).c_str();
     }
 
@@ -249,14 +249,14 @@ std::string translate_sentence(const string &subject, const string &verb,
 
 // build and translate a sentence of the form <subject> <verb> <object> (e.g. "you hit the orc", "the orc hits you")
 // it's assumed that verb is already in the correct form for the subject (e.g. hit or hits)
-std::string translate_sentence(const string &subject, const string &verb, const string &object)
+string translate_sentence(const string &subject, const string &verb, const string &object)
 {
     return translate_sentence(subject, verb, object, "");
 }
 
 // build and translate a sentence of the form <subject> <verb> (e.g. "you die")
 // it's assumed that verb is already in the correct form for the subject (e.g. die or dies)
-std::string translate_sentence(const string &subject, const string &verb)
+string translate_sentence(const string &subject, const string &verb)
 {
     return translate_sentence(subject, verb, "", "");
 }
