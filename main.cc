@@ -17,28 +17,34 @@ string translate_action(const char *message, const char *article,
     string the_monster = string(article) + " " + monster;
     const char *mon_msgid = the_monster.c_str();
 
-    const char *xlated_msg = xlate(message);
-    const char *xlated_mon = dcxlate("entities", context, mon_msgid);
+    string xlated_msg = xlate(message);
+    string xlated_mon = dcxlate("entities", context, mon_msgid);
 
     char buf[2048];
-    sprintf(buf, xlated_msg, xlated_mon);
+    sprintf(buf, xlated_msg.c_str(), xlated_mon.c_str());
     return string(buf);
+}
+
+string getlocale()
+{
+    const char *locale = setlocale(LC_ALL, NULL);
+    return (locale == NULL ? "" : locale);
 }
 
 int main(int argc, char *argv[])
 {
 
-    char *language = (argc >= 2 ? argv[1] : NULL);
+    string language = (argc >= 2 ? argv[1] : "");
 
     init_xlate(language);
 
     // check locale
-    const char *locale = setlocale(LC_ALL, NULL);
-    printf("====================\n");
-    printf("Usage: xlatepoc [language]\n  where language = en, de\n\n");
-    printf("Locale is %s\n", locale);
-    printf("Language is %s\n", get_xlate_language());
-    printf("====================\n\n");
+    string locale = getlocale();
+    cout << "====================\n";
+    cout << "Usage: xlatepoc [language]\n  where language = en, de\n\n";
+    cout << "Locale is " << locale << endl;
+    cout << "Language is " << get_xlate_language() << endl;
+    cout << "====================\n\n";
 
     cout << xlate("Hello, world\n");
     //printf(xlate("Hello, world\n"));
@@ -108,7 +114,7 @@ int main(int argc, char *argv[])
     }
 
     printf("\n");
-    printf(xlate("You kill %s!"), dcxlate("entities", "killed", "Natasha"));
+    printf(xlate("You kill %s!").c_str(), dcxlate("entities", "killed", "Natasha").c_str());
     printf("\n");
     return 0;
 }

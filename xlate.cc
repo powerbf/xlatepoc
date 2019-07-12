@@ -5,26 +5,53 @@
  * within this file to allow easy change to a different implementation.
  **/
 
-#ifndef NO_TRANSLATE
+#include "xlate.h"
 
 #include <cstring>
-#include <clocale>
-#include <libintl.h>
-#include "xlate.h"
 using namespace std;
 
+#ifdef NO_TRANSLATE
+//// compile without translation logic ////
+
+void init_xlate(const string &lang)
+{
+}
+
+string get_xlate_language()
+{
+    return "";
+}
+
+string dcxlate(const string &domain, const string &context, const string &msgid)
+{
+    return msgid;
+}
+
+string dcnxlate(const string &domain, const string &context,
+        const string &msgid1, const string &msgid2, unsigned long n)
+{
+    return (n == 1 ? msgid1 : msgid2);
+}
+
+#else
+//// compile with translation logic ////
+
+#include <clocale>
+#include <libintl.h>
+
 static const char GETTEXT_CTXT_GLUE = '\004';
+static const string DEFAULT_DOMAIN = "messages";
 
 static string language;
 
 // initialize
-void init_xlate(const char *lang)
+void init_xlate(const string &lang)
 {
     // must do this to apply user's locale because C++ sets locale to "C" by default, which won't handle unicode
     // this also probably won't work if the user's locale is not unicode (TODO: test that)
     setlocale(LC_ALL, "");
 
-    language = (lang == NULL ? "" : lang);
+    language = lang;
     setenv("LANGUAGE", language.c_str(), 1);
 
     bindtextdomain("context-map", "./locale");
@@ -32,10 +59,10 @@ void init_xlate(const char *lang)
     bindtextdomain("entities", "./locale");
 
     // set default domain
-    textdomain("messages");
+    textdomain(DEFAULT_DOMAIN.c_str());
 }
 
-const char* get_xlate_language()
+string get_xlate_language()
 {
     return language.c_str();
 }
@@ -48,14 +75,17 @@ static inline bool skip_translation()
 
 // map usage context to translation context
 // (for example, in German, "attacked" would map to "accusative", but "commanded" would map to "dative")
-static const char* map_context(const char *ctx_in)
+static string map_context(const string &ctx_in)
 {
-    const char *ctx_out = dgettext("context-map", ctx_in);
-    if (ctx_out == NULL || strlen(ctx_out) == 0)
+    const char *ctx_out = dgettext("context-map", ctx_in.c_str());
+    if (ctx_out == NULL || ctx_out[0] == '\0')
     {
-        ctx_out = ctx_in;
+        return ctx_in;
     }
-    return ctx_out;
+    else
+    {
+        return ctx_out;
+    }
 }
 
 // translate with domain and context
@@ -69,34 +99,37 @@ static const char* map_context(const char *ctx_in)
 // NOTE: this is different to dpgettext in two ways:
 //  1) dpgettext can only handles string literals (not variables). This can handle either.
 //  2) if context is NULL or empty then this falls back to contextless gettext
-const char* dcxlate(const char *domain, const char *context, const char *msgid)
+string dcxlate(const string &domain, const string &context, const string &msgid)
 {
     if (skip_translation())
     {
         return msgid;
     }
 
-    const char *translation = NULL;
-    const char *mapped_context = map_context(context);
+    // if domain not specified then fall back to default by passing NULL
+    const char *dom = (domain.empty() ? NULL : domain.c_str());
 
-    if (mapped_context != NULL && strlen(mapped_context) != 0)
+    string translation;
+    string mapped_context = map_context(context);
+
+    if (!mapped_context.empty())
     {
         // check for translation in specific context
-        string ctx_msgid = string(mapped_context) + GETTEXT_CTXT_GLUE + msgid;
-        translation = dgettext(domain, ctx_msgid.c_str());
-        if (translation != NULL && strcmp(translation, ctx_msgid.c_str()) == 0)
+        string ctx_msgid = mapped_context + GETTEXT_CTXT_GLUE + msgid;
+        const char *xlation = dgettext(dom, ctx_msgid.c_str());
+        if (xlation != NULL && ctx_msgid != xlation)
         {
-            translation = NULL;
+            translation = xlation;
         }
     }
 
-    if (translation == NULL)
+    if (translation.empty())
     {
         // check for translation in global context
-        translation = dgettext(domain, msgid);
-        if (translation == NULL)
+        const char *xlation = dgettext(dom, msgid.c_str());
+        if (xlation != NULL)
         {
-            translation = msgid;
+            translation = xlation;
         }
     }
 
@@ -117,43 +150,45 @@ const char* dcxlate(const char *domain, const char *context, const char *msgid)
 // NOTE: this is different to dpngettext in two ways:
 //  1) dpngettext can only handles string literals (not variables). This can handle either.
 //  2) if context is NULL or empty then this falls back to contextless ngettext
-const char* dcnxlate(const char *domain, const char *context,
-        const char *msgid1, const char *msgid2, unsigned long n)
+string dcnxlate(const string &domain, const string &context,
+        const string &msgid1, const string &msgid2, unsigned long n)
 {
     if (skip_translation())
     {
+        // apply English rules
         return (n == 1 ? msgid1 : msgid2);
     }
 
-    const char *translation = NULL;
+    // if domain not specified then fall back to default by passing NULL
+    const char *dom = (domain.empty() ? NULL : domain.c_str());
 
-    const char *mapped_context = map_context(context);
+    string translation;
 
-    if (mapped_context != NULL && strlen(mapped_context) != 0)
+    string mapped_context = map_context(context);
+
+    if (!mapped_context.empty())
     {
         // check for translation in specific context
-        string mctx = string(mapped_context);
-        string ctx_msgid1 = mctx + GETTEXT_CTXT_GLUE + msgid1;
-        string ctx_msgid2 = mctx + GETTEXT_CTXT_GLUE + msgid2;
-        translation = dngettext(domain, ctx_msgid1.c_str(), ctx_msgid2.c_str(),
-                n);
-        if (translation != NULL)
+        string ctx_msgid1 = mapped_context + GETTEXT_CTXT_GLUE + msgid1;
+        string ctx_msgid2 = mapped_context + GETTEXT_CTXT_GLUE + msgid2;
+        const char *xlation = dngettext(dom, ctx_msgid1.c_str(), ctx_msgid2.c_str(), n);
+        if (xlation != NULL && ctx_msgid1 != xlation && ctx_msgid2 != xlation)
         {
-            if (strcmp(translation, ctx_msgid1.c_str()) == 0
-                    || strcmp(translation, ctx_msgid2.c_str()) == 0)
-            {
-                translation = NULL;
-            }
+            translation = xlation;
         }
     }
 
-    if (translation == NULL)
+    if (translation.empty())
     {
-        // look in global domain
-        translation = dngettext(domain, msgid1, msgid2, n);
+        // look in global context
+        const char *xlation = dngettext(dom, msgid1.c_str(), msgid2.c_str(), n);
+        if (xlation != NULL)
+        {
+            translation = xlation;
+        }
     }
 
-    if (translation == NULL)
+    if (translation.empty())
     {
         // still no joy - fall back on English
         translation = (n == 1 ? msgid1 : msgid2);

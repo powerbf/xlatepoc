@@ -15,52 +15,52 @@
 using namespace std;
 
 // compose the sentence after translation
-static std::string compose_string(const char *fmt_string, const char *subject,
-        const char *object, const char *instrument)
+static string compose_string(const string& fmt_string, const string& subject,
+        const string& object, const string &instrument)
 {
     // calculate required buffer length
     // NOTE: this works just as well for UTF-8 as for ASCII because strlen will see it as ASCII and count bytes
-    int bufflen = strlen(fmt_string) + 1;
-    bufflen += (subject == NULL ? 0 : strlen(subject));
-    bufflen += (object == NULL ? 0 : strlen(object));
-    bufflen += (instrument == NULL ? 0 : strlen(instrument));
+    int bufflen = fmt_string.length() + 1;
+    bufflen += subject.length();
+    bufflen += object.length();
+    bufflen += instrument.length();
     // However, the buffer could overflow if someone did something stupid/malicious like putting numeric
     // format specifiers (%d, %g, etc.) in the translated string, so add a fudge factor to be on the safe side
     bufflen += 200;
 
     char *buff = new char[bufflen];
 
-    if (subject != NULL && object != NULL && instrument != NULL)
+    if (!subject.empty() && !object.empty() && !instrument.empty())
     {
-        sprintf(buff, fmt_string, subject, object, instrument);
+        sprintf(buff, fmt_string.c_str(), subject.c_str(), object.c_str(), instrument.c_str());
     }
-    else if (subject != NULL && object != NULL)
+    else if (!subject.empty() && !object.empty())
     {
-        sprintf(buff, fmt_string, subject, object);
+        sprintf(buff, fmt_string.c_str(), subject.c_str(), object.c_str());
     }
-    else if (subject != NULL && instrument != NULL)
+    else if (!subject.empty() && !instrument.empty())
     {
-        sprintf(buff, fmt_string, subject, instrument);
+        sprintf(buff, fmt_string.c_str(), subject.c_str(), instrument.c_str());
     }
-    else if (object != NULL && instrument != NULL)
+    else if (!object.empty() && !instrument.empty())
     {
-        sprintf(buff, fmt_string, object, instrument);
+        sprintf(buff, fmt_string.c_str(), object.c_str(), instrument.c_str());
     }
-    else if (subject != NULL)
+    else if (!subject.empty())
     {
-        sprintf(buff, fmt_string, subject);
+        sprintf(buff, fmt_string.c_str(), subject.c_str());
     }
-    else if (object != NULL)
+    else if (!object.empty())
     {
-        sprintf(buff, fmt_string, object);
+        sprintf(buff, fmt_string.c_str(), object.c_str());
     }
-    else if (instrument != NULL)
+    else if (!instrument.empty())
     {
-        sprintf(buff, fmt_string, instrument);
+        sprintf(buff, fmt_string.c_str(), instrument.c_str());
     }
     else
     {
-        strcpy(buff, fmt_string);
+        strcpy(buff, fmt_string.c_str());
     }
 
     string result(buff);
@@ -147,8 +147,8 @@ static string translate_entity(const string &entity, const string &context)
         e = lowercase_first(e);
     }
 
-    const char *result = dcxlate("entities", context.c_str(), e.c_str());
-    return string(result);
+    string result = dcxlate("entities", context.c_str(), e.c_str());
+    return result;
 }
 
 // build and translate a sentence of the form "<subject> <verb> <object> with <instrument>"
@@ -166,10 +166,10 @@ std::string translate_sentence(const string &subject, const string &verb,
     bool object_is_you = (lowercase_string(object) == "you");
     ;
 
-    const char *xlated_fmt_string = NULL;
-    const char *xlated_subject = NULL;
-    const char *xlated_object = NULL;
-    const char *xlated_instrument = NULL;
+    string xlated_fmt_string;
+    string xlated_subject;
+    string xlated_object;
+    string xlated_instrument;
 
     if (subject_is_you)
     {
@@ -238,9 +238,7 @@ std::string translate_sentence(const string &subject, const string &verb,
         xlated_instrument = translate_entity(instrument, "with").c_str();
     }
 
-    // TODO: Fix subtle bug - if you call xlate with fmt_ss.str().c_str() you get empty string back
-    string fmt_string(fmt_ss.str());
-    xlated_fmt_string = xlate(fmt_string.c_str());
+    xlated_fmt_string = xlate(fmt_ss.str());
 
     string result = compose_string(xlated_fmt_string, xlated_subject,
             xlated_object, xlated_instrument);
