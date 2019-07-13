@@ -2,13 +2,8 @@
  * @file
  * @brief Conversions between Unicode and local charsets, string
  *        manipulation functions that act on character types.
- *        (Subset of unicode.h from Dungeon Crawl Stone Soup)
 **/
 #pragma once
-
-#include <string>
-
-using namespace std;
 
 int strwidth(const char *s);
 int strwidth(const string &s);
@@ -49,6 +44,10 @@ static inline string mb_to_utf8(const string &s)
 
 int wclen(char32_t c);
 
+#ifndef UNIX
+int wcwidth(char32_t c);
+#endif
+
 char *prev_glyph(char *s, char *start);
 char *next_glyph(char *s);
 
@@ -63,3 +62,41 @@ public:
     virtual bool error() { return false; };
     virtual string get_line() = 0;
 };
+
+#ifndef XLATE_POC
+class FileLineInput : public LineInput
+{
+    enum bom_type
+    {
+        BOM_NORMAL, // system locale
+        BOM_UTF8,
+        BOM_UTF16LE,
+        BOM_UTF16BE,
+        BOM_UTF32LE,
+        BOM_UTF32BE,
+    };
+    FILE *f;
+    bom_type bom;
+    bool seen_eof;
+public:
+    FileLineInput(const char *name);
+    ~FileLineInput();
+    bool eof() override { return seen_eof || !f; };
+    bool error() override { return !f; };
+    string get_line() override;
+};
+
+// The file is always UTF-8, no BOM.
+// Just read it as-is, merely validating for a well-formed stream.
+class UTF8FileLineInput : public LineInput
+{
+    FILE *f;
+    bool seen_eof;
+public:
+    UTF8FileLineInput(const char *name);
+    ~UTF8FileLineInput();
+    bool eof() override { return seen_eof || !f; };
+    bool error() override { return !f; };
+    string get_line() override;
+};
+#endif

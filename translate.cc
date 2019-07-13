@@ -8,6 +8,7 @@
 #include <cstring>
 #include <strings.h>
 
+#include "AppHdr.h"
 #include "stringutil.h"
 #include "translate.h"
 #include "xlate.h"
