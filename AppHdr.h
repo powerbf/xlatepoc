@@ -365,9 +365,7 @@ static inline double pow(int x, double y) { return std::pow((double)x, y); }
 // =========================================================================
 
 // Current TAG_MAJOR_VERSION
-#ifndef XLATE_POC
 #include "tag-version.h"
-#endif
 
 // number of older messages stored during play and in save files
 #define NUM_STORED_MESSAGES   1000

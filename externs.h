@@ -19,9 +19,7 @@
 #include <string>
 #include <vector>
 
-#ifndef XLATE_POC
 #include "bitary.h"
-#endif
 #include "description-level-type.h"
 #ifndef XLATE_POC
 #include "dungeon-feature-type.h"
