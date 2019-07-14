@@ -29,7 +29,9 @@
 #include "spell-type.h"
 #include "monster-type.h"
 #include "branch-type.h"
+#endif
 #include "fixedarray.h"
+#ifndef XLATE_POC
 #include "kill-category.h"
 #include "killer-type.h"
 #include "map-marker-type.h"
