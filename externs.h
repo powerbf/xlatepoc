@@ -87,13 +87,16 @@ typedef FixedArray<unsigned int, GXM, GYM> map_mask;
 typedef FixedBitArray<GXM, GYM> map_bitmask;
 
 struct item_def;
+#endif
 struct coord_def;
 class level_id;
+#ifndef XLATE_POC
 class map_marker;
 class actor;
 class player;
 class monster;
 class ghost_demon;
+#endif
 
 typedef pair<coord_def, int> coord_weight;
 
@@ -279,11 +282,13 @@ constexpr coord_def NO_CURSOR { INVALID_COORD };
 
 typedef bool (*coord_predicate)(const coord_def &c);
 
+#ifndef XLATE_POC
 struct run_check_dir
 {
     dungeon_feature_type grid;
     coord_def delta;
 };
+
 
 /**
  * Persistent unique identifier for an actor.
@@ -385,6 +390,7 @@ struct shop_struct
 
     bool defined() const { return type != SHOP_UNASSIGNED; }
 };
+#endif
 
 /// Exception indicating a bad level_id, level_range, or depth_range.
 struct bad_level_id : public runtime_error
@@ -529,6 +535,7 @@ struct level_pos
     void load(reader&);
 };
 
+#ifndef XLATE_POC
 class monster;
 
 // We are not 64 bits clean here yet since many places still pass (or store!)
