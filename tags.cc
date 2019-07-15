@@ -237,3 +237,19 @@ void unmarshallFixedBitVector(reader& th, FixedBitVector<SIZE>& arr)
     }
 }
 
+void marshallCoord (writer &, const coord_def &)
+{
+}
+
+coord_def unmarshallCoord (reader &)
+{
+}
+
+void marshallItem (writer &, const item_def &, bool info)
+{
+}
+
+void unmarshallItem (reader &, item_def &item)
+{
+}
+

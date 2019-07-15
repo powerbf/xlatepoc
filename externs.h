@@ -42,12 +42,12 @@
 #include "pattern.h"
 #endif
 #include "skill-type.h"
-#ifdef XLATE_POC
-#include "tags.h" // normally included by store.h
-#else
+#ifndef XLATE_POC
 #include "shop-type.h"
 #include "cloud-type.h"
+#endif
 #include "store.h"
+#ifndef XLATE_POC
 #include "tiledef_defines.h"
 
 struct tile_flavour
@@ -537,6 +537,7 @@ struct level_pos
 
 #ifndef XLATE_POC
 class monster;
+#endif
 
 // We are not 64 bits clean here yet since many places still pass (or store!)
 // it as 32 bits or, worse, longs. I considered setting this as uint32_t,
@@ -647,6 +648,7 @@ public:
         *this = item_def();
     }
 
+#ifndef XLATE_POC
     /**
      * Sets this item as being held by a given monster.
      *
@@ -660,6 +662,7 @@ public:
      * @return A pointer to the monster holding this item, null if none.
      */
     monster* holding_monster() const;
+#endif
 
     /** Is this item being held by a monster? */
     bool held_by_monster() const;
@@ -700,6 +703,7 @@ private:
 typedef item_def item_info;
 item_info get_item_info(const item_def& info);
 
+#ifndef XLATE_POC
 class runrest
 {
 public:

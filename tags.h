@@ -49,9 +49,9 @@ void marshallUByte   (writer &, uint8_t);
 void marshallBoolean (writer &, bool);
 void marshallString  (writer &, const string &);
 void marshallString4 (writer &, const string &);
-#ifndef XLATE_POC
 void marshallCoord   (writer &, const coord_def &);
 void marshallItem    (writer &, const item_def &, bool info = false);
+#ifndef XLATE_POC
 void marshallMonster (writer &, const monster&);
 void marshall_level_id(writer& th, const level_id& id);
 #endif
@@ -96,9 +96,9 @@ uint8_t     unmarshallUByte   (reader &);
 bool        unmarshallBoolean (reader &);
 string      unmarshallString  (reader &);
 void        unmarshallString4 (reader &, string&);
-#ifndef XLATE_POC
 coord_def   unmarshallCoord   (reader &);
 void        unmarshallItem    (reader &, item_def &item);
+#ifndef XLATE_POC
 void        unmarshallMonster (reader &, monster& item);
 dungeon_feature_type unmarshallFeatureType(reader &);
 level_id    unmarshall_level_id(reader& th);
