@@ -25,21 +25,26 @@
 #include "dungeon-feature-type.h"
 #endif
 #include "enum.h"
-#ifndef XLATE_POC
 #include "spell-type.h"
 #include "monster-type.h"
 #include "branch-type.h"
-#endif
 #include "fixedarray.h"
 #ifndef XLATE_POC
 #include "kill-category.h"
 #include "killer-type.h"
 #include "map-marker-type.h"
 #include "menu-type.h"
+#endif
+
 
 #include "object-class-type.h"
+#ifndef XLATE_POC
 #include "pattern.h"
+#endif
 #include "skill-type.h"
+#ifdef XLATE_POC
+#include "tags.h" // normally included by store.h
+#else
 #include "shop-type.h"
 #include "cloud-type.h"
 #include "store.h"
