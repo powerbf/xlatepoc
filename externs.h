@@ -35,9 +35,7 @@
 
 
 #include "object-class-type.h"
-#ifndef XLATE_POC
 #include "pattern.h"
-#endif
 #include "skill-type.h"
 #include "shop-type.h"
 #include "cloud-type.h"
