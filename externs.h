@@ -21,20 +21,17 @@
 
 #include "bitary.h"
 #include "description-level-type.h"
-#ifndef XLATE_POC
 #include "dungeon-feature-type.h"
-#endif
 #include "enum.h"
 #include "spell-type.h"
 #include "monster-type.h"
 #include "branch-type.h"
 #include "fixedarray.h"
-#ifndef XLATE_POC
 #include "kill-category.h"
 #include "killer-type.h"
 #include "map-marker-type.h"
 #include "menu-type.h"
-#endif
+
 
 
 #include "object-class-type.h"
@@ -42,10 +39,8 @@
 #include "pattern.h"
 #endif
 #include "skill-type.h"
-#ifndef XLATE_POC
 #include "shop-type.h"
 #include "cloud-type.h"
-#endif
 #include "store.h"
 #ifndef XLATE_POC
 #include "tiledef_defines.h"
@@ -314,7 +309,6 @@ typedef uint32_t mid_t;
 /// Upper bound on the number of monsters that can ever exist in a game.
 #define MID_FIRST_NON_MONSTER MID_ANON_FRIEND
 
-#ifndef XLATE_POC
 /**
  * Define overloaded ++ and -- operators for the enum T.
  *
@@ -335,6 +329,7 @@ DEF_ENUM_INC(monster_type);
 DEF_ENUM_INC(spell_type);
 DEF_ENUM_INC(skill_type);
 
+#ifndef XLATE_POC
 struct cloud_struct
 {
     coord_def     pos;
