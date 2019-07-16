@@ -288,7 +288,7 @@ struct run_check_dir
     dungeon_feature_type grid;
     coord_def delta;
 };
-
+#endif
 
 /**
  * Persistent unique identifier for an actor.
@@ -314,6 +314,7 @@ typedef uint32_t mid_t;
 /// Upper bound on the number of monsters that can ever exist in a game.
 #define MID_FIRST_NON_MONSTER MID_ANON_FRIEND
 
+#ifndef XLATE_POC
 /**
  * Define overloaded ++ and -- operators for the enum T.
  *
