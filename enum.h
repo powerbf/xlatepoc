@@ -7,6 +7,7 @@
 
 #include <iterator>
 #include <type_traits> // underlying_type<>, enable_if<>
+using namespace std;
 
 // Provide a last_exponent static member variable only if the LastExponent
 // template parameter is nonnegative.

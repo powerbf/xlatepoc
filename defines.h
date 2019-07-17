@@ -7,10 +7,9 @@
 
 #pragma once
 
-using namespace std;
+#include <cstdint>
 
-#define COMPILE_CHECK(expr) static_assert((expr), #expr)
-#define ASSERT(x)
+using namespace std;
 
 // In this case, an x86 CPU will use x87 math for floating point calculations,
 // which uses 80 bit intermediate results, andleads to difference from the

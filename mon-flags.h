@@ -1,5 +1,7 @@
 #pragma once
 
+#include "enum.h"
+
 #define BIT(x) ((uint64_t)1<<(x))
 
 /// Properties of the monster class (other than resists/vulnerabilities).

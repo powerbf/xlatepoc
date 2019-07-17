@@ -30,6 +30,7 @@ string getlocale()
     return (locale == NULL ? "" : locale);
 }
 
+/*
 static const monsterentry* get_monster_data(monster_type mc)
 {
     // TODO: optimise
@@ -43,7 +44,7 @@ static const monsterentry* get_monster_data(monster_type mc)
         }
     }
     return NULL;
-}
+}*/
 
 int main(int argc, char *argv[])
 {
