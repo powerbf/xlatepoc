@@ -21,3 +21,6 @@ string translate_sentence(const string& subject, const string& verb, const strin
 // it's assumed that verb is already in the correct form for the subject (e.g. hit or hits)
 string translate_sentence(const string& subject, const string& verb, const string& object, const string& instrument);
 
+// translate monster name
+string translate_monster(const string &monster, const string &context);
+

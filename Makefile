@@ -5,10 +5,11 @@ OUTPUT_DIRS=locale/de/LC_MESSAGES
 SOURCE_DIR=.
 BUILD_DIR=.
 
-EXE=$(BUILD_DIR)/xlatepoc
+EXES:=xlatepoc monsterpoc
+EXES:=$(patsubst %,$(BUILD_DIR)/%,$(EXES))
 
-SOURCES:=$(wildcard $(SOURCE_DIR)/*.cc)
-OBJECTS:=$(patsubst $(SOURCE_DIR)/%.cc,$(BUILD_DIR)/%.o,$(SOURCES))
+COMMON_OBJS:=translate.o xlate.o stringutil.o unicode.o
+COMMON_OBJS:=$(patsubst %.o,$(BUILD_DIR)/%.o,$(COMMON_OBJS))
 
 LIBS=
 
@@ -17,7 +18,9 @@ MOFILES:=$(foreach lang,$(LANGS),$(patsubst po/$(lang)/%.po,locale/$(lang)/LC_ME
 
 .PHONY: all clean translations
 
-all: $(OUTPUT_DIRS) $(EXE) translations
+.PRECIOUS: %.o
+
+all: $(OUTPUT_DIRS) $(EXES) translations
 	@echo "done."
 
 define GEN_MO_RULE
@@ -33,11 +36,11 @@ translations: $(MOFILES)
 $(OUTPUT_DIRS):
 	mkdir -p $(OUTPUT_DIRS)
 
-$(EXE): $(OBJECTS)
+$(BUILD_DIR)/%poc: $(BUILD_DIR)/%poc.o $(COMMON_OBJS)
 	g++ -o $@ $(DEBUG_FLAGS) $^ $(LIBS)
 
 $(BUILD_DIR)/%.o: $(SOURCE_DIR)/%.cc
 	g++ -c -o $@ $(CXX_FLAGS) $^
 
 clean:
-	rm -rf $(EXE) *.o locale
+	rm -rf $(EXES) *.o locale

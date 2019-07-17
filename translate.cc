@@ -261,3 +261,17 @@ string translate_sentence(const string &subject, const string &verb)
     return translate_sentence(subject, verb, "", "");
 }
 
+string translate_monster(const string &monster, const string &context)
+{
+    string mon = monster;
+    if (starts_with(mon, "The ") || starts_with(mon, "A ") || starts_with(mon, "An ")
+            || starts_with(mon, "Your "))
+    {
+        // convert first letter to lowercase so that translator only has to provide one translation
+        mon = lowercase_first(mon);
+    }
+
+    string result = dcxlate("monsters", context.c_str(), mon.c_str());
+    return result;
+}
+
