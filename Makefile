@@ -5,23 +5,31 @@ OUTPUT_DIRS=locale/de/LC_MESSAGES
 SOURCE_DIR=.
 BUILD_DIR=.
 
-EXES:=xlatepoc monsterpoc
-EXES:=$(patsubst %,$(BUILD_DIR)/%,$(EXES))
+SOURCES:=$(wildcard $(SOURCE_DIR)/*.cc)
+OBJECTS:=$(patsubst $(SOURCE_DIR)/%.cc,$(BUILD_DIR)/%.o,$(SOURCES))
 
-COMMON_OBJS:=translate.o xlate.o stringutil.o unicode.o
-COMMON_OBJS:=$(patsubst %.o,$(BUILD_DIR)/%.o,$(COMMON_OBJS))
+COMMON_OBJS:=$(filter-out %poc.o,$(OBJECTS))
+MAIN_OBJS:=$(filter %poc.o,$(OBJECTS))
+EXES:=$(patsubst %.o,%,$(MAIN_OBJS))
 
 LIBS=
 
 LANGS:=$(patsubst %/,%,$(patsubst po/%,%,$(sort $(dir $(wildcard po/*/)))))
 MOFILES:=$(foreach lang,$(LANGS),$(patsubst po/$(lang)/%.po,locale/$(lang)/LC_MESSAGES/%.mo,$(wildcard po/$(lang)/*.po)))
 
-.PHONY: all clean translations
+.PHONY: all clean translations debug-make
 
 .PRECIOUS: %.o
 
 all: $(OUTPUT_DIRS) $(EXES) translations
 	@echo "done."
+
+debug-make:
+	@echo "SOURCES=$(SOURCES)"
+	@echo "OBJECTS=$(OBJECTS)"
+	@echo "COMMON_OBJS=$(COMMON_OBJS)"
+	@echo "MAIN_OBJS=$(MAIN_OBJS)"
+	@echo "EXES=$(EXES)"
 
 define GEN_MO_RULE
 locale/$(lang)/LC_MESSAGES/%.mo: po/$(lang)/%.po
