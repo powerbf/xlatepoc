@@ -10,19 +10,6 @@
 
 using namespace std;
 
-string translate_action(const char *message, const char *article,
-        const char *monster, const char *context)
-{
-    string the_monster = string(article) + " " + monster;
-    const char *mon_msgid = the_monster.c_str();
-
-    string xlated_msg = xlate(message);
-    string xlated_mon = dcxlate("entities", context, mon_msgid);
-
-    char buf[2048];
-    sprintf(buf, xlated_msg.c_str(), xlated_mon.c_str());
-    return string(buf);
-}
 
 string getlocale()
 {
@@ -79,55 +66,19 @@ int main(int argc, char *argv[])
 
         string sentence;
 
-        sentence = translate_sentence("you", "see", a_monster);
+        sentence = localize("You see %s.", a_monster.c_str());
         cout << sentence << endl;
 
-        sentence = translate_sentence(the_monster, "shouts");
+        sentence = localize("%s shouts.", the_monster.c_str());
         cout << sentence << endl;
 
-        sentence = translate_action("You command %s to wait here.", "the", mon_def->name, "commanded");
+        sentence = localize("You command %s to wait here.", the_monster.c_str());
         cout << sentence << endl;
 
-        sentence = translate_sentence(the_monster, "attacks", "you");
+        sentence = localize("%s hits you.", the_monster.c_str());
         cout << sentence << endl;
 
-        sentence = translate_sentence(the_monster, "misses", "you");
-        cout << sentence << endl;
-
-        sentence = translate_sentence(the_monster, "closely misses", "you");
-        cout << sentence << endl;
-
-        sentence = translate_sentence(the_monster, "barely misses", "you");
-        cout << sentence << endl;
-
-        sentence = translate_sentence(the_monster, "hits", "you");
-        cout << sentence << endl;
-
-        sentence = translate_sentence(the_monster, "slashes", "you");
-        cout << sentence << endl;
-
-        sentence = translate_sentence(the_monster, "kills", "you");
-        cout << sentence << endl;
-
-        sentence = translate_sentence("You", "attack", the_monster);
-        cout << sentence << endl;
-
-        sentence = translate_sentence("You", "miss", the_monster);
-        cout << sentence << endl;
-
-        sentence = translate_sentence("You", "closely miss", the_monster);
-        cout << sentence << endl;
-
-        sentence = translate_sentence("You", "barely miss", the_monster);
-        cout << sentence << endl;
-
-        sentence = translate_sentence("You", "hit", the_monster);
-        cout << sentence << endl;
-
-        sentence = translate_sentence("You", "slash", the_monster);
-        cout << sentence << endl;
-
-        sentence = translate_sentence("You", "kill", the_monster);
+        sentence = localize("You miss %s.", the_monster.c_str());
         cout << sentence << endl;
     }
 
