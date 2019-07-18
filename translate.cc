@@ -271,7 +271,7 @@ string translate_monster(const string &monster, const string &context)
         mon = lowercase_first(mon);
     }
 
-    string result = dcxlate("monsters", context.c_str(), mon.c_str());
+    string result = dcxlate("entities", context.c_str(), mon.c_str());
     return result;
 }
 
