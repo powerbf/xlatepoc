@@ -73,21 +73,6 @@ static inline bool skip_translation()
     return (language.empty() || language == "en");
 }
 
-// map usage context to translation context
-// (for example, in German, "attacked" would map to "accusative", but "commanded" would map to "dative")
-static string map_context(const string &ctx_in)
-{
-    const char *ctx_out = dgettext("context-map", ctx_in.c_str());
-    if (ctx_out == NULL || ctx_out[0] == '\0')
-    {
-        return ctx_in;
-    }
-    else
-    {
-        return ctx_out;
-    }
-}
-
 // translate with domain and context
 //
 // domain = translation file (optional, default="messages")
@@ -110,12 +95,11 @@ string dcxlate(const string &domain, const string &context, const string &msgid)
     const char *dom = (domain.empty() ? NULL : domain.c_str());
 
     string translation;
-    string mapped_context = map_context(context);
 
-    if (!mapped_context.empty())
+    if (!context.empty())
     {
         // check for translation in specific context
-        string ctx_msgid = mapped_context + GETTEXT_CTXT_GLUE + msgid;
+        string ctx_msgid = context + GETTEXT_CTXT_GLUE + msgid;
         const char *xlation = dgettext(dom, ctx_msgid.c_str());
         if (xlation != NULL && ctx_msgid != xlation)
         {
@@ -164,13 +148,11 @@ string dcnxlate(const string &domain, const string &context,
 
     string translation;
 
-    string mapped_context = map_context(context);
-
-    if (!mapped_context.empty())
+    if (!context.empty())
     {
         // check for translation in specific context
-        string ctx_msgid1 = mapped_context + GETTEXT_CTXT_GLUE + msgid1;
-        string ctx_msgid2 = mapped_context + GETTEXT_CTXT_GLUE + msgid2;
+        string ctx_msgid1 = context + GETTEXT_CTXT_GLUE + msgid1;
+        string ctx_msgid2 = context + GETTEXT_CTXT_GLUE + msgid2;
         const char *xlation = dngettext(dom, ctx_msgid1.c_str(), ctx_msgid2.c_str(), n);
         if (xlation != NULL && ctx_msgid1 != xlation && ctx_msgid2 != xlation)
         {
