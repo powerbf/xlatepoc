@@ -12,6 +12,7 @@ using namespace std;
 #include "xlate.h"
 #include "stringutil.h"
 
+// is this char a printf typespec (i.e. the end of %<something><char>)?
 static inline bool _is_type_spec(char c)
 {
     static const string type_specs = "diufFeEgGxXoscpaAn";
@@ -117,13 +118,11 @@ string localize(const string& fmt_string, va_list& args)
                 sprintf(buf, it->c_str(), arg);
             }
             ss << buf;
-            context = "";
         }
         else
         {
             // plain string
             ss << *it;
-            context = "";
         }
     }
 
