@@ -86,7 +86,7 @@ static inline bool skip_translation()
 //  2) if context is NULL or empty then this falls back to contextless gettext
 string dcxlate(const string &domain, const string &context, const string &msgid)
 {
-    if (skip_translation())
+    if (skip_translation() || msgid.empty())
     {
         return msgid;
     }
@@ -137,7 +137,7 @@ string dcxlate(const string &domain, const string &context, const string &msgid)
 string dcnxlate(const string &domain, const string &context,
         const string &msgid1, const string &msgid2, unsigned long n)
 {
-    if (skip_translation())
+    if (skip_translation() || msgid1.empty() || msgid2.empty())
     {
         // apply English rules
         return (n == 1 ? msgid1 : msgid2);
