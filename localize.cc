@@ -12,10 +12,16 @@ using namespace std;
 #include "xlate.h"
 #include "stringutil.h"
 
+static inline bool _is_type_spec(char c)
+{
+    static const string type_specs = "diufFeEgGxXoscpaAn";
+    return (type_specs.find(c) != string::npos);
+}
 
 // split format string into constants and format specifiers
-vector<string> split_format(const string& fmt_str)
+static vector<string> _split_format(const string& fmt_str)
 {
+
     vector<string> results;
     int fmt_len = fmt_str.length();
 
@@ -31,7 +37,7 @@ vector<string> split_format(const string& fmt_str)
             do {
                 token_len++;
                 curr = fmt_str.at(token_start+token_len-1);
-            } while (token_start + token_len < fmt_len && !isalpha(curr));
+            } while (token_start + token_len < fmt_len && !_is_type_spec(curr));
         }
         else if (fmt_str.at(token_start) == '{' && token_start < fmt_len - 1)
         {
@@ -86,7 +92,7 @@ vector<string> split_format(const string& fmt_str)
 string localize(const string& fmt_string, va_list& args)
 {
     string format2 = dxlate("messages", fmt_string);
-    vector<string> strings = split_format(format2);
+    vector<string> strings = _split_format(format2);
     ostringstream ss;
     char buf[8000];
 
