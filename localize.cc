@@ -10,6 +10,7 @@ using namespace std;
 
 #include "localize.h"
 #include "xlate.h"
+#include "stringutil.h"
 
 
 // split format string into constants and format specifiers
@@ -82,15 +83,12 @@ vector<string> split_format(const string& fmt_str)
     return results;
 }
 
-string localize(const string& format, ...)
+string localize(const string& fmt_string, va_list& args)
 {
-    string format2 = dxlate("messages", format);
+    string format2 = dxlate("messages", fmt_string);
     vector<string> strings = split_format(format2);
     ostringstream ss;
     char buf[8000];
-
-    va_list args;
-    va_start(args, format);
 
     string context;
     for (vector<string>::iterator it = strings.begin() ; it != strings.end(); ++it)
@@ -123,9 +121,31 @@ string localize(const string& format, ...)
         }
     }
 
-    va_end(args);
-
     return ss.str();
 }
 
+string localize(const string& fmt_str, ...)
+{
+    va_list args;
+    va_start(args, fmt_str);
+
+    string result = localize(fmt_str, args);
+
+    va_end(args);
+
+    return result;
+}
+
+// same as localize except it capitalizes first letter
+string localize_sentence(const string& fmt_str, ...)
+{
+    va_list args;
+    va_start(args, fmt_str);
+
+    string result = localize(fmt_str, args);
+
+    va_end(args);
+
+    return uppercase_first(result);
+}
 

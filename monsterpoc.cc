@@ -69,16 +69,16 @@ int main(int argc, char *argv[])
         sentence = localize("You see %s.", a_monster.c_str());
         cout << sentence << endl;
 
-        sentence = localize("%s shouts.", the_monster.c_str());
+        sentence = localize_sentence("%s shouts.", the_monster.c_str());
         cout << sentence << endl;
 
         sentence = localize("You command %s to wait here.", the_monster.c_str());
         cout << sentence << endl;
 
-        sentence = localize("%s hits you.", the_monster.c_str());
+        sentence = localize_sentence("%s hits you.", the_monster.c_str());
         cout << sentence << endl;
 
-        sentence = localize("You miss %s.", the_monster.c_str());
+        sentence = localize_sentence("You miss %s.", the_monster.c_str());
         cout << sentence << endl;
     }
 
