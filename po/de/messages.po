@@ -23,73 +23,73 @@ msgstr "Grüße, Welt\n"
 
 #, c-format
 msgid "You see %s."
-msgstr "Du siehst %s."
+msgstr "Du siehst {akk}%s."
 
 #, c-format
 msgid "%s shouts."
-msgstr "%s schreit."
+msgstr "{nom}%s schreit."
 
 #, c-format
 msgid "%s attacks you."
-msgstr "%s greift dich an."
+msgstr "{nom}%s greift dich an."
 
 #, c-format
 msgid "You attack %s."
-msgstr "Du greifst %s an."
+msgstr "Du greifst {akk}%s an."
 
 #, c-format
 msgid "%s misses you."
-msgstr "%s verfehlt dich."
+msgstr "{nom}%s verfehlt dich."
 
 #, c-format
 msgid "You miss %s."
-msgstr "Du verfehlst %s."
+msgstr "Du verfehlst {akk}%s."
 
 #, c-format
 msgid "%s closely misses you."
-msgstr "%s verfehlt dich eng."
+msgstr "{nom}%s verfehlt dich eng."
 
 #, c-format
 msgid "You closely miss %s."
-msgstr "Du verfehlst %s eng."
+msgstr "Du verfehlst {akk}%s eng."
 
 #, c-format
 msgid "%s barely misses you."
-msgstr "%s verfehlt dich ganz eng."
+msgstr "{nom}%s verfehlt dich ganz eng."
 
 #, c-format
 msgid "You barely miss %s."
-msgstr "Du verfehlst %s ganz eng."
+msgstr "Du verfehlst {akk}%s ganz eng."
 
 #, c-format
 msgid "%s hits you."
-msgstr "%s schlägt dich."
+msgstr "{nom}%s schlägt dich."
 
 #, c-format
 msgid "You hit %s."
-msgstr "Du schlägst %s."
+msgstr "Du schlägst {akk}%s."
 
 #, c-format
 msgid "%s slashes you."
-msgstr "%s schlitzt dich auf."
+msgstr "{nom}%s schlitzt dich auf."
 
 #, c-format
 msgid "You slash %s."
-msgstr "Du schlitzt %s auf."
+msgstr "Du schlitzt {akk}%s auf."
 
 #, c-format
 msgid "%s kills you."
-msgstr "%s tötet dich."
+msgstr "{nom}%s tötet dich."
 
 #, c-format
 msgid "You kill %s."
-msgstr "Du tötest %s."
+msgstr "Du tötest {akk}%s."
 
 #, c-format
 msgid "You command %s to wait here."
-msgstr "Du befiehlst %s hier zu warten."
+msgstr "Du befiehlst {dat}%s hier zu warten."
 
 #, c-format
 msgid "You kill %s!"
-msgstr "Du tötest %s!"
+msgstr "Du tötest {akk}%s!"
 

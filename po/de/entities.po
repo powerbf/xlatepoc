@@ -19,59 +19,59 @@ msgstr ""
 
 # Orc
 
-# Since Orc is masculine it takes der in nominative
-#msgctxt "nominative"
+# Since Orc is masculine it takes der in nom
+#msgctxt "nom"
 msgid "the orc"
 msgstr "der Ork"
 
 # Since Orc is masculine it takes den in accusitive
-msgctxt "accusative"
+msgctxt "akk"
 msgid "the orc"
 msgstr "den Ork"
 
-# Since Orc is masculine it takes dem in dative.
-msgctxt "dative"
+# Since Orc is masculine it takes dem in dat.
+msgctxt "dat"
 msgid "the orc"
 msgstr "dem Ork"
 
-#msgctxt "nominative"
+#msgctxt "nom"
 msgid "an orc"
 msgstr "ein Ork"
 
-msgctxt "accusative"
+msgctxt "akk"
 msgid "an orc"
 msgstr "einen Ork"
 
-msgctxt "dative"
+msgctxt "dat"
 msgid "an orc"
 msgstr "einem Ork"
 
 # Elf
 
-# Since Elf is feminine it takes die in nominative.
-#msgctxt "nominative"
+# Since Elf is feminine it takes die in nom.
+#msgctxt "nom"
 msgid "the elf"
 msgstr "die Elfe"
 
-# Since Elf is feminine it takes die in accusative.
-msgctxt "accusative"
+# Since Elf is feminine it takes die in akk.
+msgctxt "akk"
 msgid "the elf"
 msgstr "die Elfe"
 
-# Since Elf is feminine it takes der in dative case.
-msgctxt "dative"
+# Since Elf is feminine it takes der in dat case.
+msgctxt "dat"
 msgid "the elf"
 msgstr "der Elfe"
 
-#msgctxt "nominative"
+#msgctxt "nom"
 msgid "an elf"
 msgstr "eine Elfe"
 
-msgctxt "accusative"
+msgctxt "akk"
 msgid "an elf"
 msgstr "eine Elfe"
 
-msgctxt "dative"
+msgctxt "dat"
 msgid "an elf"
 msgstr "einer Elfe"
 
