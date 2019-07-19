@@ -27,65 +27,73 @@ static vector<string> _split_format(const string& fmt_str)
     int fmt_len = fmt_str.length();
 
     int token_start = 0;
-    while (token_start < fmt_len)
+    int token_len = 0;
+    const char* ch = fmt_str.c_str();
+
+    while (*ch != '\0')
     {
-        int token_len = 0;
-        if (fmt_str.at(token_start) == '%' && token_start < fmt_len - 1 && fmt_str.at(token_start+1) != '%')
+        token_start += token_len;
+        token_len = 1;
+        bool finished = false;
+
+        if (*ch == '%' && *(ch+1) != '%')
         {
-            // extract format spec
-            token_len++;
-            char curr;
-            do {
-                token_len++;
-                curr = fmt_str.at(token_start+token_len-1);
-            } while (token_start + token_len < fmt_len && !_is_type_spec(curr));
-        }
-        else if (fmt_str.at(token_start) == '{' && token_start < fmt_len - 1)
-        {
-            // context specifier
-            token_len = 1;
-            while (token_start + token_len < fmt_len && fmt_str.at(token_start+token_len-1) != '}')
+            // read format specifier
+            ++ch;
+            while (!finished)
             {
-                token_len++;
+                finished = (*ch == '\0' || _is_type_spec(*ch));
+                if (*ch != '\0')
+                {
+                    ++token_len;
+                    ++ch;
+                }
+            }
+        }
+        else if (*ch == '{')
+        {
+            // read context specifier
+            ++ch;
+            while (!finished)
+            {
+                finished = (*ch == '\0' || *ch == '}');
+                if (*ch != '\0')
+                {
+                    ++token_len;
+                    ++ch;
+                }
             }
         }
         else
-        {   bool finished = false;
-            do {
-                token_len++;
-                if (token_start + token_len == fmt_len)
+        {
+            // read literal string
+            while (!finished)
+            {
+                bool escaped = (*ch == '\\' || (*ch == '%' && *(ch+1) == '%'));
+                ++ch;
+                if (*ch == '\0')
                 {
                     finished = true;
                 }
+                else if (escaped)
+                {
+                    // ignore character
+                    ++token_len;
+                    finished = false;
+                }
                 else
                 {
-                    char next = fmt_str.at(token_start + token_len);
-                    if (next == '{')
+                    finished = (*ch == '%' || *ch == '{');
+                    if (!finished)
                     {
-                        finished = true;
-                    }
-                    else if (next == '%')
-                    {
-                        int next_next_idx = token_start + token_len + 1;
-                        if (next_next_idx == fmt_len)
-                        {
-                            finished = true;
-                        }
-                        else if (fmt_str.at(next_next_idx) == '%')
-                        {
-                            token_len++; // skip next
-                        }
-                        else
-                        {
-                            finished = true;
-                        }
+                        ++token_len;
                     }
                 }
-            } while (!finished);
+            }
         }
 
+        // extract token
         results.push_back(fmt_str.substr(token_start, token_len));
-        token_start += token_len;
     }
     return results;
 }
