@@ -103,6 +103,23 @@ static vector<string> _split_format(const string& fmt_str)
     return results;
 }
 
+// string replace
+// std::regex_replace would do this, but not sure if available on all platforms
+void _replace(std::string& str, const std::string& patt, const std::string& replace)
+{
+    std::string::size_type pos = 0u;
+    while((pos = str.find(patt, pos)) != std::string::npos){
+        str.replace(pos, patt.length(), replace);
+        pos += replace.length();
+    }
+}
+static void _resolve_escapes(string& str)
+{
+    _replace(str, "%%", "%");
+    _replace(str, "\\{", "{");
+    _replace(str, "\\}", "}");
+}
+
 string localize(const string& fmt_string, va_list& args)
 {
     static const string double_type_specs = "aAeEfFgG";
@@ -110,7 +127,6 @@ string localize(const string& fmt_string, va_list& args)
     string format2 = dxlate("messages", fmt_string);
     vector<string> strings = _split_format(format2);
     ostringstream ss;
-    char buf[8000];
 
     string context;
     for (vector<string>::iterator it = strings.begin() ; it != strings.end(); ++it)
@@ -121,36 +137,27 @@ string localize(const string& fmt_string, va_list& args)
         }
         else if (it->at(0) == '%' && it->length() > 1 && it->at(1) != '%')
         {
-            char tspec = it->back(); // type specifier
-            if (tspec == 's')
+            if (it->back() == 's')
             {
                 // arg is string and needs to be localized
                 char* arg = va_arg(args, char*);
                 string argx = dcxlate("entities", context, (char*)arg);
-                sprintf(buf, it->c_str(), argx.c_str());
-            }
-            else if (tspec == 'c')
-            {
-                // char is promoted to int
-                int arg = va_arg(args, int);
-                sprintf(buf, it->c_str(), arg);
-            }
-            else if (_contains(double_type_specs, tspec))
-            {
-                double arg = va_arg(args, double);
-                sprintf(buf, it->c_str(), arg);
+                string s = make_stringf(it->c_str(), argx.c_str());
+                ss << s;
             }
             else
             {
-                void* arg = va_arg(args, char*);
-                sprintf(buf, it->c_str(), arg);
+                string s = vmake_stringf(it->c_str(), args);
+                va_arg(args, void*); // pop one arg
+                ss << s;
             }
-            ss << buf;
         }
         else
         {
-            // plain string
-            ss << *it;
+            // plain string (but could have escapes)
+            string str = *it;
+            _resolve_escapes(str);
+            ss << str;
         }
     }
 
