@@ -4,7 +4,7 @@
 #include <string>
 
 #include "xlate.h"
-#include "translate.h"
+#include "localize.h"
 
 #include "monsters-inc.h"
 

@@ -24,5 +24,3 @@ string translate_sentence(const string& subject, const string& verb, const strin
 // translate monster name
 string translate_monster(const string &monster, const string &context);
 
-// localize a format string and a list of args
-string localize(const string& format, ...);
