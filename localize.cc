@@ -12,6 +12,12 @@ using namespace std;
 #include "xlate.h"
 #include "stringutil.h"
 
+// check if string conatins the char
+static inline bool _contains(const std::string& s, char c)
+{
+    return (s.find(c) != string::npos);
+}
+
 // is this char a printf typespec (i.e. the end of %<something><char>)?
 static inline bool _is_type_spec(char c)
 {
@@ -22,7 +28,6 @@ static inline bool _is_type_spec(char c)
 // split format string into constants and format specifiers
 static vector<string> _split_format(const string& fmt_str)
 {
-
     vector<string> results;
     int fmt_len = fmt_str.length();
 
@@ -100,6 +105,8 @@ static vector<string> _split_format(const string& fmt_str)
 
 string localize(const string& fmt_string, va_list& args)
 {
+    static const string double_type_specs = "aAeEfFgG";
+
     string format2 = dxlate("messages", fmt_string);
     vector<string> strings = _split_format(format2);
     ostringstream ss;
@@ -114,15 +121,28 @@ string localize(const string& fmt_string, va_list& args)
         }
         else if (it->at(0) == '%' && it->length() > 1 && it->at(1) != '%')
         {
-            void* arg = va_arg(args, void*);
-            if (it->back() == 's')
+            char tspec = it->back(); // type specifier
+            if (tspec == 's')
             {
                 // arg is string and needs to be localized
+                char* arg = va_arg(args, char*);
                 string argx = dcxlate("entities", context, (char*)arg);
                 sprintf(buf, it->c_str(), argx.c_str());
             }
+            else if (tspec == 'c')
+            {
+                // char is promoted to int
+                int arg = va_arg(args, int);
+                sprintf(buf, it->c_str(), arg);
+            }
+            else if (_contains(double_type_specs, tspec))
+            {
+                double arg = va_arg(args, double);
+                sprintf(buf, it->c_str(), arg);
+            }
             else
             {
+                void* arg = va_arg(args, char*);
                 sprintf(buf, it->c_str(), arg);
             }
             ss << buf;
