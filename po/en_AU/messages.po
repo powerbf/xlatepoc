@@ -10,13 +10,15 @@ msgstr ""
 "POT-Creation-Date: 2019-07-10 00:19+1000\n"
 "PO-Revision-Date: 2019-07-09 22:05+1000\n"
 "Last-Translator: brian <brian@gallifrey>\n"
-"Language-Team: Hypothetical Language\n"
+"Language-Team: Hypothetical\n"
 "Language: qq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 
+msgid "Hello, world!"
+msgstr "Greetings, globe!"
 
 # For testing ultiple plural forms
 msgid "a flip flop"
@@ -27,5 +29,5 @@ msgstr[2] "%d thongs"
 
 # For testing change of argument order
 msgid "%s hits %s"
-msgstr "%2s is hit by %1s"
+msgstr "%2$s is hit by %1$s"
 
