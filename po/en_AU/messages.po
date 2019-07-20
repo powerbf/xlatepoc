@@ -28,6 +28,6 @@ msgstr[1] "a pair of thongs"
 msgstr[2] "%d thongs"
 
 # For testing change of argument order
-msgid "%s hits %s"
-msgstr "%2$s is hit by %1$s"
+msgid "%s hits %s."
+msgstr "%2$s is hit by %1$s."
 

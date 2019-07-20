@@ -53,7 +53,7 @@ static int _get_arg_id(const string& fmt)
     {
         return 0;
     }
-    size_t pos_len = dollar_pos-2;
+    size_t pos_len = dollar_pos-1;
     if (pos_len < 1)
     {
         return 0;
@@ -305,13 +305,10 @@ static void _resolve_escapes(string& str)
 
 string localize(const string& fmt_string, va_list& args)
 {
-    // get arg types for origin English string
+    // get arg types for original English string
     map<int, const type_info*> arg_types = _get_arg_types(fmt_string);
 
-    // translate format string
-    string fmt_xlated = dxlate("messages", fmt_string);
-
-    vector<string> strings = _split_format(fmt_xlated);
+    vector<string> strings = _split_format(fmt_string);
 
     // store args in map
     map<int, arg_t> arg_map;
@@ -384,6 +381,10 @@ string localize(const string& fmt_string, va_list& args)
         }
         arg_map.insert(pair<int, arg_t>(arg_id, arg));
     }
+
+    // translate format string
+    string fmt_xlated = dxlate("messages", fmt_string);
+    strings = _split_format(fmt_xlated);
 
     ostringstream ss;
 

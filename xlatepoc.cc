@@ -22,7 +22,6 @@ int main(int argc, char *argv[])
     const double PI = 3.141592653585;
     const long double PI_LONG = 3.141592653589793238462643383279L;
 
-    char buf[BUFSIZE];
     string result;
 
     init_xlate("en_AU");
@@ -71,9 +70,7 @@ int main(int argc, char *argv[])
     check_result("plural", "%d thongs", result);
 
     // test arg order change
-    result = xlate("%s hits %s");
-    snprintf(buf, BUFSIZE, result.c_str(), "the arrow", "the orc");
-    result = buf;
-    check_result("arg order", "the orc is hit by the arrow", result);
+    result = localize_sentence("%s hits %s.", "the arrow", "the orc");
+    check_result("arg order", "The orc is hit by the arrow.", result);
     return 0;
 }
