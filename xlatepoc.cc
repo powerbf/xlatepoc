@@ -19,10 +19,13 @@ string getlocale()
 
 int main(int argc, char *argv[])
 {
+    const double PI = 3.141592653585;
+    const long double PI_LONG = 3.141592653589793238462643383279L;
+
     char buf[BUFSIZE];
     string result;
 
-    init_xlate("QQ");
+    init_xlate("en_AU");
 
     // check locale
     string locale = getlocale();
@@ -31,17 +34,32 @@ int main(int argc, char *argv[])
     cout << "Language is " << get_xlate_language() << endl;
     cout << "====================\n\n";
 
-    cout << localize("Hello, world\n");
-    cout << localize("") << endl;
-    cout << localize("Empty string: %s", "") << endl;
-    cout << localize("Signed short, int, long, long long: %hd, %d, %ld, %lld", (short)-3, -4, -5L, -6LL) << endl;
-    cout << localize("Unsigned short, int, long, long long: %hu, %u, %lu, %llu", (unsigned short)3, 4U, 5UL, 6ULL) << endl;
-    cout << localize("Doubles: %.20f, %e", 3.141592653585 , 3.141592653589) << endl;
-    cout << localize("Long doubles: %.20Lf, %Le", 3.141592653585L , 3.141592653589L) << endl;
-    cout << localize("Char: %c", 'A') << endl;
-    cout << localize("Escapes: %d%% \\{per annum\\}", 1) << endl;
+    result = xlate("Hello, world!");
+    check_result("basic test", "Greetings, globe!", result);
 
-    cout << endl << "Tests in hypothetical language:" << endl;
+    result = localize("");
+    check_result("empty string", "", result);
+
+    result = localize("%s", "");
+    check_result("empty string 2", "", result);
+
+    result = localize("%llu, %lu, %u, %hu", 6LL, 5L, 4, 3);
+    check_result("unsigned ints", "6, 5, 4, 3", result);
+
+    result = localize("%lld, %ld, %d, %hd", -6LL, -5L, -4, -3);
+    check_result("signed ints", "-6, -5, -4, -3", result);
+
+    result = localize("%.10f, %.5e", PI , PI);
+    check_result("doubles", "3.1415926536, 3.14159e+00", result);
+
+    result = localize("%.15Lf, %.5Le", PI_LONG , PI_LONG);
+    check_result("long doubles", "3.141592653589793, 3.14159e+00", result);
+
+    result = localize("%c", 'A');
+    check_result("char", "A", result);
+
+    result = localize("%d%% \\{per annum\\}", 1);
+    check_result("escape sequences", "1% {per annum}", result);
 
     result = nxlate("a flip flop", "%d flip flops", 1);
     check_result("singular", "a thong", result);
