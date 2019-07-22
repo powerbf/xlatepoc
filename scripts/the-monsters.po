@@ -1,0 +1,1829 @@
+
+#msgctxt "nom"
+msgid  "the program bug"
+msgstr "der Programmfehler"
+
+#msgctxt "nom"
+msgid  "the worker ant"
+msgstr "die Ameisenarbeiterin"
+
+#msgctxt "nom"
+msgid  "the queen ant"
+msgstr "die Ameisenkönigin"
+
+#msgctxt "nom"
+msgid  "the soldier ant"
+msgstr "die Ameisensoldatin"
+
+#msgctxt "nom"
+msgid  "the formicid"
+msgstr "der Formicid"
+
+#msgctxt "nom"
+msgid  "the entropy weaver"
+msgstr "der Entropieweber"
+
+#msgctxt "nom"
+msgid  "the bat"
+msgstr "die Fledermaus"
+
+#msgctxt "nom"
+msgid  "the butterfly"
+msgstr "der Schmetterling"
+
+#msgctxt "nom"
+msgid  "the vampire bat"
+msgstr "die Vampirfledermaus"
+
+#msgctxt "nom"
+msgid  "the fire bat"
+msgstr "der Feuerfledermaus"
+
+#msgctxt "nom"
+msgid  "the bennu"
+msgstr "das Bennu"
+
+#msgctxt "nom"
+msgid  "the caustic shrike"
+msgstr "der ätzende Würger"
+
+#msgctxt "nom"
+msgid  "the shard shrike"
+msgstr "der Scherbenwürger"
+
+#msgctxt "nom"
+msgid  "the centaur"
+msgstr "der Zentaur"
+
+#msgctxt "nom"
+msgid  "the centaur warrior"
+msgstr "der Zentaur-Krieger"
+
+#msgctxt "nom"
+msgid  "the yaktaur"
+msgstr "der Yaktaur"
+
+#msgctxt "nom"
+msgid  "the yaktaur captain"
+msgstr "der Yaktaur-Kapitän"
+
+#msgctxt "nom"
+msgid  "the faun"
+msgstr "der Faun"
+
+#msgctxt "nom"
+msgid  "the satyr"
+msgstr "der Satyr"
+
+#msgctxt "nom"
+msgid  "the draconian"
+msgstr "der Drakonier"
+
+#msgctxt "nom"
+msgid  "the black draconian"
+msgstr "der schwarze Drakonier"
+
+#msgctxt "nom"
+msgid  "the yellow draconian"
+msgstr "der gelbe Drakonier"
+
+#msgctxt "nom"
+msgid  "the pale draconian"
+msgstr "der blasse Drakonier"
+
+#msgctxt "nom"
+msgid  "the green draconian"
+msgstr "der grüne Drakonier"
+
+#msgctxt "nom"
+msgid  "the purple draconian"
+msgstr "der purpurne Drakonier"
+
+#msgctxt "nom"
+msgid  "the red draconian"
+msgstr "der rote Drakonier"
+
+#msgctxt "nom"
+msgid  "the white draconian"
+msgstr "der weiße Drakonier"
+
+#msgctxt "nom"
+msgid  "the grey draconian"
+msgstr "der graue Drakonier"
+
+#msgctxt "nom"
+msgid  "the draconian stormcaller"
+msgstr "der Drakonier-Sturmrufer"
+
+#msgctxt "nom"
+msgid  "the draconian monk"
+msgstr "der Drakonier-Mönch"
+
+#msgctxt "nom"
+msgid  "the draconian shifter"
+msgstr "der Drakonier-Verwandler"
+
+#msgctxt "nom"
+msgid  "the draconian annihilator"
+msgstr "der Drakonier-Vernichter"
+
+#msgctxt "nom"
+msgid  "the draconian knight"
+msgstr "der Drakonier-Ritter"
+
+#msgctxt "nom"
+msgid  "the draconian scorcher"
+msgstr "der Drakonier-Verschmorer"
+
+#msgctxt "nom"
+msgid  "the elf"
+msgstr "der Elf"
+
+#msgctxt "nom"
+msgid  "the deep elf knight"
+msgstr "der Tiefenelf-Ritter"
+
+#msgctxt "nom"
+msgid  "the deep elf archer"
+msgstr "der Tiefenelf-Bogenschütze"
+
+#msgctxt "nom"
+msgid  "the deep elf blademaster"
+msgstr "der Tiefenelf-Klingenmeister"
+
+#msgctxt "nom"
+msgid  "the deep elf master archer"
+msgstr "der Tiefenelf-Bogenmeister"
+
+#msgctxt "nom"
+msgid  "the deep elf mage"
+msgstr "der Tiefenelf-Magier"
+
+#msgctxt "nom"
+msgid  "the deep elf high priest"
+msgstr "der Tiefenelf-Hohepriester"
+
+#msgctxt "nom"
+msgid  "the deep elf demonologist"
+msgstr "der Tiefenelf-Dämonologe"
+
+#msgctxt "nom"
+msgid  "the deep elf annihilator"
+msgstr "der Tiefenelf-Vernichter"
+
+#msgctxt "nom"
+msgid  "the deep elf sorcerer"
+msgstr "der Tiefenelf-Zauberer"
+
+#msgctxt "nom"
+msgid  "the deep elf death mage"
+msgstr "der Tiefenelf-Todesmagier"
+
+#msgctxt "nom"
+msgid  "the deep elf elementalist"
+msgstr "der Tiefenelf-Elementalist"
+
+#msgctxt "nom"
+msgid  "the wandering mushroom"
+msgstr "der wandernde Pilz"
+
+#msgctxt "nom"
+msgid  "the deathcap"
+msgstr "die Todesmütze"
+
+#msgctxt "nom"
+msgid  "the thorn hunter"
+msgstr "der Dornenjäger"
+
+#msgctxt "nom"
+msgid  "the shambling mangrove"
+msgstr "die watschelnde Mangrove"
+
+#msgctxt "nom"
+msgid  "the vine stalker"
+msgstr "der Rebjäger"
+
+#msgctxt "nom"
+msgid  "the goblin"
+msgstr "der Goblin"
+
+#msgctxt "nom"
+msgid  "the hobgoblin"
+msgstr "der Hobgoblin"
+
+#msgctxt "nom"
+msgid  "the gnoll"
+msgstr "der Gnoll"
+
+#msgctxt "nom"
+msgid  "the gnoll shaman"
+msgstr "der Gnoll-Schamane"
+
+#msgctxt "nom"
+msgid  "the gnoll sergeant"
+msgstr "der Gnoll-Wachtmeister"
+
+#msgctxt "nom"
+msgid  "the boggart"
+msgstr "der Boggart"
+
+#msgctxt "nom"
+msgid  "the dwarf"
+msgstr "der Zwerg"
+
+#msgctxt "nom"
+msgid  "the deep dwarf"
+msgstr "der Tiefenzwerg"
+
+#msgctxt "nom"
+msgid  "the jackal"
+msgstr "der Schakal"
+
+#msgctxt "nom"
+msgid  "the hound"
+msgstr "der Hund"
+
+#msgctxt "nom"
+msgid  "the howler monkey"
+msgstr "der Brüllaffe"
+
+#msgctxt "nom"
+msgid  "the warg"
+msgstr "der Warg"
+
+#msgctxt "nom"
+msgid  "the wolf"
+msgstr "der Wolf"
+
+#msgctxt "nom"
+msgid  "the hog"
+msgstr "das Schwein"
+
+#msgctxt "nom"
+msgid  "the hell hound"
+msgstr "der Höllenhund"
+
+#msgctxt "nom"
+msgid  "the doom hound"
+msgstr "der Untergangshund"
+
+#msgctxt "nom"
+msgid  "the raiju"
+msgstr "der Raiju"
+
+#msgctxt "nom"
+msgid  "the hell hog"
+msgstr "das höllische Schwein"
+
+#msgctxt "nom"
+msgid  "the holy swine"
+msgstr "das heilige Schwein"
+
+#msgctxt "nom"
+msgid  "the felid"
+msgstr "das Felid"
+
+#msgctxt "nom"
+msgid  "the bear"
+msgstr "der Bär"
+
+#msgctxt "nom"
+msgid  "the polar bear"
+msgstr "der Eisbär"
+
+#msgctxt "nom"
+msgid  "the black bear"
+msgstr "der Schwarzbär"
+
+#msgctxt "nom"
+msgid  "the spriggan"
+msgstr "der Spriggan"
+
+#msgctxt "nom"
+msgid  "the spriggan rider"
+msgstr "der Spriggan-Reiter"
+
+#msgctxt "nom"
+msgid  "the spriggan druid"
+msgstr "der Spriggan-Druide"
+
+#msgctxt "nom"
+msgid  "the spriggan berserker"
+msgstr "der Spriggan-Berserker"
+
+#msgctxt "nom"
+msgid  "the spriggan air mage"
+msgstr "der Spriggan-Luftmagier"
+
+#msgctxt "nom"
+msgid  "the spriggan defender"
+msgstr "der Spriggan-Verteidiger"
+
+#msgctxt "nom"
+msgid  "the drake"
+msgstr "der Drachling"
+
+#msgctxt "nom"
+msgid  "the swamp drake"
+msgstr "der Sumpfdrachling"
+
+#msgctxt "nom"
+msgid  "the rime drake"
+msgstr "der Reifsdrachling"
+
+#msgctxt "nom"
+msgid  "the wind drake"
+msgstr "der Winddrachling"
+
+#msgctxt "nom"
+msgid  "the lindwurm"
+msgstr "der Lindwurm"
+
+#msgctxt "nom"
+msgid  "the death drake"
+msgstr "der Todesdrache"
+
+#msgctxt "nom"
+msgid  "the giant lizard"
+msgstr "die Rieseneidechse"
+
+#msgctxt "nom"
+msgid  "the frilled lizard"
+msgstr "die gekräuselte Eidechse"
+
+#msgctxt "nom"
+msgid  "the leopard gecko"
+msgstr "der Leopardgecko"
+
+#msgctxt "nom"
+msgid  "the iguana"
+msgstr "der Leguan"
+
+#msgctxt "nom"
+msgid  "the basilisk"
+msgstr "der Basilisk"
+
+#msgctxt "nom"
+msgid  "the wyvern"
+msgstr "der Wyvern"
+
+#msgctxt "nom"
+msgid  "the komodo dragon"
+msgstr "der Komododrache"
+
+#msgctxt "nom"
+msgid  "the merfolk"
+msgstr "das Meervolk"
+
+#msgctxt "nom"
+msgid  "the merfolk impaler"
+msgstr "der Meervolk-Impaler"
+
+#msgctxt "nom"
+msgid  "the merfolk javelineer"
+msgstr "der Meervolk-Speerführer"
+
+#msgctxt "nom"
+msgid  "the merfolk aquamancer"
+msgstr "der Meervolk-Aquamancer"
+
+#msgctxt "nom"
+msgid  "the merfolk siren"
+msgstr "die Meervolk-Sirene"
+
+#msgctxt "nom"
+msgid  "the merfolk avatar"
+msgstr "der Meervolk-Avatar"
+
+#msgctxt "nom"
+msgid  "the water nymph"
+msgstr "die Wassernymphe"
+
+#msgctxt "nom"
+msgid  "the bog body"
+msgstr "die Moorleiche"
+
+#msgctxt "nom"
+msgid  "the necrophage"
+msgstr "der Nekrophagen"
+
+#msgctxt "nom"
+msgid  "the ghoul"
+msgstr "der Ghul"
+
+#msgctxt "nom"
+msgid  "the orc"
+msgstr "der Ork"
+
+#msgctxt "nom"
+msgid  "the orc wizard"
+msgstr "der Ork-Zauberer"
+
+#msgctxt "nom"
+msgid  "the orc priest"
+msgstr "der Ork-Priester"
+
+#msgctxt "nom"
+msgid  "the orc warrior"
+msgstr "der Ork-Krieger"
+
+#msgctxt "nom"
+msgid  "the orc knight"
+msgstr "der Ork-Ritter"
+
+#msgctxt "nom"
+msgid  "the orc warlord"
+msgstr "der Ork-Warlord"
+
+#msgctxt "nom"
+msgid  "the orc sorcerer"
+msgstr "der Ork-Hexenmeister"
+
+#msgctxt "nom"
+msgid  "the orc high priest"
+msgstr "der Ork-Hohepriester"
+
+#msgctxt "nom"
+msgid  "the lava orc"
+msgstr "der Lava-Ork"
+
+#msgctxt "nom"
+msgid  "the human"
+msgstr "der Mensch"
+
+#msgctxt "nom"
+msgid  "the slave"
+msgstr "der Sklave"
+
+#msgctxt "nom"
+msgid  "the hell knight"
+msgstr "der Höllenritter"
+
+#msgctxt "nom"
+msgid  "the death knight"
+msgstr "der Todesritter"
+
+#msgctxt "nom"
+msgid  "the necromancer"
+msgstr "der Nekromant"
+
+#msgctxt "nom"
+msgid  "the wizard"
+msgstr "der Zauberer"
+
+#msgctxt "nom"
+msgid  "the vault guard"
+msgstr "der Tresorwächter"
+
+#msgctxt "nom"
+msgid  "the vault sentinel"
+msgstr "die Tresorwache"
+
+#msgctxt "nom"
+msgid  "the vault warden"
+msgstr "der Tresorwärter"
+
+#msgctxt "nom"
+msgid  "the ironbrand convoker"
+msgstr "der Eisenbrandeinberufer"
+
+#msgctxt "nom"
+msgid  "the imperial myrmidon"
+msgstr "der kaiserliche Myrmidon"
+
+#msgctxt "nom"
+msgid  "the servant of whispers"
+msgstr "der Diener des Flüsterns"
+
+#msgctxt "nom"
+msgid  "the ragged hierophant"
+msgstr "der zerlumpte Hierophant"
+
+#msgctxt "nom"
+msgid  "the ironheart preserver"
+msgstr "der Eisenherzbewahrer"
+
+#msgctxt "nom"
+msgid  "the shapeshifter"
+msgstr "der Gestaltwandler"
+
+#msgctxt "nom"
+msgid  "the glowing shapeshifter"
+msgstr "der leuchtende Gestaltwandler"
+
+#msgctxt "nom"
+msgid  "the Killer Klown"
+msgstr "der Killer-Klown"
+
+#msgctxt "nom"
+msgid  "the demigod"
+msgstr "der Halbgott"
+
+#msgctxt "nom"
+msgid  "the halfling"
+msgstr "der Halbling"
+
+#msgctxt "nom"
+msgid  "the rat"
+msgstr "die Ratte"
+
+#msgctxt "nom"
+msgid  "the quokka"
+msgstr "der Quokka"
+
+#msgctxt "nom"
+msgid  "the river rat"
+msgstr "die Flussratte"
+
+#msgctxt "nom"
+msgid  "the hell rat"
+msgstr "die Höllenratte"
+
+#msgctxt "nom"
+msgid  "the porcupine"
+msgstr "das Stachelschwein"
+
+#msgctxt "nom"
+msgid  "the giant cockroach"
+msgstr "die Riesenkakerlake"
+
+#msgctxt "nom"
+msgid  "the scorpion"
+msgstr "der Skorpion"
+
+#msgctxt "nom"
+msgid  "the emperor scorpion"
+msgstr "der Kaiserskorpion"
+
+#msgctxt "nom"
+msgid  "the death scarab"
+msgstr "der Todesskarabäus"
+
+#msgctxt "nom"
+msgid  "the spider"
+msgstr "die Spinne"
+
+#msgctxt "nom"
+msgid  "the tarantella"
+msgstr "die Tarantella"
+
+#msgctxt "nom"
+msgid  "the jumping spider"
+msgstr "die springende Spinne"
+
+#msgctxt "nom"
+msgid  "the wolf spider"
+msgstr "die Wolfsspinne"
+
+#msgctxt "nom"
+msgid  "the redback"
+msgstr "die Rotrückenspinne"
+
+#msgctxt "nom"
+msgid  "the demonic crawler"
+msgstr "der dämonische Kriecher"
+
+#msgctxt "nom"
+msgid  "the orb spider"
+msgstr "die Kugelspinne"
+
+#msgctxt "nom"
+msgid  "the crocodile"
+msgstr "das Krokodil"
+
+#msgctxt "nom"
+msgid  "the alligator"
+msgstr "der Alligator"
+
+#msgctxt "nom"
+msgid  "the snapping turtle"
+msgstr "die Schnappschildkröte"
+
+#msgctxt "nom"
+msgid  "the alligator snapping turtle"
+msgstr "die Alligatorschnappschildkröte"
+
+#msgctxt "nom"
+msgid  "the crab"
+msgstr "die Krabbe"
+
+#msgctxt "nom"
+msgid  "the fire crab"
+msgstr "die Feuerkrabbe"
+
+#msgctxt "nom"
+msgid  "the ghost crab"
+msgstr "die Geisterkrabbe"
+
+#msgctxt "nom"
+msgid  "the apocalypse crab"
+msgstr "die Apokalypse-Krabbe"
+
+#msgctxt "nom"
+msgid  "the ugly thing"
+msgstr "das hässliche Ding"
+
+#msgctxt "nom"
+msgid  "the very ugly thing"
+msgstr "das sehr hässliche Ding"
+
+#msgctxt "nom"
+msgid  "the fire vortex"
+msgstr "der Feuerwirbel"
+
+#msgctxt "nom"
+msgid  "the spatial vortex"
+msgstr "der räumliche Wirbel"
+
+#msgctxt "nom"
+msgid  "the spatial maelstrom"
+msgstr "der räumliche Mahlstrom"
+
+#msgctxt "nom"
+msgid  "the insubstantial wisp"
+msgstr "das unwesentliche Irrlicht"
+
+#msgctxt "nom"
+msgid  "the twister"
+msgstr "der Twister"
+
+#msgctxt "nom"
+msgid  "the worm"
+msgstr "der Wurm"
+
+#msgctxt "nom"
+msgid  "the swamp worm"
+msgstr "der Sumpfwurm"
+
+#msgctxt "nom"
+msgid  "the tyrant leech"
+msgstr "der Tyrannblutegel"
+
+#msgctxt "nom"
+msgid  "the dart slug"
+msgstr "die Pfeilschnecke"
+
+#msgctxt "nom"
+msgid  "the torpor snail"
+msgstr "die Erstarrungsschnecke"
+
+#msgctxt "nom"
+msgid  "the elephant slug"
+msgstr "die Elefantenschnecke"
+
+#msgctxt "nom"
+msgid  "the unseen horror"
+msgstr "das unsichtbare Grauen"
+
+#msgctxt "nom"
+msgid  "the small abomination"
+msgstr "der kleine Greuel"
+
+#msgctxt "nom"
+msgid  "the crawling corpse"
+msgstr "die kriechende Leiche"
+
+#msgctxt "nom"
+msgid  "the macabre mass"
+msgstr "die makabere Masse"
+
+#msgctxt "nom"
+msgid  "the ancient zyme"
+msgstr "der alte Zyme"
+
+#msgctxt "nom"
+msgid  "the worldbinder"
+msgstr "der Weltbinder"
+
+#msgctxt "nom"
+msgid  "the killer bee"
+msgstr "die Killerbiene"
+
+#msgctxt "nom"
+msgid  "the queen bee"
+msgstr "die Bienenkönigin"
+
+#msgctxt "nom"
+msgid  "the vampire mosquito"
+msgstr "die Vampir-Mücke"
+
+#msgctxt "nom"
+msgid  "the hornet"
+msgstr "die Hornisse"
+
+#msgctxt "nom"
+msgid  "the meliai"
+msgstr "die Meliai"
+
+#msgctxt "nom"
+msgid  "the spark wasp"
+msgstr "die Funkenwespe"
+
+#msgctxt "nom"
+msgid  "the moth"
+msgstr "die Motte"
+
+#msgctxt "nom"
+msgid  "the ghost moth"
+msgstr "die Geistermotte"
+
+#msgctxt "nom"
+msgid  "the moth of wrath"
+msgstr "die Motte des Zorns"
+
+#msgctxt "nom"
+msgid  "the wight"
+msgstr "der Wight"
+
+#msgctxt "nom"
+msgid  "the skeletal warrior"
+msgstr "der Skelettkrieger"
+
+#msgctxt "nom"
+msgid  "the ancient champion"
+msgstr "der alte Champion"
+
+#msgctxt "nom"
+msgid  "the flying skull"
+msgstr "der fliegende Schädel"
+
+#msgctxt "nom"
+msgid  "the curse skull"
+msgstr "der Fluchschädel"
+
+#msgctxt "nom"
+msgid  "the curse toe"
+msgstr "der Fluchzehe"
+
+#msgctxt "nom"
+msgid  "the angel"
+msgstr "der Engel"
+
+#msgctxt "nom"
+msgid  "the cherub"
+msgstr "der Cherub"
+
+#msgctxt "nom"
+msgid  "the seraph"
+msgstr "der Seraph"
+
+#msgctxt "nom"
+msgid  "the daeva"
+msgstr "der Daeva"
+
+#msgctxt "nom"
+msgid  "the profane servitor"
+msgstr "der profane Diener"
+
+#msgctxt "nom"
+msgid  "the giant"
+msgstr "der Riese"
+
+#msgctxt "nom"
+msgid  "the cyclops"
+msgstr "der Zyklop"
+
+#msgctxt "nom"
+msgid  "the ettin"
+msgstr "der Ettin"
+
+#msgctxt "nom"
+msgid  "the fire giant"
+msgstr "der Feuerriese"
+
+#msgctxt "nom"
+msgid  "the frost giant"
+msgstr "der Frostriese"
+
+#msgctxt "nom"
+msgid  "the stone giant"
+msgstr "der Steinriese"
+
+#msgctxt "nom"
+msgid  "the titan"
+msgstr "der Titan"
+
+#msgctxt "nom"
+msgid  "the juggernaut"
+msgstr "der Juggernaut"
+
+#msgctxt "nom"
+msgid  "the iron giant"
+msgstr "der Eisenriese"
+
+#msgctxt "nom"
+msgid  "the dragon"
+msgstr "der Drache"
+
+#msgctxt "nom"
+msgid  "the fire dragon"
+msgstr "der Feuerdrache"
+
+#msgctxt "nom"
+msgid  "the hydra"
+msgstr "die Hydra"
+
+#msgctxt "nom"
+msgid  "the %d-headed hydra"
+msgstr "die %d-köpfige Hydra"
+
+#msgctxt "nom"
+msgid  "the ice dragon"
+msgstr "der Eisdrache"
+
+#msgctxt "nom"
+msgid  "the steam dragon"
+msgstr "der Dampfdrache"
+
+#msgctxt "nom"
+msgid  "the swamp dragon"
+msgstr "der Sumpfdrache"
+
+#msgctxt "nom"
+msgid  "the acid dragon"
+msgstr "der Säuredrache"
+
+#msgctxt "nom"
+msgid  "the quicksilver dragon"
+msgstr "der Quecksilberdrache"
+
+#msgctxt "nom"
+msgid  "the iron dragon"
+msgstr "der Eisendrache"
+
+#msgctxt "nom"
+msgid  "the storm dragon"
+msgstr "der Sturmdrache"
+
+#msgctxt "nom"
+msgid  "the golden dragon"
+msgstr "der Golddrache"
+
+#msgctxt "nom"
+msgid  "the shadow dragon"
+msgstr "der Schattendrache"
+
+#msgctxt "nom"
+msgid  "the bone dragon"
+msgstr "der Knochendrache"
+
+#msgctxt "nom"
+msgid  "the pearl dragon"
+msgstr "der Perlendrache"
+
+#msgctxt "nom"
+msgid  "the elemental"
+msgstr "das Elementar"
+
+#msgctxt "nom"
+msgid  "the earth elemental"
+msgstr "das Erdelementar"
+
+#msgctxt "nom"
+msgid  "the fire elemental"
+msgstr "das Feuerelementar"
+
+#msgctxt "nom"
+msgid  "the water elemental"
+msgstr "das Wasserelementar"
+
+#msgctxt "nom"
+msgid  "the air elemental"
+msgstr "das Luftelementar"
+
+#msgctxt "nom"
+msgid  "the iron elemental"
+msgstr "das Eisenelementar"
+
+#msgctxt "nom"
+msgid  "the elemental wellspring"
+msgstr "die elementare Quelle"
+
+#msgctxt "nom"
+msgid  "the giant frog"
+msgstr "der Riesenfrosch"
+
+#msgctxt "nom"
+msgid  "the bullfrog"
+msgstr "der Ochsenfrosch"
+
+#msgctxt "nom"
+msgid  "the spiny frog"
+msgstr "der Stachelfrosch"
+
+#msgctxt "nom"
+msgid  "the blink frog"
+msgstr "der Blinzelfrosch"
+
+#msgctxt "nom"
+msgid  "the barachi"
+msgstr "die Barachi"
+
+#msgctxt "nom"
+msgid  "the floating eye"
+msgstr "das schwebende Auge"
+
+#msgctxt "nom"
+msgid  "the eye of draining"
+msgstr "das Auge des Schwächens"
+
+#msgctxt "nom"
+msgid  "the glowing orange brain"
+msgstr "das orange leuchtende Gehirn"
+
+#msgctxt "nom"
+msgid  "the great orb of eyes"
+msgstr "der große Augenkugel"
+
+#msgctxt "nom"
+msgid  "the shining eye"
+msgstr "das leuchtende Auge"
+
+#msgctxt "nom"
+msgid  "the eye of devastation"
+msgstr "das Auge der Verwüstung"
+
+#msgctxt "nom"
+msgid  "the golden eye"
+msgstr "das goldene Auge"
+
+#msgctxt "nom"
+msgid  "the ophan"
+msgstr "der Ophan"
+
+#msgctxt "nom"
+msgid  "the hippogriff"
+msgstr "der Hippogriff"
+
+#msgctxt "nom"
+msgid  "the manticore"
+msgstr "der Mantikor"
+
+#msgctxt "nom"
+msgid  "the minotaur"
+msgstr "der Minotaurus"
+
+#msgctxt "nom"
+msgid  "the sphinx"
+msgstr "die Sphinx"
+
+#msgctxt "nom"
+msgid  "the harpy"
+msgstr "die Harpyie"
+
+#msgctxt "nom"
+msgid  "the mutant beast"
+msgstr "die mutierte Bestie"
+
+#msgctxt "nom"
+msgid  "the ancestor"
+msgstr "der Ahne"
+
+#msgctxt "nom"
+msgid  "the knight"
+msgstr "der Ritter"
+
+#msgctxt "nom"
+msgid  "the battlemage"
+msgstr "der Kampfmagier"
+
+#msgctxt "nom"
+msgid  "the hexer"
+msgstr "der Hexer"
+
+#msgctxt "nom"
+msgid  "the ooze"
+msgstr "der Schlamm"
+
+#msgctxt "nom"
+msgid  "the jelly"
+msgstr "das Gelee"
+
+#msgctxt "nom"
+msgid  "the slime creature"
+msgstr "das Schleimwesen"
+
+#msgctxt "nom"
+msgid  "the merged slime creature"
+msgstr "die verschmolzene Schleimkreatur"
+
+#msgctxt "nom"
+msgid  "the azure jelly"
+msgstr "das azurblaue Gelee"
+
+#msgctxt "nom"
+msgid  "the death ooze"
+msgstr "der Todesschlamm"
+
+#msgctxt "nom"
+msgid  "the acid blob"
+msgstr "der Säureklumpen"
+
+#msgctxt "nom"
+msgid  "the kobold"
+msgstr "der Kobold"
+
+#msgctxt "nom"
+msgid  "the big kobold"
+msgstr "der große Kobold"
+
+#msgctxt "nom"
+msgid  "the kobold demonologist"
+msgstr "der Kobold-Dämonologe"
+
+#msgctxt "nom"
+msgid  "the lich"
+msgstr "der Lich"
+
+#msgctxt "nom"
+msgid  "the ancient lich"
+msgstr "der alte Lich"
+
+#msgctxt "nom"
+msgid  "the revenant"
+msgstr "der Wiedergänger"
+
+#msgctxt "nom"
+msgid  "the halazid warlock"
+msgstr "der halazidische Hexenmeister"
+
+#msgctxt "nom"
+msgid  "the mummy"
+msgstr "die Mumie"
+
+#msgctxt "nom"
+msgid  "the guardian mummy"
+msgstr "die Wächtermumie"
+
+#msgctxt "nom"
+msgid  "the greater mummy"
+msgstr "die größere Mumie"
+
+#msgctxt "nom"
+msgid  "the mummy priest"
+msgstr "der Mumie-Priester"
+
+#msgctxt "nom"
+msgid  "the naga"
+msgstr "der Naga"
+
+#msgctxt "nom"
+msgid  "the naga mage"
+msgstr "der Naga-Magier"
+
+#msgctxt "nom"
+msgid  "the naga sharpshooter"
+msgstr "der Naga-Scharfschütze"
+
+#msgctxt "nom"
+msgid  "the naga ritualist"
+msgstr "der Naga-Ritualist"
+
+#msgctxt "nom"
+msgid  "the naga warrior"
+msgstr "der Naga-Krieger"
+
+#msgctxt "nom"
+msgid  "the nagaraja"
+msgstr "der Nagaraja"
+
+#msgctxt "nom"
+msgid  "the ogre"
+msgstr "der Oger"
+
+#msgctxt "nom"
+msgid  "the two-headed ogre"
+msgstr "der zweiköpfige Oger"
+
+#msgctxt "nom"
+msgid  "the ogre mage"
+msgstr "der Oger-Magier"
+
+#msgctxt "nom"
+msgid  "the plant"
+msgstr "die Pflanze"
+
+#msgctxt "nom"
+msgid  "the demonic plant"
+msgstr "die dämonische Pflanze"
+
+#msgctxt "nom"
+msgid  "the withered plant"
+msgstr "die verwelkte Pflanze"
+
+#msgctxt "nom"
+msgid  "the oklob sapling"
+msgstr "der Oklob-Setzling"
+
+#msgctxt "nom"
+msgid  "the oklob plant"
+msgstr "die Oklob-Pflanze"
+
+#msgctxt "nom"
+msgid  "the bush"
+msgstr "der Busch"
+
+#msgctxt "nom"
+msgid  "the burning bush"
+msgstr "der brennende Busch"
+
+#msgctxt "nom"
+msgid  "the toadstool"
+msgstr "der Giftpilz"
+
+#msgctxt "nom"
+msgid  "the fungus"
+msgstr "der Pilz"
+
+#msgctxt "nom"
+msgid  "the ballistomycete"
+msgstr "der Ballistomycete"
+
+#msgctxt "nom"
+msgid  "the hyperactive ballistomycete"
+msgstr "der hyperaktive Ballistomycete"
+
+#msgctxt "nom"
+msgid  "the briar patch"
+msgstr "der Dornstrauch"
+
+#msgctxt "nom"
+msgid  "the tengu"
+msgstr "der Tengu"
+
+#msgctxt "nom"
+msgid  "the tengu conjurer"
+msgstr "der Tengu-Zauberer"
+
+#msgctxt "nom"
+msgid  "the tengu warrior"
+msgstr "der Tengu-Krieger"
+
+#msgctxt "nom"
+msgid  "the tengu reaver"
+msgstr "der Tengu-Häscher"
+
+#msgctxt "nom"
+msgid  "the efreet"
+msgstr "das Efreet"
+
+#msgctxt "nom"
+msgid  "the rakshasa"
+msgstr "der Rakshasa"
+
+#msgctxt "nom"
+msgid  "the dryad"
+msgstr "die Dryade"
+
+#msgctxt "nom"
+msgid  "the snaplasher vine"
+msgstr "die Peitscherrebe"
+
+#msgctxt "nom"
+msgid  "the snaplasher vine segment"
+msgstr "das Peitscherrebesegment"
+
+#msgctxt "nom"
+msgid  "the snake"
+msgstr "die Schlange"
+
+#msgctxt "nom"
+msgid  "the ball python"
+msgstr "die Kugelpython"
+
+#msgctxt "nom"
+msgid  "the adder"
+msgstr "die Kreuzotter"
+
+#msgctxt "nom"
+msgid  "the water moccasin"
+msgstr "der Wassermokassin"
+
+#msgctxt "nom"
+msgid  "the black mamba"
+msgstr "die schwarze Mamba"
+
+#msgctxt "nom"
+msgid  "the sea snake"
+msgstr "die Seeschlange"
+
+#msgctxt "nom"
+msgid  "the anaconda"
+msgstr "die Anakonda"
+
+#msgctxt "nom"
+msgid  "the guardian serpent"
+msgstr "die Wächter-Schlange"
+
+#msgctxt "nom"
+msgid  "the shock serpent"
+msgstr "die Schockschlange"
+
+#msgctxt "nom"
+msgid  "the mana viper"
+msgstr "die Manaviper"
+
+#msgctxt "nom"
+msgid  "the troll"
+msgstr "der Troll"
+
+#msgctxt "nom"
+msgid  "the iron troll"
+msgstr "der Eisentroll"
+
+#msgctxt "nom"
+msgid  "the deep troll"
+msgstr "der Tiefentroll"
+
+#msgctxt "nom"
+msgid  "the deep troll earth mage"
+msgstr "der Tiefentroll-Erdmagier"
+
+#msgctxt "nom"
+msgid  "the deep troll shaman"
+msgstr "der Tiefentroll-Schamane"
+
+#msgctxt "nom"
+msgid  "the vampire"
+msgstr "der Vampir"
+
+#msgctxt "nom"
+msgid  "the vampire knight"
+msgstr "der Vampir-Ritter"
+
+#msgctxt "nom"
+msgid  "the vampire mage"
+msgstr "der Vampir-Magier"
+
+#msgctxt "nom"
+msgid  "the jiangshi"
+msgstr "das Jiangshi"
+
+#msgctxt "nom"
+msgid  "the ghost"
+msgstr "das Gespenst"
+
+#msgctxt "nom"
+msgid  "the phantom"
+msgstr "das Phantom"
+
+#msgctxt "nom"
+msgid  "the hungry ghost"
+msgstr "der hungrige Geist"
+
+#msgctxt "nom"
+msgid  "the flayed ghost"
+msgstr "der enthäutete Geist"
+
+#msgctxt "nom"
+msgid  "the player ghost"
+msgstr "der Spielergeist"
+
+#msgctxt "nom"
+msgid  "the shadow"
+msgstr "der Schatten"
+
+#msgctxt "nom"
+msgid  "the silent spectre"
+msgstr "das stille Gespenst"
+
+#msgctxt "nom"
+msgid  "the drowned soul"
+msgstr "die ertrunkene Seele"
+
+#msgctxt "nom"
+msgid  "the wraith"
+msgstr "der Geist"
+
+#msgctxt "nom"
+msgid  "the shadow wraith"
+msgstr "der Schattengeist"
+
+#msgctxt "nom"
+msgid  "the freezing wraith"
+msgstr "der Frostgeist"
+
+#msgctxt "nom"
+msgid  "the eidolon"
+msgstr "der Eidolon"
+
+#msgctxt "nom"
+msgid  "the phantasmal warrior"
+msgstr "der phantastische Krieger"
+
+#msgctxt "nom"
+msgid  "the large abomination"
+msgstr "der große Greuel"
+
+#msgctxt "nom"
+msgid  "the thrashing horror"
+msgstr "das verprügelnde Grauen"
+
+#msgctxt "nom"
+msgid  "the tentacled monstrosity"
+msgstr "die Tentakel-Monstrosität"
+
+#msgctxt "nom"
+msgid  "the Orb Guardian"
+msgstr "der Kugelwächter"
+
+#msgctxt "nom"
+msgid  "the tentacled starspawn"
+msgstr "der Tentakelsternbrut"
+
+#msgctxt "nom"
+msgid  "the starspawn tentacle"
+msgstr "der Sternbruttentakel"
+
+#msgctxt "nom"
+msgid  "the starspawn tentacle segment"
+msgstr "das Sternbruttentakelsegment"
+
+#msgctxt "nom"
+msgid  "the starcursed mass"
+msgstr "die sternverfluchte Masse"
+
+#msgctxt "nom"
+msgid  "the dream sheep"
+msgstr "das Traumschaf"
+
+#msgctxt "nom"
+msgid  "the yak"
+msgstr "das Yak"
+
+#msgctxt "nom"
+msgid  "the death yak"
+msgstr "das Todesyak"
+
+#msgctxt "nom"
+msgid  "the catoblepas"
+msgstr "die Catoblepas"
+
+#msgctxt "nom"
+msgid  "the elephant"
+msgstr "der Elefant"
+
+#msgctxt "nom"
+msgid  "the dire elephant"
+msgstr "der Schreckenselefant"
+
+#msgctxt "nom"
+msgid  "the hellephant"
+msgstr "der Höllefant"
+
+#msgctxt "nom"
+msgid  "the apis"
+msgstr "die Apis"
+
+#msgctxt "nom"
+msgid  "the ice beast"
+msgstr "die Eisbestie"
+
+#msgctxt "nom"
+msgid  "the sky beast"
+msgstr "das Himmelstier"
+
+#msgctxt "nom"
+msgid  "the zombie"
+msgstr "der Zombie"
+
+#msgctxt "nom"
+msgid  "the skeleton"
+msgstr "das Skelett"
+
+#msgctxt "nom"
+msgid  "the simulacrum"
+msgstr "das Simulacrum"
+
+#msgctxt "nom"
+msgid  "the small zombie"
+msgstr "der kleine Zombie"
+
+#msgctxt "nom"
+msgid  "the small skeleton"
+msgstr "das kleine Skelett"
+
+#msgctxt "nom"
+msgid  "the small simulacrum"
+msgstr "das kleine Simulacrum"
+
+#msgctxt "nom"
+msgid  "the large zombie"
+msgstr "der große Zombie"
+
+#msgctxt "nom"
+msgid  "the large skeleton"
+msgstr "das große Skelett"
+
+#msgctxt "nom"
+msgid  "the large simulacrum"
+msgstr "das große Simulacrum"
+
+#msgctxt "nom"
+msgid  "the spectral thing"
+msgstr "die spektrale Sache"
+
+#msgctxt "nom"
+msgid  "the electric eel"
+msgstr "der Zitteraal"
+
+#msgctxt "nom"
+msgid  "the kraken"
+msgstr "der Kraken"
+
+#msgctxt "nom"
+msgid  "the tentacle"
+msgstr "der Tentakel"
+
+#msgctxt "nom"
+msgid  "the tentacle segment"
+msgstr "das Tentakelsegment"
+
+#msgctxt "nom"
+msgid  "the octopode"
+msgstr "der Oktopod"
+
+#msgctxt "nom"
+msgid  "the lava snake"
+msgstr "die Lavaschlange"
+
+#msgctxt "nom"
+msgid  "the salamander"
+msgstr "der Salamander"
+
+#msgctxt "nom"
+msgid  "the salamander mystic"
+msgstr "der Salamander-Mystiker"
+
+#msgctxt "nom"
+msgid  "the Hellbinder"
+msgstr "der Höllenbinder"
+
+#msgctxt "nom"
+msgid  "the Cloud Mage"
+msgstr "der Wolkenmagier"
+
+#msgctxt "nom"
+msgid  "the player"
+msgstr "der Spieler"
+
+#msgctxt "nom"
+msgid  "the player illusion"
+msgstr "die Spieler-Illusion"
+
+#msgctxt "nom"
+msgid  "the dancing weapon"
+msgstr "die tanzende Waffe"
+
+#msgctxt "nom"
+msgid  "the spectral weapon"
+msgstr "die Spektralwaffe"
+
+#msgctxt "nom"
+msgid  "the eldritch tentacle"
+msgstr "der unheimliche Tentakel"
+
+#msgctxt "nom"
+msgid  "the eldritch tentacle segment"
+msgstr "das unheimliche Tentakelsegment"
+
+#msgctxt "nom"
+msgid  "the demonspawn"
+msgstr "die Dämonenbrut"
+
+#msgctxt "nom"
+msgid  "the monstrous demonspawn"
+msgstr "die monströse Dämonenbrut"
+
+#msgctxt "nom"
+msgid  "the gelid demonspawn"
+msgstr "der gelide Dämonenbrut"
+
+#msgctxt "nom"
+msgid  "the infernal demonspawn"
+msgstr "die höllische Dämonenbrut"
+
+#msgctxt "nom"
+msgid  "the torturous demonspawn"
+msgstr "die quälende Dämonenbrut"
+
+#msgctxt "nom"
+msgid  "the blood saint"
+msgstr "der Blutheilige"
+
+#msgctxt "nom"
+msgid  "the warmonger"
+msgstr "der Kriegstreiber"
+
+#msgctxt "nom"
+msgid  "the corrupter"
+msgstr "der Korruptor"
+
+#msgctxt "nom"
+msgid  "the black sun"
+msgstr "die schwarze Sonne"
+
+#msgctxt "nom"
+msgid  "the crimson imp"
+msgstr "das karminrote Teufelchen"
+
+#msgctxt "nom"
+msgid  "the quasit"
+msgstr "das Quasit"
+
+#msgctxt "nom"
+msgid  "the white imp"
+msgstr "das weiße Teufelchen"
+
+#msgctxt "nom"
+msgid  "the ufetubus"
+msgstr "der Ufetubus"
+
+#msgctxt "nom"
+msgid  "the iron imp"
+msgstr "das Eisenteufelchen"
+
+#msgctxt "nom"
+msgid  "the shadow imp"
+msgstr "das Schattenteufelchen"
+
+#msgctxt "nom"
+msgid  "the rust devil"
+msgstr "der Rostteufel"
+
+#msgctxt "nom"
+msgid  "the orange demon"
+msgstr "der orange Dämon"
+
+#msgctxt "nom"
+msgid  "the red devil"
+msgstr "der rote Teufel"
+
+#msgctxt "nom"
+msgid  "the hellwing"
+msgstr "der Höllenflügel"
+
+#msgctxt "nom"
+msgid  "the ice devil"
+msgstr "der Eisteufel"
+
+#msgctxt "nom"
+msgid  "the chaos spawn"
+msgstr "die Chaosbrut"
+
+#msgctxt "nom"
+msgid  "the sun demon"
+msgstr "der Sonnendämon"
+
+#msgctxt "nom"
+msgid  "the soul eater"
+msgstr "der Seelenfresser"
+
+#msgctxt "nom"
+msgid  "the smoke demon"
+msgstr "der Rauchdämon"
+
+#msgctxt "nom"
+msgid  "the neqoxec"
+msgstr "die Neqoxec"
+
+#msgctxt "nom"
+msgid  "the ynoxinul"
+msgstr "das Ynoxinul"
+
+#msgctxt "nom"
+msgid  "the sixfirhy"
+msgstr "der Sixfirhy"
+
+#msgctxt "nom"
+msgid  "the shadow demon"
+msgstr "der Schattendämon"
+
+#msgctxt "nom"
+msgid  "the green death"
+msgstr "der grüne Tod"
+
+#msgctxt "nom"
+msgid  "the blizzard demon"
+msgstr "der Blizzarddämon"
+
+#msgctxt "nom"
+msgid  "the balrug"
+msgstr "der Balrug"
+
+#msgctxt "nom"
+msgid  "the cacodemon"
+msgstr "der Cacodaemon"
+
+#msgctxt "nom"
+msgid  "the hell beast"
+msgstr "das Höllentier"
+
+#msgctxt "nom"
+msgid  "the hellion"
+msgstr "der Teufelsbraten"
+
+#msgctxt "nom"
+msgid  "the reaper"
+msgstr "der Schnitter"
+
+#msgctxt "nom"
+msgid  "the lorocyproca"
+msgstr "die Lorocyproca"
+
+#msgctxt "nom"
+msgid  "the tormentor"
+msgstr "der Peiniger"
+
+#msgctxt "nom"
+msgid  "the Brimstone Fiend"
+msgstr "der Schwefelunterweltler"
+
+#msgctxt "nom"
+msgid  "the Ice Fiend"
+msgstr "der Eisunterweltler"
+
+#msgctxt "nom"
+msgid  "the Tzitzimitl"
+msgstr "das Tzitzimitl"
+
+#msgctxt "nom"
+msgid  "the Hell Sentinel"
+msgstr "der Höllenwächter"
+
+#msgctxt "nom"
+msgid  "the Executioner"
+msgstr "der Scharfrichter"
+
+#msgctxt "nom"
+msgid  "the animated tree"
+msgstr "der animierte Baum"
+
+#msgctxt "nom"
+msgid  "the golem"
+msgstr "der Golem"
+
+#msgctxt "nom"
+msgid  "the saltling"
+msgstr "der Salzling"
+
+#msgctxt "nom"
+msgid  "the peacekeeper"
+msgstr "der Friedenshüter"
+
+#msgctxt "nom"
+msgid  "the iron golem"
+msgstr "der Eisengolem"
+
+#msgctxt "nom"
+msgid  "the crystal guardian"
+msgstr "der Kristallwächter"
+
+#msgctxt "nom"
+msgid  "the toenail golem"
+msgstr "der Zehennagelgolem"
+
+#msgctxt "nom"
+msgid  "the electric golem"
+msgstr "der Blitzgolem"
+
+#msgctxt "nom"
+msgid  "the ushabti"
+msgstr "die Uschabti"
+
+#msgctxt "nom"
+msgid  "the guardian golem"
+msgstr "der Wächtergolem"
+
+#msgctxt "nom"
+msgid  "the spellforged servitor"
+msgstr "der zaubergeschmeidete Diener"
+
+#msgctxt "nom"
+msgid  "the ice statue"
+msgstr "die Eisstatue"
+
+#msgctxt "nom"
+msgid  "the obsidian statue"
+msgstr "die Obsidianstatue"
+
+#msgctxt "nom"
+msgid  "the orange crystal statue"
+msgstr "die orange Kristallstatue"
+
+#msgctxt "nom"
+msgid  "the statue"
+msgstr "die Statue"
+
+#msgctxt "nom"
+msgid  "the training dummy"
+msgstr "die Trainingspuppe"
+
+#msgctxt "nom"
+msgid  "the pillar of salt"
+msgstr "die Säule des Salzes"
+
+#msgctxt "nom"
+msgid  "the block of ice"
+msgstr "der Eisblock"
+
+#msgctxt "nom"
+msgid  "the diamond obelisk"
+msgstr "der Diamantobelisk"
+
+#msgctxt "nom"
+msgid  "the lightning spire"
+msgstr "der Blitzturm"
+
+#msgctxt "nom"
+msgid  "the gargoyle"
+msgstr "der Gargoyle"
+
+#msgctxt "nom"
+msgid  "the war gargoyle"
+msgstr "der Kriegsgargoyle"
+
+#msgctxt "nom"
+msgid  "the molten gargoyle"
+msgstr "der geschmolzene Gargoyle"
+
+#msgctxt "nom"
+msgid  "the pandemonium lord"
+msgstr "der Pandemoniumsherr"
+
+#msgctxt "nom"
+msgid  "the hell lord"
+msgstr "der Höllenherr"
+
+#msgctxt "nom"
+msgid  "the ball lightning"
+msgstr "der Kugelblitz"
+
+#msgctxt "nom"
+msgid  "the ballistomycete spore"
+msgstr "die Ballistomycetenspore"
+
+#msgctxt "nom"
+msgid  "the lost soul"
+msgstr "die verlorene Seele"
+
+#msgctxt "nom"
+msgid  "the lurking horror"
+msgstr "das lauernde Grauen"
+
+#msgctxt "nom"
+msgid  "the orb of fire"
+msgstr "die Feuerkugel"
+
+#msgctxt "nom"
+msgid  "the orb of destruction"
+msgstr "die Kugel der Zerstörung"
+
+#msgctxt "nom"
+msgid  "the fulminant prism"
+msgstr "das fulminante Prisma"
+
+#msgctxt "nom"
+msgid  "the wretched star"
+msgstr "der elende Stern"
+
+#msgctxt "nom"
+msgid  "the battlesphere"
+msgstr "die Kampfsphäre"
+
+#msgctxt "nom"
+msgid  "the death cob"
+msgstr "der Todeskolben"
+
+#msgctxt "nom"
+msgid  "the moon troll"
+msgstr "der Mondtroll"
+
+#msgctxt "nom"
+msgid  "the Serpent of Hell"
+msgstr "die Schlange der Hölle"
+
+#msgctxt "nom"
+msgid  "the sensed monster"
+msgstr "das gespürte Monster"
+
+#msgctxt "nom"
+msgid  "the friendly sensed monster"
+msgstr "das freundliche gespürte Monster"
+
+#msgctxt "nom"
+msgid  "the trivial sensed monster"
+msgstr "das triviale gespürte Monster"
+
+#msgctxt "nom"
+msgid  "the easy sensed monster"
+msgstr "das leichte gespürte Monster"
+
+#msgctxt "nom"
+msgid  "the tough sensed monster"
+msgstr "das harte gespürte Monster"
+
+#msgctxt "nom"
+msgid  "the nasty sensed monster"
+msgstr "das furchtbare gespürte Monster"
+

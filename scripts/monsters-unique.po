@@ -1,0 +1,322 @@
+###############################################################################
+#
+# German translations for monster names
+#
+# Resources:
+#  - Google Translate (for initial rough translation)
+#  - dict.leo.org (English->German dictionary)
+#  - de.wikipedia.org
+#  - Google
+#
+# Translation notes:
+#
+#  - The German for "(hob)goblin" is "Kobold", but there are already kobolds in the game, so I've kept the English names.
+#
+#  - It's difficult to choose translations for the different types of magic users. I've gone with:
+#      Wizard -> Zauberer (because that's what they used for Harry Potter)
+#      the Enchantress -> die Hexenmeisterin (Google Translate and leo.org both gave me "die Zauberin", but I think this sounds better)
+#      Sorcerer -> Hexenmeister
+#      Mage -> Magier (so Earth Mage -> Erdmagier, etc.)
+#      Shifter -> Verwandler
+#
+###############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Monsters 1.0\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+##############################################
+# Uniques
+##############################################
+
+msgid  "Mennas"
+msgstr "Mennas"
+
+msgid  "Nessos"
+msgstr "Nessos"
+
+msgid  "Chuck"
+msgstr "Chuck"
+
+msgid  "Polyphemus"
+msgstr "Polyphem"
+
+msgid  "Antaeus"
+msgstr "Antaeus"
+
+msgid  "Tiamat"
+msgstr "Tiamat"
+
+msgid  "Bai Suzhen"
+msgstr "Bai Suzhen"
+
+msgid  "Xtahua"
+msgstr "Xtahua"
+
+msgid  "Ijyb"
+msgstr "Ijyb"
+
+msgid  "Robin"
+msgstr "Robin"
+
+msgid  "Grum"
+msgstr "Grum"
+
+msgid  "Duvessa"
+msgstr "Duvessa"
+
+msgid  "Dowan"
+msgstr "Dowan"
+
+msgid  "Fannar"
+msgstr "Fannar"
+
+msgid  "Jorgrun"
+msgstr "Jorgrun"
+
+msgid  "Natasha"
+msgstr "Natascha"
+
+msgid  "Arachne"
+msgstr "Arachne"
+
+msgid  "Asterion"
+msgstr "Asterion"
+
+msgid  "Agnes"
+msgstr "Agnes"
+
+msgid  "Dissolution"
+msgstr "Dissolution"
+
+msgid  "Sonja"
+msgstr "Sonja"
+
+msgid  "Pikel"
+msgstr "Pikel"
+
+msgid  "Boris"
+msgstr "Boris"
+
+msgid  "Menkaure"
+msgstr "Menkaure"
+
+msgid  "Khufu"
+msgstr "Khufu"
+
+msgid  "Ilsuiw"
+msgstr "Ilsuiw"
+
+msgid  "Vashnia"
+msgstr "Vashnia"
+
+msgid  "Erolcha"
+msgstr "Erolcha"
+
+msgid  "Urug"
+msgstr "Urug"
+
+msgid  "Nergalle"
+msgstr "Nergalle"
+
+msgid  "Saint Roka"
+msgstr "Sankt Roka"
+
+msgid  "Sojobo"
+msgstr "Sojobo"
+
+msgid  "Azrael"
+msgstr "Azrael"
+
+msgid  "Mara"
+msgstr "Mara"
+
+msgid  "Aizul"
+msgstr "Aizul"
+
+msgid  "Snorg"
+msgstr "Snorg"
+
+msgid  "Purgy"
+msgstr "Purgy"
+
+msgid  "Jory"
+msgstr "Jory"
+
+msgid  "Gastronok"
+msgstr "Gastronok"
+
+msgid  "Nellie"
+msgstr "Nellie"
+
+msgid  "Murray"
+msgstr "Murray"
+
+msgid  "Ignacio"
+msgstr "Ignacio"
+
+msgid  "Grinder"
+msgstr "Grinder"
+
+msgid  "Roxanne"
+msgstr "Roxanne"
+
+msgid  "Terence"
+msgstr "Terence"
+
+msgid  "Jessica"
+msgstr "Jessica"
+
+msgid  "Sigmund"
+msgstr "Sigmund"
+
+msgid  "Edmund"
+msgstr "Edmund"
+
+msgid  "Psyche"
+msgstr "Psyche"
+
+msgid  "Donald"
+msgstr "Donald"
+
+msgid  "Joseph"
+msgstr "Joseph"
+
+msgid  "Erica"
+msgstr "Erica"
+
+msgid  "Josephine"
+msgstr "Josephine"
+
+msgid  "Harold"
+msgstr "Harold"
+
+msgid  "Louise"
+msgstr "Louise"
+
+msgid  "Frances"
+msgstr "Frances"
+
+msgid  "Rupert"
+msgstr "Rupert"
+
+msgid  "Kirke"
+msgstr "Kirke"
+
+msgid  "Frederick"
+msgstr "Frederick"
+
+msgid  "Margery"
+msgstr "Margery"
+
+msgid  "Eustachio"
+msgstr "Eustachio"
+
+msgid  "Maurice"
+msgstr "Maurice"
+
+msgid  "Nikola"
+msgstr "Nikola"
+
+msgid  "Mnoleg"
+msgstr "Mnoleg"
+
+msgid  "Lom Lobon"
+msgstr "Lom Lobon"
+
+msgid  "Cerebov"
+msgstr "Cerebov"
+
+msgid  "Gloorx Vloq"
+msgstr "Gloorx Vloq"
+
+msgid  "Geryon"
+msgstr "Geryon"
+
+msgid  "Dispater"
+msgstr "Dispater"
+
+msgid  "Asmodeus"
+msgstr "Asmodäus"
+
+msgid  "Ereshkigal"
+msgstr "Ereshkigal"
+
+#msgctxt "nom"
+msgid  "Prince Ribbit"
+msgstr "Prinz Ribbit"
+
+msgctxt "akk"
+msgid  "Prince Ribbit"
+msgstr "Prinzen Ribbit"
+
+msgctxt "dat"
+msgid  "Prince Ribbit"
+msgstr "Prinzen Ribbit"
+
+#msgctxt "nom"
+msgid  "Crazy Yiuf"
+msgstr "Verrückter Yiuf"
+
+msgctxt "akk"
+msgid  "Crazy Yiuf"
+msgstr "Verrückten Yiuf"
+
+msgctxt "dat"
+msgid  "Crazy Yiuf"
+msgstr "Verrücktem Yiuf"
+
+#msgctxt "nom"
+msgid  "the Enchantress"
+msgstr "die Hexenmeisterin"
+
+msgctxt "akk"
+msgid  "the Enchantress"
+msgstr "die Hexenmeisterin"
+
+msgctxt "dat"
+msgid  "the Enchantress"
+msgstr "der Hexenmeisterin"
+
+#msgctxt "nom"
+msgid  "Blork the Orc"
+msgstr "Blork der Ork"
+
+msgctxt "akk"
+msgid  "Blork the Orc"
+msgstr "Blork den Ork"
+
+msgctxt "dat"
+msgid  "Blork the Orc"
+msgstr "Blork dem Ork"
+
+#msgctxt "nom"
+msgid  "the Lernaean hydra"
+msgstr "die Lernäische Hydra"
+
+msgctxt "akk"
+msgid  "the Lernaean hydra"
+msgstr "die Lernäische Hydra"
+
+msgctxt "dat"
+msgid  "the Lernaean hydra"
+msgstr "der Lernäischen Hydra"
+
+#msgctxt "nom"
+msgid  "the Royal Jelly"
+msgstr "das Gelée Royale"
+
+msgctxt "akk"
+msgid  "the Royal Jelly"
+msgstr "das Gelée Royale"
+
+msgctxt "dat"
+msgid  "the Royal Jelly"
+msgstr "dem Gelée Royale"
+
+
