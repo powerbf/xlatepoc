@@ -69,6 +69,13 @@ int main(int argc, char *argv[])
     result = nxlate("a flip flop", "%d flip flops", 3);
     check_result("plural", "%d thongs", result);
 
+    result = xlate("a flip flop");
+    check_result("singular xlate", "a thong", result);
+
+    // this will fail - you must use nxlate
+    //result = xlate("%d flip flops");
+    //check_result("plural xlate", "%d thongs", result);
+
     // test arg order change
     result = localize_sentence("%s hits %s.", "the arrow", "the orc");
     check_result("arg order", "The orc is hit by the arrow.", result);
