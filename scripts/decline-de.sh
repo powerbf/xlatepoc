@@ -62,18 +62,23 @@ function process {
 				fi
 
 				# adjust adjective ending
+				local CHECK=0
 				if [[ "$CONTEXT" == "dat" ]] || [[ $line =~ \"den ]]
 				then
 					# if there's a capitalized word apart from the final word then the result would be doubtful
 					if [[ $line =~ [[:space:]][[:upper:]].*[[:space:]] ]]
 					then
-						echo "# check this" >> $TMPFILE
+						CHECK=1
 					else
 						# adjective ending is -en
 						line=`echo "$line" | sed -r 's/e /en /g'`
 					fi
 				fi
 				echo "$line" >> $TMPFILE
+				if [ $CHECK -eq 1 ]
+				then
+					echo "# check line above" >> $TMPFILE
+				fi
 			else
 				local sing_de=`echo "$line" | sed 's/^msgstr/msgstr[0]/'`
 				local plural_de=`echo "$line" | sed 's/^msgstr/msgstr[1]/'`
@@ -96,10 +101,10 @@ function process {
 				# if there's a capitalized word apart from the final word then the result would be doubtful
 				if [[ $line =~ [[:space:]][[:upper:]].*[[:space:]] ]]
 				then
-					echo "# check both singular and plural" >> $TMPFILE
+					echo "$sing_de" >> $TMPFILE
+					echo "$plural_de" >> $TMPFILE
+					echo "# check both singular and plural above" >> $TMPFILE
 				else
-					echo "# check plural" >> $TMPFILE
-
 					# try to guess German plural noun form
 					plural_de=`echo "$plural_de" | sed 's/"[[:space:]]+$/"/'`
 
@@ -135,10 +140,12 @@ function process {
 						# adjective ending is -es for singular
 						sing_de=`echo "$sing_de" | sed 's/e /es /g'`
 					fi
+
+					echo "$sing_de" >> $TMPFILE
+					echo "$plural_de" >> $TMPFILE
+					echo "# check plural above" >> $TMPFILE
 				fi
 
-				echo "$sing_de" >> $TMPFILE
-				echo "$plural_de" >> $TMPFILE
 			fi
 		else
 			# some other type of line (comment, blank line)
