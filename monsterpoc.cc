@@ -7,6 +7,7 @@
 #include "localize.h"
 
 #include "monsters-inc.h"
+#include "english.h"
 
 using namespace std;
 
@@ -48,7 +49,7 @@ int main(int argc, char *argv[])
     cout << "Language is " << get_xlate_language() << endl;
     cout << "====================\n\n";
 
-    for (monster_type i = MONS_ORC; i <= MONS_ORC; i++)
+    for (monster_type i = MONS_PROGRAM_BUG; i < NUM_MONSTERS; i++)
     {
         const char *msgid = NULL;
         const char *fmtstr = NULL;
@@ -62,7 +63,8 @@ int main(int argc, char *argv[])
         }
 
         string the_monster = string("the ") + mon_def->name;
-        string a_monster = string("an ") + mon_def->name;
+
+        string a_monster = article_a(mon_def->name);
 
         string sentence;
 

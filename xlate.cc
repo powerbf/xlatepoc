@@ -57,6 +57,7 @@ void init_xlate(const string &lang)
     bindtextdomain("context-map", "./locale");
     bindtextdomain("messages", "./locale");
     bindtextdomain("entities", "./locale");
+    bindtextdomain("monsters", "./locale");
 
     // set default domain
     textdomain(DEFAULT_DOMAIN.c_str());

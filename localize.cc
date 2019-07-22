@@ -424,7 +424,7 @@ string localize(const string& fmt_string, va_list& args)
                 else if (*type == typeid(char*))
                 {
                     // arg is string and needs to be localized
-                    string argx = dcxlate("entities", context, arg.s);
+                    string argx = dcxlate("monsters", context, arg.s);
                     s = make_stringf(fmt_spec.c_str(), argx.c_str());
                 }
                 else if (*type == typeid(void*))
