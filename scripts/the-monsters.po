@@ -1472,10 +1472,6 @@ msgid  "the player illusion"
 msgstr "die Spieler-Illusion"
 
 #msgctxt "nom"
-msgid  "the shadow"
-msgstr "der Schatten"
-
-#msgctxt "nom"
 msgid  "the dancing weapon"
 msgstr "die tanzende Waffe"
 
