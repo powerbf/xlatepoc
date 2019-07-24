@@ -37,7 +37,7 @@ msgstr "die Vampirfledermaus"
 
 #msgctxt "nom"
 msgid  "the fire bat"
-msgstr "der Feuerfledermaus"
+msgstr "die Feuerfledermaus"
 
 #msgctxt "nom"
 msgid  "the bennu"
@@ -529,7 +529,7 @@ msgstr "die Ratte"
 
 #msgctxt "nom"
 msgid  "the quokka"
-msgstr "der Quokka"
+msgstr "das Quokka"
 
 #msgctxt "nom"
 msgid  "the river rat"

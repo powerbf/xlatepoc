@@ -5,6 +5,178 @@
 ######################################################################
 
 #####################################
+# Extract text from line
+#####################################
+function extract_text {
+	local line="$1"
+	local text=`echo "$line" | sed -e 's/^[^"]*"//' -e 's/"[[:blank:]]*$//'`
+	echo "$text"
+}
+
+#####################################
+# Check line
+#####################################
+function check_line {
+	local line=$1
+
+	if [[ $line =~ ^[[:space:]]*# ]] || [[ $line =~ ^[[:blank:]]*$ ]]
+	then
+		: # skip
+	elif [[ $line =~ msgid ]]
+	then
+		if ! [[ $line =~ ^msgid[[:space:]]+\"[^\"]*\"[[:blank:]]*$ ]]
+		then
+			echo "ERROR: bad line: $line"
+		fi
+	elif [[ $line =~ msgstr ]]
+	then
+		if ! [[ $line =~ ^msgstr[[:space:]]+\"[^\"]*\"[[:blank:]]*$ ]]
+		then
+			echo "ERROR: bad line: $line"
+		fi
+
+		local text=$(extract_text "$line")
+
+		if [[ $text =~ ^[[:blank:]] ]]
+		then
+			echo "WARNING: Blank space at start of \"$text\""
+			text=`echo "$text" | sed -e 's/^[[:blank:]]+//'`		
+		fi
+
+		local gender='unk' # unknown
+		if [[ $text =~ ^der\  ]]
+		then
+			gender=masc
+		elif [[ $text =~ ^die\  ]]
+		then
+			gender=fem
+		elif [[ $text =~ ^das\  ]]
+		then
+			gender=neut
+		fi
+
+		# remove "of <whatever>"
+		local full_text="$text"
+		text=`echo "$text" | sed -e 's/ des .*$//' -e 's/ der .*$//'`		
+
+		if [[ $text =~ lein$ ]] || [[ $text =~ chen$ ]] || [[ $text =~ ment$ ]] || [[ $text =~ tel$ ]]
+		then
+			# should be neuter
+			if [[ $gender != neut  ]]
+			then
+				echo "WARNING: Should be neuter: \"$full_text\""
+			fi
+		elif [[ $text =~ um$ ]] || [[ $text =~ sel$ ]] || [[ $text =~ ma$ ]]
+		then
+			# should be neuter, apart from a few exceptions
+			if [[ $text =~ [Ii]rrtum$ ]] || [[ $text =~ [Rr]eichtum$ ]] || [[ $text =~ [Kk]onsum$ ]] || [[ $text =~ [Bb]aum$ ]] || [[ $text =~ [Ss]treusel$ ]]
+			then
+				if [[ $gender != masc ]]
+				then
+					echo "WARNING: Should be masculine: \"$full_text\""
+				fi
+			elif [[ $text =~ [Ff]irma$ ]]
+			then
+				if [[ $gender != fem ]]
+				then
+					echo "WARNING: Should be feminine: \"$full_text\""
+				fi
+			else
+				if [[ $gender != neut  ]]
+				then
+					echo "WARNING: Should be neuter: \"$full_text\""
+				fi
+			fi
+		elif [[ $text =~ ung$ ]] || [[ $text =~ tion$ ]] || [[ $text =~ heit$ ]] || [[ $text =~ keit$ ]] || [[ $text =~ schaft$ ]] || \
+			 [[ $text =~ enz$ ]] || [[ $text =~ anz$ ]] || [[ $text =~ ik$ ]] || [[ $text =~ tät$ ]] || [[ $text =~ itis$ ]] || \
+			 [[ $text =~ sis$ ]] || [[ $text =~ ade$ ]] || [[ $text =~ age$ ]] || [[ $text =~ ere$ ]] || [[ $text =~ ine$ ]] || \
+			 [[ $text =~ isse$ ]] || [[ $text =~ ive$ ]] || [[ $text =~ ei$ ]]
+		then
+			# should be feminine
+			if [[ $gender != fem  ]]
+			then
+				echo "WARNING: Should be feminine: \"$full_text\""
+			fi
+		elif [[ $text =~ ie$ ]]
+		then
+			# should be feminine apart from a few exceptions
+			if [[ $text =~ [Zz]ombie$ ]]
+			then
+				if [[ $gender != masc ]]
+				then
+					echo "WARNING: Should be masculine: \"$full_text\""
+				fi
+			else
+				if [[ $gender != fem  ]]
+				then
+					echo "WARNING: Should be feminine: \"$full_text\""
+				fi
+			fi
+		elif [[ $text =~ ant$ ]] || [[ $text =~ ast$ ]] || [[ $text =~ ich$ ]] || [[ $text =~ ig$ ]] || [[ $text =~ ling$ ]] || [[ $text =~ ismus$ ]]
+		then
+			# should be masculine
+			if [[ $gender != masc  ]]
+			then
+				echo "WARNING: Should be masculine: \"$full_text\""
+			fi
+		elif [[ $text =~ ist$ ]]
+		then
+			# probably should be masculine
+			if [[ $gender != masc  ]]
+			then
+				echo "WARNING: Probably should be masculine: \"$full_text\""
+			fi
+		elif [[ $text =~ or$ ]]
+		then
+			# should be masculine, except das Labor.
+			if [[ $text =~ [Ll]abor$ ]]
+			then
+				if [[ $gender != neut ]]
+				then
+					echo "WARNING: Should be neuter: \"$full_text\""
+				fi
+			else
+				if [[ $gender != masc  ]]
+				then
+					echo "WARNING: Should be masculine: \"$full_text\""
+				fi
+			fi
+		elif [[ $text =~ us$ ]]
+		then
+			if [[ $text =~ [Mm]aus$ ]]
+			then
+				# die Maus, die Fledermaus
+				if [[ $gender != fem ]]
+				then
+					echo "WARNING: Should be feminine: \"$full_text\""
+				fi
+			elif [[ $text =~ [Hh]aus$ ]]
+			then
+				# das Haus
+				if [[ $gender != neut ]]
+				then
+					echo "WARNING: Should be neuter: \"$full_text\""
+				fi
+			else
+				# probably should be masculine
+				if [[ $gender != masc  ]]
+				then
+					echo "WARNING: Probably should be masculine: \"$full_text\""
+				fi
+			fi
+		fi
+	fi
+}
+
+function check_file {
+	echo "Checking $INFILE..."
+	while IFS= read -r line
+	do
+		check_line "$line"
+	done < "$INFILE"
+}
+
+#####################################
 # Make English plural
 #####################################
 function make_english_plural {
@@ -113,6 +285,172 @@ function make_english_plural {
 }
 
 #####################################
+# Make German plural
+#
+# References:
+# - https://www.vistawide.com/german/grammar/german_nouns02.htm
+# - https://www.germanveryeasy.com/plural
+#
+#####################################
+function make_german_plural {
+	local line="$1"
+	local gender="$2"
+	local context="$3" # because case is a reserved word
+
+	local singular=$(extract_text "$line")
+	local plural=`echo "$singular" | sed -e 's/^der /%d /' -e 's/^die /%d /' -e 's/^das /%d /'`
+
+	local certain=0
+	local warning=''
+
+	if [[ $singular =~ [Zz]ombie$ ]] || [[ $singular =~ [Gg]oblin$ ]] || [[ $singular =~ [Ww]yvern$ ]] || 
+	   [[ $singular =~ [Ss]priggan$ ]] || [[ $singular =~ [Kk]lown$ ]] || [[ $singular =~ Lich$ ]] || 
+       [[ $singular =~ [Gg]argoyle$ ]] 
+	then
+		# borrowed English words take -s
+		plural="$plural"s
+		certain=1
+	elif [[ $singular =~ [Bb]aum$ ]]
+	then
+		plural=`echo "$plural" | sed 's/aum$/äume/'`
+		certain=1
+	elif [[ $singular =~ [Kk]olben$ ]] || [[ $singular =~ [Ss]chatten$ ]]
+	then
+		# no change
+		certain=1
+	elif [[ $singular =~ [Gg]eist$ ]]
+	then
+		# add -er
+		plural="$plural"er
+		certain=1
+	elif [[ $singular =~ e$ ]]
+	then
+		# nouns ending in -e normally add -n
+		plural="$plural"n
+		if [[ $gender == fem ]]
+		then
+			# if it's feminine, then it's certain
+			certain=1
+		fi
+	elif [[ $singular =~ [aoiuy]$ ]]
+	then
+		# nouns ending in other vowels normally add -s, apart from a few exceptions
+		if [[ $singular =~ [Hh]ydra$ ]] || [[ $singular =~ [Pp]risma$ ]] || [[ $singular =~ [Tt]arantella$ ]]
+		then
+			# -a -> -en
+			plural=`echo "$plural" | sed 's/a$/en/'`
+		else
+			# add -s
+			plural="$plural"s
+		fi
+	elif [[ $singular =~ chen$ ]] || [[ $singular =~ lein$ ]]
+	then
+		# no change - guaranteed
+		certain=1
+	elif [[ $singular =~ el$ ]] || [[ $singular =~ er$ ]]
+	then
+		# feminine nouns add -n (e.g. Kugeln), masc/neut usually don't change, but there are some exceptions
+		if [[ $gender == fem ]]
+		then
+			plural="$plural"n
+		elif [[ $singular =~ [Tt]ier$ ]]
+		then
+			# Tier -> Tiere
+			plural="$plural"e
+		fi
+	elif [[ $singular =~ us$ ]]
+	then
+		if [[ $singular =~ aus$ ]]
+		then
+			# Fledermäuse, etc.
+			plural=`echo "$plural" | sed 's/aus$/äuse/'`
+			certain=1
+		elif [[ $singluar =~ Ufetubus$ ]]
+		then
+			plural=`echo "$plural" | sed 's/us$/i/'`
+			certain=1
+		else
+			plural=`echo "$plural" | sed 's/us$/en/'`
+		fi
+	elif [[ $singular =~ um$ ]]
+	then
+		plural=`echo "$plural" | sed 's/um$/en/'`
+	elif [[ $singlar =~ nis$ ]]
+	then
+		# nis -> nisse
+		plural="$plural"se
+		certain=1
+	elif [[ $singular =~ eur\" ]] || [[ $singular =~ ich\" ]] || [[ $singular =~ ig\" ]] || [[ $singular =~ ling\" ]]
+	then
+		# always add -e
+		plural="$plural"e
+		certain=1
+	elif [[ $singular =~ ör\" ]] || [[ $singular =~ är\" ]] || [[ $singular =~ ar\" ]]
+	then
+		# probably add -e
+		plural="$plural"e
+	elif [[ $singular =~ at\" ]] || [[ $singular =~ ant\" ]] || [[ $singular =~ ent\" ]] | [[ $singular =~ ist\" ]]
+	then
+		# always add -en
+		plural="$plural"en
+		certain=1
+	elif [[ $gender == fem ]]
+	then
+		if [[ $singular =~ in$ ]]
+		then
+			# Königinnen, etc
+			plural="$plural"nen
+			certain=1
+		elif [[ $singular =~ itis$ ]]
+		then
+			# itis -> iden
+			plural=`echo "$plural" | sed 's/itis$/iden/'`
+			certain=1
+		elif [[ $singular =~ xis$ ]]
+		then
+			# xis -> xien
+			plural=`echo "$plural" | sed 's/xis$/xien/'`
+			certain=1
+		elif [[ $singular =~ sis$ ]]
+		then
+			# sis -> sen
+			plural=`echo "$plural" | sed 's/sis$/sen/'`
+			certain=1
+		elif [[ $text =~ ung$ ]] || [[ $text =~ tion$ ]] || [[ $text =~ heit$ ]] || [[ $text =~ keit$ ]] || [[ $text =~ schaft$ ]] || \
+			 [[ $text =~ tät$ ]] || [[ $text =~ ei$ ]]
+		then
+			# definitely add -en
+			plural="$plural"en
+			certain=1
+		else
+			# probably add -en
+			plural="$plural"en
+		fi
+	else
+		# other words normally add -e
+		plural="$plural"e
+	fi
+
+	if [[ $context == dat ]]
+	then
+		# in dative, must add extra -n if plural does not already end in -n or -s
+		if ! [[ $plural =~ n$ ]] && ! [[ $plural =~ s$ ]]
+		then
+			plural="$plural"n
+		fi
+
+		# adjective ending is -en
+		plural=`echo "$plural" | sed 's/e /en /g'`
+	fi
+
+	echo "msgstr[1] \"$plural\""
+	if [[ $certain == 0 ]]
+	then
+		echo "# check plural above"
+	fi
+}
+
+#####################################
 # Process for given article and case
 #####################################
 function process {
@@ -163,6 +501,9 @@ function process {
 			fi
 		elif [[ $line =~ ^msgstr ]]
 		then
+			# remove trailing spaces
+			line=`echo "$line" | sed 's/"[[:blank:]]+$/"/'`
+
 			# msgstr line (German)
 			if [ $ARTICLE == definite ]
 			then
@@ -193,70 +534,111 @@ function process {
 					echo "# check line above" >> $TMPFILE
 				fi
 			else
-				local sing_de=`echo "$line" | sed 's/^msgstr/msgstr[0]/'`
-				local plural_de=`echo "$line" | sed 's/^msgstr/msgstr[1]/'`
-
-				if [ $CONTEXT == nom ]
+				local gender='unk' # unknown
+				if [[ $line =~ \"der\  ]]
 				then
-					sing_de=`echo "$sing_de" | sed 's/"der /"ein /' | sed 's/"das /"ein /' | sed 's/"die /"eine /'`
-				elif [ $CONTEXT == akk ]
+					gender=masc
+				elif [[ $line =~ \"die\  ]]
 				then
-					sing_de=`echo "$sing_de" | sed 's/"der /"einen /' | sed 's/"das /"ein /' | sed 's/"die /"eine /'`
-				elif [ $CONTEXT == dat ]
+					gender=fem
+				elif [[ $line =~ \"das\  ]]
 				then
-					sing_de=`echo "$sing_de" | sed 's/"der /"einem /' | sed 's/"das /"einem /' | sed 's/"die /"einer /'`
+					gender=neut
 				fi
 
-				plural_de=`echo "$plural_de" | sed 's/"der /"%d /' | sed 's/"das /"%d /' | sed 's/"die /"%d /'`
+				local sing_de=`echo "$line" | sed 's/^msgstr/msgstr[0]/'`
 
-				# adjust adjectives
+				if [[ $gender == masc ]]
+				then
+					if [[ $CONTEXT == nom ]]
+					then
+						sing_de=`echo "$sing_de" | sed 's/"der/"ein/'`
+					elif [[ $CONTEXT == akk ]]
+					then
+						sing_de=`echo "$sing_de" | sed 's/"der/"einen/'`
+					else
+						sing_de=`echo "$sing_de" | sed 's/"der/"einem/'`
+					fi
+				elif [[ $gender == fem ]]
+				then
+					if [[ $CONTEXT == dat ]]
+					then
+						sing_de=`echo "$sing_de" | sed 's/"die/"einer/'`
+					fi
+				elif [[ $gender == neut ]]
+				then
+					if [[ $CONTEXT == dat ]]
+					then
+						sing_de=`echo "$sing_de" | sed 's/"das/"einem/'`
+					else
+						sing_de=`echo "$sing_de" | sed 's/"das/"ein/'`
+					fi
+				fi						
+				
+				if [[ $gender == masc ]]
+				then
+					if [[ $CONTEXT == nom ]]
+					then
+						sing_de=`echo "$sing_de" | sed 's/"der /"ein /'`
+					elif [[ $CONTEXT == akk ]]
+					then
+						sing_de=`echo "$sing_de" | sed 's/"der /"einen /'`
+					else
+						sing_de=`echo "$sing_de" | sed 's/"der /"einem /'`
+					fi
+				elif [[ $gender == fem ]]
+				then
+					if [[ $CONTEXT == dat ]]
+					then
+						sing_de=`echo "$sing_de" | sed 's/"die /"einer /'`
+					else
+						sing_de=`echo "$sing_de" | sed 's/"die /"eine /'`
+					fi
+				elif [[ $gender == neut ]]
+				then
+					if [[ $CONTEXT == dat ]]
+					then
+						sing_de=`echo "$sing_de" | sed 's/"das /"einem /'`
+					else
+						sing_de=`echo "$sing_de" | sed 's/"das /"ein /'`
+					fi
+				fi
 
 				# if there's a capitalized word apart from the final word then the result would be doubtful
 				if [[ $line =~ [[:space:]][[:upper:]].*[[:space:]] ]]
 				then
+					local plural_de=`echo "$line" | sed -e 's/^msgstr[^"]*"/msgstr[1] "/' -e 's/"der /"%d /' -e 's/"die /"%d /' -e 's/"das /"%d /'`
 					echo "$sing_de" >> $TMPFILE
 					echo "$plural_de" >> $TMPFILE
-					echo "# check both singular and plural above" >> $TMPFILE
+					echo "# check both singular and plural above (multiple nouns)" >> $TMPFILE
 				else
-					# try to guess German plural noun form
-					plural_de=`echo "$plural_de" | sed 's/"[[:space:]]+$/"/'`
-
-					plural_de=`echo "$plural_de" | sed 's/e"$/en"/'`
-					plural_de=`echo "$plural_de" | sed 's/in"$/innen"/'`
-					plural_de=`echo "$plural_de" | sed 's/ist"$/isten"/'`
-					plural_de=`echo "$plural_de" | sed -r 's/([^nr ])"$/\1e"/'`
-
-					plural_de=`echo "$plural_de" | sed 's/mause"$/mäuse"/'`
-
-					if [ $CONTEXT == dat ]
+					# adjust adjectives
+					if [[ $CONTEXT == dat ]]
 					then
-						plural_de=`echo "$plural_de" | sed 's/r"$/rn"/'`
-						plural_de=`echo "$plural_de" | sed 's/e"$/en"/'`
-						plural_de=`echo "$plural_de" | sed -r 's/([^n ])"$/\1en"/'`
-					fi	
-
-					if [ $CONTEXT == dat ]
-					then
-						# adjective ending is -en for both singular and plural
+						# adjective ending is -en for all genders
 						sing_de=`echo "$sing_de" | sed 's/e /en /g'`
-						plural_de=`echo "$plural_de" | sed 's/e /en /g'`
-					elif [ $CONTEXT == akk ] && [[ "$sing_de" =~ "\"einen " ]]
+					elif [[ $gender == neut ]]
 					then
-						# adjective ending is -en for singular only
-						sing_de=`echo "$sing_de" | sed 's/e /en /g'`
-					elif [ $CONTEXT == nom ] && [[ "$line" =~ "\der " ]]
-					then
-						# adjective ending is -er for singular
-						sing_de=`echo "$sing_de" | sed 's/e /er /g'`
-					elif [[ "$line" =~ "\"das " ]]
-					then
-						# adjective ending is -es for singular
+						# adjective ending is -es
 						sing_de=`echo "$sing_de" | sed 's/e /es /g'`
+					elif [[ $gender == masc ]]
+					then
+						if [[ $CONTEXT == nom ]]
+						then
+							# adjective ending is -er
+							sing_de=`echo "$sing_de" | sed 's/e /er /g'`
+						elif [[ $CONTEXT == akk ]]
+						then
+							# adjective ending is -en
+							sing_de=`echo "$sing_de" | sed 's/e /en /g'`
+						fi
 					fi
 
+					# generate German plural
+					local plural_de=$(make_german_plural "$line" "$gender" "$CONTEXT")
+
 					echo "$sing_de" >> $TMPFILE
 					echo "$plural_de" >> $TMPFILE
-					echo "# check plural above" >> $TMPFILE
 				fi
 
 			fi
@@ -279,6 +661,8 @@ then
 fi
 
 OUTFILE=de-out.po
+
+check_file
 
 echo "Writing output to $OUTFILE..."
 echo > $OUTFILE

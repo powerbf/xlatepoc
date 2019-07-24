@@ -367,7 +367,7 @@ msgstr "die Vampirfledermaus"
 
 #msgctxt "nom"
 msgid  "the fire bat"
-msgstr "der Feuerfledermaus"
+msgstr "die Feuerfledermaus"
 
 #msgctxt "nom"
 msgid  "the bennu"
@@ -859,7 +859,7 @@ msgstr "die Ratte"
 
 #msgctxt "nom"
 msgid  "the quokka"
-msgstr "der Quokka"
+msgstr "das Quokka"
 
 #msgctxt "nom"
 msgid  "the river rat"
@@ -2199,7 +2199,7 @@ msgstr "die Vampirfledermaus"
 
 msgctxt "akk"
 msgid  "the fire bat"
-msgstr "den Feuerfledermaus"
+msgstr "die Feuerfledermaus"
 
 msgctxt "akk"
 msgid  "the bennu"
@@ -2692,7 +2692,7 @@ msgstr "die Ratte"
 
 msgctxt "akk"
 msgid  "the quokka"
-msgstr "den Quokka"
+msgstr "das Quokka"
 
 msgctxt "akk"
 msgid  "the river rat"
@@ -4032,7 +4032,7 @@ msgstr "der Vampirfledermaus"
 
 msgctxt "dat"
 msgid  "the fire bat"
-msgstr "dem Feuerfledermaus"
+msgstr "der Feuerfledermaus"
 
 msgctxt "dat"
 msgid  "the bennu"
@@ -5845,21 +5845,18 @@ msgid "a worker ant"
 msgid_plural "%d worker ants"
 msgstr[0] "eine Ameisenarbeiterin"
 msgstr[1] "%d Ameisenarbeiterinnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a queen ant"
 msgid_plural "%d queen ants"
 msgstr[0] "eine Ameisenkönigin"
 msgstr[1] "%d Ameisenköniginnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a soldier ant"
 msgid_plural "%d soldier ants"
 msgstr[0] "eine Ameisensoldatin"
 msgstr[1] "%d Ameisensoldatinnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a formicid"
@@ -5880,7 +5877,6 @@ msgid "a bat"
 msgid_plural "%d bats"
 msgstr[0] "eine Fledermaus"
 msgstr[1] "%d Fledermäuse"
-# check plural above
 
 #msgctxt "nom"
 msgid "a butterfly"
@@ -5894,26 +5890,24 @@ msgid "a vampire bat"
 msgid_plural "%d vampire bats"
 msgstr[0] "eine Vampirfledermaus"
 msgstr[1] "%d Vampirfledermäuse"
-# check plural above
 
 #msgctxt "nom"
 msgid "a fire bat"
 msgid_plural "%d fire bats"
-msgstr[0] "ein Feuerfledermaus"
+msgstr[0] "eine Feuerfledermaus"
 msgstr[1] "%d Feuerfledermäuse"
-# check plural above
 
 #msgctxt "nom"
 msgid "a bennu"
 msgid_plural "%d bennus"
 msgstr[0] "ein Bennu"
-msgstr[1] "%d Bennue"
+msgstr[1] "%d Bennus"
 # check plural above
 
 #msgctxt "nom"
 msgid "a caustic shrike"
 msgid_plural "%d caustic shrikes"
-msgstr[0] "ein ätzende Würger"
+msgstr[0] "ein ätzender Würger"
 msgstr[1] "%d ätzende Würger"
 # check plural above
 
@@ -5928,7 +5922,7 @@ msgstr[1] "%d Scherbenwürger"
 msgid "a centaur"
 msgid_plural "%d centaurs"
 msgstr[0] "ein Zentaur"
-msgstr[1] "%d Zentaur"
+msgstr[1] "%d Zentaure"
 # check plural above
 
 #msgctxt "nom"
@@ -5942,28 +5936,28 @@ msgstr[1] "%d Zentaur-Krieger"
 msgid "a yaktaur"
 msgid_plural "%d yaktaurs"
 msgstr[0] "ein Yaktaur"
-msgstr[1] "%d Yaktaur"
+msgstr[1] "%d Yaktaure"
 # check plural above
 
 #msgctxt "nom"
 msgid "a yaktaur captain"
 msgid_plural "%d yaktaur captains"
 msgstr[0] "ein Yaktaur-Kapitän"
-msgstr[1] "%d Yaktaur-Kapitän"
+msgstr[1] "%d Yaktaur-Kapitäne"
 # check plural above
 
 #msgctxt "nom"
 msgid "a faun"
 msgid_plural "%d fauns"
 msgstr[0] "ein Faun"
-msgstr[1] "%d Faun"
+msgstr[1] "%d Faune"
 # check plural above
 
 #msgctxt "nom"
 msgid "a satyr"
 msgid_plural "%d satyrs"
 msgstr[0] "ein Satyr"
-msgstr[1] "%d Satyr"
+msgstr[1] "%d Satyre"
 # check plural above
 
 #msgctxt "nom"
@@ -5976,56 +5970,56 @@ msgstr[1] "%d Drakonier"
 #msgctxt "nom"
 msgid "a black draconian"
 msgid_plural "%d black draconians"
-msgstr[0] "ein schwarze Drakonier"
+msgstr[0] "ein schwarzer Drakonier"
 msgstr[1] "%d schwarze Drakonier"
 # check plural above
 
 #msgctxt "nom"
 msgid "a yellow draconian"
 msgid_plural "%d yellow draconians"
-msgstr[0] "ein gelbe Drakonier"
+msgstr[0] "ein gelber Drakonier"
 msgstr[1] "%d gelbe Drakonier"
 # check plural above
 
 #msgctxt "nom"
 msgid "a pale draconian"
 msgid_plural "%d pale draconians"
-msgstr[0] "ein blasse Drakonier"
+msgstr[0] "ein blasser Drakonier"
 msgstr[1] "%d blasse Drakonier"
 # check plural above
 
 #msgctxt "nom"
 msgid "a green draconian"
 msgid_plural "%d green draconians"
-msgstr[0] "ein grüne Drakonier"
+msgstr[0] "ein grüner Drakonier"
 msgstr[1] "%d grüne Drakonier"
 # check plural above
 
 #msgctxt "nom"
 msgid "a purple draconian"
 msgid_plural "%d purple draconians"
-msgstr[0] "ein purpurne Drakonier"
+msgstr[0] "ein purpurner Drakonier"
 msgstr[1] "%d purpurne Drakonier"
 # check plural above
 
 #msgctxt "nom"
 msgid "a red draconian"
 msgid_plural "%d red draconians"
-msgstr[0] "ein rote Drakonier"
+msgstr[0] "ein roter Drakonier"
 msgstr[1] "%d rote Drakonier"
 # check plural above
 
 #msgctxt "nom"
 msgid "a white draconian"
 msgid_plural "%d white draconians"
-msgstr[0] "ein weiße Drakonier"
+msgstr[0] "ein weißer Drakonier"
 msgstr[1] "%d weiße Drakonier"
 # check plural above
 
 #msgctxt "nom"
 msgid "a grey draconian"
 msgid_plural "%d grey draconians"
-msgstr[0] "ein graue Drakonier"
+msgstr[0] "ein grauer Drakonier"
 msgstr[1] "%d graue Drakonier"
 # check plural above
 
@@ -6152,13 +6146,13 @@ msgstr[1] "%d Tiefenelf-Todesmagier"
 msgid "a deep elf elementalist"
 msgid_plural "%d deep elf elementalists"
 msgstr[0] "ein Tiefenelf-Elementalist"
-msgstr[1] "%d Tiefenelf-Elementalisten"
+msgstr[1] "%d Tiefenelf-Elementaliste"
 # check plural above
 
 #msgctxt "nom"
 msgid "a wandering mushroom"
 msgid_plural "%d wandering mushrooms"
-msgstr[0] "ein wandernde Pilz"
+msgstr[0] "ein wandernder Pilz"
 msgstr[1] "%d wandernde Pilze"
 # check plural above
 
@@ -6167,7 +6161,6 @@ msgid "a deathcap"
 msgid_plural "%d deathcaps"
 msgstr[0] "eine Todesmütze"
 msgstr[1] "%d Todesmützen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a thorn hunter"
@@ -6181,7 +6174,6 @@ msgid "a shambling mangrove"
 msgid_plural "%d shambling mangroves"
 msgstr[0] "eine watschelnde Mangrove"
 msgstr[1] "%d watschelnde Mangroven"
-# check plural above
 
 #msgctxt "nom"
 msgid "a vine stalker"
@@ -6194,15 +6186,13 @@ msgstr[1] "%d Rebjäger"
 msgid "a goblin"
 msgid_plural "%d goblins"
 msgstr[0] "ein Goblin"
-msgstr[1] "%d Goblinnen"
-# check plural above
+msgstr[1] "%d Goblins"
 
 #msgctxt "nom"
 msgid "a hobgoblin"
 msgid_plural "%d hobgoblins"
 msgstr[0] "ein Hobgoblin"
-msgstr[1] "%d Hobgoblinnen"
-# check plural above
+msgstr[1] "%d Hobgoblins"
 
 #msgctxt "nom"
 msgid "a gnoll"
@@ -6285,7 +6275,7 @@ msgstr[1] "%d Wolfe"
 msgid "a hog"
 msgid_plural "%d hogs"
 msgstr[0] "ein Schwein"
-msgstr[1] "%d Schweinnen"
+msgstr[1] "%d Schweine"
 # check plural above
 
 #msgctxt "nom"
@@ -6306,21 +6296,21 @@ msgstr[1] "%d Untergangshunde"
 msgid "a raiju"
 msgid_plural "%d raiju"
 msgstr[0] "ein Raiju"
-msgstr[1] "%d Raijue"
+msgstr[1] "%d Raijus"
 # check plural above
 
 #msgctxt "nom"
 msgid "a hell hog"
 msgid_plural "%d hell hogs"
 msgstr[0] "ein höllisches Schwein"
-msgstr[1] "%d höllische Schweinnen"
+msgstr[1] "%d höllische Schweine"
 # check plural above
 
 #msgctxt "nom"
 msgid "a holy swine"
 msgid_plural "%d holy swine"
 msgstr[0] "ein heiliges Schwein"
-msgstr[1] "%d heilige Schweinnen"
+msgstr[1] "%d heilige Schweine"
 # check plural above
 
 #msgctxt "nom"
@@ -6334,29 +6324,28 @@ msgstr[1] "%d Felide"
 msgid "a bear"
 msgid_plural "%d bears"
 msgstr[0] "ein Bär"
-msgstr[1] "%d Bär"
+msgstr[1] "%d Bäre"
 # check plural above
 
 #msgctxt "nom"
 msgid "a polar bear"
 msgid_plural "%d polar bears"
 msgstr[0] "ein Eisbär"
-msgstr[1] "%d Eisbär"
+msgstr[1] "%d Eisbäre"
 # check plural above
 
 #msgctxt "nom"
 msgid "a black bear"
 msgid_plural "%d black bears"
 msgstr[0] "ein Schwarzbär"
-msgstr[1] "%d Schwarzbär"
+msgstr[1] "%d Schwarzbäre"
 # check plural above
 
 #msgctxt "nom"
 msgid "a spriggan"
 msgid_plural "%d spriggans"
 msgstr[0] "ein Spriggan"
-msgstr[1] "%d Spriggan"
-# check plural above
+msgstr[1] "%d Spriggans"
 
 #msgctxt "nom"
 msgid "a spriggan rider"
@@ -6440,27 +6429,25 @@ msgid "a giant lizard"
 msgid_plural "%d giant lizards"
 msgstr[0] "eine Rieseneidechse"
 msgstr[1] "%d Rieseneidechsen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a frilled lizard"
 msgid_plural "%d frilled lizards"
 msgstr[0] "eine gekräuselte Eidechse"
 msgstr[1] "%d gekräuselte Eidechsen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a leopard gecko"
 msgid_plural "%d leopard geckos"
 msgstr[0] "ein Leopardgecko"
-msgstr[1] "%d Leopardgeckoe"
+msgstr[1] "%d Leopardgeckos"
 # check plural above
 
 #msgctxt "nom"
 msgid "an iguana"
 msgid_plural "%d iguanas"
 msgstr[0] "ein Leguan"
-msgstr[1] "%d Leguan"
+msgstr[1] "%d Leguane"
 # check plural above
 
 #msgctxt "nom"
@@ -6474,8 +6461,7 @@ msgstr[1] "%d Basiliske"
 msgid "a wyvern"
 msgid_plural "%d wyverns"
 msgstr[0] "ein Wyvern"
-msgstr[1] "%d Wyvern"
-# check plural above
+msgstr[1] "%d Wyverns"
 
 #msgctxt "nom"
 msgid "a komodo dragon"
@@ -6517,13 +6503,12 @@ msgid "a merfolk siren"
 msgid_plural "%d merfolk sirens"
 msgstr[0] "eine Meervolk-Sirene"
 msgstr[1] "%d Meervolk-Sirenen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a merfolk avatar"
 msgid_plural "%d merfolk avatars"
 msgstr[0] "ein Meervolk-Avatar"
-msgstr[1] "%d Meervolk-Avatar"
+msgstr[1] "%d Meervolk-Avatare"
 # check plural above
 
 #msgctxt "nom"
@@ -6531,20 +6516,18 @@ msgid "a water nymph"
 msgid_plural "%d water nymphs"
 msgstr[0] "eine Wassernymphe"
 msgstr[1] "%d Wassernymphen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a bog body"
 msgid_plural "%d bog bodies"
 msgstr[0] "eine Moorleiche"
 msgstr[1] "%d Moorleichen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a necrophage"
 msgid_plural "%d necrophages"
 msgstr[0] "ein Nekrophagen"
-msgstr[1] "%d Nekrophagen"
+msgstr[1] "%d Nekrophagene"
 # check plural above
 
 #msgctxt "nom"
@@ -6671,7 +6654,6 @@ msgid "a vault sentinel"
 msgid_plural "%d vault sentinels"
 msgstr[0] "eine Tresorwache"
 msgstr[1] "%d Tresorwachen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a vault warden"
@@ -6690,8 +6672,8 @@ msgstr[1] "%d Eisenbrandeinberufer"
 #msgctxt "nom"
 msgid "an imperial myrmidon"
 msgid_plural "%d imperial myrmidons"
-msgstr[0] "ein kaiserliche Myrmidon"
-msgstr[1] "%d kaiserliche Myrmidon"
+msgstr[0] "ein kaiserlicher Myrmidon"
+msgstr[1] "%d kaiserliche Myrmidone"
 # check plural above
 
 #msgctxt "nom"
@@ -6699,12 +6681,12 @@ msgid "a servant of whispers"
 msgid_plural "%d servants of whispers"
 msgstr[0] "ein Diener des Flüsterns"
 msgstr[1] "%d Diener des Flüsterns"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 #msgctxt "nom"
 msgid "a ragged hierophant"
 msgid_plural "%d ragged hierophants"
-msgstr[0] "ein zerlumpte Hierophant"
+msgstr[0] "ein zerlumpter Hierophant"
 msgstr[1] "%d zerlumpte Hierophante"
 # check plural above
 
@@ -6725,7 +6707,7 @@ msgstr[1] "%d Gestaltwandler"
 #msgctxt "nom"
 msgid "a glowing shapeshifter"
 msgid_plural "%d glowing shapeshifters"
-msgstr[0] "ein leuchtende Gestaltwandler"
+msgstr[0] "ein leuchtender Gestaltwandler"
 msgstr[1] "%d leuchtende Gestaltwandler"
 # check plural above
 
@@ -6733,8 +6715,7 @@ msgstr[1] "%d leuchtende Gestaltwandler"
 msgid "a Killer Klown"
 msgid_plural "%d Killer Klowns"
 msgstr[0] "ein Killer-Klown"
-msgstr[1] "%d Killer-Klown"
-# check plural above
+msgstr[1] "%d Killer-Klowns"
 
 #msgctxt "nom"
 msgid "a demigod"
@@ -6755,13 +6736,12 @@ msgid "a rat"
 msgid_plural "%d rats"
 msgstr[0] "eine Ratte"
 msgstr[1] "%d Ratten"
-# check plural above
 
 #msgctxt "nom"
 msgid "a quokka"
 msgid_plural "%d quokkas"
 msgstr[0] "ein Quokka"
-msgstr[1] "%d Quokkae"
+msgstr[1] "%d Quokkas"
 # check plural above
 
 #msgctxt "nom"
@@ -6769,20 +6749,18 @@ msgid "a river rat"
 msgid_plural "%d river rats"
 msgstr[0] "eine Flussratte"
 msgstr[1] "%d Flussratten"
-# check plural above
 
 #msgctxt "nom"
 msgid "a hell rat"
 msgid_plural "%d hell rats"
 msgstr[0] "eine Höllenratte"
 msgstr[1] "%d Höllenratten"
-# check plural above
 
 #msgctxt "nom"
 msgid "a porcupine"
 msgid_plural "%d porcupines"
 msgstr[0] "ein Stachelschwein"
-msgstr[1] "%d Stachelschweinnen"
+msgstr[1] "%d Stachelschweine"
 # check plural above
 
 #msgctxt "nom"
@@ -6790,27 +6768,26 @@ msgid "a giant cockroach"
 msgid_plural "%d giant cockroaches"
 msgstr[0] "eine Riesenkakerlake"
 msgstr[1] "%d Riesenkakerlaken"
-# check plural above
 
 #msgctxt "nom"
 msgid "a scorpion"
 msgid_plural "%d scorpions"
 msgstr[0] "ein Skorpion"
-msgstr[1] "%d Skorpion"
+msgstr[1] "%d Skorpione"
 # check plural above
 
 #msgctxt "nom"
 msgid "an emperor scorpion"
 msgid_plural "%d emperor scorpions"
 msgstr[0] "ein Kaiserskorpion"
-msgstr[1] "%d Kaiserskorpion"
+msgstr[1] "%d Kaiserskorpione"
 # check plural above
 
 #msgctxt "nom"
 msgid "a death scarab"
 msgid_plural "%d death scarabs"
 msgstr[0] "ein Todesskarabäus"
-msgstr[1] "%d Todesskarabäuse"
+msgstr[1] "%d Todesskarabäen"
 # check plural above
 
 #msgctxt "nom"
@@ -6818,13 +6795,12 @@ msgid "a spider"
 msgid_plural "%d spiders"
 msgstr[0] "eine Spinne"
 msgstr[1] "%d Spinnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a tarantella"
 msgid_plural "%d tarantellas"
 msgstr[0] "eine Tarantella"
-msgstr[1] "%d Tarantellae"
+msgstr[1] "%d Tarantellen"
 # check plural above
 
 #msgctxt "nom"
@@ -6832,26 +6808,23 @@ msgid "a jumping spider"
 msgid_plural "%d jumping spiders"
 msgstr[0] "eine springende Spinne"
 msgstr[1] "%d springende Spinnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a wolf spider"
 msgid_plural "%d wolf spiders"
 msgstr[0] "eine Wolfsspinne"
 msgstr[1] "%d Wolfsspinnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a redback"
 msgid_plural "%d redbacks"
 msgstr[0] "eine Rotrückenspinne"
 msgstr[1] "%d Rotrückenspinnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a demonic crawler"
 msgid_plural "%d demonic crawlers"
-msgstr[0] "ein dämonische Kriecher"
+msgstr[0] "ein dämonischer Kriecher"
 msgstr[1] "%d dämonische Kriecher"
 # check plural above
 
@@ -6860,7 +6833,6 @@ msgid "an orb spider"
 msgid_plural "%d orb spiders"
 msgstr[0] "eine Kugelspinne"
 msgstr[1] "%d Kugelspinnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a crocodile"
@@ -6873,7 +6845,7 @@ msgstr[1] "%d Krokodile"
 msgid "an alligator"
 msgid_plural "%d alligators"
 msgstr[0] "ein Alligator"
-msgstr[1] "%d Alligator"
+msgstr[1] "%d Alligatore"
 # check plural above
 
 #msgctxt "nom"
@@ -6881,42 +6853,36 @@ msgid "a snapping turtle"
 msgid_plural "%d snapping turtles"
 msgstr[0] "eine Schnappschildkröte"
 msgstr[1] "%d Schnappschildkröten"
-# check plural above
 
 #msgctxt "nom"
 msgid "an alligator snapping turtle"
 msgid_plural "%d alligator snapping turtles"
 msgstr[0] "eine Alligatorschnappschildkröte"
 msgstr[1] "%d Alligatorschnappschildkröten"
-# check plural above
 
 #msgctxt "nom"
 msgid "a crab"
 msgid_plural "%d crabs"
 msgstr[0] "eine Krabbe"
 msgstr[1] "%d Krabben"
-# check plural above
 
 #msgctxt "nom"
 msgid "a fire crab"
 msgid_plural "%d fire crabs"
 msgstr[0] "eine Feuerkrabbe"
 msgstr[1] "%d Feuerkrabben"
-# check plural above
 
 #msgctxt "nom"
 msgid "a ghost crab"
 msgid_plural "%d ghost crabs"
 msgstr[0] "eine Geisterkrabbe"
 msgstr[1] "%d Geisterkrabben"
-# check plural above
 
 #msgctxt "nom"
 msgid "an apocalypse crab"
 msgid_plural "%d apocalypse crabs"
 msgstr[0] "eine Apokalypse-Krabbe"
 msgstr[1] "%d Apokalypse-Krabben"
-# check plural above
 
 #msgctxt "nom"
 msgid "an ugly thing"
@@ -6936,20 +6902,20 @@ msgstr[1] "%d sehr hässliche Dinge"
 msgid "a fire vortex"
 msgid_plural "%d fire vortices"
 msgstr[0] "ein Feuerwirbel"
-msgstr[1] "%d Feuerwirbele"
+msgstr[1] "%d Feuerwirbel"
 # check plural above
 
 #msgctxt "nom"
 msgid "a spatial vortex"
 msgid_plural "%d spatial vortices"
-msgstr[0] "ein räumliche Wirbel"
-msgstr[1] "%d räumliche Wirbele"
+msgstr[0] "ein räumlicher Wirbel"
+msgstr[1] "%d räumliche Wirbel"
 # check plural above
 
 #msgctxt "nom"
 msgid "a spatial maelstrom"
 msgid_plural "%d spatial maelstroms"
-msgstr[0] "ein räumliche Mahlstrom"
+msgstr[0] "ein räumlicher Mahlstrom"
 msgstr[1] "%d räumliche Mahlstrome"
 # check plural above
 
@@ -6985,7 +6951,7 @@ msgstr[1] "%d Sumpfwurme"
 msgid "a tyrant leech"
 msgid_plural "%d tyrant leeches"
 msgstr[0] "ein Tyrannblutegel"
-msgstr[1] "%d Tyrannblutegele"
+msgstr[1] "%d Tyrannblutegel"
 # check plural above
 
 #msgctxt "nom"
@@ -6993,34 +6959,31 @@ msgid "a dart slug"
 msgid_plural "%d dart slugs"
 msgstr[0] "eine Pfeilschnecke"
 msgstr[1] "%d Pfeilschnecken"
-# check plural above
 
 #msgctxt "nom"
 msgid "a torpor snail"
 msgid_plural "%d torpor snails"
 msgstr[0] "eine Erstarrungsschnecke"
 msgstr[1] "%d Erstarrungsschnecken"
-# check plural above
 
 #msgctxt "nom"
 msgid "an elephant slug"
 msgid_plural "%d elephant slugs"
 msgstr[0] "eine Elefantenschnecke"
 msgstr[1] "%d Elefantenschnecken"
-# check plural above
 
 #msgctxt "nom"
 msgid "an unseen horror"
 msgid_plural "%d unseen horrors"
 msgstr[0] "ein unsichtbares Grauen"
-msgstr[1] "%d unsichtbare Grauen"
+msgstr[1] "%d unsichtbare Grauene"
 # check plural above
 
 #msgctxt "nom"
 msgid "a small abomination"
 msgid_plural "%d small abominations"
-msgstr[0] "ein kleine Greuel"
-msgstr[1] "%d kleine Greuele"
+msgstr[0] "ein kleiner Greuel"
+msgstr[1] "%d kleine Greuel"
 # check plural above
 
 #msgctxt "nom"
@@ -7028,19 +6991,17 @@ msgid "a crawling corpse"
 msgid_plural "%d crawling corpses"
 msgstr[0] "eine kriechende Leiche"
 msgstr[1] "%d kriechende Leichen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a macabre mass"
 msgid_plural "%d macabre masses"
 msgstr[0] "eine makabere Masse"
 msgstr[1] "%d makabere Massen"
-# check plural above
 
 #msgctxt "nom"
 msgid "an ancient zyme"
 msgid_plural "%d ancient zymes"
-msgstr[0] "ein alte Zyme"
+msgstr[0] "ein alter Zyme"
 msgstr[1] "%d alte Zymen"
 # check plural above
 
@@ -7056,34 +7017,30 @@ msgid "a killer bee"
 msgid_plural "%d killer bees"
 msgstr[0] "eine Killerbiene"
 msgstr[1] "%d Killerbienen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a queen bee"
 msgid_plural "%d queen bees"
 msgstr[0] "eine Bienenkönigin"
 msgstr[1] "%d Bienenköniginnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a vampire mosquito"
 msgid_plural "%d vampire mosquitoes"
 msgstr[0] "eine Vampir-Mücke"
 msgstr[1] "%d Vampir-Mücken"
-# check plural above
 
 #msgctxt "nom"
 msgid "a hornet"
 msgid_plural "%d hornets"
 msgstr[0] "eine Hornisse"
 msgstr[1] "%d Hornissen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a meliai"
 msgid_plural "%d meliai"
 msgstr[0] "eine Meliai"
-msgstr[1] "%d Meliaie"
+msgstr[1] "%d Meliais"
 # check plural above
 
 #msgctxt "nom"
@@ -7091,28 +7048,25 @@ msgid "a spark wasp"
 msgid_plural "%d spark wasps"
 msgstr[0] "eine Funkenwespe"
 msgstr[1] "%d Funkenwespen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a moth"
 msgid_plural "%d moths"
 msgstr[0] "eine Motte"
 msgstr[1] "%d Motten"
-# check plural above
 
 #msgctxt "nom"
 msgid "a ghost moth"
 msgid_plural "%d ghost moths"
 msgstr[0] "eine Geistermotte"
 msgstr[1] "%d Geistermotten"
-# check plural above
 
 #msgctxt "nom"
 msgid "a moth of wrath"
 msgid_plural "%d moths of wrath"
 msgstr[0] "eine Motte des Zorns"
 msgstr[1] "%d Motte des Zorns"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 #msgctxt "nom"
 msgid "a wight"
@@ -7131,22 +7085,22 @@ msgstr[1] "%d Skelettkrieger"
 #msgctxt "nom"
 msgid "an ancient champion"
 msgid_plural "%d ancient champions"
-msgstr[0] "ein alte Champion"
-msgstr[1] "%d alte Champion"
+msgstr[0] "ein alter Champion"
+msgstr[1] "%d alte Champione"
 # check plural above
 
 #msgctxt "nom"
 msgid "a flying skull"
 msgid_plural "%d flying skulls"
-msgstr[0] "ein fliegende Schädel"
-msgstr[1] "%d fliegende Schädele"
+msgstr[0] "ein fliegender Schädel"
+msgstr[1] "%d fliegende Schädel"
 # check plural above
 
 #msgctxt "nom"
 msgid "a curse skull"
 msgid_plural "%d curse skulls"
 msgstr[0] "ein Fluchschädel"
-msgstr[1] "%d Fluchschädele"
+msgstr[1] "%d Fluchschädel"
 # check plural above
 
 #msgctxt "nom"
@@ -7160,7 +7114,7 @@ msgstr[1] "%d Fluchzehen"
 msgid "an angel"
 msgid_plural "%d angels"
 msgstr[0] "ein Engel"
-msgstr[1] "%d Engele"
+msgstr[1] "%d Engel"
 # check plural above
 
 #msgctxt "nom"
@@ -7181,13 +7135,13 @@ msgstr[1] "%d Seraphe"
 msgid "a daeva"
 msgid_plural "%d daevas"
 msgstr[0] "ein Daeva"
-msgstr[1] "%d Daevae"
+msgstr[1] "%d Daevas"
 # check plural above
 
 #msgctxt "nom"
 msgid "a profane servitor"
 msgid_plural "%d profane servitors"
-msgstr[0] "ein profane Diener"
+msgstr[0] "ein profaner Diener"
 msgstr[1] "%d profane Diener"
 # check plural above
 
@@ -7209,7 +7163,7 @@ msgstr[1] "%d Zyklope"
 msgid "an ettin"
 msgid_plural "%d ettins"
 msgstr[0] "ein Ettin"
-msgstr[1] "%d Ettinnen"
+msgstr[1] "%d Ettine"
 # check plural above
 
 #msgctxt "nom"
@@ -7237,7 +7191,7 @@ msgstr[1] "%d Steinriesen"
 msgid "a titan"
 msgid_plural "%d titans"
 msgstr[0] "ein Titan"
-msgstr[1] "%d Titan"
+msgstr[1] "%d Titane"
 # check plural above
 
 #msgctxt "nom"
@@ -7272,14 +7226,14 @@ msgstr[1] "%d Feuerdrachen"
 msgid "a hydra"
 msgid_plural "%d hydras"
 msgstr[0] "eine Hydra"
-msgstr[1] "%d Hydrae"
+msgstr[1] "%d Hydren"
 # check plural above
 
 #msgctxt "nom"
 msgid "a %d-headed hydra"
 msgid_plural "%d %d-headed hydras"
 msgstr[0] "eine %d-köpfige Hydra"
-msgstr[1] "%d %d-köpfige Hydrae"
+msgstr[1] "%d %d-köpfige Hydren"
 # check plural above
 
 #msgctxt "nom"
@@ -7363,42 +7317,42 @@ msgstr[1] "%d Perlendrachen"
 msgid "an elemental"
 msgid_plural "%d elementals"
 msgstr[0] "ein Elementar"
-msgstr[1] "%d Elementar"
+msgstr[1] "%d Elementare"
 # check plural above
 
 #msgctxt "nom"
 msgid "an earth elemental"
 msgid_plural "%d earth elementals"
 msgstr[0] "ein Erdelementar"
-msgstr[1] "%d Erdelementar"
+msgstr[1] "%d Erdelementare"
 # check plural above
 
 #msgctxt "nom"
 msgid "a fire elemental"
 msgid_plural "%d fire elementals"
 msgstr[0] "ein Feuerelementar"
-msgstr[1] "%d Feuerelementar"
+msgstr[1] "%d Feuerelementare"
 # check plural above
 
 #msgctxt "nom"
 msgid "a water elemental"
 msgid_plural "%d water elementals"
 msgstr[0] "ein Wasserelementar"
-msgstr[1] "%d Wasserelementar"
+msgstr[1] "%d Wasserelementare"
 # check plural above
 
 #msgctxt "nom"
 msgid "an air elemental"
 msgid_plural "%d air elementals"
 msgstr[0] "ein Luftelementar"
-msgstr[1] "%d Luftelementar"
+msgstr[1] "%d Luftelementare"
 # check plural above
 
 #msgctxt "nom"
 msgid "an iron elemental"
 msgid_plural "%d iron elementals"
 msgstr[0] "ein Eisenelementar"
-msgstr[1] "%d Eisenelementar"
+msgstr[1] "%d Eisenelementare"
 # check plural above
 
 #msgctxt "nom"
@@ -7406,7 +7360,6 @@ msgid "an elemental wellspring"
 msgid_plural "%d elemental wellsprings"
 msgstr[0] "eine elementare Quelle"
 msgstr[1] "%d elementare Quellen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a giant frog"
@@ -7440,7 +7393,7 @@ msgstr[1] "%d Blinzelfrosche"
 msgid "a barachi"
 msgid_plural "%d barachim"
 msgstr[0] "eine Barachi"
-msgstr[1] "%d Barachie"
+msgstr[1] "%d Barachis"
 # check plural above
 
 #msgctxt "nom"
@@ -7455,20 +7408,20 @@ msgid "an eye of draining"
 msgid_plural "%d eyes of draining"
 msgstr[0] "ein Auge des Schwächens"
 msgstr[1] "%d Auge des Schwächens"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 #msgctxt "nom"
 msgid "a glowing orange brain"
 msgid_plural "%d glowing orange brains"
 msgstr[0] "ein oranges leuchtendes Gehirn"
-msgstr[1] "%d orange leuchtende Gehirn"
+msgstr[1] "%d orange leuchtende Gehirne"
 # check plural above
 
 #msgctxt "nom"
 msgid "a great orb of eyes"
 msgid_plural "%d great orbs of eyes"
-msgstr[0] "ein große Augenkugel"
-msgstr[1] "%d große Augenkugele"
+msgstr[0] "ein großer Augenkugel"
+msgstr[1] "%d große Augenkugel"
 # check plural above
 
 #msgctxt "nom"
@@ -7483,7 +7436,7 @@ msgid "an eye of devastation"
 msgid_plural "%d eyes of devastation"
 msgstr[0] "ein Auge der Verwüstung"
 msgstr[1] "%d Auge der Verwüstung"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 #msgctxt "nom"
 msgid "a golden eye"
@@ -7496,7 +7449,7 @@ msgstr[1] "%d goldene Augen"
 msgid "an ophan"
 msgid_plural "%d ophanim"
 msgstr[0] "ein Ophan"
-msgstr[1] "%d Ophan"
+msgstr[1] "%d Ophane"
 # check plural above
 
 #msgctxt "nom"
@@ -7510,21 +7463,21 @@ msgstr[1] "%d Hippogriffe"
 msgid "a manticore"
 msgid_plural "%d manticores"
 msgstr[0] "ein Mantikor"
-msgstr[1] "%d Mantikor"
+msgstr[1] "%d Mantikore"
 # check plural above
 
 #msgctxt "nom"
 msgid "a minotaur"
 msgid_plural "%d minotaurs"
 msgstr[0] "ein Minotaurus"
-msgstr[1] "%d Minotauruse"
+msgstr[1] "%d Minotauren"
 # check plural above
 
 #msgctxt "nom"
 msgid "a sphinx"
 msgid_plural "%d sphinxes"
 msgstr[0] "eine Sphinx"
-msgstr[1] "%d Sphinxe"
+msgstr[1] "%d Sphinxen"
 # check plural above
 
 #msgctxt "nom"
@@ -7532,14 +7485,12 @@ msgid "a harpy"
 msgid_plural "%d harpies"
 msgstr[0] "eine Harpyie"
 msgstr[1] "%d Harpyien"
-# check plural above
 
 #msgctxt "nom"
 msgid "a mutant beast"
 msgid_plural "%d mutant beasts"
 msgstr[0] "eine mutierte Bestie"
 msgstr[1] "%d mutierte Bestien"
-# check plural above
 
 #msgctxt "nom"
 msgid "an ancestor"
@@ -7587,14 +7538,14 @@ msgstr[1] "%d Geleen"
 msgid "a slime creature"
 msgid_plural "%d slime creatures"
 msgstr[0] "ein Schleimwesen"
-msgstr[1] "%d Schleimwesen"
+msgstr[1] "%d Schleimwesene"
 # check plural above
 
 #msgctxt "nom"
 msgid "a merged slime creature"
 msgid_plural "%d merged slime creatures"
 msgstr[0] "eine verschmolzene Schleimkreatur"
-msgstr[1] "%d verschmolzene Schleimkreatur"
+msgstr[1] "%d verschmolzene Schleimkreaturen"
 # check plural above
 
 #msgctxt "nom"
@@ -7615,7 +7566,7 @@ msgstr[1] "%d Todesschlamme"
 msgid "an acid blob"
 msgid_plural "%d acid blobs"
 msgstr[0] "ein Säureklumpen"
-msgstr[1] "%d Säureklumpen"
+msgstr[1] "%d Säureklumpene"
 # check plural above
 
 #msgctxt "nom"
@@ -7628,7 +7579,7 @@ msgstr[1] "%d Kobolde"
 #msgctxt "nom"
 msgid "a big kobold"
 msgid_plural "%d big kobolds"
-msgstr[0] "ein große Kobold"
+msgstr[0] "ein großer Kobold"
 msgstr[1] "%d große Kobolde"
 # check plural above
 
@@ -7643,15 +7594,13 @@ msgstr[1] "%d Kobold-Dämonologen"
 msgid "a lich"
 msgid_plural "%d liches"
 msgstr[0] "ein Lich"
-msgstr[1] "%d Liche"
-# check plural above
+msgstr[1] "%d Lichs"
 
 #msgctxt "nom"
 msgid "an ancient lich"
 msgid_plural "%d ancient liches"
-msgstr[0] "ein alte Lich"
-msgstr[1] "%d alte Liche"
-# check plural above
+msgstr[0] "ein alter Lich"
+msgstr[1] "%d alte Lichs"
 
 #msgctxt "nom"
 msgid "a revenant"
@@ -7663,7 +7612,7 @@ msgstr[1] "%d Wiedergänger"
 #msgctxt "nom"
 msgid "a halazid warlock"
 msgid_plural "%d halazid warlocks"
-msgstr[0] "ein halazidische Hexenmeister"
+msgstr[0] "ein halazidischer Hexenmeister"
 msgstr[1] "%d halazidische Hexenmeister"
 # check plural above
 
@@ -7672,21 +7621,18 @@ msgid "a mummy"
 msgid_plural "%d mummies"
 msgstr[0] "eine Mumie"
 msgstr[1] "%d Mumien"
-# check plural above
 
 #msgctxt "nom"
 msgid "a guardian mummy"
 msgid_plural "%d guardian mummies"
 msgstr[0] "eine Wächtermumie"
 msgstr[1] "%d Wächtermumien"
-# check plural above
 
 #msgctxt "nom"
 msgid "a greater mummy"
 msgid_plural "%d greater mummies"
 msgstr[0] "eine größere Mumie"
 msgstr[1] "%d größere Mumien"
-# check plural above
 
 #msgctxt "nom"
 msgid "a mummy priest"
@@ -7699,7 +7645,7 @@ msgstr[1] "%d Mumie-Priester"
 msgid "a naga"
 msgid_plural "%d nagas"
 msgstr[0] "ein Naga"
-msgstr[1] "%d Nagae"
+msgstr[1] "%d Nagas"
 # check plural above
 
 #msgctxt "nom"
@@ -7720,7 +7666,7 @@ msgstr[1] "%d Naga-Scharfschützen"
 msgid "a naga ritualist"
 msgid_plural "%d naga ritualists"
 msgstr[0] "ein Naga-Ritualist"
-msgstr[1] "%d Naga-Ritualisten"
+msgstr[1] "%d Naga-Ritualiste"
 # check plural above
 
 #msgctxt "nom"
@@ -7734,7 +7680,7 @@ msgstr[1] "%d Naga-Krieger"
 msgid "a nagaraja"
 msgid_plural "%d nagarajas"
 msgstr[0] "ein Nagaraja"
-msgstr[1] "%d Nagarajae"
+msgstr[1] "%d Nagarajas"
 # check plural above
 
 #msgctxt "nom"
@@ -7747,7 +7693,7 @@ msgstr[1] "%d Oger"
 #msgctxt "nom"
 msgid "a two-headed ogre"
 msgid_plural "%d two-headed ogres"
-msgstr[0] "ein zweiköpfige Oger"
+msgstr[0] "ein zweiköpfiger Oger"
 msgstr[1] "%d zweiköpfige Oger"
 # check plural above
 
@@ -7763,21 +7709,18 @@ msgid "a plant"
 msgid_plural "%d plants"
 msgstr[0] "eine Pflanze"
 msgstr[1] "%d Pflanzen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a demonic plant"
 msgid_plural "%d demonic plants"
 msgstr[0] "eine dämonische Pflanze"
 msgstr[1] "%d dämonische Pflanzen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a withered plant"
 msgid_plural "%d withered plants"
 msgstr[0] "eine verwelkte Pflanze"
 msgstr[1] "%d verwelkte Pflanzen"
-# check plural above
 
 #msgctxt "nom"
 msgid "an oklob sapling"
@@ -7791,7 +7734,6 @@ msgid "an oklob plant"
 msgid_plural "%d oklob plants"
 msgstr[0] "eine Oklob-Pflanze"
 msgstr[1] "%d Oklob-Pflanzen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a bush"
@@ -7803,7 +7745,7 @@ msgstr[1] "%d Busche"
 #msgctxt "nom"
 msgid "a burning bush"
 msgid_plural "%d burning bushes"
-msgstr[0] "ein brennende Busch"
+msgstr[0] "ein brennender Busch"
 msgstr[1] "%d brennende Busche"
 # check plural above
 
@@ -7831,7 +7773,7 @@ msgstr[1] "%d Ballistomyceten"
 #msgctxt "nom"
 msgid "a hyperactive ballistomycete"
 msgid_plural "%d hyperactive ballistomycetes"
-msgstr[0] "ein hyperaktive Ballistomycete"
+msgstr[0] "ein hyperaktiver Ballistomycete"
 msgstr[1] "%d hyperaktive Ballistomyceten"
 # check plural above
 
@@ -7846,7 +7788,7 @@ msgstr[1] "%d Dornstrauche"
 msgid "a tengu"
 msgid_plural "%d tengu"
 msgstr[0] "ein Tengu"
-msgstr[1] "%d Tengue"
+msgstr[1] "%d Tengus"
 # check plural above
 
 #msgctxt "nom"
@@ -7881,7 +7823,7 @@ msgstr[1] "%d Efreete"
 msgid "a rakshasa"
 msgid_plural "%d rakshasas"
 msgstr[0] "ein Rakshasa"
-msgstr[1] "%d Rakshasae"
+msgstr[1] "%d Rakshasas"
 # check plural above
 
 #msgctxt "nom"
@@ -7889,14 +7831,12 @@ msgid "a dryad"
 msgid_plural "%d dryads"
 msgstr[0] "eine Dryade"
 msgstr[1] "%d Dryaden"
-# check plural above
 
 #msgctxt "nom"
 msgid "a snaplasher vine"
 msgid_plural "%d snaplasher vines"
 msgstr[0] "eine Peitscherrebe"
 msgstr[1] "%d Peitscherreben"
-# check plural above
 
 #msgctxt "nom"
 msgid "a snaplasher vine segment"
@@ -7910,34 +7850,33 @@ msgid "a snake"
 msgid_plural "%d snakes"
 msgstr[0] "eine Schlange"
 msgstr[1] "%d Schlangen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a ball python"
 msgid_plural "%d ball pythons"
 msgstr[0] "eine Kugelpython"
-msgstr[1] "%d Kugelpython"
+msgstr[1] "%d Kugelpythonen"
 # check plural above
 
 #msgctxt "nom"
 msgid "an adder"
 msgid_plural "%d adders"
 msgstr[0] "eine Kreuzotter"
-msgstr[1] "%d Kreuzotter"
+msgstr[1] "%d Kreuzottern"
 # check plural above
 
 #msgctxt "nom"
 msgid "a water moccasin"
 msgid_plural "%d water moccasins"
 msgstr[0] "ein Wassermokassin"
-msgstr[1] "%d Wassermokassinnen"
+msgstr[1] "%d Wassermokassine"
 # check plural above
 
 #msgctxt "nom"
 msgid "a black mamba"
 msgid_plural "%d black mambas"
 msgstr[0] "eine schwarze Mamba"
-msgstr[1] "%d schwarze Mambae"
+msgstr[1] "%d schwarze Mambas"
 # check plural above
 
 #msgctxt "nom"
@@ -7945,13 +7884,12 @@ msgid "a sea snake"
 msgid_plural "%d sea snakes"
 msgstr[0] "eine Seeschlange"
 msgstr[1] "%d Seeschlangen"
-# check plural above
 
 #msgctxt "nom"
 msgid "an anaconda"
 msgid_plural "%d anacondas"
 msgstr[0] "eine Anakonda"
-msgstr[1] "%d Anakondae"
+msgstr[1] "%d Anakondas"
 # check plural above
 
 #msgctxt "nom"
@@ -7959,20 +7897,18 @@ msgid "a guardian serpent"
 msgid_plural "%d guardian serpents"
 msgstr[0] "eine Wächter-Schlange"
 msgstr[1] "%d Wächter-Schlangen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a shock serpent"
 msgid_plural "%d shock serpents"
 msgstr[0] "eine Schockschlange"
 msgstr[1] "%d Schockschlangen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a mana viper"
 msgid_plural "%d mana vipers"
 msgstr[0] "eine Manaviper"
-msgstr[1] "%d Manaviper"
+msgstr[1] "%d Manavipern"
 # check plural above
 
 #msgctxt "nom"
@@ -8014,7 +7950,7 @@ msgstr[1] "%d Tiefentroll-Schamanen"
 msgid "a vampire"
 msgid_plural "%d vampires"
 msgstr[0] "ein Vampir"
-msgstr[1] "%d Vampir"
+msgstr[1] "%d Vampire"
 # check plural above
 
 #msgctxt "nom"
@@ -8035,7 +7971,7 @@ msgstr[1] "%d Vampir-Magier"
 msgid "a jiangshi"
 msgid_plural "%d jiangshi"
 msgstr[0] "ein Jiangshi"
-msgstr[1] "%d Jiangshie"
+msgstr[1] "%d Jiangshis"
 # check plural above
 
 #msgctxt "nom"
@@ -8055,30 +7991,26 @@ msgstr[1] "%d Phantome"
 #msgctxt "nom"
 msgid "a hungry ghost"
 msgid_plural "%d hungry ghosts"
-msgstr[0] "ein hungrige Geist"
-msgstr[1] "%d hungrige Geisten"
-# check plural above
+msgstr[0] "ein hungriger Geist"
+msgstr[1] "%d hungrige Geister"
 
 #msgctxt "nom"
 msgid "a flayed ghost"
 msgid_plural "%d flayed ghosts"
-msgstr[0] "ein enthäutete Geist"
-msgstr[1] "%d enthäutete Geisten"
-# check plural above
+msgstr[0] "ein enthäuteter Geist"
+msgstr[1] "%d enthäutete Geister"
 
 #msgctxt "nom"
 msgid "a player ghost"
 msgid_plural "%d player ghosts"
 msgstr[0] "ein Spielergeist"
-msgstr[1] "%d Spielergeisten"
-# check plural above
+msgstr[1] "%d Spielergeister"
 
 #msgctxt "nom"
 msgid "a shadow"
 msgid_plural "%d shadows"
 msgstr[0] "ein Schatten"
 msgstr[1] "%d Schatten"
-# check plural above
 
 #msgctxt "nom"
 msgid "a silent spectre"
@@ -8092,62 +8024,58 @@ msgid "a drowned soul"
 msgid_plural "%d drowned souls"
 msgstr[0] "eine ertrunkene Seele"
 msgstr[1] "%d ertrunkene Seelen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a wraith"
 msgid_plural "%d wraiths"
 msgstr[0] "ein Geist"
-msgstr[1] "%d Geisten"
-# check plural above
+msgstr[1] "%d Geister"
 
 #msgctxt "nom"
 msgid "a shadow wraith"
 msgid_plural "%d shadow wraiths"
 msgstr[0] "ein Schattengeist"
-msgstr[1] "%d Schattengeisten"
-# check plural above
+msgstr[1] "%d Schattengeister"
 
 #msgctxt "nom"
 msgid "a freezing wraith"
 msgid_plural "%d freezing wraiths"
 msgstr[0] "ein Frostgeist"
-msgstr[1] "%d Frostgeisten"
-# check plural above
+msgstr[1] "%d Frostgeister"
 
 #msgctxt "nom"
 msgid "an eidolon"
 msgid_plural "%d eidola"
 msgstr[0] "ein Eidolon"
-msgstr[1] "%d Eidolon"
+msgstr[1] "%d Eidolone"
 # check plural above
 
 #msgctxt "nom"
 msgid "a phantasmal warrior"
 msgid_plural "%d phantasmal warriors"
-msgstr[0] "ein phantastische Krieger"
+msgstr[0] "ein phantastischer Krieger"
 msgstr[1] "%d phantastische Krieger"
 # check plural above
 
 #msgctxt "nom"
 msgid "a large abomination"
 msgid_plural "%d large abominations"
-msgstr[0] "ein große Greuel"
-msgstr[1] "%d große Greuele"
+msgstr[0] "ein großer Greuel"
+msgstr[1] "%d große Greuel"
 # check plural above
 
 #msgctxt "nom"
 msgid "a thrashing horror"
 msgid_plural "%d thrashing horrors"
 msgstr[0] "ein verprügelndes Grauen"
-msgstr[1] "%d verprügelnde Grauen"
+msgstr[1] "%d verprügelnde Grauene"
 # check plural above
 
 #msgctxt "nom"
 msgid "a tentacled monstrosity"
 msgid_plural "%d tentacled monstrosities"
 msgstr[0] "eine Tentakel-Monstrosität"
-msgstr[1] "%d Tentakel-Monstrositäte"
+msgstr[1] "%d Tentakel-Monstrositäten"
 # check plural above
 
 #msgctxt "nom"
@@ -8168,7 +8096,7 @@ msgstr[1] "%d Tentakelsternbrute"
 msgid "a starspawn tentacle"
 msgid_plural "%d starspawn tentacles"
 msgstr[0] "ein Sternbruttentakel"
-msgstr[1] "%d Sternbruttentakele"
+msgstr[1] "%d Sternbruttentakel"
 # check plural above
 
 #msgctxt "nom"
@@ -8183,7 +8111,6 @@ msgid "a starcursed mass"
 msgid_plural "%d starcursed masses"
 msgstr[0] "eine sternverfluchte Masse"
 msgstr[1] "%d sternverfluchte Massen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a dream sheep"
@@ -8210,7 +8137,7 @@ msgstr[1] "%d Todesyake"
 msgid "a catoblepas"
 msgid_plural "%d catoblepae"
 msgstr[0] "eine Catoblepas"
-msgstr[1] "%d Catoblepase"
+msgstr[1] "%d Catoblepasen"
 # check plural above
 
 #msgctxt "nom"
@@ -8238,7 +8165,7 @@ msgstr[1] "%d Höllefante"
 msgid "an apis"
 msgid_plural "%d apises"
 msgstr[0] "eine Apis"
-msgstr[1] "%d Apise"
+msgstr[1] "%d Apisen"
 # check plural above
 
 #msgctxt "nom"
@@ -8246,21 +8173,19 @@ msgid "an ice beast"
 msgid_plural "%d ice beasts"
 msgstr[0] "eine Eisbestie"
 msgstr[1] "%d Eisbestien"
-# check plural above
 
 #msgctxt "nom"
 msgid "a sky beast"
 msgid_plural "%d sky beasts"
 msgstr[0] "ein Himmelstier"
-msgstr[1] "%d Himmelstier"
+msgstr[1] "%d Himmelstiere"
 # check plural above
 
 #msgctxt "nom"
 msgid "a zombie"
 msgid_plural "%d zombies"
 msgstr[0] "ein Zombie"
-msgstr[1] "%d Zombien"
-# check plural above
+msgstr[1] "%d Zombies"
 
 #msgctxt "nom"
 msgid "a skeleton"
@@ -8273,15 +8198,14 @@ msgstr[1] "%d Skelette"
 msgid "a simulacrum"
 msgid_plural "%d simulacra"
 msgstr[0] "ein Simulacrum"
-msgstr[1] "%d Simulacrume"
+msgstr[1] "%d Simulacren"
 # check plural above
 
 #msgctxt "nom"
 msgid "a small zombie"
 msgid_plural "%d small zombies"
-msgstr[0] "ein kleine Zombie"
-msgstr[1] "%d kleine Zombien"
-# check plural above
+msgstr[0] "ein kleiner Zombie"
+msgstr[1] "%d kleine Zombies"
 
 #msgctxt "nom"
 msgid "a small skeleton"
@@ -8294,15 +8218,14 @@ msgstr[1] "%d kleine Skelette"
 msgid "a small simulacrum"
 msgid_plural "%d small simulacra"
 msgstr[0] "ein kleines Simulacrum"
-msgstr[1] "%d kleine Simulacrume"
+msgstr[1] "%d kleine Simulacren"
 # check plural above
 
 #msgctxt "nom"
 msgid "a large zombie"
 msgid_plural "%d large zombies"
-msgstr[0] "ein große Zombie"
-msgstr[1] "%d große Zombien"
-# check plural above
+msgstr[0] "ein großer Zombie"
+msgstr[1] "%d große Zombies"
 
 #msgctxt "nom"
 msgid "a large skeleton"
@@ -8315,7 +8238,7 @@ msgstr[1] "%d große Skelette"
 msgid "a large simulacrum"
 msgid_plural "%d large simulacra"
 msgstr[0] "ein großes Simulacrum"
-msgstr[1] "%d große Simulacrume"
+msgstr[1] "%d große Simulacren"
 # check plural above
 
 #msgctxt "nom"
@@ -8323,7 +8246,6 @@ msgid "a spectral thing"
 msgid_plural "%d spectral things"
 msgstr[0] "eine spektrale Sache"
 msgstr[1] "%d spektrale Sachen"
-# check plural above
 
 #msgctxt "nom"
 msgid "an electric eel"
@@ -8336,14 +8258,14 @@ msgstr[1] "%d Zitteraale"
 msgid "a kraken"
 msgid_plural "%d krakens"
 msgstr[0] "ein Kraken"
-msgstr[1] "%d Kraken"
+msgstr[1] "%d Krakene"
 # check plural above
 
 #msgctxt "nom"
 msgid "a tentacle"
 msgid_plural "%d tentacles"
 msgstr[0] "ein Tentakel"
-msgstr[1] "%d Tentakele"
+msgstr[1] "%d Tentakel"
 # check plural above
 
 #msgctxt "nom"
@@ -8365,7 +8287,6 @@ msgid "a lava snake"
 msgid_plural "%d lava snakes"
 msgstr[0] "eine Lavaschlange"
 msgstr[1] "%d Lavaschlangen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a salamander"
@@ -8406,7 +8327,7 @@ msgstr[1] "%d Spieler"
 msgid "a player illusion"
 msgid_plural "%d player illusions"
 msgstr[0] "eine Spieler-Illusion"
-msgstr[1] "%d Spieler-Illusion"
+msgstr[1] "%d Spieler-Illusionen"
 # check plural above
 
 #msgctxt "nom"
@@ -8414,20 +8335,18 @@ msgid "a dancing weapon"
 msgid_plural "%d dancing weapons"
 msgstr[0] "eine tanzende Waffe"
 msgstr[1] "%d tanzende Waffen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a spectral weapon"
 msgid_plural "%d spectral weapons"
 msgstr[0] "eine Spektralwaffe"
 msgstr[1] "%d Spektralwaffen"
-# check plural above
 
 #msgctxt "nom"
 msgid "an eldritch tentacle"
 msgid_plural "%d eldritch tentacles"
-msgstr[0] "ein unheimliche Tentakel"
-msgstr[1] "%d unheimliche Tentakele"
+msgstr[0] "ein unheimlicher Tentakel"
+msgstr[1] "%d unheimliche Tentakel"
 # check plural above
 
 #msgctxt "nom"
@@ -8441,20 +8360,20 @@ msgstr[1] "%d unheimliche Tentakelsegmente"
 msgid "a demonspawn"
 msgid_plural "%d demonspawns"
 msgstr[0] "eine Dämonenbrut"
-msgstr[1] "%d Dämonenbrute"
+msgstr[1] "%d Dämonenbruten"
 # check plural above
 
 #msgctxt "nom"
 msgid "a monstrous demonspawn"
 msgid_plural "%d monstrous demonspawns"
 msgstr[0] "eine monströse Dämonenbrut"
-msgstr[1] "%d monströse Dämonenbrute"
+msgstr[1] "%d monströse Dämonenbruten"
 # check plural above
 
 #msgctxt "nom"
 msgid "a gelid demonspawn"
 msgid_plural "%d gelid demonspawns"
-msgstr[0] "ein gelide Dämonenbrut"
+msgstr[0] "ein gelider Dämonenbrut"
 msgstr[1] "%d gelide Dämonenbrute"
 # check plural above
 
@@ -8462,14 +8381,14 @@ msgstr[1] "%d gelide Dämonenbrute"
 msgid "an infernal demonspawn"
 msgid_plural "%d infernal demonspawns"
 msgstr[0] "eine höllische Dämonenbrut"
-msgstr[1] "%d höllische Dämonenbrute"
+msgstr[1] "%d höllische Dämonenbruten"
 # check plural above
 
 #msgctxt "nom"
 msgid "a torturous demonspawn"
 msgid_plural "%d torturous demonspawns"
 msgstr[0] "eine quälende Dämonenbrut"
-msgstr[1] "%d quälende Dämonenbrute"
+msgstr[1] "%d quälende Dämonenbruten"
 # check plural above
 
 #msgctxt "nom"
@@ -8490,7 +8409,7 @@ msgstr[1] "%d Kriegstreiber"
 msgid "a corrupter"
 msgid_plural "%d corrupters"
 msgstr[0] "ein Korruptor"
-msgstr[1] "%d Korruptor"
+msgstr[1] "%d Korruptore"
 # check plural above
 
 #msgctxt "nom"
@@ -8498,14 +8417,12 @@ msgid "a black sun"
 msgid_plural "%d black suns"
 msgstr[0] "eine schwarze Sonne"
 msgstr[1] "%d schwarze Sonnen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a crimson imp"
 msgid_plural "%d crimson imps"
 msgstr[0] "ein karminrotes Teufelchen"
 msgstr[1] "%d karminrote Teufelchen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a quasit"
@@ -8519,13 +8436,12 @@ msgid "a white imp"
 msgid_plural "%d white imps"
 msgstr[0] "ein weißes Teufelchen"
 msgstr[1] "%d weiße Teufelchen"
-# check plural above
 
 #msgctxt "nom"
 msgid "an ufetubus"
 msgid_plural "%d ufetubi"
 msgstr[0] "ein Ufetubus"
-msgstr[1] "%d Ufetubuse"
+msgstr[1] "%d Ufetuben"
 # check plural above
 
 #msgctxt "nom"
@@ -8533,62 +8449,60 @@ msgid "an iron imp"
 msgid_plural "%d iron imps"
 msgstr[0] "ein Eisenteufelchen"
 msgstr[1] "%d Eisenteufelchen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a shadow imp"
 msgid_plural "%d shadow imps"
 msgstr[0] "ein Schattenteufelchen"
 msgstr[1] "%d Schattenteufelchen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a rust devil"
 msgid_plural "%d rust devils"
 msgstr[0] "ein Rostteufel"
-msgstr[1] "%d Rostteufele"
+msgstr[1] "%d Rostteufel"
 # check plural above
 
 #msgctxt "nom"
 msgid "an orange demon"
 msgid_plural "%d orange demons"
-msgstr[0] "ein orange Dämon"
-msgstr[1] "%d orange Dämon"
+msgstr[0] "ein oranger Dämon"
+msgstr[1] "%d orange Dämone"
 # check plural above
 
 #msgctxt "nom"
 msgid "a red devil"
 msgid_plural "%d red devils"
-msgstr[0] "ein rote Teufel"
-msgstr[1] "%d rote Teufele"
+msgstr[0] "ein roter Teufel"
+msgstr[1] "%d rote Teufel"
 # check plural above
 
 #msgctxt "nom"
 msgid "a hellwing"
 msgid_plural "%d hellwings"
 msgstr[0] "ein Höllenflügel"
-msgstr[1] "%d Höllenflügele"
+msgstr[1] "%d Höllenflügel"
 # check plural above
 
 #msgctxt "nom"
 msgid "an ice devil"
 msgid_plural "%d ice devils"
 msgstr[0] "ein Eisteufel"
-msgstr[1] "%d Eisteufele"
+msgstr[1] "%d Eisteufel"
 # check plural above
 
 #msgctxt "nom"
 msgid "a chaos spawn"
 msgid_plural "%d chaos spawns"
 msgstr[0] "eine Chaosbrut"
-msgstr[1] "%d Chaosbrute"
+msgstr[1] "%d Chaosbruten"
 # check plural above
 
 #msgctxt "nom"
 msgid "a sun demon"
 msgid_plural "%d sun demons"
 msgstr[0] "ein Sonnendämon"
-msgstr[1] "%d Sonnendämon"
+msgstr[1] "%d Sonnendämone"
 # check plural above
 
 #msgctxt "nom"
@@ -8602,14 +8516,14 @@ msgstr[1] "%d Seelenfresser"
 msgid "a smoke demon"
 msgid_plural "%d smoke demons"
 msgstr[0] "ein Rauchdämon"
-msgstr[1] "%d Rauchdämon"
+msgstr[1] "%d Rauchdämone"
 # check plural above
 
 #msgctxt "nom"
 msgid "a neqoxec"
 msgid_plural "%d neqoxecs"
 msgstr[0] "eine Neqoxec"
-msgstr[1] "%d Neqoxece"
+msgstr[1] "%d Neqoxecen"
 # check plural above
 
 #msgctxt "nom"
@@ -8623,20 +8537,20 @@ msgstr[1] "%d Ynoxinule"
 msgid "a sixfirhy"
 msgid_plural "%d sixfirhies"
 msgstr[0] "ein Sixfirhy"
-msgstr[1] "%d Sixfirhye"
+msgstr[1] "%d Sixfirhys"
 # check plural above
 
 #msgctxt "nom"
 msgid "a shadow demon"
 msgid_plural "%d shadow demons"
 msgstr[0] "ein Schattendämon"
-msgstr[1] "%d Schattendämon"
+msgstr[1] "%d Schattendämone"
 # check plural above
 
 #msgctxt "nom"
 msgid "a green death"
 msgid_plural "%d green deaths"
-msgstr[0] "ein grüne Tod"
+msgstr[0] "ein grüner Tod"
 msgstr[1] "%d grüne Tode"
 # check plural above
 
@@ -8644,7 +8558,7 @@ msgstr[1] "%d grüne Tode"
 msgid "a blizzard demon"
 msgid_plural "%d blizzard demons"
 msgstr[0] "ein Blizzarddämon"
-msgstr[1] "%d Blizzarddämon"
+msgstr[1] "%d Blizzarddämone"
 # check plural above
 
 #msgctxt "nom"
@@ -8658,21 +8572,21 @@ msgstr[1] "%d Balruge"
 msgid "a cacodemon"
 msgid_plural "%d cacodemons"
 msgstr[0] "ein Cacodaemon"
-msgstr[1] "%d Cacodaemon"
+msgstr[1] "%d Cacodaemone"
 # check plural above
 
 #msgctxt "nom"
 msgid "a hell beast"
 msgid_plural "%d hell beasts"
 msgstr[0] "ein Höllentier"
-msgstr[1] "%d Höllentier"
+msgstr[1] "%d Höllentiere"
 # check plural above
 
 #msgctxt "nom"
 msgid "a hellion"
 msgid_plural "%d hellions"
 msgstr[0] "ein Teufelsbraten"
-msgstr[1] "%d Teufelsbraten"
+msgstr[1] "%d Teufelsbratene"
 # check plural above
 
 #msgctxt "nom"
@@ -8686,7 +8600,7 @@ msgstr[1] "%d Schnitter"
 msgid "a lorocyproca"
 msgid_plural "%d lorocyprocas"
 msgstr[0] "eine Lorocyproca"
-msgstr[1] "%d Lorocyprocae"
+msgstr[1] "%d Lorocyprocas"
 # check plural above
 
 #msgctxt "nom"
@@ -8734,9 +8648,8 @@ msgstr[1] "%d Scharfrichter"
 #msgctxt "nom"
 msgid "an animated tree"
 msgid_plural "%d animated trees"
-msgstr[0] "ein animierte Baum"
-msgstr[1] "%d animierte Baume"
-# check plural above
+msgstr[0] "ein animierter Baum"
+msgstr[1] "%d animierte Bäume"
 
 #msgctxt "nom"
 msgid "a golem"
@@ -8791,7 +8704,7 @@ msgstr[1] "%d Blitzgoleme"
 msgid "an ushabti"
 msgid_plural "%d ushabtiu"
 msgstr[0] "eine Uschabti"
-msgstr[1] "%d Uschabtie"
+msgstr[1] "%d Uschabtis"
 # check plural above
 
 #msgctxt "nom"
@@ -8804,7 +8717,7 @@ msgstr[1] "%d Wächtergoleme"
 #msgctxt "nom"
 msgid "a spellforged servitor"
 msgid_plural "%d spellforged servitors"
-msgstr[0] "ein zaubergeschmeidete Diener"
+msgstr[0] "ein zaubergeschmeideter Diener"
 msgstr[1] "%d zaubergeschmeidete Diener"
 # check plural above
 
@@ -8813,42 +8726,37 @@ msgid "an ice statue"
 msgid_plural "%d ice statues"
 msgstr[0] "eine Eisstatue"
 msgstr[1] "%d Eisstatuen"
-# check plural above
 
 #msgctxt "nom"
 msgid "an obsidian statue"
 msgid_plural "%d obsidian statues"
 msgstr[0] "eine Obsidianstatue"
 msgstr[1] "%d Obsidianstatuen"
-# check plural above
 
 #msgctxt "nom"
 msgid "an orange crystal statue"
 msgid_plural "%d orange crystal statues"
 msgstr[0] "eine orange Kristallstatue"
 msgstr[1] "%d orange Kristallstatuen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a statue"
 msgid_plural "%d statues"
 msgstr[0] "eine Statue"
 msgstr[1] "%d Statuen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a training dummy"
 msgid_plural "%d training dummies"
 msgstr[0] "eine Trainingspuppe"
 msgstr[1] "%d Trainingspuppen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a pillar of salt"
 msgid_plural "%d pillars of salt"
 msgstr[0] "eine Säule des Salzes"
 msgstr[1] "%d Säule des Salzes"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 #msgctxt "nom"
 msgid "a block of ice"
@@ -8875,35 +8783,32 @@ msgstr[1] "%d Blitzturme"
 msgid "a gargoyle"
 msgid_plural "%d gargoyles"
 msgstr[0] "ein Gargoyle"
-msgstr[1] "%d Gargoylen"
-# check plural above
+msgstr[1] "%d Gargoyles"
 
 #msgctxt "nom"
 msgid "a war gargoyle"
 msgid_plural "%d war gargoyles"
 msgstr[0] "ein Kriegsgargoyle"
-msgstr[1] "%d Kriegsgargoylen"
-# check plural above
+msgstr[1] "%d Kriegsgargoyles"
 
 #msgctxt "nom"
 msgid "a molten gargoyle"
 msgid_plural "%d molten gargoyles"
-msgstr[0] "ein geschmolzene Gargoyle"
-msgstr[1] "%d geschmolzene Gargoylen"
-# check plural above
+msgstr[0] "ein geschmolzener Gargoyle"
+msgstr[1] "%d geschmolzene Gargoyles"
 
 #msgctxt "nom"
 msgid "a pandemonium lord"
 msgid_plural "%d pandemonium lords"
 msgstr[0] "ein Pandemoniumsherr"
-msgstr[1] "%d Pandemoniumsherr"
+msgstr[1] "%d Pandemoniumsherre"
 # check plural above
 
 #msgctxt "nom"
 msgid "a hell lord"
 msgid_plural "%d hell lords"
 msgstr[0] "ein Höllenherr"
-msgstr[1] "%d Höllenherr"
+msgstr[1] "%d Höllenherre"
 # check plural above
 
 #msgctxt "nom"
@@ -8918,27 +8823,25 @@ msgid "a ballistomycete spore"
 msgid_plural "%d ballistomycete spores"
 msgstr[0] "eine Ballistomycetenspore"
 msgstr[1] "%d Ballistomycetensporen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a lost soul"
 msgid_plural "%d lost souls"
 msgstr[0] "eine verlorene Seele"
 msgstr[1] "%d verlorene Seelen"
-# check plural above
 
 #msgctxt "nom"
 msgid "a lurking horror"
 msgid_plural "%d lurking horrors"
 msgstr[0] "ein lauerndes Grauen"
-msgstr[1] "%d lauernde Grauen"
+msgstr[1] "%d lauernde Grauene"
 # check plural above
 
 #msgctxt "nom"
 msgid "an orb of fire"
 msgid_plural "%d orbs of fire"
 msgstr[0] "eine Feuerkugel"
-msgstr[1] "%d Feuerkugele"
+msgstr[1] "%d Feuerkugeln"
 # check plural above
 
 #msgctxt "nom"
@@ -8946,20 +8849,20 @@ msgid "an orb of destruction"
 msgid_plural "%d orbs of destruction"
 msgstr[0] "eine Kugel der Zerstörung"
 msgstr[1] "%d Kugel der Zerstörung"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 #msgctxt "nom"
 msgid "a fulminant prism"
 msgid_plural "%d fulminant prisms"
 msgstr[0] "ein fulminantes Prisma"
-msgstr[1] "%d fulminante Prismae"
+msgstr[1] "%d fulminante Prismen"
 # check plural above
 
 #msgctxt "nom"
 msgid "a wretched star"
 msgid_plural "%d wretched stars"
-msgstr[0] "ein elende Stern"
-msgstr[1] "%d elende Stern"
+msgstr[0] "ein elender Stern"
+msgstr[1] "%d elende Sterne"
 # check plural above
 
 #msgctxt "nom"
@@ -8967,14 +8870,12 @@ msgid "a battlesphere"
 msgid_plural "%d battlespheres"
 msgstr[0] "eine Kampfsphäre"
 msgstr[1] "%d Kampfsphären"
-# check plural above
 
 #msgctxt "nom"
 msgid "a death cob"
 msgid_plural "%d death cobs"
 msgstr[0] "ein Todeskolben"
 msgstr[1] "%d Todeskolben"
-# check plural above
 
 #msgctxt "nom"
 msgid "a moon troll"
@@ -8988,7 +8889,7 @@ msgid "a Serpent of Hell"
 msgid_plural "%d Serpents of Hell"
 msgstr[0] "eine Schlange der Hölle"
 msgstr[1] "%d Schlange der Hölle"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 #msgctxt "nom"
 msgid "a sensed monster"
@@ -9048,21 +8949,18 @@ msgid "a worker ant"
 msgid_plural "%d worker ants"
 msgstr[0] "eine Ameisenarbeiterin"
 msgstr[1] "%d Ameisenarbeiterinnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a queen ant"
 msgid_plural "%d queen ants"
 msgstr[0] "eine Ameisenkönigin"
 msgstr[1] "%d Ameisenköniginnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a soldier ant"
 msgid_plural "%d soldier ants"
 msgstr[0] "eine Ameisensoldatin"
 msgstr[1] "%d Ameisensoldatinnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a formicid"
@@ -9083,7 +8981,6 @@ msgid "a bat"
 msgid_plural "%d bats"
 msgstr[0] "eine Fledermaus"
 msgstr[1] "%d Fledermäuse"
-# check plural above
 
 msgctxt "akk"
 msgid "a butterfly"
@@ -9097,20 +8994,18 @@ msgid "a vampire bat"
 msgid_plural "%d vampire bats"
 msgstr[0] "eine Vampirfledermaus"
 msgstr[1] "%d Vampirfledermäuse"
-# check plural above
 
 msgctxt "akk"
 msgid "a fire bat"
 msgid_plural "%d fire bats"
-msgstr[0] "einen Feuerfledermaus"
+msgstr[0] "eine Feuerfledermaus"
 msgstr[1] "%d Feuerfledermäuse"
-# check plural above
 
 msgctxt "akk"
 msgid "a bennu"
 msgid_plural "%d bennus"
 msgstr[0] "ein Bennu"
-msgstr[1] "%d Bennue"
+msgstr[1] "%d Bennus"
 # check plural above
 
 msgctxt "akk"
@@ -9131,7 +9026,7 @@ msgctxt "akk"
 msgid "a centaur"
 msgid_plural "%d centaurs"
 msgstr[0] "einen Zentaur"
-msgstr[1] "%d Zentaur"
+msgstr[1] "%d Zentaure"
 # check plural above
 
 msgctxt "akk"
@@ -9145,28 +9040,28 @@ msgctxt "akk"
 msgid "a yaktaur"
 msgid_plural "%d yaktaurs"
 msgstr[0] "einen Yaktaur"
-msgstr[1] "%d Yaktaur"
+msgstr[1] "%d Yaktaure"
 # check plural above
 
 msgctxt "akk"
 msgid "a yaktaur captain"
 msgid_plural "%d yaktaur captains"
 msgstr[0] "einen Yaktaur-Kapitän"
-msgstr[1] "%d Yaktaur-Kapitän"
+msgstr[1] "%d Yaktaur-Kapitäne"
 # check plural above
 
 msgctxt "akk"
 msgid "a faun"
 msgid_plural "%d fauns"
 msgstr[0] "einen Faun"
-msgstr[1] "%d Faun"
+msgstr[1] "%d Faune"
 # check plural above
 
 msgctxt "akk"
 msgid "a satyr"
 msgid_plural "%d satyrs"
 msgstr[0] "einen Satyr"
-msgstr[1] "%d Satyr"
+msgstr[1] "%d Satyre"
 # check plural above
 
 msgctxt "akk"
@@ -9355,7 +9250,7 @@ msgctxt "akk"
 msgid "a deep elf elementalist"
 msgid_plural "%d deep elf elementalists"
 msgstr[0] "einen Tiefenelf-Elementalist"
-msgstr[1] "%d Tiefenelf-Elementalisten"
+msgstr[1] "%d Tiefenelf-Elementaliste"
 # check plural above
 
 msgctxt "akk"
@@ -9370,7 +9265,6 @@ msgid "a deathcap"
 msgid_plural "%d deathcaps"
 msgstr[0] "eine Todesmütze"
 msgstr[1] "%d Todesmützen"
-# check plural above
 
 msgctxt "akk"
 msgid "a thorn hunter"
@@ -9384,7 +9278,6 @@ msgid "a shambling mangrove"
 msgid_plural "%d shambling mangroves"
 msgstr[0] "eine watschelnde Mangrove"
 msgstr[1] "%d watschelnde Mangroven"
-# check plural above
 
 msgctxt "akk"
 msgid "a vine stalker"
@@ -9397,15 +9290,13 @@ msgctxt "akk"
 msgid "a goblin"
 msgid_plural "%d goblins"
 msgstr[0] "einen Goblin"
-msgstr[1] "%d Goblinnen"
-# check plural above
+msgstr[1] "%d Goblins"
 
 msgctxt "akk"
 msgid "a hobgoblin"
 msgid_plural "%d hobgoblins"
 msgstr[0] "einen Hobgoblin"
-msgstr[1] "%d Hobgoblinnen"
-# check plural above
+msgstr[1] "%d Hobgoblins"
 
 msgctxt "akk"
 msgid "a gnoll"
@@ -9488,7 +9379,7 @@ msgctxt "akk"
 msgid "a hog"
 msgid_plural "%d hogs"
 msgstr[0] "ein Schwein"
-msgstr[1] "%d Schweinnen"
+msgstr[1] "%d Schweine"
 # check plural above
 
 msgctxt "akk"
@@ -9509,21 +9400,21 @@ msgctxt "akk"
 msgid "a raiju"
 msgid_plural "%d raiju"
 msgstr[0] "einen Raiju"
-msgstr[1] "%d Raijue"
+msgstr[1] "%d Raijus"
 # check plural above
 
 msgctxt "akk"
 msgid "a hell hog"
 msgid_plural "%d hell hogs"
 msgstr[0] "ein höllisches Schwein"
-msgstr[1] "%d höllische Schweinnen"
+msgstr[1] "%d höllische Schweine"
 # check plural above
 
 msgctxt "akk"
 msgid "a holy swine"
 msgid_plural "%d holy swine"
 msgstr[0] "ein heiliges Schwein"
-msgstr[1] "%d heilige Schweinnen"
+msgstr[1] "%d heilige Schweine"
 # check plural above
 
 msgctxt "akk"
@@ -9537,29 +9428,28 @@ msgctxt "akk"
 msgid "a bear"
 msgid_plural "%d bears"
 msgstr[0] "einen Bär"
-msgstr[1] "%d Bär"
+msgstr[1] "%d Bäre"
 # check plural above
 
 msgctxt "akk"
 msgid "a polar bear"
 msgid_plural "%d polar bears"
 msgstr[0] "einen Eisbär"
-msgstr[1] "%d Eisbär"
+msgstr[1] "%d Eisbäre"
 # check plural above
 
 msgctxt "akk"
 msgid "a black bear"
 msgid_plural "%d black bears"
 msgstr[0] "einen Schwarzbär"
-msgstr[1] "%d Schwarzbär"
+msgstr[1] "%d Schwarzbäre"
 # check plural above
 
 msgctxt "akk"
 msgid "a spriggan"
 msgid_plural "%d spriggans"
 msgstr[0] "einen Spriggan"
-msgstr[1] "%d Spriggan"
-# check plural above
+msgstr[1] "%d Spriggans"
 
 msgctxt "akk"
 msgid "a spriggan rider"
@@ -9643,27 +9533,25 @@ msgid "a giant lizard"
 msgid_plural "%d giant lizards"
 msgstr[0] "eine Rieseneidechse"
 msgstr[1] "%d Rieseneidechsen"
-# check plural above
 
 msgctxt "akk"
 msgid "a frilled lizard"
 msgid_plural "%d frilled lizards"
 msgstr[0] "eine gekräuselte Eidechse"
 msgstr[1] "%d gekräuselte Eidechsen"
-# check plural above
 
 msgctxt "akk"
 msgid "a leopard gecko"
 msgid_plural "%d leopard geckos"
 msgstr[0] "einen Leopardgecko"
-msgstr[1] "%d Leopardgeckoe"
+msgstr[1] "%d Leopardgeckos"
 # check plural above
 
 msgctxt "akk"
 msgid "an iguana"
 msgid_plural "%d iguanas"
 msgstr[0] "einen Leguan"
-msgstr[1] "%d Leguan"
+msgstr[1] "%d Leguane"
 # check plural above
 
 msgctxt "akk"
@@ -9677,8 +9565,7 @@ msgctxt "akk"
 msgid "a wyvern"
 msgid_plural "%d wyverns"
 msgstr[0] "einen Wyvern"
-msgstr[1] "%d Wyvern"
-# check plural above
+msgstr[1] "%d Wyverns"
 
 msgctxt "akk"
 msgid "a komodo dragon"
@@ -9720,13 +9607,12 @@ msgid "a merfolk siren"
 msgid_plural "%d merfolk sirens"
 msgstr[0] "eine Meervolk-Sirene"
 msgstr[1] "%d Meervolk-Sirenen"
-# check plural above
 
 msgctxt "akk"
 msgid "a merfolk avatar"
 msgid_plural "%d merfolk avatars"
 msgstr[0] "einen Meervolk-Avatar"
-msgstr[1] "%d Meervolk-Avatar"
+msgstr[1] "%d Meervolk-Avatare"
 # check plural above
 
 msgctxt "akk"
@@ -9734,20 +9620,18 @@ msgid "a water nymph"
 msgid_plural "%d water nymphs"
 msgstr[0] "eine Wassernymphe"
 msgstr[1] "%d Wassernymphen"
-# check plural above
 
 msgctxt "akk"
 msgid "a bog body"
 msgid_plural "%d bog bodies"
 msgstr[0] "eine Moorleiche"
 msgstr[1] "%d Moorleichen"
-# check plural above
 
 msgctxt "akk"
 msgid "a necrophage"
 msgid_plural "%d necrophages"
 msgstr[0] "einen Nekrophagen"
-msgstr[1] "%d Nekrophagen"
+msgstr[1] "%d Nekrophagene"
 # check plural above
 
 msgctxt "akk"
@@ -9874,7 +9758,6 @@ msgid "a vault sentinel"
 msgid_plural "%d vault sentinels"
 msgstr[0] "eine Tresorwache"
 msgstr[1] "%d Tresorwachen"
-# check plural above
 
 msgctxt "akk"
 msgid "a vault warden"
@@ -9894,7 +9777,7 @@ msgctxt "akk"
 msgid "an imperial myrmidon"
 msgid_plural "%d imperial myrmidons"
 msgstr[0] "einen kaiserlichen Myrmidon"
-msgstr[1] "%d kaiserliche Myrmidon"
+msgstr[1] "%d kaiserliche Myrmidone"
 # check plural above
 
 msgctxt "akk"
@@ -9902,7 +9785,7 @@ msgid "a servant of whispers"
 msgid_plural "%d servants of whispers"
 msgstr[0] "einen Diener des Flüsterns"
 msgstr[1] "%d Diener des Flüsterns"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "akk"
 msgid "a ragged hierophant"
@@ -9936,8 +9819,7 @@ msgctxt "akk"
 msgid "a Killer Klown"
 msgid_plural "%d Killer Klowns"
 msgstr[0] "einen Killer-Klown"
-msgstr[1] "%d Killer-Klown"
-# check plural above
+msgstr[1] "%d Killer-Klowns"
 
 msgctxt "akk"
 msgid "a demigod"
@@ -9958,13 +9840,12 @@ msgid "a rat"
 msgid_plural "%d rats"
 msgstr[0] "eine Ratte"
 msgstr[1] "%d Ratten"
-# check plural above
 
 msgctxt "akk"
 msgid "a quokka"
 msgid_plural "%d quokkas"
-msgstr[0] "einen Quokka"
-msgstr[1] "%d Quokkae"
+msgstr[0] "ein Quokka"
+msgstr[1] "%d Quokkas"
 # check plural above
 
 msgctxt "akk"
@@ -9972,20 +9853,18 @@ msgid "a river rat"
 msgid_plural "%d river rats"
 msgstr[0] "eine Flussratte"
 msgstr[1] "%d Flussratten"
-# check plural above
 
 msgctxt "akk"
 msgid "a hell rat"
 msgid_plural "%d hell rats"
 msgstr[0] "eine Höllenratte"
 msgstr[1] "%d Höllenratten"
-# check plural above
 
 msgctxt "akk"
 msgid "a porcupine"
 msgid_plural "%d porcupines"
 msgstr[0] "ein Stachelschwein"
-msgstr[1] "%d Stachelschweinnen"
+msgstr[1] "%d Stachelschweine"
 # check plural above
 
 msgctxt "akk"
@@ -9993,27 +9872,26 @@ msgid "a giant cockroach"
 msgid_plural "%d giant cockroaches"
 msgstr[0] "eine Riesenkakerlake"
 msgstr[1] "%d Riesenkakerlaken"
-# check plural above
 
 msgctxt "akk"
 msgid "a scorpion"
 msgid_plural "%d scorpions"
 msgstr[0] "einen Skorpion"
-msgstr[1] "%d Skorpion"
+msgstr[1] "%d Skorpione"
 # check plural above
 
 msgctxt "akk"
 msgid "an emperor scorpion"
 msgid_plural "%d emperor scorpions"
 msgstr[0] "einen Kaiserskorpion"
-msgstr[1] "%d Kaiserskorpion"
+msgstr[1] "%d Kaiserskorpione"
 # check plural above
 
 msgctxt "akk"
 msgid "a death scarab"
 msgid_plural "%d death scarabs"
 msgstr[0] "einen Todesskarabäus"
-msgstr[1] "%d Todesskarabäuse"
+msgstr[1] "%d Todesskarabäen"
 # check plural above
 
 msgctxt "akk"
@@ -10021,13 +9899,12 @@ msgid "a spider"
 msgid_plural "%d spiders"
 msgstr[0] "eine Spinne"
 msgstr[1] "%d Spinnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a tarantella"
 msgid_plural "%d tarantellas"
 msgstr[0] "eine Tarantella"
-msgstr[1] "%d Tarantellae"
+msgstr[1] "%d Tarantellen"
 # check plural above
 
 msgctxt "akk"
@@ -10035,21 +9912,18 @@ msgid "a jumping spider"
 msgid_plural "%d jumping spiders"
 msgstr[0] "eine springende Spinne"
 msgstr[1] "%d springende Spinnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a wolf spider"
 msgid_plural "%d wolf spiders"
 msgstr[0] "eine Wolfsspinne"
 msgstr[1] "%d Wolfsspinnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a redback"
 msgid_plural "%d redbacks"
 msgstr[0] "eine Rotrückenspinne"
 msgstr[1] "%d Rotrückenspinnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a demonic crawler"
@@ -10063,7 +9937,6 @@ msgid "an orb spider"
 msgid_plural "%d orb spiders"
 msgstr[0] "eine Kugelspinne"
 msgstr[1] "%d Kugelspinnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a crocodile"
@@ -10076,7 +9949,7 @@ msgctxt "akk"
 msgid "an alligator"
 msgid_plural "%d alligators"
 msgstr[0] "einen Alligator"
-msgstr[1] "%d Alligator"
+msgstr[1] "%d Alligatore"
 # check plural above
 
 msgctxt "akk"
@@ -10084,42 +9957,36 @@ msgid "a snapping turtle"
 msgid_plural "%d snapping turtles"
 msgstr[0] "eine Schnappschildkröte"
 msgstr[1] "%d Schnappschildkröten"
-# check plural above
 
 msgctxt "akk"
 msgid "an alligator snapping turtle"
 msgid_plural "%d alligator snapping turtles"
 msgstr[0] "eine Alligatorschnappschildkröte"
 msgstr[1] "%d Alligatorschnappschildkröten"
-# check plural above
 
 msgctxt "akk"
 msgid "a crab"
 msgid_plural "%d crabs"
 msgstr[0] "eine Krabbe"
 msgstr[1] "%d Krabben"
-# check plural above
 
 msgctxt "akk"
 msgid "a fire crab"
 msgid_plural "%d fire crabs"
 msgstr[0] "eine Feuerkrabbe"
 msgstr[1] "%d Feuerkrabben"
-# check plural above
 
 msgctxt "akk"
 msgid "a ghost crab"
 msgid_plural "%d ghost crabs"
 msgstr[0] "eine Geisterkrabbe"
 msgstr[1] "%d Geisterkrabben"
-# check plural above
 
 msgctxt "akk"
 msgid "an apocalypse crab"
 msgid_plural "%d apocalypse crabs"
 msgstr[0] "eine Apokalypse-Krabbe"
 msgstr[1] "%d Apokalypse-Krabben"
-# check plural above
 
 msgctxt "akk"
 msgid "an ugly thing"
@@ -10139,14 +10006,14 @@ msgctxt "akk"
 msgid "a fire vortex"
 msgid_plural "%d fire vortices"
 msgstr[0] "einen Feuerwirbel"
-msgstr[1] "%d Feuerwirbele"
+msgstr[1] "%d Feuerwirbel"
 # check plural above
 
 msgctxt "akk"
 msgid "a spatial vortex"
 msgid_plural "%d spatial vortices"
 msgstr[0] "einen räumlichen Wirbel"
-msgstr[1] "%d räumliche Wirbele"
+msgstr[1] "%d räumliche Wirbel"
 # check plural above
 
 msgctxt "akk"
@@ -10188,7 +10055,7 @@ msgctxt "akk"
 msgid "a tyrant leech"
 msgid_plural "%d tyrant leeches"
 msgstr[0] "einen Tyrannblutegel"
-msgstr[1] "%d Tyrannblutegele"
+msgstr[1] "%d Tyrannblutegel"
 # check plural above
 
 msgctxt "akk"
@@ -10196,34 +10063,31 @@ msgid "a dart slug"
 msgid_plural "%d dart slugs"
 msgstr[0] "eine Pfeilschnecke"
 msgstr[1] "%d Pfeilschnecken"
-# check plural above
 
 msgctxt "akk"
 msgid "a torpor snail"
 msgid_plural "%d torpor snails"
 msgstr[0] "eine Erstarrungsschnecke"
 msgstr[1] "%d Erstarrungsschnecken"
-# check plural above
 
 msgctxt "akk"
 msgid "an elephant slug"
 msgid_plural "%d elephant slugs"
 msgstr[0] "eine Elefantenschnecke"
 msgstr[1] "%d Elefantenschnecken"
-# check plural above
 
 msgctxt "akk"
 msgid "an unseen horror"
 msgid_plural "%d unseen horrors"
 msgstr[0] "ein unsichtbares Grauen"
-msgstr[1] "%d unsichtbare Grauen"
+msgstr[1] "%d unsichtbare Grauene"
 # check plural above
 
 msgctxt "akk"
 msgid "a small abomination"
 msgid_plural "%d small abominations"
 msgstr[0] "einen kleinen Greuel"
-msgstr[1] "%d kleine Greuele"
+msgstr[1] "%d kleine Greuel"
 # check plural above
 
 msgctxt "akk"
@@ -10231,14 +10095,12 @@ msgid "a crawling corpse"
 msgid_plural "%d crawling corpses"
 msgstr[0] "eine kriechende Leiche"
 msgstr[1] "%d kriechende Leichen"
-# check plural above
 
 msgctxt "akk"
 msgid "a macabre mass"
 msgid_plural "%d macabre masses"
 msgstr[0] "eine makabere Masse"
 msgstr[1] "%d makabere Massen"
-# check plural above
 
 msgctxt "akk"
 msgid "an ancient zyme"
@@ -10259,34 +10121,30 @@ msgid "a killer bee"
 msgid_plural "%d killer bees"
 msgstr[0] "eine Killerbiene"
 msgstr[1] "%d Killerbienen"
-# check plural above
 
 msgctxt "akk"
 msgid "a queen bee"
 msgid_plural "%d queen bees"
 msgstr[0] "eine Bienenkönigin"
 msgstr[1] "%d Bienenköniginnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a vampire mosquito"
 msgid_plural "%d vampire mosquitoes"
 msgstr[0] "eine Vampir-Mücke"
 msgstr[1] "%d Vampir-Mücken"
-# check plural above
 
 msgctxt "akk"
 msgid "a hornet"
 msgid_plural "%d hornets"
 msgstr[0] "eine Hornisse"
 msgstr[1] "%d Hornissen"
-# check plural above
 
 msgctxt "akk"
 msgid "a meliai"
 msgid_plural "%d meliai"
 msgstr[0] "eine Meliai"
-msgstr[1] "%d Meliaie"
+msgstr[1] "%d Meliais"
 # check plural above
 
 msgctxt "akk"
@@ -10294,28 +10152,25 @@ msgid "a spark wasp"
 msgid_plural "%d spark wasps"
 msgstr[0] "eine Funkenwespe"
 msgstr[1] "%d Funkenwespen"
-# check plural above
 
 msgctxt "akk"
 msgid "a moth"
 msgid_plural "%d moths"
 msgstr[0] "eine Motte"
 msgstr[1] "%d Motten"
-# check plural above
 
 msgctxt "akk"
 msgid "a ghost moth"
 msgid_plural "%d ghost moths"
 msgstr[0] "eine Geistermotte"
 msgstr[1] "%d Geistermotten"
-# check plural above
 
 msgctxt "akk"
 msgid "a moth of wrath"
 msgid_plural "%d moths of wrath"
 msgstr[0] "eine Motte des Zorns"
 msgstr[1] "%d Motte des Zorns"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "akk"
 msgid "a wight"
@@ -10335,21 +10190,21 @@ msgctxt "akk"
 msgid "an ancient champion"
 msgid_plural "%d ancient champions"
 msgstr[0] "einen alten Champion"
-msgstr[1] "%d alte Champion"
+msgstr[1] "%d alte Champione"
 # check plural above
 
 msgctxt "akk"
 msgid "a flying skull"
 msgid_plural "%d flying skulls"
 msgstr[0] "einen fliegenden Schädel"
-msgstr[1] "%d fliegende Schädele"
+msgstr[1] "%d fliegende Schädel"
 # check plural above
 
 msgctxt "akk"
 msgid "a curse skull"
 msgid_plural "%d curse skulls"
 msgstr[0] "einen Fluchschädel"
-msgstr[1] "%d Fluchschädele"
+msgstr[1] "%d Fluchschädel"
 # check plural above
 
 msgctxt "akk"
@@ -10363,7 +10218,7 @@ msgctxt "akk"
 msgid "an angel"
 msgid_plural "%d angels"
 msgstr[0] "einen Engel"
-msgstr[1] "%d Engele"
+msgstr[1] "%d Engel"
 # check plural above
 
 msgctxt "akk"
@@ -10384,7 +10239,7 @@ msgctxt "akk"
 msgid "a daeva"
 msgid_plural "%d daevas"
 msgstr[0] "einen Daeva"
-msgstr[1] "%d Daevae"
+msgstr[1] "%d Daevas"
 # check plural above
 
 msgctxt "akk"
@@ -10412,7 +10267,7 @@ msgctxt "akk"
 msgid "an ettin"
 msgid_plural "%d ettins"
 msgstr[0] "einen Ettin"
-msgstr[1] "%d Ettinnen"
+msgstr[1] "%d Ettine"
 # check plural above
 
 msgctxt "akk"
@@ -10440,7 +10295,7 @@ msgctxt "akk"
 msgid "a titan"
 msgid_plural "%d titans"
 msgstr[0] "einen Titan"
-msgstr[1] "%d Titan"
+msgstr[1] "%d Titane"
 # check plural above
 
 msgctxt "akk"
@@ -10475,14 +10330,14 @@ msgctxt "akk"
 msgid "a hydra"
 msgid_plural "%d hydras"
 msgstr[0] "eine Hydra"
-msgstr[1] "%d Hydrae"
+msgstr[1] "%d Hydren"
 # check plural above
 
 msgctxt "akk"
 msgid "a %d-headed hydra"
 msgid_plural "%d %d-headed hydras"
 msgstr[0] "eine %d-köpfige Hydra"
-msgstr[1] "%d %d-köpfige Hydrae"
+msgstr[1] "%d %d-köpfige Hydren"
 # check plural above
 
 msgctxt "akk"
@@ -10566,42 +10421,42 @@ msgctxt "akk"
 msgid "an elemental"
 msgid_plural "%d elementals"
 msgstr[0] "ein Elementar"
-msgstr[1] "%d Elementar"
+msgstr[1] "%d Elementare"
 # check plural above
 
 msgctxt "akk"
 msgid "an earth elemental"
 msgid_plural "%d earth elementals"
 msgstr[0] "ein Erdelementar"
-msgstr[1] "%d Erdelementar"
+msgstr[1] "%d Erdelementare"
 # check plural above
 
 msgctxt "akk"
 msgid "a fire elemental"
 msgid_plural "%d fire elementals"
 msgstr[0] "ein Feuerelementar"
-msgstr[1] "%d Feuerelementar"
+msgstr[1] "%d Feuerelementare"
 # check plural above
 
 msgctxt "akk"
 msgid "a water elemental"
 msgid_plural "%d water elementals"
 msgstr[0] "ein Wasserelementar"
-msgstr[1] "%d Wasserelementar"
+msgstr[1] "%d Wasserelementare"
 # check plural above
 
 msgctxt "akk"
 msgid "an air elemental"
 msgid_plural "%d air elementals"
 msgstr[0] "ein Luftelementar"
-msgstr[1] "%d Luftelementar"
+msgstr[1] "%d Luftelementare"
 # check plural above
 
 msgctxt "akk"
 msgid "an iron elemental"
 msgid_plural "%d iron elementals"
 msgstr[0] "ein Eisenelementar"
-msgstr[1] "%d Eisenelementar"
+msgstr[1] "%d Eisenelementare"
 # check plural above
 
 msgctxt "akk"
@@ -10609,7 +10464,6 @@ msgid "an elemental wellspring"
 msgid_plural "%d elemental wellsprings"
 msgstr[0] "eine elementare Quelle"
 msgstr[1] "%d elementare Quellen"
-# check plural above
 
 msgctxt "akk"
 msgid "a giant frog"
@@ -10643,7 +10497,7 @@ msgctxt "akk"
 msgid "a barachi"
 msgid_plural "%d barachim"
 msgstr[0] "eine Barachi"
-msgstr[1] "%d Barachie"
+msgstr[1] "%d Barachis"
 # check plural above
 
 msgctxt "akk"
@@ -10658,20 +10512,20 @@ msgid "an eye of draining"
 msgid_plural "%d eyes of draining"
 msgstr[0] "ein Auge des Schwächens"
 msgstr[1] "%d Auge des Schwächens"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "akk"
 msgid "a glowing orange brain"
 msgid_plural "%d glowing orange brains"
 msgstr[0] "ein oranges leuchtendes Gehirn"
-msgstr[1] "%d orange leuchtende Gehirn"
+msgstr[1] "%d orange leuchtende Gehirne"
 # check plural above
 
 msgctxt "akk"
 msgid "a great orb of eyes"
 msgid_plural "%d great orbs of eyes"
 msgstr[0] "einen großen Augenkugel"
-msgstr[1] "%d große Augenkugele"
+msgstr[1] "%d große Augenkugel"
 # check plural above
 
 msgctxt "akk"
@@ -10686,7 +10540,7 @@ msgid "an eye of devastation"
 msgid_plural "%d eyes of devastation"
 msgstr[0] "ein Auge der Verwüstung"
 msgstr[1] "%d Auge der Verwüstung"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "akk"
 msgid "a golden eye"
@@ -10699,7 +10553,7 @@ msgctxt "akk"
 msgid "an ophan"
 msgid_plural "%d ophanim"
 msgstr[0] "einen Ophan"
-msgstr[1] "%d Ophan"
+msgstr[1] "%d Ophane"
 # check plural above
 
 msgctxt "akk"
@@ -10713,21 +10567,21 @@ msgctxt "akk"
 msgid "a manticore"
 msgid_plural "%d manticores"
 msgstr[0] "einen Mantikor"
-msgstr[1] "%d Mantikor"
+msgstr[1] "%d Mantikore"
 # check plural above
 
 msgctxt "akk"
 msgid "a minotaur"
 msgid_plural "%d minotaurs"
 msgstr[0] "einen Minotaurus"
-msgstr[1] "%d Minotauruse"
+msgstr[1] "%d Minotauren"
 # check plural above
 
 msgctxt "akk"
 msgid "a sphinx"
 msgid_plural "%d sphinxes"
 msgstr[0] "eine Sphinx"
-msgstr[1] "%d Sphinxe"
+msgstr[1] "%d Sphinxen"
 # check plural above
 
 msgctxt "akk"
@@ -10735,14 +10589,12 @@ msgid "a harpy"
 msgid_plural "%d harpies"
 msgstr[0] "eine Harpyie"
 msgstr[1] "%d Harpyien"
-# check plural above
 
 msgctxt "akk"
 msgid "a mutant beast"
 msgid_plural "%d mutant beasts"
 msgstr[0] "eine mutierte Bestie"
 msgstr[1] "%d mutierte Bestien"
-# check plural above
 
 msgctxt "akk"
 msgid "an ancestor"
@@ -10790,14 +10642,14 @@ msgctxt "akk"
 msgid "a slime creature"
 msgid_plural "%d slime creatures"
 msgstr[0] "ein Schleimwesen"
-msgstr[1] "%d Schleimwesen"
+msgstr[1] "%d Schleimwesene"
 # check plural above
 
 msgctxt "akk"
 msgid "a merged slime creature"
 msgid_plural "%d merged slime creatures"
 msgstr[0] "eine verschmolzene Schleimkreatur"
-msgstr[1] "%d verschmolzene Schleimkreatur"
+msgstr[1] "%d verschmolzene Schleimkreaturen"
 # check plural above
 
 msgctxt "akk"
@@ -10818,7 +10670,7 @@ msgctxt "akk"
 msgid "an acid blob"
 msgid_plural "%d acid blobs"
 msgstr[0] "einen Säureklumpen"
-msgstr[1] "%d Säureklumpen"
+msgstr[1] "%d Säureklumpene"
 # check plural above
 
 msgctxt "akk"
@@ -10846,15 +10698,13 @@ msgctxt "akk"
 msgid "a lich"
 msgid_plural "%d liches"
 msgstr[0] "einen Lich"
-msgstr[1] "%d Liche"
-# check plural above
+msgstr[1] "%d Lichs"
 
 msgctxt "akk"
 msgid "an ancient lich"
 msgid_plural "%d ancient liches"
 msgstr[0] "einen alten Lich"
-msgstr[1] "%d alte Liche"
-# check plural above
+msgstr[1] "%d alte Lichs"
 
 msgctxt "akk"
 msgid "a revenant"
@@ -10875,21 +10725,18 @@ msgid "a mummy"
 msgid_plural "%d mummies"
 msgstr[0] "eine Mumie"
 msgstr[1] "%d Mumien"
-# check plural above
 
 msgctxt "akk"
 msgid "a guardian mummy"
 msgid_plural "%d guardian mummies"
 msgstr[0] "eine Wächtermumie"
 msgstr[1] "%d Wächtermumien"
-# check plural above
 
 msgctxt "akk"
 msgid "a greater mummy"
 msgid_plural "%d greater mummies"
 msgstr[0] "eine größere Mumie"
 msgstr[1] "%d größere Mumien"
-# check plural above
 
 msgctxt "akk"
 msgid "a mummy priest"
@@ -10902,7 +10749,7 @@ msgctxt "akk"
 msgid "a naga"
 msgid_plural "%d nagas"
 msgstr[0] "einen Naga"
-msgstr[1] "%d Nagae"
+msgstr[1] "%d Nagas"
 # check plural above
 
 msgctxt "akk"
@@ -10923,7 +10770,7 @@ msgctxt "akk"
 msgid "a naga ritualist"
 msgid_plural "%d naga ritualists"
 msgstr[0] "einen Naga-Ritualist"
-msgstr[1] "%d Naga-Ritualisten"
+msgstr[1] "%d Naga-Ritualiste"
 # check plural above
 
 msgctxt "akk"
@@ -10937,7 +10784,7 @@ msgctxt "akk"
 msgid "a nagaraja"
 msgid_plural "%d nagarajas"
 msgstr[0] "einen Nagaraja"
-msgstr[1] "%d Nagarajae"
+msgstr[1] "%d Nagarajas"
 # check plural above
 
 msgctxt "akk"
@@ -10966,21 +10813,18 @@ msgid "a plant"
 msgid_plural "%d plants"
 msgstr[0] "eine Pflanze"
 msgstr[1] "%d Pflanzen"
-# check plural above
 
 msgctxt "akk"
 msgid "a demonic plant"
 msgid_plural "%d demonic plants"
 msgstr[0] "eine dämonische Pflanze"
 msgstr[1] "%d dämonische Pflanzen"
-# check plural above
 
 msgctxt "akk"
 msgid "a withered plant"
 msgid_plural "%d withered plants"
 msgstr[0] "eine verwelkte Pflanze"
 msgstr[1] "%d verwelkte Pflanzen"
-# check plural above
 
 msgctxt "akk"
 msgid "an oklob sapling"
@@ -10994,7 +10838,6 @@ msgid "an oklob plant"
 msgid_plural "%d oklob plants"
 msgstr[0] "eine Oklob-Pflanze"
 msgstr[1] "%d Oklob-Pflanzen"
-# check plural above
 
 msgctxt "akk"
 msgid "a bush"
@@ -11049,7 +10892,7 @@ msgctxt "akk"
 msgid "a tengu"
 msgid_plural "%d tengu"
 msgstr[0] "einen Tengu"
-msgstr[1] "%d Tengue"
+msgstr[1] "%d Tengus"
 # check plural above
 
 msgctxt "akk"
@@ -11084,7 +10927,7 @@ msgctxt "akk"
 msgid "a rakshasa"
 msgid_plural "%d rakshasas"
 msgstr[0] "einen Rakshasa"
-msgstr[1] "%d Rakshasae"
+msgstr[1] "%d Rakshasas"
 # check plural above
 
 msgctxt "akk"
@@ -11092,14 +10935,12 @@ msgid "a dryad"
 msgid_plural "%d dryads"
 msgstr[0] "eine Dryade"
 msgstr[1] "%d Dryaden"
-# check plural above
 
 msgctxt "akk"
 msgid "a snaplasher vine"
 msgid_plural "%d snaplasher vines"
 msgstr[0] "eine Peitscherrebe"
 msgstr[1] "%d Peitscherreben"
-# check plural above
 
 msgctxt "akk"
 msgid "a snaplasher vine segment"
@@ -11113,34 +10954,33 @@ msgid "a snake"
 msgid_plural "%d snakes"
 msgstr[0] "eine Schlange"
 msgstr[1] "%d Schlangen"
-# check plural above
 
 msgctxt "akk"
 msgid "a ball python"
 msgid_plural "%d ball pythons"
 msgstr[0] "eine Kugelpython"
-msgstr[1] "%d Kugelpython"
+msgstr[1] "%d Kugelpythonen"
 # check plural above
 
 msgctxt "akk"
 msgid "an adder"
 msgid_plural "%d adders"
 msgstr[0] "eine Kreuzotter"
-msgstr[1] "%d Kreuzotter"
+msgstr[1] "%d Kreuzottern"
 # check plural above
 
 msgctxt "akk"
 msgid "a water moccasin"
 msgid_plural "%d water moccasins"
 msgstr[0] "einen Wassermokassin"
-msgstr[1] "%d Wassermokassinnen"
+msgstr[1] "%d Wassermokassine"
 # check plural above
 
 msgctxt "akk"
 msgid "a black mamba"
 msgid_plural "%d black mambas"
 msgstr[0] "eine schwarze Mamba"
-msgstr[1] "%d schwarze Mambae"
+msgstr[1] "%d schwarze Mambas"
 # check plural above
 
 msgctxt "akk"
@@ -11148,13 +10988,12 @@ msgid "a sea snake"
 msgid_plural "%d sea snakes"
 msgstr[0] "eine Seeschlange"
 msgstr[1] "%d Seeschlangen"
-# check plural above
 
 msgctxt "akk"
 msgid "an anaconda"
 msgid_plural "%d anacondas"
 msgstr[0] "eine Anakonda"
-msgstr[1] "%d Anakondae"
+msgstr[1] "%d Anakondas"
 # check plural above
 
 msgctxt "akk"
@@ -11162,20 +11001,18 @@ msgid "a guardian serpent"
 msgid_plural "%d guardian serpents"
 msgstr[0] "eine Wächter-Schlange"
 msgstr[1] "%d Wächter-Schlangen"
-# check plural above
 
 msgctxt "akk"
 msgid "a shock serpent"
 msgid_plural "%d shock serpents"
 msgstr[0] "eine Schockschlange"
 msgstr[1] "%d Schockschlangen"
-# check plural above
 
 msgctxt "akk"
 msgid "a mana viper"
 msgid_plural "%d mana vipers"
 msgstr[0] "eine Manaviper"
-msgstr[1] "%d Manaviper"
+msgstr[1] "%d Manavipern"
 # check plural above
 
 msgctxt "akk"
@@ -11217,7 +11054,7 @@ msgctxt "akk"
 msgid "a vampire"
 msgid_plural "%d vampires"
 msgstr[0] "einen Vampir"
-msgstr[1] "%d Vampir"
+msgstr[1] "%d Vampire"
 # check plural above
 
 msgctxt "akk"
@@ -11238,7 +11075,7 @@ msgctxt "akk"
 msgid "a jiangshi"
 msgid_plural "%d jiangshi"
 msgstr[0] "ein Jiangshi"
-msgstr[1] "%d Jiangshie"
+msgstr[1] "%d Jiangshis"
 # check plural above
 
 msgctxt "akk"
@@ -11259,29 +11096,25 @@ msgctxt "akk"
 msgid "a hungry ghost"
 msgid_plural "%d hungry ghosts"
 msgstr[0] "einen hungrigen Geist"
-msgstr[1] "%d hungrige Geisten"
-# check plural above
+msgstr[1] "%d hungrige Geister"
 
 msgctxt "akk"
 msgid "a flayed ghost"
 msgid_plural "%d flayed ghosts"
 msgstr[0] "einen enthäuteten Geist"
-msgstr[1] "%d enthäutete Geisten"
-# check plural above
+msgstr[1] "%d enthäutete Geister"
 
 msgctxt "akk"
 msgid "a player ghost"
 msgid_plural "%d player ghosts"
 msgstr[0] "einen Spielergeist"
-msgstr[1] "%d Spielergeisten"
-# check plural above
+msgstr[1] "%d Spielergeister"
 
 msgctxt "akk"
 msgid "a shadow"
 msgid_plural "%d shadows"
 msgstr[0] "einen Schatten"
 msgstr[1] "%d Schatten"
-# check plural above
 
 msgctxt "akk"
 msgid "a silent spectre"
@@ -11295,34 +11128,30 @@ msgid "a drowned soul"
 msgid_plural "%d drowned souls"
 msgstr[0] "eine ertrunkene Seele"
 msgstr[1] "%d ertrunkene Seelen"
-# check plural above
 
 msgctxt "akk"
 msgid "a wraith"
 msgid_plural "%d wraiths"
 msgstr[0] "einen Geist"
-msgstr[1] "%d Geisten"
-# check plural above
+msgstr[1] "%d Geister"
 
 msgctxt "akk"
 msgid "a shadow wraith"
 msgid_plural "%d shadow wraiths"
 msgstr[0] "einen Schattengeist"
-msgstr[1] "%d Schattengeisten"
-# check plural above
+msgstr[1] "%d Schattengeister"
 
 msgctxt "akk"
 msgid "a freezing wraith"
 msgid_plural "%d freezing wraiths"
 msgstr[0] "einen Frostgeist"
-msgstr[1] "%d Frostgeisten"
-# check plural above
+msgstr[1] "%d Frostgeister"
 
 msgctxt "akk"
 msgid "an eidolon"
 msgid_plural "%d eidola"
 msgstr[0] "einen Eidolon"
-msgstr[1] "%d Eidolon"
+msgstr[1] "%d Eidolone"
 # check plural above
 
 msgctxt "akk"
@@ -11336,21 +11165,21 @@ msgctxt "akk"
 msgid "a large abomination"
 msgid_plural "%d large abominations"
 msgstr[0] "einen großen Greuel"
-msgstr[1] "%d große Greuele"
+msgstr[1] "%d große Greuel"
 # check plural above
 
 msgctxt "akk"
 msgid "a thrashing horror"
 msgid_plural "%d thrashing horrors"
 msgstr[0] "ein verprügelndes Grauen"
-msgstr[1] "%d verprügelnde Grauen"
+msgstr[1] "%d verprügelnde Grauene"
 # check plural above
 
 msgctxt "akk"
 msgid "a tentacled monstrosity"
 msgid_plural "%d tentacled monstrosities"
 msgstr[0] "eine Tentakel-Monstrosität"
-msgstr[1] "%d Tentakel-Monstrositäte"
+msgstr[1] "%d Tentakel-Monstrositäten"
 # check plural above
 
 msgctxt "akk"
@@ -11371,7 +11200,7 @@ msgctxt "akk"
 msgid "a starspawn tentacle"
 msgid_plural "%d starspawn tentacles"
 msgstr[0] "einen Sternbruttentakel"
-msgstr[1] "%d Sternbruttentakele"
+msgstr[1] "%d Sternbruttentakel"
 # check plural above
 
 msgctxt "akk"
@@ -11386,7 +11215,6 @@ msgid "a starcursed mass"
 msgid_plural "%d starcursed masses"
 msgstr[0] "eine sternverfluchte Masse"
 msgstr[1] "%d sternverfluchte Massen"
-# check plural above
 
 msgctxt "akk"
 msgid "a dream sheep"
@@ -11413,7 +11241,7 @@ msgctxt "akk"
 msgid "a catoblepas"
 msgid_plural "%d catoblepae"
 msgstr[0] "eine Catoblepas"
-msgstr[1] "%d Catoblepase"
+msgstr[1] "%d Catoblepasen"
 # check plural above
 
 msgctxt "akk"
@@ -11441,7 +11269,7 @@ msgctxt "akk"
 msgid "an apis"
 msgid_plural "%d apises"
 msgstr[0] "eine Apis"
-msgstr[1] "%d Apise"
+msgstr[1] "%d Apisen"
 # check plural above
 
 msgctxt "akk"
@@ -11449,21 +11277,19 @@ msgid "an ice beast"
 msgid_plural "%d ice beasts"
 msgstr[0] "eine Eisbestie"
 msgstr[1] "%d Eisbestien"
-# check plural above
 
 msgctxt "akk"
 msgid "a sky beast"
 msgid_plural "%d sky beasts"
 msgstr[0] "ein Himmelstier"
-msgstr[1] "%d Himmelstier"
+msgstr[1] "%d Himmelstiere"
 # check plural above
 
 msgctxt "akk"
 msgid "a zombie"
 msgid_plural "%d zombies"
 msgstr[0] "einen Zombie"
-msgstr[1] "%d Zombien"
-# check plural above
+msgstr[1] "%d Zombies"
 
 msgctxt "akk"
 msgid "a skeleton"
@@ -11476,15 +11302,14 @@ msgctxt "akk"
 msgid "a simulacrum"
 msgid_plural "%d simulacra"
 msgstr[0] "ein Simulacrum"
-msgstr[1] "%d Simulacrume"
+msgstr[1] "%d Simulacren"
 # check plural above
 
 msgctxt "akk"
 msgid "a small zombie"
 msgid_plural "%d small zombies"
 msgstr[0] "einen kleinen Zombie"
-msgstr[1] "%d kleine Zombien"
-# check plural above
+msgstr[1] "%d kleine Zombies"
 
 msgctxt "akk"
 msgid "a small skeleton"
@@ -11497,15 +11322,14 @@ msgctxt "akk"
 msgid "a small simulacrum"
 msgid_plural "%d small simulacra"
 msgstr[0] "ein kleines Simulacrum"
-msgstr[1] "%d kleine Simulacrume"
+msgstr[1] "%d kleine Simulacren"
 # check plural above
 
 msgctxt "akk"
 msgid "a large zombie"
 msgid_plural "%d large zombies"
 msgstr[0] "einen großen Zombie"
-msgstr[1] "%d große Zombien"
-# check plural above
+msgstr[1] "%d große Zombies"
 
 msgctxt "akk"
 msgid "a large skeleton"
@@ -11518,7 +11342,7 @@ msgctxt "akk"
 msgid "a large simulacrum"
 msgid_plural "%d large simulacra"
 msgstr[0] "ein großes Simulacrum"
-msgstr[1] "%d große Simulacrume"
+msgstr[1] "%d große Simulacren"
 # check plural above
 
 msgctxt "akk"
@@ -11526,7 +11350,6 @@ msgid "a spectral thing"
 msgid_plural "%d spectral things"
 msgstr[0] "eine spektrale Sache"
 msgstr[1] "%d spektrale Sachen"
-# check plural above
 
 msgctxt "akk"
 msgid "an electric eel"
@@ -11539,14 +11362,14 @@ msgctxt "akk"
 msgid "a kraken"
 msgid_plural "%d krakens"
 msgstr[0] "einen Kraken"
-msgstr[1] "%d Kraken"
+msgstr[1] "%d Krakene"
 # check plural above
 
 msgctxt "akk"
 msgid "a tentacle"
 msgid_plural "%d tentacles"
 msgstr[0] "einen Tentakel"
-msgstr[1] "%d Tentakele"
+msgstr[1] "%d Tentakel"
 # check plural above
 
 msgctxt "akk"
@@ -11568,7 +11391,6 @@ msgid "a lava snake"
 msgid_plural "%d lava snakes"
 msgstr[0] "eine Lavaschlange"
 msgstr[1] "%d Lavaschlangen"
-# check plural above
 
 msgctxt "akk"
 msgid "a salamander"
@@ -11609,7 +11431,7 @@ msgctxt "akk"
 msgid "a player illusion"
 msgid_plural "%d player illusions"
 msgstr[0] "eine Spieler-Illusion"
-msgstr[1] "%d Spieler-Illusion"
+msgstr[1] "%d Spieler-Illusionen"
 # check plural above
 
 msgctxt "akk"
@@ -11617,20 +11439,18 @@ msgid "a dancing weapon"
 msgid_plural "%d dancing weapons"
 msgstr[0] "eine tanzende Waffe"
 msgstr[1] "%d tanzende Waffen"
-# check plural above
 
 msgctxt "akk"
 msgid "a spectral weapon"
 msgid_plural "%d spectral weapons"
 msgstr[0] "eine Spektralwaffe"
 msgstr[1] "%d Spektralwaffen"
-# check plural above
 
 msgctxt "akk"
 msgid "an eldritch tentacle"
 msgid_plural "%d eldritch tentacles"
 msgstr[0] "einen unheimlichen Tentakel"
-msgstr[1] "%d unheimliche Tentakele"
+msgstr[1] "%d unheimliche Tentakel"
 # check plural above
 
 msgctxt "akk"
@@ -11644,14 +11464,14 @@ msgctxt "akk"
 msgid "a demonspawn"
 msgid_plural "%d demonspawns"
 msgstr[0] "eine Dämonenbrut"
-msgstr[1] "%d Dämonenbrute"
+msgstr[1] "%d Dämonenbruten"
 # check plural above
 
 msgctxt "akk"
 msgid "a monstrous demonspawn"
 msgid_plural "%d monstrous demonspawns"
 msgstr[0] "eine monströse Dämonenbrut"
-msgstr[1] "%d monströse Dämonenbrute"
+msgstr[1] "%d monströse Dämonenbruten"
 # check plural above
 
 msgctxt "akk"
@@ -11665,14 +11485,14 @@ msgctxt "akk"
 msgid "an infernal demonspawn"
 msgid_plural "%d infernal demonspawns"
 msgstr[0] "eine höllische Dämonenbrut"
-msgstr[1] "%d höllische Dämonenbrute"
+msgstr[1] "%d höllische Dämonenbruten"
 # check plural above
 
 msgctxt "akk"
 msgid "a torturous demonspawn"
 msgid_plural "%d torturous demonspawns"
 msgstr[0] "eine quälende Dämonenbrut"
-msgstr[1] "%d quälende Dämonenbrute"
+msgstr[1] "%d quälende Dämonenbruten"
 # check plural above
 
 msgctxt "akk"
@@ -11693,7 +11513,7 @@ msgctxt "akk"
 msgid "a corrupter"
 msgid_plural "%d corrupters"
 msgstr[0] "einen Korruptor"
-msgstr[1] "%d Korruptor"
+msgstr[1] "%d Korruptore"
 # check plural above
 
 msgctxt "akk"
@@ -11701,14 +11521,12 @@ msgid "a black sun"
 msgid_plural "%d black suns"
 msgstr[0] "eine schwarze Sonne"
 msgstr[1] "%d schwarze Sonnen"
-# check plural above
 
 msgctxt "akk"
 msgid "a crimson imp"
 msgid_plural "%d crimson imps"
 msgstr[0] "ein karminrotes Teufelchen"
 msgstr[1] "%d karminrote Teufelchen"
-# check plural above
 
 msgctxt "akk"
 msgid "a quasit"
@@ -11722,13 +11540,12 @@ msgid "a white imp"
 msgid_plural "%d white imps"
 msgstr[0] "ein weißes Teufelchen"
 msgstr[1] "%d weiße Teufelchen"
-# check plural above
 
 msgctxt "akk"
 msgid "an ufetubus"
 msgid_plural "%d ufetubi"
 msgstr[0] "einen Ufetubus"
-msgstr[1] "%d Ufetubuse"
+msgstr[1] "%d Ufetuben"
 # check plural above
 
 msgctxt "akk"
@@ -11736,62 +11553,60 @@ msgid "an iron imp"
 msgid_plural "%d iron imps"
 msgstr[0] "ein Eisenteufelchen"
 msgstr[1] "%d Eisenteufelchen"
-# check plural above
 
 msgctxt "akk"
 msgid "a shadow imp"
 msgid_plural "%d shadow imps"
 msgstr[0] "ein Schattenteufelchen"
 msgstr[1] "%d Schattenteufelchen"
-# check plural above
 
 msgctxt "akk"
 msgid "a rust devil"
 msgid_plural "%d rust devils"
 msgstr[0] "einen Rostteufel"
-msgstr[1] "%d Rostteufele"
+msgstr[1] "%d Rostteufel"
 # check plural above
 
 msgctxt "akk"
 msgid "an orange demon"
 msgid_plural "%d orange demons"
 msgstr[0] "einen orangen Dämon"
-msgstr[1] "%d orange Dämon"
+msgstr[1] "%d orange Dämone"
 # check plural above
 
 msgctxt "akk"
 msgid "a red devil"
 msgid_plural "%d red devils"
 msgstr[0] "einen roten Teufel"
-msgstr[1] "%d rote Teufele"
+msgstr[1] "%d rote Teufel"
 # check plural above
 
 msgctxt "akk"
 msgid "a hellwing"
 msgid_plural "%d hellwings"
 msgstr[0] "einen Höllenflügel"
-msgstr[1] "%d Höllenflügele"
+msgstr[1] "%d Höllenflügel"
 # check plural above
 
 msgctxt "akk"
 msgid "an ice devil"
 msgid_plural "%d ice devils"
 msgstr[0] "einen Eisteufel"
-msgstr[1] "%d Eisteufele"
+msgstr[1] "%d Eisteufel"
 # check plural above
 
 msgctxt "akk"
 msgid "a chaos spawn"
 msgid_plural "%d chaos spawns"
 msgstr[0] "eine Chaosbrut"
-msgstr[1] "%d Chaosbrute"
+msgstr[1] "%d Chaosbruten"
 # check plural above
 
 msgctxt "akk"
 msgid "a sun demon"
 msgid_plural "%d sun demons"
 msgstr[0] "einen Sonnendämon"
-msgstr[1] "%d Sonnendämon"
+msgstr[1] "%d Sonnendämone"
 # check plural above
 
 msgctxt "akk"
@@ -11805,14 +11620,14 @@ msgctxt "akk"
 msgid "a smoke demon"
 msgid_plural "%d smoke demons"
 msgstr[0] "einen Rauchdämon"
-msgstr[1] "%d Rauchdämon"
+msgstr[1] "%d Rauchdämone"
 # check plural above
 
 msgctxt "akk"
 msgid "a neqoxec"
 msgid_plural "%d neqoxecs"
 msgstr[0] "eine Neqoxec"
-msgstr[1] "%d Neqoxece"
+msgstr[1] "%d Neqoxecen"
 # check plural above
 
 msgctxt "akk"
@@ -11826,14 +11641,14 @@ msgctxt "akk"
 msgid "a sixfirhy"
 msgid_plural "%d sixfirhies"
 msgstr[0] "einen Sixfirhy"
-msgstr[1] "%d Sixfirhye"
+msgstr[1] "%d Sixfirhys"
 # check plural above
 
 msgctxt "akk"
 msgid "a shadow demon"
 msgid_plural "%d shadow demons"
 msgstr[0] "einen Schattendämon"
-msgstr[1] "%d Schattendämon"
+msgstr[1] "%d Schattendämone"
 # check plural above
 
 msgctxt "akk"
@@ -11847,7 +11662,7 @@ msgctxt "akk"
 msgid "a blizzard demon"
 msgid_plural "%d blizzard demons"
 msgstr[0] "einen Blizzarddämon"
-msgstr[1] "%d Blizzarddämon"
+msgstr[1] "%d Blizzarddämone"
 # check plural above
 
 msgctxt "akk"
@@ -11861,21 +11676,21 @@ msgctxt "akk"
 msgid "a cacodemon"
 msgid_plural "%d cacodemons"
 msgstr[0] "einen Cacodaemon"
-msgstr[1] "%d Cacodaemon"
+msgstr[1] "%d Cacodaemone"
 # check plural above
 
 msgctxt "akk"
 msgid "a hell beast"
 msgid_plural "%d hell beasts"
 msgstr[0] "ein Höllentier"
-msgstr[1] "%d Höllentier"
+msgstr[1] "%d Höllentiere"
 # check plural above
 
 msgctxt "akk"
 msgid "a hellion"
 msgid_plural "%d hellions"
 msgstr[0] "einen Teufelsbraten"
-msgstr[1] "%d Teufelsbraten"
+msgstr[1] "%d Teufelsbratene"
 # check plural above
 
 msgctxt "akk"
@@ -11889,7 +11704,7 @@ msgctxt "akk"
 msgid "a lorocyproca"
 msgid_plural "%d lorocyprocas"
 msgstr[0] "eine Lorocyproca"
-msgstr[1] "%d Lorocyprocae"
+msgstr[1] "%d Lorocyprocas"
 # check plural above
 
 msgctxt "akk"
@@ -11938,8 +11753,7 @@ msgctxt "akk"
 msgid "an animated tree"
 msgid_plural "%d animated trees"
 msgstr[0] "einen animierten Baum"
-msgstr[1] "%d animierte Baume"
-# check plural above
+msgstr[1] "%d animierte Bäume"
 
 msgctxt "akk"
 msgid "a golem"
@@ -11994,7 +11808,7 @@ msgctxt "akk"
 msgid "an ushabti"
 msgid_plural "%d ushabtiu"
 msgstr[0] "eine Uschabti"
-msgstr[1] "%d Uschabtie"
+msgstr[1] "%d Uschabtis"
 # check plural above
 
 msgctxt "akk"
@@ -12016,42 +11830,37 @@ msgid "an ice statue"
 msgid_plural "%d ice statues"
 msgstr[0] "eine Eisstatue"
 msgstr[1] "%d Eisstatuen"
-# check plural above
 
 msgctxt "akk"
 msgid "an obsidian statue"
 msgid_plural "%d obsidian statues"
 msgstr[0] "eine Obsidianstatue"
 msgstr[1] "%d Obsidianstatuen"
-# check plural above
 
 msgctxt "akk"
 msgid "an orange crystal statue"
 msgid_plural "%d orange crystal statues"
 msgstr[0] "eine orange Kristallstatue"
 msgstr[1] "%d orange Kristallstatuen"
-# check plural above
 
 msgctxt "akk"
 msgid "a statue"
 msgid_plural "%d statues"
 msgstr[0] "eine Statue"
 msgstr[1] "%d Statuen"
-# check plural above
 
 msgctxt "akk"
 msgid "a training dummy"
 msgid_plural "%d training dummies"
 msgstr[0] "eine Trainingspuppe"
 msgstr[1] "%d Trainingspuppen"
-# check plural above
 
 msgctxt "akk"
 msgid "a pillar of salt"
 msgid_plural "%d pillars of salt"
 msgstr[0] "eine Säule des Salzes"
 msgstr[1] "%d Säule des Salzes"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "akk"
 msgid "a block of ice"
@@ -12078,35 +11887,32 @@ msgctxt "akk"
 msgid "a gargoyle"
 msgid_plural "%d gargoyles"
 msgstr[0] "einen Gargoyle"
-msgstr[1] "%d Gargoylen"
-# check plural above
+msgstr[1] "%d Gargoyles"
 
 msgctxt "akk"
 msgid "a war gargoyle"
 msgid_plural "%d war gargoyles"
 msgstr[0] "einen Kriegsgargoyle"
-msgstr[1] "%d Kriegsgargoylen"
-# check plural above
+msgstr[1] "%d Kriegsgargoyles"
 
 msgctxt "akk"
 msgid "a molten gargoyle"
 msgid_plural "%d molten gargoyles"
 msgstr[0] "einen geschmolzenen Gargoyle"
-msgstr[1] "%d geschmolzene Gargoylen"
-# check plural above
+msgstr[1] "%d geschmolzene Gargoyles"
 
 msgctxt "akk"
 msgid "a pandemonium lord"
 msgid_plural "%d pandemonium lords"
 msgstr[0] "einen Pandemoniumsherr"
-msgstr[1] "%d Pandemoniumsherr"
+msgstr[1] "%d Pandemoniumsherre"
 # check plural above
 
 msgctxt "akk"
 msgid "a hell lord"
 msgid_plural "%d hell lords"
 msgstr[0] "einen Höllenherr"
-msgstr[1] "%d Höllenherr"
+msgstr[1] "%d Höllenherre"
 # check plural above
 
 msgctxt "akk"
@@ -12121,27 +11927,25 @@ msgid "a ballistomycete spore"
 msgid_plural "%d ballistomycete spores"
 msgstr[0] "eine Ballistomycetenspore"
 msgstr[1] "%d Ballistomycetensporen"
-# check plural above
 
 msgctxt "akk"
 msgid "a lost soul"
 msgid_plural "%d lost souls"
 msgstr[0] "eine verlorene Seele"
 msgstr[1] "%d verlorene Seelen"
-# check plural above
 
 msgctxt "akk"
 msgid "a lurking horror"
 msgid_plural "%d lurking horrors"
 msgstr[0] "ein lauerndes Grauen"
-msgstr[1] "%d lauernde Grauen"
+msgstr[1] "%d lauernde Grauene"
 # check plural above
 
 msgctxt "akk"
 msgid "an orb of fire"
 msgid_plural "%d orbs of fire"
 msgstr[0] "eine Feuerkugel"
-msgstr[1] "%d Feuerkugele"
+msgstr[1] "%d Feuerkugeln"
 # check plural above
 
 msgctxt "akk"
@@ -12149,20 +11953,20 @@ msgid "an orb of destruction"
 msgid_plural "%d orbs of destruction"
 msgstr[0] "eine Kugel der Zerstörung"
 msgstr[1] "%d Kugel der Zerstörung"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "akk"
 msgid "a fulminant prism"
 msgid_plural "%d fulminant prisms"
 msgstr[0] "ein fulminantes Prisma"
-msgstr[1] "%d fulminante Prismae"
+msgstr[1] "%d fulminante Prismen"
 # check plural above
 
 msgctxt "akk"
 msgid "a wretched star"
 msgid_plural "%d wretched stars"
 msgstr[0] "einen elenden Stern"
-msgstr[1] "%d elende Stern"
+msgstr[1] "%d elende Sterne"
 # check plural above
 
 msgctxt "akk"
@@ -12170,14 +11974,12 @@ msgid "a battlesphere"
 msgid_plural "%d battlespheres"
 msgstr[0] "eine Kampfsphäre"
 msgstr[1] "%d Kampfsphären"
-# check plural above
 
 msgctxt "akk"
 msgid "a death cob"
 msgid_plural "%d death cobs"
 msgstr[0] "einen Todeskolben"
 msgstr[1] "%d Todeskolben"
-# check plural above
 
 msgctxt "akk"
 msgid "a moon troll"
@@ -12191,7 +11993,7 @@ msgid "a Serpent of Hell"
 msgid_plural "%d Serpents of Hell"
 msgstr[0] "eine Schlange der Hölle"
 msgstr[1] "%d Schlange der Hölle"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "akk"
 msgid "a sensed monster"
@@ -12251,21 +12053,18 @@ msgid "a worker ant"
 msgid_plural "%d worker ants"
 msgstr[0] "einer Ameisenarbeiterin"
 msgstr[1] "%d Ameisenarbeiterinnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a queen ant"
 msgid_plural "%d queen ants"
 msgstr[0] "einer Ameisenkönigin"
 msgstr[1] "%d Ameisenköniginnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a soldier ant"
 msgid_plural "%d soldier ants"
 msgstr[0] "einer Ameisensoldatin"
 msgstr[1] "%d Ameisensoldatinnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a formicid"
@@ -12286,7 +12085,6 @@ msgid "a bat"
 msgid_plural "%d bats"
 msgstr[0] "einer Fledermaus"
 msgstr[1] "%d Fledermäusen"
-# check plural above
 
 msgctxt "dat"
 msgid "a butterfly"
@@ -12300,20 +12098,18 @@ msgid "a vampire bat"
 msgid_plural "%d vampire bats"
 msgstr[0] "einer Vampirfledermaus"
 msgstr[1] "%d Vampirfledermäusen"
-# check plural above
 
 msgctxt "dat"
 msgid "a fire bat"
 msgid_plural "%d fire bats"
-msgstr[0] "einem Feuerfledermaus"
+msgstr[0] "einer Feuerfledermaus"
 msgstr[1] "%d Feuerfledermäusen"
-# check plural above
 
 msgctxt "dat"
 msgid "a bennu"
 msgid_plural "%d bennus"
 msgstr[0] "einem Bennu"
-msgstr[1] "%d Bennuen"
+msgstr[1] "%d Bennus"
 # check plural above
 
 msgctxt "dat"
@@ -12334,7 +12130,7 @@ msgctxt "dat"
 msgid "a centaur"
 msgid_plural "%d centaurs"
 msgstr[0] "einem Zentaur"
-msgstr[1] "%d Zentaurn"
+msgstr[1] "%d Zentauren"
 # check plural above
 
 msgctxt "dat"
@@ -12348,28 +12144,28 @@ msgctxt "dat"
 msgid "a yaktaur"
 msgid_plural "%d yaktaurs"
 msgstr[0] "einem Yaktaur"
-msgstr[1] "%d Yaktaurn"
+msgstr[1] "%d Yaktauren"
 # check plural above
 
 msgctxt "dat"
 msgid "a yaktaur captain"
 msgid_plural "%d yaktaur captains"
 msgstr[0] "einem Yaktaur-Kapitän"
-msgstr[1] "%d Yaktaur-Kapitän"
+msgstr[1] "%d Yaktaur-Kapitänen"
 # check plural above
 
 msgctxt "dat"
 msgid "a faun"
 msgid_plural "%d fauns"
 msgstr[0] "einem Faun"
-msgstr[1] "%d Faun"
+msgstr[1] "%d Faunen"
 # check plural above
 
 msgctxt "dat"
 msgid "a satyr"
 msgid_plural "%d satyrs"
 msgstr[0] "einem Satyr"
-msgstr[1] "%d Satyrn"
+msgstr[1] "%d Satyren"
 # check plural above
 
 msgctxt "dat"
@@ -12573,7 +12369,6 @@ msgid "a deathcap"
 msgid_plural "%d deathcaps"
 msgstr[0] "einer Todesmütze"
 msgstr[1] "%d Todesmützen"
-# check plural above
 
 msgctxt "dat"
 msgid "a thorn hunter"
@@ -12587,7 +12382,6 @@ msgid "a shambling mangrove"
 msgid_plural "%d shambling mangroves"
 msgstr[0] "einer watschelnden Mangrove"
 msgstr[1] "%d watschelnden Mangroven"
-# check plural above
 
 msgctxt "dat"
 msgid "a vine stalker"
@@ -12600,15 +12394,13 @@ msgctxt "dat"
 msgid "a goblin"
 msgid_plural "%d goblins"
 msgstr[0] "einem Goblin"
-msgstr[1] "%d Goblinnen"
-# check plural above
+msgstr[1] "%d Goblins"
 
 msgctxt "dat"
 msgid "a hobgoblin"
 msgid_plural "%d hobgoblins"
 msgstr[0] "einem Hobgoblin"
-msgstr[1] "%d Hobgoblinnen"
-# check plural above
+msgstr[1] "%d Hobgoblins"
 
 msgctxt "dat"
 msgid "a gnoll"
@@ -12691,7 +12483,7 @@ msgctxt "dat"
 msgid "a hog"
 msgid_plural "%d hogs"
 msgstr[0] "einem Schwein"
-msgstr[1] "%d Schweinnen"
+msgstr[1] "%d Schweinen"
 # check plural above
 
 msgctxt "dat"
@@ -12712,21 +12504,21 @@ msgctxt "dat"
 msgid "a raiju"
 msgid_plural "%d raiju"
 msgstr[0] "einem Raiju"
-msgstr[1] "%d Raijuen"
+msgstr[1] "%d Raijus"
 # check plural above
 
 msgctxt "dat"
 msgid "a hell hog"
 msgid_plural "%d hell hogs"
 msgstr[0] "einem höllischen Schwein"
-msgstr[1] "%d höllischen Schweinnen"
+msgstr[1] "%d höllischen Schweinen"
 # check plural above
 
 msgctxt "dat"
 msgid "a holy swine"
 msgid_plural "%d holy swine"
 msgstr[0] "einem heiligen Schwein"
-msgstr[1] "%d heiligen Schweinnen"
+msgstr[1] "%d heiligen Schweinen"
 # check plural above
 
 msgctxt "dat"
@@ -12740,29 +12532,28 @@ msgctxt "dat"
 msgid "a bear"
 msgid_plural "%d bears"
 msgstr[0] "einem Bär"
-msgstr[1] "%d Bärn"
+msgstr[1] "%d Bären"
 # check plural above
 
 msgctxt "dat"
 msgid "a polar bear"
 msgid_plural "%d polar bears"
 msgstr[0] "einem Eisbär"
-msgstr[1] "%d Eisbärn"
+msgstr[1] "%d Eisbären"
 # check plural above
 
 msgctxt "dat"
 msgid "a black bear"
 msgid_plural "%d black bears"
 msgstr[0] "einem Schwarzbär"
-msgstr[1] "%d Schwarzbärn"
+msgstr[1] "%d Schwarzbären"
 # check plural above
 
 msgctxt "dat"
 msgid "a spriggan"
 msgid_plural "%d spriggans"
 msgstr[0] "einem Spriggan"
-msgstr[1] "%d Spriggan"
-# check plural above
+msgstr[1] "%d Spriggans"
 
 msgctxt "dat"
 msgid "a spriggan rider"
@@ -12846,27 +12637,25 @@ msgid "a giant lizard"
 msgid_plural "%d giant lizards"
 msgstr[0] "einer Rieseneidechse"
 msgstr[1] "%d Rieseneidechsen"
-# check plural above
 
 msgctxt "dat"
 msgid "a frilled lizard"
 msgid_plural "%d frilled lizards"
 msgstr[0] "einer gekräuselten Eidechse"
 msgstr[1] "%d gekräuselten Eidechsen"
-# check plural above
 
 msgctxt "dat"
 msgid "a leopard gecko"
 msgid_plural "%d leopard geckos"
 msgstr[0] "einem Leopardgecko"
-msgstr[1] "%d Leopardgeckoen"
+msgstr[1] "%d Leopardgeckos"
 # check plural above
 
 msgctxt "dat"
 msgid "an iguana"
 msgid_plural "%d iguanas"
 msgstr[0] "einem Leguan"
-msgstr[1] "%d Leguan"
+msgstr[1] "%d Leguanen"
 # check plural above
 
 msgctxt "dat"
@@ -12880,8 +12669,7 @@ msgctxt "dat"
 msgid "a wyvern"
 msgid_plural "%d wyverns"
 msgstr[0] "einem Wyvern"
-msgstr[1] "%d Wyvern"
-# check plural above
+msgstr[1] "%d Wyverns"
 
 msgctxt "dat"
 msgid "a komodo dragon"
@@ -12923,13 +12711,12 @@ msgid "a merfolk siren"
 msgid_plural "%d merfolk sirens"
 msgstr[0] "einer Meervolk-Sirene"
 msgstr[1] "%d Meervolk-Sirenen"
-# check plural above
 
 msgctxt "dat"
 msgid "a merfolk avatar"
 msgid_plural "%d merfolk avatars"
 msgstr[0] "einem Meervolk-Avatar"
-msgstr[1] "%d Meervolk-Avatarn"
+msgstr[1] "%d Meervolk-Avataren"
 # check plural above
 
 msgctxt "dat"
@@ -12937,20 +12724,18 @@ msgid "a water nymph"
 msgid_plural "%d water nymphs"
 msgstr[0] "einer Wassernymphe"
 msgstr[1] "%d Wassernymphen"
-# check plural above
 
 msgctxt "dat"
 msgid "a bog body"
 msgid_plural "%d bog bodies"
 msgstr[0] "einer Moorleiche"
 msgstr[1] "%d Moorleichen"
-# check plural above
 
 msgctxt "dat"
 msgid "a necrophage"
 msgid_plural "%d necrophages"
 msgstr[0] "einem Nekrophagen"
-msgstr[1] "%d Nekrophagen"
+msgstr[1] "%d Nekrophagenen"
 # check plural above
 
 msgctxt "dat"
@@ -13077,7 +12862,6 @@ msgid "a vault sentinel"
 msgid_plural "%d vault sentinels"
 msgstr[0] "einer Tresorwache"
 msgstr[1] "%d Tresorwachen"
-# check plural above
 
 msgctxt "dat"
 msgid "a vault warden"
@@ -13097,7 +12881,7 @@ msgctxt "dat"
 msgid "an imperial myrmidon"
 msgid_plural "%d imperial myrmidons"
 msgstr[0] "einem kaiserlichen Myrmidon"
-msgstr[1] "%d kaiserlichen Myrmidon"
+msgstr[1] "%d kaiserlichen Myrmidonen"
 # check plural above
 
 msgctxt "dat"
@@ -13105,7 +12889,7 @@ msgid "a servant of whispers"
 msgid_plural "%d servants of whispers"
 msgstr[0] "einem Diener des Flüsterns"
 msgstr[1] "%d Diener des Flüsterns"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "dat"
 msgid "a ragged hierophant"
@@ -13139,8 +12923,7 @@ msgctxt "dat"
 msgid "a Killer Klown"
 msgid_plural "%d Killer Klowns"
 msgstr[0] "einem Killer-Klown"
-msgstr[1] "%d Killer-Klown"
-# check plural above
+msgstr[1] "%d Killer-Klowns"
 
 msgctxt "dat"
 msgid "a demigod"
@@ -13161,13 +12944,12 @@ msgid "a rat"
 msgid_plural "%d rats"
 msgstr[0] "einer Ratte"
 msgstr[1] "%d Ratten"
-# check plural above
 
 msgctxt "dat"
 msgid "a quokka"
 msgid_plural "%d quokkas"
 msgstr[0] "einem Quokka"
-msgstr[1] "%d Quokkaen"
+msgstr[1] "%d Quokkas"
 # check plural above
 
 msgctxt "dat"
@@ -13175,20 +12957,18 @@ msgid "a river rat"
 msgid_plural "%d river rats"
 msgstr[0] "einer Flussratte"
 msgstr[1] "%d Flussratten"
-# check plural above
 
 msgctxt "dat"
 msgid "a hell rat"
 msgid_plural "%d hell rats"
 msgstr[0] "einer Höllenratte"
 msgstr[1] "%d Höllenratten"
-# check plural above
 
 msgctxt "dat"
 msgid "a porcupine"
 msgid_plural "%d porcupines"
 msgstr[0] "einem Stachelschwein"
-msgstr[1] "%d Stachelschweinnen"
+msgstr[1] "%d Stachelschweinen"
 # check plural above
 
 msgctxt "dat"
@@ -13196,27 +12976,26 @@ msgid "a giant cockroach"
 msgid_plural "%d giant cockroaches"
 msgstr[0] "einer Riesenkakerlake"
 msgstr[1] "%d Riesenkakerlaken"
-# check plural above
 
 msgctxt "dat"
 msgid "a scorpion"
 msgid_plural "%d scorpions"
 msgstr[0] "einem Skorpion"
-msgstr[1] "%d Skorpion"
+msgstr[1] "%d Skorpionen"
 # check plural above
 
 msgctxt "dat"
 msgid "an emperor scorpion"
 msgid_plural "%d emperor scorpions"
 msgstr[0] "einem Kaiserskorpion"
-msgstr[1] "%d Kaiserskorpion"
+msgstr[1] "%d Kaiserskorpionen"
 # check plural above
 
 msgctxt "dat"
 msgid "a death scarab"
 msgid_plural "%d death scarabs"
 msgstr[0] "einem Todesskarabäus"
-msgstr[1] "%d Todesskarabäusen"
+msgstr[1] "%d Todesskarabäen"
 # check plural above
 
 msgctxt "dat"
@@ -13224,13 +13003,12 @@ msgid "a spider"
 msgid_plural "%d spiders"
 msgstr[0] "einer Spinne"
 msgstr[1] "%d Spinnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a tarantella"
 msgid_plural "%d tarantellas"
 msgstr[0] "einer Tarantella"
-msgstr[1] "%d Tarantellaen"
+msgstr[1] "%d Tarantellen"
 # check plural above
 
 msgctxt "dat"
@@ -13238,21 +13016,18 @@ msgid "a jumping spider"
 msgid_plural "%d jumping spiders"
 msgstr[0] "einer springenden Spinne"
 msgstr[1] "%d springenden Spinnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a wolf spider"
 msgid_plural "%d wolf spiders"
 msgstr[0] "einer Wolfsspinne"
 msgstr[1] "%d Wolfsspinnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a redback"
 msgid_plural "%d redbacks"
 msgstr[0] "einer Rotrückenspinne"
 msgstr[1] "%d Rotrückenspinnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a demonic crawler"
@@ -13266,7 +13041,6 @@ msgid "an orb spider"
 msgid_plural "%d orb spiders"
 msgstr[0] "einer Kugelspinne"
 msgstr[1] "%d Kugelspinnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a crocodile"
@@ -13279,7 +13053,7 @@ msgctxt "dat"
 msgid "an alligator"
 msgid_plural "%d alligators"
 msgstr[0] "einem Alligator"
-msgstr[1] "%d Alligatorn"
+msgstr[1] "%d Alligatoren"
 # check plural above
 
 msgctxt "dat"
@@ -13287,42 +13061,36 @@ msgid "a snapping turtle"
 msgid_plural "%d snapping turtles"
 msgstr[0] "einer Schnappschildkröte"
 msgstr[1] "%d Schnappschildkröten"
-# check plural above
 
 msgctxt "dat"
 msgid "an alligator snapping turtle"
 msgid_plural "%d alligator snapping turtles"
 msgstr[0] "einer Alligatorschnappschildkröte"
 msgstr[1] "%d Alligatorschnappschildkröten"
-# check plural above
 
 msgctxt "dat"
 msgid "a crab"
 msgid_plural "%d crabs"
 msgstr[0] "einer Krabbe"
 msgstr[1] "%d Krabben"
-# check plural above
 
 msgctxt "dat"
 msgid "a fire crab"
 msgid_plural "%d fire crabs"
 msgstr[0] "einer Feuerkrabbe"
 msgstr[1] "%d Feuerkrabben"
-# check plural above
 
 msgctxt "dat"
 msgid "a ghost crab"
 msgid_plural "%d ghost crabs"
 msgstr[0] "einer Geisterkrabbe"
 msgstr[1] "%d Geisterkrabben"
-# check plural above
 
 msgctxt "dat"
 msgid "an apocalypse crab"
 msgid_plural "%d apocalypse crabs"
 msgstr[0] "einer Apokalypse-Krabbe"
 msgstr[1] "%d Apokalypse-Krabben"
-# check plural above
 
 msgctxt "dat"
 msgid "an ugly thing"
@@ -13342,14 +13110,14 @@ msgctxt "dat"
 msgid "a fire vortex"
 msgid_plural "%d fire vortices"
 msgstr[0] "einem Feuerwirbel"
-msgstr[1] "%d Feuerwirbelen"
+msgstr[1] "%d Feuerwirbeln"
 # check plural above
 
 msgctxt "dat"
 msgid "a spatial vortex"
 msgid_plural "%d spatial vortices"
 msgstr[0] "einem räumlichen Wirbel"
-msgstr[1] "%d räumlichen Wirbelen"
+msgstr[1] "%d räumlichen Wirbeln"
 # check plural above
 
 msgctxt "dat"
@@ -13391,7 +13159,7 @@ msgctxt "dat"
 msgid "a tyrant leech"
 msgid_plural "%d tyrant leeches"
 msgstr[0] "einem Tyrannblutegel"
-msgstr[1] "%d Tyrannblutegelen"
+msgstr[1] "%d Tyrannblutegeln"
 # check plural above
 
 msgctxt "dat"
@@ -13399,34 +13167,31 @@ msgid "a dart slug"
 msgid_plural "%d dart slugs"
 msgstr[0] "einer Pfeilschnecke"
 msgstr[1] "%d Pfeilschnecken"
-# check plural above
 
 msgctxt "dat"
 msgid "a torpor snail"
 msgid_plural "%d torpor snails"
 msgstr[0] "einer Erstarrungsschnecke"
 msgstr[1] "%d Erstarrungsschnecken"
-# check plural above
 
 msgctxt "dat"
 msgid "an elephant slug"
 msgid_plural "%d elephant slugs"
 msgstr[0] "einer Elefantenschnecke"
 msgstr[1] "%d Elefantenschnecken"
-# check plural above
 
 msgctxt "dat"
 msgid "an unseen horror"
 msgid_plural "%d unseen horrors"
 msgstr[0] "einem unsichtbaren Grauen"
-msgstr[1] "%d unsichtbaren Grauen"
+msgstr[1] "%d unsichtbaren Grauenen"
 # check plural above
 
 msgctxt "dat"
 msgid "a small abomination"
 msgid_plural "%d small abominations"
 msgstr[0] "einem kleinen Greuel"
-msgstr[1] "%d kleinen Greuelen"
+msgstr[1] "%d kleinen Greueln"
 # check plural above
 
 msgctxt "dat"
@@ -13434,14 +13199,12 @@ msgid "a crawling corpse"
 msgid_plural "%d crawling corpses"
 msgstr[0] "einer kriechenden Leiche"
 msgstr[1] "%d kriechenden Leichen"
-# check plural above
 
 msgctxt "dat"
 msgid "a macabre mass"
 msgid_plural "%d macabre masses"
 msgstr[0] "einer makaberen Masse"
 msgstr[1] "%d makaberen Massen"
-# check plural above
 
 msgctxt "dat"
 msgid "an ancient zyme"
@@ -13462,34 +13225,30 @@ msgid "a killer bee"
 msgid_plural "%d killer bees"
 msgstr[0] "einer Killerbiene"
 msgstr[1] "%d Killerbienen"
-# check plural above
 
 msgctxt "dat"
 msgid "a queen bee"
 msgid_plural "%d queen bees"
 msgstr[0] "einer Bienenkönigin"
 msgstr[1] "%d Bienenköniginnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a vampire mosquito"
 msgid_plural "%d vampire mosquitoes"
 msgstr[0] "einer Vampir-Mücke"
 msgstr[1] "%d Vampir-Mücken"
-# check plural above
 
 msgctxt "dat"
 msgid "a hornet"
 msgid_plural "%d hornets"
 msgstr[0] "einer Hornisse"
 msgstr[1] "%d Hornissen"
-# check plural above
 
 msgctxt "dat"
 msgid "a meliai"
 msgid_plural "%d meliai"
 msgstr[0] "einer Meliai"
-msgstr[1] "%d Meliaien"
+msgstr[1] "%d Meliais"
 # check plural above
 
 msgctxt "dat"
@@ -13497,28 +13256,25 @@ msgid "a spark wasp"
 msgid_plural "%d spark wasps"
 msgstr[0] "einer Funkenwespe"
 msgstr[1] "%d Funkenwespen"
-# check plural above
 
 msgctxt "dat"
 msgid "a moth"
 msgid_plural "%d moths"
 msgstr[0] "einer Motte"
 msgstr[1] "%d Motten"
-# check plural above
 
 msgctxt "dat"
 msgid "a ghost moth"
 msgid_plural "%d ghost moths"
 msgstr[0] "einer Geistermotte"
 msgstr[1] "%d Geistermotten"
-# check plural above
 
 msgctxt "dat"
 msgid "a moth of wrath"
 msgid_plural "%d moths of wrath"
 msgstr[0] "einer Motte des Zorns"
 msgstr[1] "%d Motte des Zorns"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "dat"
 msgid "a wight"
@@ -13538,21 +13294,21 @@ msgctxt "dat"
 msgid "an ancient champion"
 msgid_plural "%d ancient champions"
 msgstr[0] "einem alten Champion"
-msgstr[1] "%d alten Champion"
+msgstr[1] "%d alten Championen"
 # check plural above
 
 msgctxt "dat"
 msgid "a flying skull"
 msgid_plural "%d flying skulls"
 msgstr[0] "einem fliegenden Schädel"
-msgstr[1] "%d fliegenden Schädelen"
+msgstr[1] "%d fliegenden Schädeln"
 # check plural above
 
 msgctxt "dat"
 msgid "a curse skull"
 msgid_plural "%d curse skulls"
 msgstr[0] "einem Fluchschädel"
-msgstr[1] "%d Fluchschädelen"
+msgstr[1] "%d Fluchschädeln"
 # check plural above
 
 msgctxt "dat"
@@ -13566,7 +13322,7 @@ msgctxt "dat"
 msgid "an angel"
 msgid_plural "%d angels"
 msgstr[0] "einem Engel"
-msgstr[1] "%d Engelen"
+msgstr[1] "%d Engeln"
 # check plural above
 
 msgctxt "dat"
@@ -13587,7 +13343,7 @@ msgctxt "dat"
 msgid "a daeva"
 msgid_plural "%d daevas"
 msgstr[0] "einem Daeva"
-msgstr[1] "%d Daevaen"
+msgstr[1] "%d Daevas"
 # check plural above
 
 msgctxt "dat"
@@ -13615,7 +13371,7 @@ msgctxt "dat"
 msgid "an ettin"
 msgid_plural "%d ettins"
 msgstr[0] "einem Ettin"
-msgstr[1] "%d Ettinnen"
+msgstr[1] "%d Ettinen"
 # check plural above
 
 msgctxt "dat"
@@ -13643,7 +13399,7 @@ msgctxt "dat"
 msgid "a titan"
 msgid_plural "%d titans"
 msgstr[0] "einem Titan"
-msgstr[1] "%d Titan"
+msgstr[1] "%d Titanen"
 # check plural above
 
 msgctxt "dat"
@@ -13678,14 +13434,14 @@ msgctxt "dat"
 msgid "a hydra"
 msgid_plural "%d hydras"
 msgstr[0] "einer Hydra"
-msgstr[1] "%d Hydraen"
+msgstr[1] "%d Hydren"
 # check plural above
 
 msgctxt "dat"
 msgid "a %d-headed hydra"
 msgid_plural "%d %d-headed hydras"
 msgstr[0] "einer %d-köpfigen Hydra"
-msgstr[1] "%d %d-köpfigen Hydraen"
+msgstr[1] "%d %d-köpfigen Hydren"
 # check plural above
 
 msgctxt "dat"
@@ -13769,42 +13525,42 @@ msgctxt "dat"
 msgid "an elemental"
 msgid_plural "%d elementals"
 msgstr[0] "einem Elementar"
-msgstr[1] "%d Elementarn"
+msgstr[1] "%d Elementaren"
 # check plural above
 
 msgctxt "dat"
 msgid "an earth elemental"
 msgid_plural "%d earth elementals"
 msgstr[0] "einem Erdelementar"
-msgstr[1] "%d Erdelementarn"
+msgstr[1] "%d Erdelementaren"
 # check plural above
 
 msgctxt "dat"
 msgid "a fire elemental"
 msgid_plural "%d fire elementals"
 msgstr[0] "einem Feuerelementar"
-msgstr[1] "%d Feuerelementarn"
+msgstr[1] "%d Feuerelementaren"
 # check plural above
 
 msgctxt "dat"
 msgid "a water elemental"
 msgid_plural "%d water elementals"
 msgstr[0] "einem Wasserelementar"
-msgstr[1] "%d Wasserelementarn"
+msgstr[1] "%d Wasserelementaren"
 # check plural above
 
 msgctxt "dat"
 msgid "an air elemental"
 msgid_plural "%d air elementals"
 msgstr[0] "einem Luftelementar"
-msgstr[1] "%d Luftelementarn"
+msgstr[1] "%d Luftelementaren"
 # check plural above
 
 msgctxt "dat"
 msgid "an iron elemental"
 msgid_plural "%d iron elementals"
 msgstr[0] "einem Eisenelementar"
-msgstr[1] "%d Eisenelementarn"
+msgstr[1] "%d Eisenelementaren"
 # check plural above
 
 msgctxt "dat"
@@ -13812,7 +13568,6 @@ msgid "an elemental wellspring"
 msgid_plural "%d elemental wellsprings"
 msgstr[0] "einer elementaren Quelle"
 msgstr[1] "%d elementaren Quellen"
-# check plural above
 
 msgctxt "dat"
 msgid "a giant frog"
@@ -13846,7 +13601,7 @@ msgctxt "dat"
 msgid "a barachi"
 msgid_plural "%d barachim"
 msgstr[0] "einer Barachi"
-msgstr[1] "%d Barachien"
+msgstr[1] "%d Barachis"
 # check plural above
 
 msgctxt "dat"
@@ -13861,20 +13616,20 @@ msgid "an eye of draining"
 msgid_plural "%d eyes of draining"
 msgstr[0] "einem Auge des Schwächens"
 msgstr[1] "%d Auge des Schwächens"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "dat"
 msgid "a glowing orange brain"
 msgid_plural "%d glowing orange brains"
 msgstr[0] "einem orangen leuchtenden Gehirn"
-msgstr[1] "%d orangen leuchtenden Gehirn"
+msgstr[1] "%d orangen leuchtenden Gehirnen"
 # check plural above
 
 msgctxt "dat"
 msgid "a great orb of eyes"
 msgid_plural "%d great orbs of eyes"
 msgstr[0] "einem großen Augenkugel"
-msgstr[1] "%d großen Augenkugelen"
+msgstr[1] "%d großen Augenkugeln"
 # check plural above
 
 msgctxt "dat"
@@ -13889,7 +13644,7 @@ msgid "an eye of devastation"
 msgid_plural "%d eyes of devastation"
 msgstr[0] "einem Auge der Verwüstung"
 msgstr[1] "%d Auge der Verwüstung"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "dat"
 msgid "a golden eye"
@@ -13902,7 +13657,7 @@ msgctxt "dat"
 msgid "an ophan"
 msgid_plural "%d ophanim"
 msgstr[0] "einem Ophan"
-msgstr[1] "%d Ophan"
+msgstr[1] "%d Ophanen"
 # check plural above
 
 msgctxt "dat"
@@ -13916,14 +13671,14 @@ msgctxt "dat"
 msgid "a manticore"
 msgid_plural "%d manticores"
 msgstr[0] "einem Mantikor"
-msgstr[1] "%d Mantikorn"
+msgstr[1] "%d Mantikoren"
 # check plural above
 
 msgctxt "dat"
 msgid "a minotaur"
 msgid_plural "%d minotaurs"
 msgstr[0] "einem Minotaurus"
-msgstr[1] "%d Minotaurusen"
+msgstr[1] "%d Minotauren"
 # check plural above
 
 msgctxt "dat"
@@ -13938,14 +13693,12 @@ msgid "a harpy"
 msgid_plural "%d harpies"
 msgstr[0] "einer Harpyie"
 msgstr[1] "%d Harpyien"
-# check plural above
 
 msgctxt "dat"
 msgid "a mutant beast"
 msgid_plural "%d mutant beasts"
 msgstr[0] "einer mutierten Bestie"
 msgstr[1] "%d mutierten Bestien"
-# check plural above
 
 msgctxt "dat"
 msgid "an ancestor"
@@ -13993,14 +13746,14 @@ msgctxt "dat"
 msgid "a slime creature"
 msgid_plural "%d slime creatures"
 msgstr[0] "einem Schleimwesen"
-msgstr[1] "%d Schleimwesen"
+msgstr[1] "%d Schleimwesenen"
 # check plural above
 
 msgctxt "dat"
 msgid "a merged slime creature"
 msgid_plural "%d merged slime creatures"
 msgstr[0] "einer verschmolzenen Schleimkreatur"
-msgstr[1] "%d verschmolzenen Schleimkreaturn"
+msgstr[1] "%d verschmolzenen Schleimkreaturen"
 # check plural above
 
 msgctxt "dat"
@@ -14021,7 +13774,7 @@ msgctxt "dat"
 msgid "an acid blob"
 msgid_plural "%d acid blobs"
 msgstr[0] "einem Säureklumpen"
-msgstr[1] "%d Säureklumpen"
+msgstr[1] "%d Säureklumpenen"
 # check plural above
 
 msgctxt "dat"
@@ -14049,15 +13802,13 @@ msgctxt "dat"
 msgid "a lich"
 msgid_plural "%d liches"
 msgstr[0] "einem Lich"
-msgstr[1] "%d Lichen"
-# check plural above
+msgstr[1] "%d Lichs"
 
 msgctxt "dat"
 msgid "an ancient lich"
 msgid_plural "%d ancient liches"
 msgstr[0] "einem alten Lich"
-msgstr[1] "%d alten Lichen"
-# check plural above
+msgstr[1] "%d alten Lichs"
 
 msgctxt "dat"
 msgid "a revenant"
@@ -14078,21 +13829,18 @@ msgid "a mummy"
 msgid_plural "%d mummies"
 msgstr[0] "einer Mumie"
 msgstr[1] "%d Mumien"
-# check plural above
 
 msgctxt "dat"
 msgid "a guardian mummy"
 msgid_plural "%d guardian mummies"
 msgstr[0] "einer Wächtermumie"
 msgstr[1] "%d Wächtermumien"
-# check plural above
 
 msgctxt "dat"
 msgid "a greater mummy"
 msgid_plural "%d greater mummies"
 msgstr[0] "einer größeren Mumie"
 msgstr[1] "%d größeren Mumien"
-# check plural above
 
 msgctxt "dat"
 msgid "a mummy priest"
@@ -14105,7 +13853,7 @@ msgctxt "dat"
 msgid "a naga"
 msgid_plural "%d nagas"
 msgstr[0] "einem Naga"
-msgstr[1] "%d Nagaen"
+msgstr[1] "%d Nagas"
 # check plural above
 
 msgctxt "dat"
@@ -14140,7 +13888,7 @@ msgctxt "dat"
 msgid "a nagaraja"
 msgid_plural "%d nagarajas"
 msgstr[0] "einem Nagaraja"
-msgstr[1] "%d Nagarajaen"
+msgstr[1] "%d Nagarajas"
 # check plural above
 
 msgctxt "dat"
@@ -14169,21 +13917,18 @@ msgid "a plant"
 msgid_plural "%d plants"
 msgstr[0] "einer Pflanze"
 msgstr[1] "%d Pflanzen"
-# check plural above
 
 msgctxt "dat"
 msgid "a demonic plant"
 msgid_plural "%d demonic plants"
 msgstr[0] "einer dämonischen Pflanze"
 msgstr[1] "%d dämonischen Pflanzen"
-# check plural above
 
 msgctxt "dat"
 msgid "a withered plant"
 msgid_plural "%d withered plants"
 msgstr[0] "einer verwelkten Pflanze"
 msgstr[1] "%d verwelkten Pflanzen"
-# check plural above
 
 msgctxt "dat"
 msgid "an oklob sapling"
@@ -14197,7 +13942,6 @@ msgid "an oklob plant"
 msgid_plural "%d oklob plants"
 msgstr[0] "einer Oklob-Pflanze"
 msgstr[1] "%d Oklob-Pflanzen"
-# check plural above
 
 msgctxt "dat"
 msgid "a bush"
@@ -14252,7 +13996,7 @@ msgctxt "dat"
 msgid "a tengu"
 msgid_plural "%d tengu"
 msgstr[0] "einem Tengu"
-msgstr[1] "%d Tenguen"
+msgstr[1] "%d Tengus"
 # check plural above
 
 msgctxt "dat"
@@ -14287,7 +14031,7 @@ msgctxt "dat"
 msgid "a rakshasa"
 msgid_plural "%d rakshasas"
 msgstr[0] "einem Rakshasa"
-msgstr[1] "%d Rakshasaen"
+msgstr[1] "%d Rakshasas"
 # check plural above
 
 msgctxt "dat"
@@ -14295,14 +14039,12 @@ msgid "a dryad"
 msgid_plural "%d dryads"
 msgstr[0] "einer Dryade"
 msgstr[1] "%d Dryaden"
-# check plural above
 
 msgctxt "dat"
 msgid "a snaplasher vine"
 msgid_plural "%d snaplasher vines"
 msgstr[0] "einer Peitscherrebe"
 msgstr[1] "%d Peitscherreben"
-# check plural above
 
 msgctxt "dat"
 msgid "a snaplasher vine segment"
@@ -14316,13 +14058,12 @@ msgid "a snake"
 msgid_plural "%d snakes"
 msgstr[0] "einer Schlange"
 msgstr[1] "%d Schlangen"
-# check plural above
 
 msgctxt "dat"
 msgid "a ball python"
 msgid_plural "%d ball pythons"
 msgstr[0] "einer Kugelpython"
-msgstr[1] "%d Kugelpython"
+msgstr[1] "%d Kugelpythonen"
 # check plural above
 
 msgctxt "dat"
@@ -14336,14 +14077,14 @@ msgctxt "dat"
 msgid "a water moccasin"
 msgid_plural "%d water moccasins"
 msgstr[0] "einem Wassermokassin"
-msgstr[1] "%d Wassermokassinnen"
+msgstr[1] "%d Wassermokassinen"
 # check plural above
 
 msgctxt "dat"
 msgid "a black mamba"
 msgid_plural "%d black mambas"
 msgstr[0] "einer schwarzen Mamba"
-msgstr[1] "%d schwarzen Mambaen"
+msgstr[1] "%d schwarzen Mambas"
 # check plural above
 
 msgctxt "dat"
@@ -14351,13 +14092,12 @@ msgid "a sea snake"
 msgid_plural "%d sea snakes"
 msgstr[0] "einer Seeschlange"
 msgstr[1] "%d Seeschlangen"
-# check plural above
 
 msgctxt "dat"
 msgid "an anaconda"
 msgid_plural "%d anacondas"
 msgstr[0] "einer Anakonda"
-msgstr[1] "%d Anakondaen"
+msgstr[1] "%d Anakondas"
 # check plural above
 
 msgctxt "dat"
@@ -14365,14 +14105,12 @@ msgid "a guardian serpent"
 msgid_plural "%d guardian serpents"
 msgstr[0] "einer Wächter-Schlange"
 msgstr[1] "%d Wächter-Schlangen"
-# check plural above
 
 msgctxt "dat"
 msgid "a shock serpent"
 msgid_plural "%d shock serpents"
 msgstr[0] "einer Schockschlange"
 msgstr[1] "%d Schockschlangen"
-# check plural above
 
 msgctxt "dat"
 msgid "a mana viper"
@@ -14420,7 +14158,7 @@ msgctxt "dat"
 msgid "a vampire"
 msgid_plural "%d vampires"
 msgstr[0] "einem Vampir"
-msgstr[1] "%d Vampirn"
+msgstr[1] "%d Vampiren"
 # check plural above
 
 msgctxt "dat"
@@ -14441,7 +14179,7 @@ msgctxt "dat"
 msgid "a jiangshi"
 msgid_plural "%d jiangshi"
 msgstr[0] "einem Jiangshi"
-msgstr[1] "%d Jiangshien"
+msgstr[1] "%d Jiangshis"
 # check plural above
 
 msgctxt "dat"
@@ -14462,29 +14200,25 @@ msgctxt "dat"
 msgid "a hungry ghost"
 msgid_plural "%d hungry ghosts"
 msgstr[0] "einem hungrigen Geist"
-msgstr[1] "%d hungrigen Geisten"
-# check plural above
+msgstr[1] "%d hungrigen Geistern"
 
 msgctxt "dat"
 msgid "a flayed ghost"
 msgid_plural "%d flayed ghosts"
 msgstr[0] "einem enthäuteten Geist"
-msgstr[1] "%d enthäuteten Geisten"
-# check plural above
+msgstr[1] "%d enthäuteten Geistern"
 
 msgctxt "dat"
 msgid "a player ghost"
 msgid_plural "%d player ghosts"
 msgstr[0] "einem Spielergeist"
-msgstr[1] "%d Spielergeisten"
-# check plural above
+msgstr[1] "%d Spielergeistern"
 
 msgctxt "dat"
 msgid "a shadow"
 msgid_plural "%d shadows"
 msgstr[0] "einem Schatten"
 msgstr[1] "%d Schatten"
-# check plural above
 
 msgctxt "dat"
 msgid "a silent spectre"
@@ -14498,34 +14232,30 @@ msgid "a drowned soul"
 msgid_plural "%d drowned souls"
 msgstr[0] "einer ertrunkenen Seele"
 msgstr[1] "%d ertrunkenen Seelen"
-# check plural above
 
 msgctxt "dat"
 msgid "a wraith"
 msgid_plural "%d wraiths"
 msgstr[0] "einem Geist"
-msgstr[1] "%d Geisten"
-# check plural above
+msgstr[1] "%d Geistern"
 
 msgctxt "dat"
 msgid "a shadow wraith"
 msgid_plural "%d shadow wraiths"
 msgstr[0] "einem Schattengeist"
-msgstr[1] "%d Schattengeisten"
-# check plural above
+msgstr[1] "%d Schattengeistern"
 
 msgctxt "dat"
 msgid "a freezing wraith"
 msgid_plural "%d freezing wraiths"
 msgstr[0] "einem Frostgeist"
-msgstr[1] "%d Frostgeisten"
-# check plural above
+msgstr[1] "%d Frostgeistern"
 
 msgctxt "dat"
 msgid "an eidolon"
 msgid_plural "%d eidola"
 msgstr[0] "einem Eidolon"
-msgstr[1] "%d Eidolon"
+msgstr[1] "%d Eidolonen"
 # check plural above
 
 msgctxt "dat"
@@ -14539,14 +14269,14 @@ msgctxt "dat"
 msgid "a large abomination"
 msgid_plural "%d large abominations"
 msgstr[0] "einem großen Greuel"
-msgstr[1] "%d großen Greuelen"
+msgstr[1] "%d großen Greueln"
 # check plural above
 
 msgctxt "dat"
 msgid "a thrashing horror"
 msgid_plural "%d thrashing horrors"
 msgstr[0] "einem verprügelnden Grauen"
-msgstr[1] "%d verprügelnden Grauen"
+msgstr[1] "%d verprügelnden Grauenen"
 # check plural above
 
 msgctxt "dat"
@@ -14574,7 +14304,7 @@ msgctxt "dat"
 msgid "a starspawn tentacle"
 msgid_plural "%d starspawn tentacles"
 msgstr[0] "einem Sternbruttentakel"
-msgstr[1] "%d Sternbruttentakelen"
+msgstr[1] "%d Sternbruttentakeln"
 # check plural above
 
 msgctxt "dat"
@@ -14589,7 +14319,6 @@ msgid "a starcursed mass"
 msgid_plural "%d starcursed masses"
 msgstr[0] "einer sternverfluchten Masse"
 msgstr[1] "%d sternverfluchten Massen"
-# check plural above
 
 msgctxt "dat"
 msgid "a dream sheep"
@@ -14652,21 +14381,19 @@ msgid "an ice beast"
 msgid_plural "%d ice beasts"
 msgstr[0] "einer Eisbestie"
 msgstr[1] "%d Eisbestien"
-# check plural above
 
 msgctxt "dat"
 msgid "a sky beast"
 msgid_plural "%d sky beasts"
 msgstr[0] "einem Himmelstier"
-msgstr[1] "%d Himmelstiern"
+msgstr[1] "%d Himmelstieren"
 # check plural above
 
 msgctxt "dat"
 msgid "a zombie"
 msgid_plural "%d zombies"
 msgstr[0] "einem Zombie"
-msgstr[1] "%d Zombien"
-# check plural above
+msgstr[1] "%d Zombies"
 
 msgctxt "dat"
 msgid "a skeleton"
@@ -14679,15 +14406,14 @@ msgctxt "dat"
 msgid "a simulacrum"
 msgid_plural "%d simulacra"
 msgstr[0] "einem Simulacrum"
-msgstr[1] "%d Simulacrumen"
+msgstr[1] "%d Simulacren"
 # check plural above
 
 msgctxt "dat"
 msgid "a small zombie"
 msgid_plural "%d small zombies"
 msgstr[0] "einem kleinen Zombie"
-msgstr[1] "%d kleinen Zombien"
-# check plural above
+msgstr[1] "%d kleinen Zombies"
 
 msgctxt "dat"
 msgid "a small skeleton"
@@ -14700,15 +14426,14 @@ msgctxt "dat"
 msgid "a small simulacrum"
 msgid_plural "%d small simulacra"
 msgstr[0] "einem kleinen Simulacrum"
-msgstr[1] "%d kleinen Simulacrumen"
+msgstr[1] "%d kleinen Simulacren"
 # check plural above
 
 msgctxt "dat"
 msgid "a large zombie"
 msgid_plural "%d large zombies"
 msgstr[0] "einem großen Zombie"
-msgstr[1] "%d großen Zombien"
-# check plural above
+msgstr[1] "%d großen Zombies"
 
 msgctxt "dat"
 msgid "a large skeleton"
@@ -14721,7 +14446,7 @@ msgctxt "dat"
 msgid "a large simulacrum"
 msgid_plural "%d large simulacra"
 msgstr[0] "einem großen Simulacrum"
-msgstr[1] "%d großen Simulacrumen"
+msgstr[1] "%d großen Simulacren"
 # check plural above
 
 msgctxt "dat"
@@ -14729,7 +14454,6 @@ msgid "a spectral thing"
 msgid_plural "%d spectral things"
 msgstr[0] "einer spektralen Sache"
 msgstr[1] "%d spektralen Sachen"
-# check plural above
 
 msgctxt "dat"
 msgid "an electric eel"
@@ -14742,14 +14466,14 @@ msgctxt "dat"
 msgid "a kraken"
 msgid_plural "%d krakens"
 msgstr[0] "einem Kraken"
-msgstr[1] "%d Kraken"
+msgstr[1] "%d Krakenen"
 # check plural above
 
 msgctxt "dat"
 msgid "a tentacle"
 msgid_plural "%d tentacles"
 msgstr[0] "einem Tentakel"
-msgstr[1] "%d Tentakelen"
+msgstr[1] "%d Tentakeln"
 # check plural above
 
 msgctxt "dat"
@@ -14771,7 +14495,6 @@ msgid "a lava snake"
 msgid_plural "%d lava snakes"
 msgstr[0] "einer Lavaschlange"
 msgstr[1] "%d Lavaschlangen"
-# check plural above
 
 msgctxt "dat"
 msgid "a salamander"
@@ -14812,7 +14535,7 @@ msgctxt "dat"
 msgid "a player illusion"
 msgid_plural "%d player illusions"
 msgstr[0] "einer Spieler-Illusion"
-msgstr[1] "%d Spieler-Illusion"
+msgstr[1] "%d Spieler-Illusionen"
 # check plural above
 
 msgctxt "dat"
@@ -14820,20 +14543,18 @@ msgid "a dancing weapon"
 msgid_plural "%d dancing weapons"
 msgstr[0] "einer tanzenden Waffe"
 msgstr[1] "%d tanzenden Waffen"
-# check plural above
 
 msgctxt "dat"
 msgid "a spectral weapon"
 msgid_plural "%d spectral weapons"
 msgstr[0] "einer Spektralwaffe"
 msgstr[1] "%d Spektralwaffen"
-# check plural above
 
 msgctxt "dat"
 msgid "an eldritch tentacle"
 msgid_plural "%d eldritch tentacles"
 msgstr[0] "einem unheimlichen Tentakel"
-msgstr[1] "%d unheimlichen Tentakelen"
+msgstr[1] "%d unheimlichen Tentakeln"
 # check plural above
 
 msgctxt "dat"
@@ -14896,7 +14617,7 @@ msgctxt "dat"
 msgid "a corrupter"
 msgid_plural "%d corrupters"
 msgstr[0] "einem Korruptor"
-msgstr[1] "%d Korruptorn"
+msgstr[1] "%d Korruptoren"
 # check plural above
 
 msgctxt "dat"
@@ -14904,14 +14625,12 @@ msgid "a black sun"
 msgid_plural "%d black suns"
 msgstr[0] "einer schwarzen Sonne"
 msgstr[1] "%d schwarzen Sonnen"
-# check plural above
 
 msgctxt "dat"
 msgid "a crimson imp"
 msgid_plural "%d crimson imps"
 msgstr[0] "einem karminroten Teufelchen"
 msgstr[1] "%d karminroten Teufelchen"
-# check plural above
 
 msgctxt "dat"
 msgid "a quasit"
@@ -14925,13 +14644,12 @@ msgid "a white imp"
 msgid_plural "%d white imps"
 msgstr[0] "einem weißen Teufelchen"
 msgstr[1] "%d weißen Teufelchen"
-# check plural above
 
 msgctxt "dat"
 msgid "an ufetubus"
 msgid_plural "%d ufetubi"
 msgstr[0] "einem Ufetubus"
-msgstr[1] "%d Ufetubusen"
+msgstr[1] "%d Ufetuben"
 # check plural above
 
 msgctxt "dat"
@@ -14939,48 +14657,46 @@ msgid "an iron imp"
 msgid_plural "%d iron imps"
 msgstr[0] "einem Eisenteufelchen"
 msgstr[1] "%d Eisenteufelchen"
-# check plural above
 
 msgctxt "dat"
 msgid "a shadow imp"
 msgid_plural "%d shadow imps"
 msgstr[0] "einem Schattenteufelchen"
 msgstr[1] "%d Schattenteufelchen"
-# check plural above
 
 msgctxt "dat"
 msgid "a rust devil"
 msgid_plural "%d rust devils"
 msgstr[0] "einem Rostteufel"
-msgstr[1] "%d Rostteufelen"
+msgstr[1] "%d Rostteufeln"
 # check plural above
 
 msgctxt "dat"
 msgid "an orange demon"
 msgid_plural "%d orange demons"
 msgstr[0] "einem orangen Dämon"
-msgstr[1] "%d orangen Dämon"
+msgstr[1] "%d orangen Dämonen"
 # check plural above
 
 msgctxt "dat"
 msgid "a red devil"
 msgid_plural "%d red devils"
 msgstr[0] "einem roten Teufel"
-msgstr[1] "%d roten Teufelen"
+msgstr[1] "%d roten Teufeln"
 # check plural above
 
 msgctxt "dat"
 msgid "a hellwing"
 msgid_plural "%d hellwings"
 msgstr[0] "einem Höllenflügel"
-msgstr[1] "%d Höllenflügelen"
+msgstr[1] "%d Höllenflügeln"
 # check plural above
 
 msgctxt "dat"
 msgid "an ice devil"
 msgid_plural "%d ice devils"
 msgstr[0] "einem Eisteufel"
-msgstr[1] "%d Eisteufelen"
+msgstr[1] "%d Eisteufeln"
 # check plural above
 
 msgctxt "dat"
@@ -14994,7 +14710,7 @@ msgctxt "dat"
 msgid "a sun demon"
 msgid_plural "%d sun demons"
 msgstr[0] "einem Sonnendämon"
-msgstr[1] "%d Sonnendämon"
+msgstr[1] "%d Sonnendämonen"
 # check plural above
 
 msgctxt "dat"
@@ -15008,7 +14724,7 @@ msgctxt "dat"
 msgid "a smoke demon"
 msgid_plural "%d smoke demons"
 msgstr[0] "einem Rauchdämon"
-msgstr[1] "%d Rauchdämon"
+msgstr[1] "%d Rauchdämonen"
 # check plural above
 
 msgctxt "dat"
@@ -15029,14 +14745,14 @@ msgctxt "dat"
 msgid "a sixfirhy"
 msgid_plural "%d sixfirhies"
 msgstr[0] "einem Sixfirhy"
-msgstr[1] "%d Sixfirhyen"
+msgstr[1] "%d Sixfirhys"
 # check plural above
 
 msgctxt "dat"
 msgid "a shadow demon"
 msgid_plural "%d shadow demons"
 msgstr[0] "einem Schattendämon"
-msgstr[1] "%d Schattendämon"
+msgstr[1] "%d Schattendämonen"
 # check plural above
 
 msgctxt "dat"
@@ -15050,7 +14766,7 @@ msgctxt "dat"
 msgid "a blizzard demon"
 msgid_plural "%d blizzard demons"
 msgstr[0] "einem Blizzarddämon"
-msgstr[1] "%d Blizzarddämon"
+msgstr[1] "%d Blizzarddämonen"
 # check plural above
 
 msgctxt "dat"
@@ -15064,21 +14780,21 @@ msgctxt "dat"
 msgid "a cacodemon"
 msgid_plural "%d cacodemons"
 msgstr[0] "einem Cacodaemon"
-msgstr[1] "%d Cacodaemon"
+msgstr[1] "%d Cacodaemonen"
 # check plural above
 
 msgctxt "dat"
 msgid "a hell beast"
 msgid_plural "%d hell beasts"
 msgstr[0] "einem Höllentier"
-msgstr[1] "%d Höllentiern"
+msgstr[1] "%d Höllentieren"
 # check plural above
 
 msgctxt "dat"
 msgid "a hellion"
 msgid_plural "%d hellions"
 msgstr[0] "einem Teufelsbraten"
-msgstr[1] "%d Teufelsbraten"
+msgstr[1] "%d Teufelsbratenen"
 # check plural above
 
 msgctxt "dat"
@@ -15092,7 +14808,7 @@ msgctxt "dat"
 msgid "a lorocyproca"
 msgid_plural "%d lorocyprocas"
 msgstr[0] "einer Lorocyproca"
-msgstr[1] "%d Lorocyprocaen"
+msgstr[1] "%d Lorocyprocas"
 # check plural above
 
 msgctxt "dat"
@@ -15141,8 +14857,7 @@ msgctxt "dat"
 msgid "an animated tree"
 msgid_plural "%d animated trees"
 msgstr[0] "einem animierten Baum"
-msgstr[1] "%d animierten Baumen"
-# check plural above
+msgstr[1] "%d animierten Bäumen"
 
 msgctxt "dat"
 msgid "a golem"
@@ -15197,7 +14912,7 @@ msgctxt "dat"
 msgid "an ushabti"
 msgid_plural "%d ushabtiu"
 msgstr[0] "einer Uschabti"
-msgstr[1] "%d Uschabtien"
+msgstr[1] "%d Uschabtis"
 # check plural above
 
 msgctxt "dat"
@@ -15219,42 +14934,37 @@ msgid "an ice statue"
 msgid_plural "%d ice statues"
 msgstr[0] "einer Eisstatue"
 msgstr[1] "%d Eisstatuen"
-# check plural above
 
 msgctxt "dat"
 msgid "an obsidian statue"
 msgid_plural "%d obsidian statues"
 msgstr[0] "einer Obsidianstatue"
 msgstr[1] "%d Obsidianstatuen"
-# check plural above
 
 msgctxt "dat"
 msgid "an orange crystal statue"
 msgid_plural "%d orange crystal statues"
 msgstr[0] "einer orangen Kristallstatue"
 msgstr[1] "%d orangen Kristallstatuen"
-# check plural above
 
 msgctxt "dat"
 msgid "a statue"
 msgid_plural "%d statues"
 msgstr[0] "einer Statue"
 msgstr[1] "%d Statuen"
-# check plural above
 
 msgctxt "dat"
 msgid "a training dummy"
 msgid_plural "%d training dummies"
 msgstr[0] "einer Trainingspuppe"
 msgstr[1] "%d Trainingspuppen"
-# check plural above
 
 msgctxt "dat"
 msgid "a pillar of salt"
 msgid_plural "%d pillars of salt"
 msgstr[0] "einer Säule des Salzes"
 msgstr[1] "%d Säule des Salzes"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "dat"
 msgid "a block of ice"
@@ -15281,35 +14991,32 @@ msgctxt "dat"
 msgid "a gargoyle"
 msgid_plural "%d gargoyles"
 msgstr[0] "einem Gargoyle"
-msgstr[1] "%d Gargoylen"
-# check plural above
+msgstr[1] "%d Gargoyles"
 
 msgctxt "dat"
 msgid "a war gargoyle"
 msgid_plural "%d war gargoyles"
 msgstr[0] "einem Kriegsgargoyle"
-msgstr[1] "%d Kriegsgargoylen"
-# check plural above
+msgstr[1] "%d Kriegsgargoyles"
 
 msgctxt "dat"
 msgid "a molten gargoyle"
 msgid_plural "%d molten gargoyles"
 msgstr[0] "einem geschmolzenen Gargoyle"
-msgstr[1] "%d geschmolzenen Gargoylen"
-# check plural above
+msgstr[1] "%d geschmolzenen Gargoyles"
 
 msgctxt "dat"
 msgid "a pandemonium lord"
 msgid_plural "%d pandemonium lords"
 msgstr[0] "einem Pandemoniumsherr"
-msgstr[1] "%d Pandemoniumsherrn"
+msgstr[1] "%d Pandemoniumsherren"
 # check plural above
 
 msgctxt "dat"
 msgid "a hell lord"
 msgid_plural "%d hell lords"
 msgstr[0] "einem Höllenherr"
-msgstr[1] "%d Höllenherrn"
+msgstr[1] "%d Höllenherren"
 # check plural above
 
 msgctxt "dat"
@@ -15324,27 +15031,25 @@ msgid "a ballistomycete spore"
 msgid_plural "%d ballistomycete spores"
 msgstr[0] "einer Ballistomycetenspore"
 msgstr[1] "%d Ballistomycetensporen"
-# check plural above
 
 msgctxt "dat"
 msgid "a lost soul"
 msgid_plural "%d lost souls"
 msgstr[0] "einer verlorenen Seele"
 msgstr[1] "%d verlorenen Seelen"
-# check plural above
 
 msgctxt "dat"
 msgid "a lurking horror"
 msgid_plural "%d lurking horrors"
 msgstr[0] "einem lauernden Grauen"
-msgstr[1] "%d lauernden Grauen"
+msgstr[1] "%d lauernden Grauenen"
 # check plural above
 
 msgctxt "dat"
 msgid "an orb of fire"
 msgid_plural "%d orbs of fire"
 msgstr[0] "einer Feuerkugel"
-msgstr[1] "%d Feuerkugelen"
+msgstr[1] "%d Feuerkugeln"
 # check plural above
 
 msgctxt "dat"
@@ -15352,20 +15057,20 @@ msgid "an orb of destruction"
 msgid_plural "%d orbs of destruction"
 msgstr[0] "einer Kugel der Zerstörung"
 msgstr[1] "%d Kugel der Zerstörung"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "dat"
 msgid "a fulminant prism"
 msgid_plural "%d fulminant prisms"
 msgstr[0] "einem fulminanten Prisma"
-msgstr[1] "%d fulminanten Prismaen"
+msgstr[1] "%d fulminanten Prismen"
 # check plural above
 
 msgctxt "dat"
 msgid "a wretched star"
 msgid_plural "%d wretched stars"
 msgstr[0] "einem elenden Stern"
-msgstr[1] "%d elenden Stern"
+msgstr[1] "%d elenden Sternen"
 # check plural above
 
 msgctxt "dat"
@@ -15373,14 +15078,12 @@ msgid "a battlesphere"
 msgid_plural "%d battlespheres"
 msgstr[0] "einer Kampfsphäre"
 msgstr[1] "%d Kampfsphären"
-# check plural above
 
 msgctxt "dat"
 msgid "a death cob"
 msgid_plural "%d death cobs"
 msgstr[0] "einem Todeskolben"
 msgstr[1] "%d Todeskolben"
-# check plural above
 
 msgctxt "dat"
 msgid "a moon troll"
@@ -15394,7 +15097,7 @@ msgid "a Serpent of Hell"
 msgid_plural "%d Serpents of Hell"
 msgstr[0] "einer Schlange der Hölle"
 msgstr[1] "%d Schlange der Hölle"
-# check both singular and plural above
+# check both singular and plural above (multiple nouns)
 
 msgctxt "dat"
 msgid "a sensed monster"

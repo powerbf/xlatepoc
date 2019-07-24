@@ -35,6 +35,13 @@
 # Generated translation files
 *.mo
 locale
+de-out.po
 
 # Eclipse
 .settings
+
+# Other
+*.tmp
+D
+D
+#Other
