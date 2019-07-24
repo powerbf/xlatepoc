@@ -2656,7 +2656,6 @@ msgstr "den kaiserlichen Myrmidon"
 msgctxt "akk"
 msgid  "the servant of whispers"
 msgstr "den Diener des Flüsterns"
-# check line above
 
 msgctxt "akk"
 msgid  "the ragged hierophant"
@@ -4489,7 +4488,6 @@ msgstr "dem kaiserlichen Myrmidon"
 msgctxt "dat"
 msgid  "the servant of whispers"
 msgstr "dem Diener des Flüsterns"
-# check line above
 
 msgctxt "dat"
 msgid  "the ragged hierophant"
@@ -4726,7 +4724,6 @@ msgstr "der Geistermotte"
 msgctxt "dat"
 msgid  "the moth of wrath"
 msgstr "der Motte des Zorns"
-# check line above
 
 msgctxt "dat"
 msgid  "the wight"
@@ -4923,7 +4920,6 @@ msgstr "dem schwebenden Auge"
 msgctxt "dat"
 msgid  "the eye of draining"
 msgstr "dem Auge des Schwächens"
-# check line above
 
 msgctxt "dat"
 msgid  "the glowing orange brain"
@@ -4940,7 +4936,6 @@ msgstr "dem leuchtenden Auge"
 msgctxt "dat"
 msgid  "the eye of devastation"
 msgstr "dem Auge der Verwüstung"
-# check line above
 
 msgctxt "dat"
 msgid  "the golden eye"
@@ -5721,7 +5716,6 @@ msgstr "der Trainingspuppe"
 msgctxt "dat"
 msgid  "the pillar of salt"
 msgstr "der Säule des Salzes"
-# check line above
 
 msgctxt "dat"
 msgid  "the block of ice"
@@ -5778,7 +5772,6 @@ msgstr "der Feuerkugel"
 msgctxt "dat"
 msgid  "the orb of destruction"
 msgstr "der Kugel der Zerstörung"
-# check line above
 
 msgctxt "dat"
 msgid  "the fulminant prism"
@@ -5803,7 +5796,6 @@ msgstr "dem Mondtroll"
 msgctxt "dat"
 msgid  "the Serpent of Hell"
 msgstr "der Schlange der Hölle"
-# check line above
 
 msgctxt "dat"
 msgid  "the sensed monster"
@@ -6681,7 +6673,7 @@ msgid "a servant of whispers"
 msgid_plural "%d servants of whispers"
 msgstr[0] "ein Diener des Flüsterns"
 msgstr[1] "%d Diener des Flüsterns"
-# check both singular and plural above (multiple nouns)
+# check plural above
 
 #msgctxt "nom"
 msgid "a ragged hierophant"
@@ -7065,8 +7057,7 @@ msgstr[1] "%d Geistermotten"
 msgid "a moth of wrath"
 msgid_plural "%d moths of wrath"
 msgstr[0] "eine Motte des Zorns"
-msgstr[1] "%d Motte des Zorns"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Motten des Zorns"
 
 #msgctxt "nom"
 msgid "a wight"
@@ -7407,8 +7398,8 @@ msgstr[1] "%d schwebende Augen"
 msgid "an eye of draining"
 msgid_plural "%d eyes of draining"
 msgstr[0] "ein Auge des Schwächens"
-msgstr[1] "%d Auge des Schwächens"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Augen des Schwächens"
+# check plural above
 
 #msgctxt "nom"
 msgid "a glowing orange brain"
@@ -7435,8 +7426,8 @@ msgstr[1] "%d leuchtende Augen"
 msgid "an eye of devastation"
 msgid_plural "%d eyes of devastation"
 msgstr[0] "ein Auge der Verwüstung"
-msgstr[1] "%d Auge der Verwüstung"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Augen der Verwüstung"
+# check plural above
 
 #msgctxt "nom"
 msgid "a golden eye"
@@ -8076,7 +8067,6 @@ msgid "a tentacled monstrosity"
 msgid_plural "%d tentacled monstrosities"
 msgstr[0] "eine Tentakel-Monstrosität"
 msgstr[1] "%d Tentakel-Monstrositäten"
-# check plural above
 
 #msgctxt "nom"
 msgid "an Orb Guardian"
@@ -8755,8 +8745,7 @@ msgstr[1] "%d Trainingspuppen"
 msgid "a pillar of salt"
 msgid_plural "%d pillars of salt"
 msgstr[0] "eine Säule des Salzes"
-msgstr[1] "%d Säule des Salzes"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Säulen des Salzes"
 
 #msgctxt "nom"
 msgid "a block of ice"
@@ -8848,8 +8837,8 @@ msgstr[1] "%d Feuerkugeln"
 msgid "an orb of destruction"
 msgid_plural "%d orbs of destruction"
 msgstr[0] "eine Kugel der Zerstörung"
-msgstr[1] "%d Kugel der Zerstörung"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Kugeln der Zerstörung"
+# check plural above
 
 #msgctxt "nom"
 msgid "a fulminant prism"
@@ -8888,8 +8877,7 @@ msgstr[1] "%d Mondtrolle"
 msgid "a Serpent of Hell"
 msgid_plural "%d Serpents of Hell"
 msgstr[0] "eine Schlange der Hölle"
-msgstr[1] "%d Schlange der Hölle"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Schlangen der Hölle"
 
 #msgctxt "nom"
 msgid "a sensed monster"
@@ -9785,7 +9773,7 @@ msgid "a servant of whispers"
 msgid_plural "%d servants of whispers"
 msgstr[0] "einen Diener des Flüsterns"
 msgstr[1] "%d Diener des Flüsterns"
-# check both singular and plural above (multiple nouns)
+# check plural above
 
 msgctxt "akk"
 msgid "a ragged hierophant"
@@ -10169,8 +10157,7 @@ msgctxt "akk"
 msgid "a moth of wrath"
 msgid_plural "%d moths of wrath"
 msgstr[0] "eine Motte des Zorns"
-msgstr[1] "%d Motte des Zorns"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Motten des Zorns"
 
 msgctxt "akk"
 msgid "a wight"
@@ -10511,8 +10498,8 @@ msgctxt "akk"
 msgid "an eye of draining"
 msgid_plural "%d eyes of draining"
 msgstr[0] "ein Auge des Schwächens"
-msgstr[1] "%d Auge des Schwächens"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Augen des Schwächens"
+# check plural above
 
 msgctxt "akk"
 msgid "a glowing orange brain"
@@ -10539,8 +10526,8 @@ msgctxt "akk"
 msgid "an eye of devastation"
 msgid_plural "%d eyes of devastation"
 msgstr[0] "ein Auge der Verwüstung"
-msgstr[1] "%d Auge der Verwüstung"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Augen der Verwüstung"
+# check plural above
 
 msgctxt "akk"
 msgid "a golden eye"
@@ -11180,7 +11167,6 @@ msgid "a tentacled monstrosity"
 msgid_plural "%d tentacled monstrosities"
 msgstr[0] "eine Tentakel-Monstrosität"
 msgstr[1] "%d Tentakel-Monstrositäten"
-# check plural above
 
 msgctxt "akk"
 msgid "an Orb Guardian"
@@ -11859,8 +11845,7 @@ msgctxt "akk"
 msgid "a pillar of salt"
 msgid_plural "%d pillars of salt"
 msgstr[0] "eine Säule des Salzes"
-msgstr[1] "%d Säule des Salzes"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Säulen des Salzes"
 
 msgctxt "akk"
 msgid "a block of ice"
@@ -11952,8 +11937,8 @@ msgctxt "akk"
 msgid "an orb of destruction"
 msgid_plural "%d orbs of destruction"
 msgstr[0] "eine Kugel der Zerstörung"
-msgstr[1] "%d Kugel der Zerstörung"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Kugeln der Zerstörung"
+# check plural above
 
 msgctxt "akk"
 msgid "a fulminant prism"
@@ -11992,8 +11977,7 @@ msgctxt "akk"
 msgid "a Serpent of Hell"
 msgid_plural "%d Serpents of Hell"
 msgstr[0] "eine Schlange der Hölle"
-msgstr[1] "%d Schlange der Hölle"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Schlangen der Hölle"
 
 msgctxt "akk"
 msgid "a sensed monster"
@@ -12888,8 +12872,8 @@ msgctxt "dat"
 msgid "a servant of whispers"
 msgid_plural "%d servants of whispers"
 msgstr[0] "einem Diener des Flüsterns"
-msgstr[1] "%d Diener des Flüsterns"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Dienern des Flüsterns"
+# check plural above
 
 msgctxt "dat"
 msgid "a ragged hierophant"
@@ -13273,8 +13257,7 @@ msgctxt "dat"
 msgid "a moth of wrath"
 msgid_plural "%d moths of wrath"
 msgstr[0] "einer Motte des Zorns"
-msgstr[1] "%d Motte des Zorns"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Motten des Zorns"
 
 msgctxt "dat"
 msgid "a wight"
@@ -13615,8 +13598,8 @@ msgctxt "dat"
 msgid "an eye of draining"
 msgid_plural "%d eyes of draining"
 msgstr[0] "einem Auge des Schwächens"
-msgstr[1] "%d Auge des Schwächens"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Augen des Schwächens"
+# check plural above
 
 msgctxt "dat"
 msgid "a glowing orange brain"
@@ -13643,8 +13626,8 @@ msgctxt "dat"
 msgid "an eye of devastation"
 msgid_plural "%d eyes of devastation"
 msgstr[0] "einem Auge der Verwüstung"
-msgstr[1] "%d Auge der Verwüstung"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Augen der Verwüstung"
+# check plural above
 
 msgctxt "dat"
 msgid "a golden eye"
@@ -14284,7 +14267,6 @@ msgid "a tentacled monstrosity"
 msgid_plural "%d tentacled monstrosities"
 msgstr[0] "einer Tentakel-Monstrosität"
 msgstr[1] "%d Tentakel-Monstrositäten"
-# check plural above
 
 msgctxt "dat"
 msgid "an Orb Guardian"
@@ -14963,8 +14945,7 @@ msgctxt "dat"
 msgid "a pillar of salt"
 msgid_plural "%d pillars of salt"
 msgstr[0] "einer Säule des Salzes"
-msgstr[1] "%d Säule des Salzes"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Säulen des Salzes"
 
 msgctxt "dat"
 msgid "a block of ice"
@@ -15056,8 +15037,8 @@ msgctxt "dat"
 msgid "an orb of destruction"
 msgid_plural "%d orbs of destruction"
 msgstr[0] "einer Kugel der Zerstörung"
-msgstr[1] "%d Kugel der Zerstörung"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Kugeln der Zerstörung"
+# check plural above
 
 msgctxt "dat"
 msgid "a fulminant prism"
@@ -15096,8 +15077,7 @@ msgctxt "dat"
 msgid "a Serpent of Hell"
 msgid_plural "%d Serpents of Hell"
 msgstr[0] "einer Schlange der Hölle"
-msgstr[1] "%d Schlange der Hölle"
-# check both singular and plural above (multiple nouns)
+msgstr[1] "%d Schlangen der Hölle"
 
 msgctxt "dat"
 msgid "a sensed monster"
