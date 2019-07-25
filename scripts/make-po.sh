@@ -8,7 +8,7 @@ then
 fi
 
 
-./decline-de.sh the-$NAME.po
+python3 decline-de.py the-$NAME.po
 cp ./$NAME-header.po ../po/de/$NAME.po
-cat de-out.po >> ../po/de/$NAME.po
+cat out.po >> ../po/de/$NAME.po
 
