@@ -14573,7 +14573,7 @@ msgctxt "dat"
 msgid "an ufetubus"
 msgid_plural "%d ufetubi"
 msgstr[0] "einem Ufetubus"
-msgstr[1] "%d Ufetubin"
+msgstr[1] "%d Ufetubi"
 
 msgctxt "dat"
 msgid "an iron imp"

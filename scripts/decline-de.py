@@ -14,6 +14,9 @@ def extract_text(line):
     return text
 
 
+#####################################
+# Check German text
+#####################################
 def check_german(text):
     if re.search("^[ \t]", text):
         print('WARNING: Blank space at start of: "' + text + '"')
@@ -278,8 +281,8 @@ def make_german_plural(singular, gender, case):
         plural += "e"
     
     if case == "dat":
-        # in dative, must add extra -n if plural does not already end in -n or -s
-        if not (plural.endswith("n") or plural.endswith("s")):
+        # in dative, must add extra -n if plural does not already end in -n or -s or -i
+        if not re.search("[nsi]$", plural):
             plural += "n"
 
         # adjective ending is -en
