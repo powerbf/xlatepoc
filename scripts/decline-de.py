@@ -13,6 +13,35 @@ def extract_text(line):
     text = re.sub('"[ \t]*$', '', text)
     return text
 
+#####################################
+# Split out " of <whatever>"
+# It takes no part in declensions
+#####################################
+def split_of(text):
+    words = ['of', 'von', 'des', 'der']
+    
+    for word in words:
+        patt = " " + word + " "
+        if re.search("[^ ]" + patt, text):
+            suffix = re.sub(".*" + patt, patt, text)
+            text = re.sub(patt + ".*$", "", text)
+            return text, suffix
+    
+    return text, ""
+
+#####################################
+# Determine gender from German nominative
+# (Input must have definite article)
+#####################################
+def get_gender(text):
+    if text.startswith("der "):
+        return "masc"
+    elif text.startswith("die "):
+        return "fem"
+    elif text.startswith("das "):
+        return "neut"
+    else:
+        return "unk" # unknown
 
 #####################################
 # Check German text
@@ -22,13 +51,7 @@ def check_german(text):
         print('WARNING: Blank space at start of: "' + text + '"')
         text = re.sub("^[ \t]+", "", text)
     
-    gender='unk' # unknown
-    if text.startswith("der"):
-        gender = "masc"
-    elif text.startswith("die"):
-        gender = "fem"
-    elif text.startswith("das"):
-        gender = "neut"
+    gender = get_gender(text)
     
     # remove "of <whatever>"
     full_text = text
@@ -90,6 +113,18 @@ def check_german(text):
             # probably should be masculine
             if gender != "masc":
                 print('WARNING: Probably should be masculine: "' + full_text + '"')
+
+#####################################
+# Decline English singular
+#####################################
+def decline_english_singular(text, article):
+    if article == "definite":
+        return text
+    else:
+        # replace "the" with "a" or "an"
+        text = re.sub(r"^the ([aAeEiIoOuU])", r"an \1", text)
+        text = re.sub(r"^the (.)", r"a \1", text)
+        return text
 
 #####################################
 # Make English plural
@@ -170,6 +205,62 @@ def make_english_plural(singular):
     return plural
 
 #####################################
+# Decline German singular
+#####################################
+def decline_german_singular(text, article, case):
+    
+    gender = get_gender(text)
+    sing_de = text
+    
+    if article == "definite":
+        if case == "akk":
+            sing_de = re.sub("^der ", "den ", sing_de)
+        elif case == "dat":
+            sing_de = re.sub("^(der|das) ", "dem ", sing_de)
+            sing_de = re.sub("^die ", "der ", sing_de)
+            
+        # adjust adjective ending
+        if case == "dat" or (case == "akk" and gender == "masc"):
+            # adjective ending is -en
+            sing_de = sing_de.replace("e ", "en ")
+        
+    else:
+        
+        # adjust article
+        if gender == "masc":
+            if case == "dat":
+                sing_de = re.sub("^der ", "einem ", sing_de)
+            elif case == "akk":
+                sing_de = re.sub("^der ", "einen ", sing_de)
+            else:
+                sing_de = re.sub("^der ", "ein ", sing_de)
+        if gender == "fem":
+            if case == "dat":
+                sing_de = re.sub("^die ", "einer ", sing_de)
+            else:
+                sing_de = re.sub("^die ", "eine ", sing_de)
+        if gender == "neut":
+            if case == "dat":
+                sing_de = re.sub("^das ", "einem ", sing_de)
+            else:
+                sing_de = re.sub("^das ", "ein ", sing_de)
+        
+        # adjust adjectives
+        if case == "dat" or (case == "akk" and gender == "masc"):
+            # adjective ending is -en
+            sing_de = sing_de.replace("e ", "en ")
+        elif gender == "masc":
+            # adjective ending is -er
+            sing_de = sing_de.replace("e ", "er ")
+        elif gender == "neut":
+            # adjective ending is -es
+            sing_de = sing_de.replace("e ", "es ")
+        
+    # TODO: apply n-declension to noun
+    
+    return sing_de
+
+#####################################
 # Make German plural
 #
 # References:
@@ -177,8 +268,9 @@ def make_english_plural(singular):
 # - https://www.germanveryeasy.com/plural
 #
 #####################################
-def make_german_plural(singular, gender, case):
+def make_german_plural(singular, case):
     certain = False
+    gender = get_gender(singular)
 
     plural = re.sub("^(der|die|das) ", "%d ", singular)
     
@@ -305,6 +397,9 @@ def process(infile_name, case_long, article):
     case = case_long[0: 3]
     if case == "acc":
         case = "akk"
+    
+    english = ""
+    deutsch = ""
 
     with open(infile_name) as infile:
         line = infile.readline()
@@ -316,109 +411,52 @@ def process(infile_name, case_long, article):
                 pass
             
             elif line.startswith("msgid"):
-                text = extract_text(line)
+                english = extract_text(line)
+            
+            elif line.startswith("msgstr"):
+                deutsch = extract_text(line)
+                if english == "":
+                    print("ERROR: German with no English: " + deustch)
                 
+                check_german(deutsch)
+                gender = get_gender(deutsch)
+                
+                # separate " of <whatever>" suffixes - we will restore later
+                english, suffix_en = split_of(english)
+                deutsch, suffix_de = split_of(deutsch)
+                 
                 # msgctxt line
                 outfile.write("\n")
                 if case == "nom": 
-                    # nominative is default
                     outfile.write('#msgctxt "' + case + '"\n')
                 else:
                     outfile.write('msgctxt "' + case + '"\n')
                 
-                suffix = ""
-                if re.search('[^ ] of ', text):
-                    suffix = re.sub(".* of ", " of ", text)
-                    text = re.sub(" of .*$", "", text)
-                
                 # msgid line (English)
-                if article == "definite":
-                    outfile.write('msgid  "' + text + suffix + '"\n')
-                else:
-                    # replace "the" with "a" or "an"
-                    text = re.sub(r"^the ([aAeEiIoOuU])", r"an \1", text)
-                    text = re.sub(r"^the (.)", r"a \1", text)
-    
-                    # generate English plural
-                    plural_en = make_english_plural(text)
-    
-                    outfile.write('msgid "' + text + suffix + '"\n')
-                    outfile.write('msgid_plural "' + plural_en + suffix + '"\n')
-                    
-            elif line.startswith("msgstr"):
-                text = extract_text(line)
-                check_german(text)
+                sing_en = decline_english_singular(english, article)
                 
-                # remove "of <whatever>" - we will replace it later
-                suffix=''
-                if re.search('[^ ] des ', text):
-                    suffix = re.sub(".* des ", " des ", text)
-                    text = re.sub(" des .*$", "", text)
-                elif re.search('[^ ] der ', text):
-                    suffix = re.sub(".* der ", " der ", text)
-                    text = re.sub(" der .*$", "", text)
-                    
-                # msgstr line (German)
                 if article == "definite":
-                    if case == "akk":
-                        text = re.sub("^der ", "den ", text)
-                    elif case == "dat":
-                        text = re.sub("^(der|das) ", "dem ", text)
-                        text = re.sub("^die ", "der ", text)
-                        
-                    # adjust adjective ending
-                    if case == "dat" or text.startswith("den "):
-                        # adjective ending is -en
-                        text = text.replace("e ", "en ")
-                    
-                    outfile.write('msgstr "' + text + suffix + '"\n')
+                    outfile.write('msgid  "' + sing_en + suffix_en + '"\n')
                 else:
-                    gender = "unk" # unknown
-                    if text.startswith("der "):
-                        gender = "masc"
-                    elif text.startswith("die "):
-                        gender = "fem"
-                    elif text.startswith("das "):
-                        gender = "neut"
-                    
-                    sing_de = text
-    
-                    # adjust article
-                    if gender == "masc":
-                        if case == "dat":
-                            sing_de = re.sub("^der ", "einem ", sing_de)
-                        elif case == "akk":
-                            sing_de = re.sub("^der ", "einen ", sing_de)
-                        else:
-                            sing_de = re.sub("^der ", "ein ", sing_de)
-                    if gender == "fem":
-                        if case == "dat":
-                            sing_de = re.sub("^die ", "einer ", sing_de)
-                        else:
-                            sing_de = re.sub("^die ", "eine ", sing_de)
-                    if gender == "neut":
-                        if case == "dat":
-                            sing_de = re.sub("^das ", "einem ", sing_de)
-                        else:
-                            sing_de = re.sub("^das ", "ein ", sing_de)
-                    
-                    # adjust adjectives
-                    if case == "dat" or (case == "akk" and gender == "masc"):
-                        # adjective ending is -en
-                        sing_de = sing_de.replace("e ", "en ")
-                    elif gender == "masc":
-                        # adjective ending is -er
-                        sing_de = sing_de.replace("e ", "er ")
-                    elif gender == "neut":
-                        # adjective ending is -es
-                        sing_de = sing_de.replace("e ", "es ")
-    
-                    # generate German plural
-                    (plural_de, certain) = make_german_plural(text, gender, case)
-                    outfile.write('msgstr[0] "' + sing_de + suffix + '"\n')    
-                    outfile.write('msgstr[1] "' + plural_de + suffix + '"\n')    
+                    outfile.write('msgid "' + sing_en + suffix_en + '"\n')
+                    plural_en = make_english_plural(english)
+                    outfile.write('msgid_plural "' + plural_en + suffix_en + '"\n')
+                
+                # German translations
+                sing_de = decline_german_singular(deutsch, article, case)
+                
+                if article == "definite":
+                    outfile.write('msgstr "' + sing_de + suffix_de + '"\n')
+                else:
+                    (plural_de, certain) = make_german_plural(deutsch, case)
+                    outfile.write('msgstr[0] "' + sing_de + suffix_de + '"\n')    
+                    outfile.write('msgstr[1] "' + plural_de + suffix_de + '"\n')    
                     if not certain:
                         outfile.write("# check plural above\n")
+                
+                english = ""
+                deutsch = ""
+            
             elif line == "" or line.startswith("#"):
                 # comment, blank line
                 outfile.write(line)
