@@ -256,7 +256,19 @@ def decline_german_singular(text, article, case):
             # adjective ending is -es
             sing_de = sing_de.replace("e ", "es ")
         
-    # TODO: apply n-declension to noun
+    # apply n-declension to noun
+    if gender == "masc" and (case == "akk" or case == "dat"):
+        if sing_de.lower().endswith("herr") or sing_de.lower().endswith("bauer"):
+            # irregular
+            sing_de += "n"
+        elif sing_de.endswith("e"):
+            if not re.search("(see|käse|deutsche|zombie|gargoyle)$", sing_de, re.IGNORECASE):
+                sing_de += "n"
+        elif re.search("(at|ant|ent|ist|oph|bär|mensch|prinz|narr)$", sing_de, re.IGNORECASE):
+            sing_de += "en"
+    elif case == "dat" and gender == "neut" and sing_de.lower().endswith("herz"):
+        # a rare neuter noun that declines (in dative only)
+        sing_de += "en"
     
     return sing_de
 

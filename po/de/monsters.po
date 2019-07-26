@@ -1824,7 +1824,7 @@ msgstr "den Tiefenelf-Ritter"
 
 msgctxt "akk"
 msgid  "the deep elf archer"
-msgstr "den Tiefenelf-Bogenschütze"
+msgstr "den Tiefenelf-Bogenschützen"
 
 msgctxt "akk"
 msgid  "the deep elf blademaster"
@@ -1844,7 +1844,7 @@ msgstr "den Tiefenelf-Hohepriester"
 
 msgctxt "akk"
 msgid  "the deep elf demonologist"
-msgstr "den Tiefenelf-Dämonologe"
+msgstr "den Tiefenelf-Dämonologen"
 
 msgctxt "akk"
 msgid  "the deep elf annihilator"
@@ -1860,7 +1860,7 @@ msgstr "den Tiefenelf-Todesmagier"
 
 msgctxt "akk"
 msgid  "the deep elf elementalist"
-msgstr "den Tiefenelf-Elementalist"
+msgstr "den Tiefenelf-Elementalisten"
 
 msgctxt "akk"
 msgid  "the wandering mushroom"
@@ -1888,7 +1888,7 @@ msgstr "den Gnoll"
 
 msgctxt "akk"
 msgid  "the gnoll shaman"
-msgstr "den Gnoll-Schamane"
+msgstr "den Gnoll-Schamanen"
 
 msgctxt "akk"
 msgid  "the gnoll sergeant"
@@ -1916,7 +1916,7 @@ msgstr "den Hund"
 
 msgctxt "akk"
 msgid  "the howler monkey"
-msgstr "den Brüllaffe"
+msgstr "den Brüllaffen"
 
 msgctxt "akk"
 msgid  "the warg"
@@ -1940,15 +1940,15 @@ msgstr "den Raiju"
 
 msgctxt "akk"
 msgid  "the bear"
-msgstr "den Bär"
+msgstr "den Bären"
 
 msgctxt "akk"
 msgid  "the polar bear"
-msgstr "den Eisbär"
+msgstr "den Eisbären"
 
 msgctxt "akk"
 msgid  "the black bear"
-msgstr "den Schwarzbär"
+msgstr "den Schwarzbären"
 
 msgctxt "akk"
 msgid  "the spriggan"
@@ -1960,7 +1960,7 @@ msgstr "den Spriggan-Reiter"
 
 msgctxt "akk"
 msgid  "the spriggan druid"
-msgstr "den Spriggan-Druide"
+msgstr "den Spriggan-Druiden"
 
 msgctxt "akk"
 msgid  "the spriggan berserker"
@@ -1996,7 +1996,7 @@ msgstr "den Lindwurm"
 
 msgctxt "akk"
 msgid  "the death drake"
-msgstr "den Todesdrache"
+msgstr "den Todesdrachen"
 
 msgctxt "akk"
 msgid  "the leopard gecko"
@@ -2016,7 +2016,7 @@ msgstr "den Wyvern"
 
 msgctxt "akk"
 msgid  "the komodo dragon"
-msgstr "den Komododrache"
+msgstr "den Komododrachen"
 
 msgctxt "akk"
 msgid  "the merfolk impaler"
@@ -2080,11 +2080,11 @@ msgstr "den Lava-Ork"
 
 msgctxt "akk"
 msgid  "the human"
-msgstr "den Mensch"
+msgstr "den Menschen"
 
 msgctxt "akk"
 msgid  "the slave"
-msgstr "den Sklave"
+msgstr "den Sklaven"
 
 msgctxt "akk"
 msgid  "the hell knight"
@@ -2096,7 +2096,7 @@ msgstr "den Todesritter"
 
 msgctxt "akk"
 msgid  "the necromancer"
-msgstr "den Nekromant"
+msgstr "den Nekromanten"
 
 msgctxt "akk"
 msgid  "the wizard"
@@ -2124,7 +2124,7 @@ msgstr "den Diener des Flüsterns"
 
 msgctxt "akk"
 msgid  "the ragged hierophant"
-msgstr "den zerlumpten Hierophant"
+msgstr "den zerlumpten Hierophanten"
 
 msgctxt "akk"
 msgid  "the ironheart preserver"
@@ -2204,7 +2204,7 @@ msgstr "den kleinen Greuel"
 
 msgctxt "akk"
 msgid  "the ancient zyme"
-msgstr "den alten Zyme"
+msgstr "den alten Zymen"
 
 msgctxt "akk"
 msgid  "the worldbinder"
@@ -2232,7 +2232,7 @@ msgstr "den Fluchschädel"
 
 msgctxt "akk"
 msgid  "the curse toe"
-msgstr "den Fluchzehe"
+msgstr "den Fluchzehen"
 
 msgctxt "akk"
 msgid  "the angel"
@@ -2256,7 +2256,7 @@ msgstr "den profanen Diener"
 
 msgctxt "akk"
 msgid  "the giant"
-msgstr "den Riese"
+msgstr "den Riesen"
 
 msgctxt "akk"
 msgid  "the cyclops"
@@ -2268,15 +2268,15 @@ msgstr "den Ettin"
 
 msgctxt "akk"
 msgid  "the fire giant"
-msgstr "den Feuerriese"
+msgstr "den Feuerriesen"
 
 msgctxt "akk"
 msgid  "the frost giant"
-msgstr "den Frostriese"
+msgstr "den Frostriesen"
 
 msgctxt "akk"
 msgid  "the stone giant"
-msgstr "den Steinriese"
+msgstr "den Steinriesen"
 
 msgctxt "akk"
 msgid  "the titan"
@@ -2288,59 +2288,59 @@ msgstr "den Juggernaut"
 
 msgctxt "akk"
 msgid  "the iron giant"
-msgstr "den Eisenriese"
+msgstr "den Eisenriesen"
 
 msgctxt "akk"
 msgid  "the dragon"
-msgstr "den Drache"
+msgstr "den Drachen"
 
 msgctxt "akk"
 msgid  "the fire dragon"
-msgstr "den Feuerdrache"
+msgstr "den Feuerdrachen"
 
 msgctxt "akk"
 msgid  "the ice dragon"
-msgstr "den Eisdrache"
+msgstr "den Eisdrachen"
 
 msgctxt "akk"
 msgid  "the steam dragon"
-msgstr "den Dampfdrache"
+msgstr "den Dampfdrachen"
 
 msgctxt "akk"
 msgid  "the swamp dragon"
-msgstr "den Sumpfdrache"
+msgstr "den Sumpfdrachen"
 
 msgctxt "akk"
 msgid  "the acid dragon"
-msgstr "den Säuredrache"
+msgstr "den Säuredrachen"
 
 msgctxt "akk"
 msgid  "the quicksilver dragon"
-msgstr "den Quecksilberdrache"
+msgstr "den Quecksilberdrachen"
 
 msgctxt "akk"
 msgid  "the iron dragon"
-msgstr "den Eisendrache"
+msgstr "den Eisendrachen"
 
 msgctxt "akk"
 msgid  "the storm dragon"
-msgstr "den Sturmdrache"
+msgstr "den Sturmdrachen"
 
 msgctxt "akk"
 msgid  "the golden dragon"
-msgstr "den Golddrache"
+msgstr "den Golddrachen"
 
 msgctxt "akk"
 msgid  "the shadow dragon"
-msgstr "den Schattendrache"
+msgstr "den Schattendrachen"
 
 msgctxt "akk"
 msgid  "the bone dragon"
-msgstr "den Knochendrache"
+msgstr "den Knochendrachen"
 
 msgctxt "akk"
 msgid  "the pearl dragon"
-msgstr "den Perlendrache"
+msgstr "den Perlendrachen"
 
 msgctxt "akk"
 msgid  "the giant frog"
@@ -2380,7 +2380,7 @@ msgstr "den Minotaurus"
 
 msgctxt "akk"
 msgid  "the ancestor"
-msgstr "den Ahne"
+msgstr "den Ahnen"
 
 msgctxt "akk"
 msgid  "the knight"
@@ -2416,7 +2416,7 @@ msgstr "den großen Kobold"
 
 msgctxt "akk"
 msgid  "the kobold demonologist"
-msgstr "den Kobold-Dämonologe"
+msgstr "den Kobold-Dämonologen"
 
 msgctxt "akk"
 msgid  "the lich"
@@ -2448,11 +2448,11 @@ msgstr "den Naga-Magier"
 
 msgctxt "akk"
 msgid  "the naga sharpshooter"
-msgstr "den Naga-Scharfschütze"
+msgstr "den Naga-Scharfschützen"
 
 msgctxt "akk"
 msgid  "the naga ritualist"
-msgstr "den Naga-Ritualist"
+msgstr "den Naga-Ritualisten"
 
 msgctxt "akk"
 msgid  "the naga warrior"
@@ -2496,11 +2496,11 @@ msgstr "den Pilz"
 
 msgctxt "akk"
 msgid  "the ballistomycete"
-msgstr "den Ballistomycete"
+msgstr "den Ballistomyceten"
 
 msgctxt "akk"
 msgid  "the hyperactive ballistomycete"
-msgstr "den hyperaktiven Ballistomycete"
+msgstr "den hyperaktiven Ballistomyceten"
 
 msgctxt "akk"
 msgid  "the briar patch"
@@ -2548,7 +2548,7 @@ msgstr "den Tiefentroll-Erdmagier"
 
 msgctxt "akk"
 msgid  "the deep troll shaman"
-msgstr "den Tiefentroll-Schamane"
+msgstr "den Tiefentroll-Schamanen"
 
 msgctxt "akk"
 msgid  "the vampire"
@@ -2564,15 +2564,15 @@ msgstr "den Vampir-Magier"
 
 msgctxt "akk"
 msgid  "the hungry ghost"
-msgstr "den hungrigen Geist"
+msgstr "den hungrigen Geisten"
 
 msgctxt "akk"
 msgid  "the flayed ghost"
-msgstr "den enthäuteten Geist"
+msgstr "den enthäuteten Geisten"
 
 msgctxt "akk"
 msgid  "the player ghost"
-msgstr "den Spielergeist"
+msgstr "den Spielergeisten"
 
 msgctxt "akk"
 msgid  "the shadow"
@@ -2580,15 +2580,15 @@ msgstr "den Schatten"
 
 msgctxt "akk"
 msgid  "the wraith"
-msgstr "den Geist"
+msgstr "den Geisten"
 
 msgctxt "akk"
 msgid  "the shadow wraith"
-msgstr "den Schattengeist"
+msgstr "den Schattengeisten"
 
 msgctxt "akk"
 msgid  "the freezing wraith"
-msgstr "den Frostgeist"
+msgstr "den Frostgeisten"
 
 msgctxt "akk"
 msgid  "the eidolon"
@@ -2616,15 +2616,15 @@ msgstr "den Sternbruttentakel"
 
 msgctxt "akk"
 msgid  "the elephant"
-msgstr "den Elefant"
+msgstr "den Elefanten"
 
 msgctxt "akk"
 msgid  "the dire elephant"
-msgstr "den Schreckenselefant"
+msgstr "den Schreckenselefanten"
 
 msgctxt "akk"
 msgid  "the hellephant"
-msgstr "den Höllefant"
+msgstr "den Höllefanten"
 
 msgctxt "akk"
 msgid  "the zombie"
@@ -2684,7 +2684,7 @@ msgstr "den geliden Dämonenbrut"
 
 msgctxt "akk"
 msgid  "the blood saint"
-msgstr "den Blutheilige"
+msgstr "den Blutheiligen"
 
 msgctxt "akk"
 msgid  "the warmonger"
@@ -2848,11 +2848,11 @@ msgstr "den geschmolzenen Gargoyle"
 
 msgctxt "akk"
 msgid  "the pandemonium lord"
-msgstr "den Pandemoniumsherr"
+msgstr "den Pandemoniumsherrn"
 
 msgctxt "akk"
 msgid  "the hell lord"
-msgstr "den Höllenherr"
+msgstr "den Höllenherrn"
 
 msgctxt "akk"
 msgid  "the ball lightning"
@@ -3020,7 +3020,7 @@ msgstr "dem Tiefenelf-Ritter"
 
 msgctxt "dat"
 msgid  "the deep elf archer"
-msgstr "dem Tiefenelf-Bogenschütze"
+msgstr "dem Tiefenelf-Bogenschützen"
 
 msgctxt "dat"
 msgid  "the deep elf blademaster"
@@ -3040,7 +3040,7 @@ msgstr "dem Tiefenelf-Hohepriester"
 
 msgctxt "dat"
 msgid  "the deep elf demonologist"
-msgstr "dem Tiefenelf-Dämonologe"
+msgstr "dem Tiefenelf-Dämonologen"
 
 msgctxt "dat"
 msgid  "the deep elf annihilator"
@@ -3056,7 +3056,7 @@ msgstr "dem Tiefenelf-Todesmagier"
 
 msgctxt "dat"
 msgid  "the deep elf elementalist"
-msgstr "dem Tiefenelf-Elementalist"
+msgstr "dem Tiefenelf-Elementalisten"
 
 msgctxt "dat"
 msgid  "the wandering mushroom"
@@ -3092,7 +3092,7 @@ msgstr "dem Gnoll"
 
 msgctxt "dat"
 msgid  "the gnoll shaman"
-msgstr "dem Gnoll-Schamane"
+msgstr "dem Gnoll-Schamanen"
 
 msgctxt "dat"
 msgid  "the gnoll sergeant"
@@ -3120,7 +3120,7 @@ msgstr "dem Hund"
 
 msgctxt "dat"
 msgid  "the howler monkey"
-msgstr "dem Brüllaffe"
+msgstr "dem Brüllaffen"
 
 msgctxt "dat"
 msgid  "the warg"
@@ -3160,15 +3160,15 @@ msgstr "dem Felid"
 
 msgctxt "dat"
 msgid  "the bear"
-msgstr "dem Bär"
+msgstr "dem Bären"
 
 msgctxt "dat"
 msgid  "the polar bear"
-msgstr "dem Eisbär"
+msgstr "dem Eisbären"
 
 msgctxt "dat"
 msgid  "the black bear"
-msgstr "dem Schwarzbär"
+msgstr "dem Schwarzbären"
 
 msgctxt "dat"
 msgid  "the spriggan"
@@ -3180,7 +3180,7 @@ msgstr "dem Spriggan-Reiter"
 
 msgctxt "dat"
 msgid  "the spriggan druid"
-msgstr "dem Spriggan-Druide"
+msgstr "dem Spriggan-Druiden"
 
 msgctxt "dat"
 msgid  "the spriggan berserker"
@@ -3216,7 +3216,7 @@ msgstr "dem Lindwurm"
 
 msgctxt "dat"
 msgid  "the death drake"
-msgstr "dem Todesdrache"
+msgstr "dem Todesdrachen"
 
 msgctxt "dat"
 msgid  "the giant lizard"
@@ -3244,7 +3244,7 @@ msgstr "dem Wyvern"
 
 msgctxt "dat"
 msgid  "the komodo dragon"
-msgstr "dem Komododrache"
+msgstr "dem Komododrachen"
 
 msgctxt "dat"
 msgid  "the merfolk"
@@ -3324,11 +3324,11 @@ msgstr "dem Lava-Ork"
 
 msgctxt "dat"
 msgid  "the human"
-msgstr "dem Mensch"
+msgstr "dem Menschen"
 
 msgctxt "dat"
 msgid  "the slave"
-msgstr "dem Sklave"
+msgstr "dem Sklaven"
 
 msgctxt "dat"
 msgid  "the hell knight"
@@ -3340,7 +3340,7 @@ msgstr "dem Todesritter"
 
 msgctxt "dat"
 msgid  "the necromancer"
-msgstr "dem Nekromant"
+msgstr "dem Nekromanten"
 
 msgctxt "dat"
 msgid  "the wizard"
@@ -3372,7 +3372,7 @@ msgstr "dem Diener des Flüsterns"
 
 msgctxt "dat"
 msgid  "the ragged hierophant"
-msgstr "dem zerlumpten Hierophant"
+msgstr "dem zerlumpten Hierophanten"
 
 msgctxt "dat"
 msgid  "the ironheart preserver"
@@ -3564,7 +3564,7 @@ msgstr "der makaberen Masse"
 
 msgctxt "dat"
 msgid  "the ancient zyme"
-msgstr "dem alten Zyme"
+msgstr "dem alten Zymen"
 
 msgctxt "dat"
 msgid  "the worldbinder"
@@ -3628,7 +3628,7 @@ msgstr "dem Fluchschädel"
 
 msgctxt "dat"
 msgid  "the curse toe"
-msgstr "dem Fluchzehe"
+msgstr "dem Fluchzehen"
 
 msgctxt "dat"
 msgid  "the angel"
@@ -3652,7 +3652,7 @@ msgstr "dem profanen Diener"
 
 msgctxt "dat"
 msgid  "the giant"
-msgstr "dem Riese"
+msgstr "dem Riesen"
 
 msgctxt "dat"
 msgid  "the cyclops"
@@ -3664,15 +3664,15 @@ msgstr "dem Ettin"
 
 msgctxt "dat"
 msgid  "the fire giant"
-msgstr "dem Feuerriese"
+msgstr "dem Feuerriesen"
 
 msgctxt "dat"
 msgid  "the frost giant"
-msgstr "dem Frostriese"
+msgstr "dem Frostriesen"
 
 msgctxt "dat"
 msgid  "the stone giant"
-msgstr "dem Steinriese"
+msgstr "dem Steinriesen"
 
 msgctxt "dat"
 msgid  "the titan"
@@ -3684,15 +3684,15 @@ msgstr "dem Juggernaut"
 
 msgctxt "dat"
 msgid  "the iron giant"
-msgstr "dem Eisenriese"
+msgstr "dem Eisenriesen"
 
 msgctxt "dat"
 msgid  "the dragon"
-msgstr "dem Drache"
+msgstr "dem Drachen"
 
 msgctxt "dat"
 msgid  "the fire dragon"
-msgstr "dem Feuerdrache"
+msgstr "dem Feuerdrachen"
 
 msgctxt "dat"
 msgid  "the hydra"
@@ -3704,47 +3704,47 @@ msgstr "der %d-köpfigen Hydra"
 
 msgctxt "dat"
 msgid  "the ice dragon"
-msgstr "dem Eisdrache"
+msgstr "dem Eisdrachen"
 
 msgctxt "dat"
 msgid  "the steam dragon"
-msgstr "dem Dampfdrache"
+msgstr "dem Dampfdrachen"
 
 msgctxt "dat"
 msgid  "the swamp dragon"
-msgstr "dem Sumpfdrache"
+msgstr "dem Sumpfdrachen"
 
 msgctxt "dat"
 msgid  "the acid dragon"
-msgstr "dem Säuredrache"
+msgstr "dem Säuredrachen"
 
 msgctxt "dat"
 msgid  "the quicksilver dragon"
-msgstr "dem Quecksilberdrache"
+msgstr "dem Quecksilberdrachen"
 
 msgctxt "dat"
 msgid  "the iron dragon"
-msgstr "dem Eisendrache"
+msgstr "dem Eisendrachen"
 
 msgctxt "dat"
 msgid  "the storm dragon"
-msgstr "dem Sturmdrache"
+msgstr "dem Sturmdrachen"
 
 msgctxt "dat"
 msgid  "the golden dragon"
-msgstr "dem Golddrache"
+msgstr "dem Golddrachen"
 
 msgctxt "dat"
 msgid  "the shadow dragon"
-msgstr "dem Schattendrache"
+msgstr "dem Schattendrachen"
 
 msgctxt "dat"
 msgid  "the bone dragon"
-msgstr "dem Knochendrache"
+msgstr "dem Knochendrachen"
 
 msgctxt "dat"
 msgid  "the pearl dragon"
-msgstr "dem Perlendrache"
+msgstr "dem Perlendrachen"
 
 msgctxt "dat"
 msgid  "the elemental"
@@ -3852,7 +3852,7 @@ msgstr "der mutierten Bestie"
 
 msgctxt "dat"
 msgid  "the ancestor"
-msgstr "dem Ahne"
+msgstr "dem Ahnen"
 
 msgctxt "dat"
 msgid  "the knight"
@@ -3904,7 +3904,7 @@ msgstr "dem großen Kobold"
 
 msgctxt "dat"
 msgid  "the kobold demonologist"
-msgstr "dem Kobold-Dämonologe"
+msgstr "dem Kobold-Dämonologen"
 
 msgctxt "dat"
 msgid  "the lich"
@@ -3948,11 +3948,11 @@ msgstr "dem Naga-Magier"
 
 msgctxt "dat"
 msgid  "the naga sharpshooter"
-msgstr "dem Naga-Scharfschütze"
+msgstr "dem Naga-Scharfschützen"
 
 msgctxt "dat"
 msgid  "the naga ritualist"
-msgstr "dem Naga-Ritualist"
+msgstr "dem Naga-Ritualisten"
 
 msgctxt "dat"
 msgid  "the naga warrior"
@@ -4012,11 +4012,11 @@ msgstr "dem Pilz"
 
 msgctxt "dat"
 msgid  "the ballistomycete"
-msgstr "dem Ballistomycete"
+msgstr "dem Ballistomyceten"
 
 msgctxt "dat"
 msgid  "the hyperactive ballistomycete"
-msgstr "dem hyperaktiven Ballistomycete"
+msgstr "dem hyperaktiven Ballistomyceten"
 
 msgctxt "dat"
 msgid  "the briar patch"
@@ -4116,7 +4116,7 @@ msgstr "dem Tiefentroll-Erdmagier"
 
 msgctxt "dat"
 msgid  "the deep troll shaman"
-msgstr "dem Tiefentroll-Schamane"
+msgstr "dem Tiefentroll-Schamanen"
 
 msgctxt "dat"
 msgid  "the vampire"
@@ -4144,15 +4144,15 @@ msgstr "dem Phantom"
 
 msgctxt "dat"
 msgid  "the hungry ghost"
-msgstr "dem hungrigen Geist"
+msgstr "dem hungrigen Geisten"
 
 msgctxt "dat"
 msgid  "the flayed ghost"
-msgstr "dem enthäuteten Geist"
+msgstr "dem enthäuteten Geisten"
 
 msgctxt "dat"
 msgid  "the player ghost"
-msgstr "dem Spielergeist"
+msgstr "dem Spielergeisten"
 
 msgctxt "dat"
 msgid  "the shadow"
@@ -4168,15 +4168,15 @@ msgstr "der ertrunkenen Seele"
 
 msgctxt "dat"
 msgid  "the wraith"
-msgstr "dem Geist"
+msgstr "dem Geisten"
 
 msgctxt "dat"
 msgid  "the shadow wraith"
-msgstr "dem Schattengeist"
+msgstr "dem Schattengeisten"
 
 msgctxt "dat"
 msgid  "the freezing wraith"
-msgstr "dem Frostgeist"
+msgstr "dem Frostgeisten"
 
 msgctxt "dat"
 msgid  "the eidolon"
@@ -4236,15 +4236,15 @@ msgstr "der Catoblepas"
 
 msgctxt "dat"
 msgid  "the elephant"
-msgstr "dem Elefant"
+msgstr "dem Elefanten"
 
 msgctxt "dat"
 msgid  "the dire elephant"
-msgstr "dem Schreckenselefant"
+msgstr "dem Schreckenselefanten"
 
 msgctxt "dat"
 msgid  "the hellephant"
-msgstr "dem Höllefant"
+msgstr "dem Höllefanten"
 
 msgctxt "dat"
 msgid  "the apis"
@@ -4384,7 +4384,7 @@ msgstr "der quälenden Dämonenbrut"
 
 msgctxt "dat"
 msgid  "the blood saint"
-msgstr "dem Blutheilige"
+msgstr "dem Blutheiligen"
 
 msgctxt "dat"
 msgid  "the warmonger"
@@ -4624,11 +4624,11 @@ msgstr "dem geschmolzenen Gargoyle"
 
 msgctxt "dat"
 msgid  "the pandemonium lord"
-msgstr "dem Pandemoniumsherr"
+msgstr "dem Pandemoniumsherrn"
 
 msgctxt "dat"
 msgid  "the hell lord"
-msgstr "dem Höllenherr"
+msgstr "dem Höllenherrn"
 
 msgctxt "dat"
 msgid  "the ball lightning"
@@ -7536,7 +7536,7 @@ msgstr[1] "%d Tiefenelf-Ritter"
 msgctxt "akk"
 msgid "a deep elf archer"
 msgid_plural "%d deep elf archers"
-msgstr[0] "einen Tiefenelf-Bogenschütze"
+msgstr[0] "einen Tiefenelf-Bogenschützen"
 msgstr[1] "%d Tiefenelf-Bogenschützen"
 # check plural above
 
@@ -7571,7 +7571,7 @@ msgstr[1] "%d Tiefenelf-Hohepriester"
 msgctxt "akk"
 msgid "a deep elf demonologist"
 msgid_plural "%d deep elf demonologists"
-msgstr[0] "einen Tiefenelf-Dämonologe"
+msgstr[0] "einen Tiefenelf-Dämonologen"
 msgstr[1] "%d Tiefenelf-Dämonologen"
 # check plural above
 
@@ -7599,7 +7599,7 @@ msgstr[1] "%d Tiefenelf-Todesmagier"
 msgctxt "akk"
 msgid "a deep elf elementalist"
 msgid_plural "%d deep elf elementalists"
-msgstr[0] "einen Tiefenelf-Elementalist"
+msgstr[0] "einen Tiefenelf-Elementalisten"
 msgstr[1] "%d Tiefenelf-Elementalisten"
 
 msgctxt "akk"
@@ -7645,7 +7645,7 @@ msgstr[1] "%d Gnolle"
 msgctxt "akk"
 msgid "a gnoll shaman"
 msgid_plural "%d gnoll shamans"
-msgstr[0] "einen Gnoll-Schamane"
+msgstr[0] "einen Gnoll-Schamanen"
 msgstr[1] "%d Gnoll-Schamanen"
 # check plural above
 
@@ -7694,7 +7694,7 @@ msgstr[1] "%d Hunde"
 msgctxt "akk"
 msgid "a howler monkey"
 msgid_plural "%d howler monkeys"
-msgstr[0] "einen Brüllaffe"
+msgstr[0] "einen Brüllaffen"
 msgstr[1] "%d Brüllaffen"
 # check plural above
 
@@ -7736,21 +7736,21 @@ msgstr[1] "%d Raijus"
 msgctxt "akk"
 msgid "a bear"
 msgid_plural "%d bears"
-msgstr[0] "einen Bär"
+msgstr[0] "einen Bären"
 msgstr[1] "%d Bäre"
 # check plural above
 
 msgctxt "akk"
 msgid "a polar bear"
 msgid_plural "%d polar bears"
-msgstr[0] "einen Eisbär"
+msgstr[0] "einen Eisbären"
 msgstr[1] "%d Eisbäre"
 # check plural above
 
 msgctxt "akk"
 msgid "a black bear"
 msgid_plural "%d black bears"
-msgstr[0] "einen Schwarzbär"
+msgstr[0] "einen Schwarzbären"
 msgstr[1] "%d Schwarzbäre"
 # check plural above
 
@@ -7770,7 +7770,7 @@ msgstr[1] "%d Spriggan-Reiter"
 msgctxt "akk"
 msgid "a spriggan druid"
 msgid_plural "%d spriggan druids"
-msgstr[0] "einen Spriggan-Druide"
+msgstr[0] "einen Spriggan-Druiden"
 msgstr[1] "%d Spriggan-Druiden"
 # check plural above
 
@@ -7829,7 +7829,7 @@ msgstr[1] "%d Lindwurme"
 msgctxt "akk"
 msgid "a death drake"
 msgid_plural "%d death drakes"
-msgstr[0] "einen Todesdrache"
+msgstr[0] "einen Todesdrachen"
 msgstr[1] "%d Todesdrachen"
 # check plural above
 
@@ -7863,7 +7863,7 @@ msgstr[1] "%d Wyverns"
 msgctxt "akk"
 msgid "a komodo dragon"
 msgid_plural "%d komodo dragons"
-msgstr[0] "einen Komododrache"
+msgstr[0] "einen Komododrachen"
 msgstr[1] "%d Komododrachen"
 # check plural above
 
@@ -7975,14 +7975,14 @@ msgstr[1] "%d Lava-Orke"
 msgctxt "akk"
 msgid "a human"
 msgid_plural "%d humans"
-msgstr[0] "einen Mensch"
+msgstr[0] "einen Menschen"
 msgstr[1] "%d Mensche"
 # check plural above
 
 msgctxt "akk"
 msgid "a slave"
 msgid_plural "%d slaves"
-msgstr[0] "einen Sklave"
+msgstr[0] "einen Sklaven"
 msgstr[1] "%d Sklaven"
 # check plural above
 
@@ -8003,7 +8003,7 @@ msgstr[1] "%d Todesritter"
 msgctxt "akk"
 msgid "a necromancer"
 msgid_plural "%d necromancers"
-msgstr[0] "einen Nekromant"
+msgstr[0] "einen Nekromanten"
 msgstr[1] "%d Nekromanten"
 
 msgctxt "akk"
@@ -8051,7 +8051,7 @@ msgstr[1] "%d Diener des Flüsterns"
 msgctxt "akk"
 msgid "a ragged hierophant"
 msgid_plural "%d ragged hierophants"
-msgstr[0] "einen zerlumpten Hierophant"
+msgstr[0] "einen zerlumpten Hierophanten"
 msgstr[1] "%d zerlumpte Hierophanten"
 
 msgctxt "akk"
@@ -8188,7 +8188,7 @@ msgstr[1] "%d kleine Greuel"
 msgctxt "akk"
 msgid "an ancient zyme"
 msgid_plural "%d ancient zymes"
-msgstr[0] "einen alten Zyme"
+msgstr[0] "einen alten Zymen"
 msgstr[1] "%d alte Zymen"
 # check plural above
 
@@ -8237,7 +8237,7 @@ msgstr[1] "%d Fluchschädel"
 msgctxt "akk"
 msgid "a curse toe"
 msgid_plural "%d curse toes"
-msgstr[0] "einen Fluchzehe"
+msgstr[0] "einen Fluchzehen"
 msgstr[1] "%d Fluchzehen"
 # check plural above
 
@@ -8279,7 +8279,7 @@ msgstr[1] "%d profane Diener"
 msgctxt "akk"
 msgid "a giant"
 msgid_plural "%d giants"
-msgstr[0] "einen Riese"
+msgstr[0] "einen Riesen"
 msgstr[1] "%d Riesen"
 # check plural above
 
@@ -8300,21 +8300,21 @@ msgstr[1] "%d Ettine"
 msgctxt "akk"
 msgid "a fire giant"
 msgid_plural "%d fire giants"
-msgstr[0] "einen Feuerriese"
+msgstr[0] "einen Feuerriesen"
 msgstr[1] "%d Feuerriesen"
 # check plural above
 
 msgctxt "akk"
 msgid "a frost giant"
 msgid_plural "%d frost giants"
-msgstr[0] "einen Frostriese"
+msgstr[0] "einen Frostriesen"
 msgstr[1] "%d Frostriesen"
 # check plural above
 
 msgctxt "akk"
 msgid "a stone giant"
 msgid_plural "%d stone giants"
-msgstr[0] "einen Steinriese"
+msgstr[0] "einen Steinriesen"
 msgstr[1] "%d Steinriesen"
 # check plural above
 
@@ -8335,98 +8335,98 @@ msgstr[1] "%d Juggernaute"
 msgctxt "akk"
 msgid "an iron giant"
 msgid_plural "%d iron giants"
-msgstr[0] "einen Eisenriese"
+msgstr[0] "einen Eisenriesen"
 msgstr[1] "%d Eisenriesen"
 # check plural above
 
 msgctxt "akk"
 msgid "a dragon"
 msgid_plural "%d dragons"
-msgstr[0] "einen Drache"
+msgstr[0] "einen Drachen"
 msgstr[1] "%d Drachen"
 # check plural above
 
 msgctxt "akk"
 msgid "a fire dragon"
 msgid_plural "%d fire dragons"
-msgstr[0] "einen Feuerdrache"
+msgstr[0] "einen Feuerdrachen"
 msgstr[1] "%d Feuerdrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "an ice dragon"
 msgid_plural "%d ice dragons"
-msgstr[0] "einen Eisdrache"
+msgstr[0] "einen Eisdrachen"
 msgstr[1] "%d Eisdrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "a steam dragon"
 msgid_plural "%d steam dragons"
-msgstr[0] "einen Dampfdrache"
+msgstr[0] "einen Dampfdrachen"
 msgstr[1] "%d Dampfdrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "a swamp dragon"
 msgid_plural "%d swamp dragons"
-msgstr[0] "einen Sumpfdrache"
+msgstr[0] "einen Sumpfdrachen"
 msgstr[1] "%d Sumpfdrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "an acid dragon"
 msgid_plural "%d acid dragons"
-msgstr[0] "einen Säuredrache"
+msgstr[0] "einen Säuredrachen"
 msgstr[1] "%d Säuredrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "a quicksilver dragon"
 msgid_plural "%d quicksilver dragons"
-msgstr[0] "einen Quecksilberdrache"
+msgstr[0] "einen Quecksilberdrachen"
 msgstr[1] "%d Quecksilberdrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "an iron dragon"
 msgid_plural "%d iron dragons"
-msgstr[0] "einen Eisendrache"
+msgstr[0] "einen Eisendrachen"
 msgstr[1] "%d Eisendrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "a storm dragon"
 msgid_plural "%d storm dragons"
-msgstr[0] "einen Sturmdrache"
+msgstr[0] "einen Sturmdrachen"
 msgstr[1] "%d Sturmdrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "a golden dragon"
 msgid_plural "%d golden dragons"
-msgstr[0] "einen Golddrache"
+msgstr[0] "einen Golddrachen"
 msgstr[1] "%d Golddrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "a shadow dragon"
 msgid_plural "%d shadow dragons"
-msgstr[0] "einen Schattendrache"
+msgstr[0] "einen Schattendrachen"
 msgstr[1] "%d Schattendrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "a bone dragon"
 msgid_plural "%d bone dragons"
-msgstr[0] "einen Knochendrache"
+msgstr[0] "einen Knochendrachen"
 msgstr[1] "%d Knochendrachen"
 # check plural above
 
 msgctxt "akk"
 msgid "a pearl dragon"
 msgid_plural "%d pearl dragons"
-msgstr[0] "einen Perlendrache"
+msgstr[0] "einen Perlendrachen"
 msgstr[1] "%d Perlendrachen"
 # check plural above
 
@@ -8496,7 +8496,7 @@ msgstr[1] "%d Minotauren"
 msgctxt "akk"
 msgid "an ancestor"
 msgid_plural "%d ancestors"
-msgstr[0] "einen Ahne"
+msgstr[0] "einen Ahnen"
 msgstr[1] "%d Ahnen"
 # check plural above
 
@@ -8559,7 +8559,7 @@ msgstr[1] "%d große Kobolde"
 msgctxt "akk"
 msgid "a kobold demonologist"
 msgid_plural "%d kobold demonologists"
-msgstr[0] "einen Kobold-Dämonologe"
+msgstr[0] "einen Kobold-Dämonologen"
 msgstr[1] "%d Kobold-Dämonologen"
 # check plural above
 
@@ -8613,14 +8613,14 @@ msgstr[1] "%d Naga-Magier"
 msgctxt "akk"
 msgid "a naga sharpshooter"
 msgid_plural "%d naga sharpshooters"
-msgstr[0] "einen Naga-Scharfschütze"
+msgstr[0] "einen Naga-Scharfschützen"
 msgstr[1] "%d Naga-Scharfschützen"
 # check plural above
 
 msgctxt "akk"
 msgid "a naga ritualist"
 msgid_plural "%d naga ritualists"
-msgstr[0] "einen Naga-Ritualist"
+msgstr[0] "einen Naga-Ritualisten"
 msgstr[1] "%d Naga-Ritualisten"
 
 msgctxt "akk"
@@ -8695,14 +8695,14 @@ msgstr[1] "%d Pilze"
 msgctxt "akk"
 msgid "a ballistomycete"
 msgid_plural "%d ballistomycetes"
-msgstr[0] "einen Ballistomycete"
+msgstr[0] "einen Ballistomyceten"
 msgstr[1] "%d Ballistomyceten"
 # check plural above
 
 msgctxt "akk"
 msgid "a hyperactive ballistomycete"
 msgid_plural "%d hyperactive ballistomycetes"
-msgstr[0] "einen hyperaktiven Ballistomycete"
+msgstr[0] "einen hyperaktiven Ballistomyceten"
 msgstr[1] "%d hyperaktive Ballistomyceten"
 # check plural above
 
@@ -8786,7 +8786,7 @@ msgstr[1] "%d Tiefentroll-Erdmagier"
 msgctxt "akk"
 msgid "a deep troll shaman"
 msgid_plural "%d deep troll shamans"
-msgstr[0] "einen Tiefentroll-Schamane"
+msgstr[0] "einen Tiefentroll-Schamanen"
 msgstr[1] "%d Tiefentroll-Schamanen"
 # check plural above
 
@@ -8814,19 +8814,19 @@ msgstr[1] "%d Vampir-Magier"
 msgctxt "akk"
 msgid "a hungry ghost"
 msgid_plural "%d hungry ghosts"
-msgstr[0] "einen hungrigen Geist"
+msgstr[0] "einen hungrigen Geisten"
 msgstr[1] "%d hungrige Geister"
 
 msgctxt "akk"
 msgid "a flayed ghost"
 msgid_plural "%d flayed ghosts"
-msgstr[0] "einen enthäuteten Geist"
+msgstr[0] "einen enthäuteten Geisten"
 msgstr[1] "%d enthäutete Geister"
 
 msgctxt "akk"
 msgid "a player ghost"
 msgid_plural "%d player ghosts"
-msgstr[0] "einen Spielergeist"
+msgstr[0] "einen Spielergeisten"
 msgstr[1] "%d Spielergeister"
 
 msgctxt "akk"
@@ -8838,19 +8838,19 @@ msgstr[1] "%d Schatten"
 msgctxt "akk"
 msgid "a wraith"
 msgid_plural "%d wraiths"
-msgstr[0] "einen Geist"
+msgstr[0] "einen Geisten"
 msgstr[1] "%d Geister"
 
 msgctxt "akk"
 msgid "a shadow wraith"
 msgid_plural "%d shadow wraiths"
-msgstr[0] "einen Schattengeist"
+msgstr[0] "einen Schattengeisten"
 msgstr[1] "%d Schattengeister"
 
 msgctxt "akk"
 msgid "a freezing wraith"
 msgid_plural "%d freezing wraiths"
-msgstr[0] "einen Frostgeist"
+msgstr[0] "einen Frostgeisten"
 msgstr[1] "%d Frostgeister"
 
 msgctxt "akk"
@@ -8898,19 +8898,19 @@ msgstr[1] "%d Sternbruttentakel"
 msgctxt "akk"
 msgid "an elephant"
 msgid_plural "%d elephants"
-msgstr[0] "einen Elefant"
+msgstr[0] "einen Elefanten"
 msgstr[1] "%d Elefanten"
 
 msgctxt "akk"
 msgid "a dire elephant"
 msgid_plural "%d dire elephants"
-msgstr[0] "einen Schreckenselefant"
+msgstr[0] "einen Schreckenselefanten"
 msgstr[1] "%d Schreckenselefanten"
 
 msgctxt "akk"
 msgid "a hellephant"
 msgid_plural "%d hellephants"
-msgstr[0] "einen Höllefant"
+msgstr[0] "einen Höllefanten"
 msgstr[1] "%d Höllefanten"
 
 msgctxt "akk"
@@ -9011,7 +9011,7 @@ msgstr[1] "%d gelide Dämonenbrute"
 msgctxt "akk"
 msgid "a blood saint"
 msgid_plural "%d blood saints"
-msgstr[0] "einen Blutheilige"
+msgstr[0] "einen Blutheiligen"
 msgstr[1] "%d Blutheiligen"
 # check plural above
 
@@ -9292,14 +9292,14 @@ msgstr[1] "%d geschmolzene Gargoyles"
 msgctxt "akk"
 msgid "a pandemonium lord"
 msgid_plural "%d pandemonium lords"
-msgstr[0] "einen Pandemoniumsherr"
+msgstr[0] "einen Pandemoniumsherrn"
 msgstr[1] "%d Pandemoniumsherre"
 # check plural above
 
 msgctxt "akk"
 msgid "a hell lord"
 msgid_plural "%d hell lords"
-msgstr[0] "einen Höllenherr"
+msgstr[0] "einen Höllenherrn"
 msgstr[1] "%d Höllenherre"
 # check plural above
 
@@ -9582,7 +9582,7 @@ msgstr[1] "%d Tiefenelf-Rittern"
 msgctxt "dat"
 msgid "a deep elf archer"
 msgid_plural "%d deep elf archers"
-msgstr[0] "einem Tiefenelf-Bogenschütze"
+msgstr[0] "einem Tiefenelf-Bogenschützen"
 msgstr[1] "%d Tiefenelf-Bogenschützen"
 # check plural above
 
@@ -9617,7 +9617,7 @@ msgstr[1] "%d Tiefenelf-Hohepriestern"
 msgctxt "dat"
 msgid "a deep elf demonologist"
 msgid_plural "%d deep elf demonologists"
-msgstr[0] "einem Tiefenelf-Dämonologe"
+msgstr[0] "einem Tiefenelf-Dämonologen"
 msgstr[1] "%d Tiefenelf-Dämonologen"
 # check plural above
 
@@ -9645,7 +9645,7 @@ msgstr[1] "%d Tiefenelf-Todesmagiern"
 msgctxt "dat"
 msgid "a deep elf elementalist"
 msgid_plural "%d deep elf elementalists"
-msgstr[0] "einem Tiefenelf-Elementalist"
+msgstr[0] "einem Tiefenelf-Elementalisten"
 msgstr[1] "%d Tiefenelf-Elementalisten"
 
 msgctxt "dat"
@@ -9703,7 +9703,7 @@ msgstr[1] "%d Gnollen"
 msgctxt "dat"
 msgid "a gnoll shaman"
 msgid_plural "%d gnoll shamans"
-msgstr[0] "einem Gnoll-Schamane"
+msgstr[0] "einem Gnoll-Schamanen"
 msgstr[1] "%d Gnoll-Schamanen"
 # check plural above
 
@@ -9752,7 +9752,7 @@ msgstr[1] "%d Hunden"
 msgctxt "dat"
 msgid "a howler monkey"
 msgid_plural "%d howler monkeys"
-msgstr[0] "einem Brüllaffe"
+msgstr[0] "einem Brüllaffen"
 msgstr[1] "%d Brüllaffen"
 # check plural above
 
@@ -9822,21 +9822,21 @@ msgstr[1] "%d Feliden"
 msgctxt "dat"
 msgid "a bear"
 msgid_plural "%d bears"
-msgstr[0] "einem Bär"
+msgstr[0] "einem Bären"
 msgstr[1] "%d Bären"
 # check plural above
 
 msgctxt "dat"
 msgid "a polar bear"
 msgid_plural "%d polar bears"
-msgstr[0] "einem Eisbär"
+msgstr[0] "einem Eisbären"
 msgstr[1] "%d Eisbären"
 # check plural above
 
 msgctxt "dat"
 msgid "a black bear"
 msgid_plural "%d black bears"
-msgstr[0] "einem Schwarzbär"
+msgstr[0] "einem Schwarzbären"
 msgstr[1] "%d Schwarzbären"
 # check plural above
 
@@ -9856,7 +9856,7 @@ msgstr[1] "%d Spriggan-Reitern"
 msgctxt "dat"
 msgid "a spriggan druid"
 msgid_plural "%d spriggan druids"
-msgstr[0] "einem Spriggan-Druide"
+msgstr[0] "einem Spriggan-Druiden"
 msgstr[1] "%d Spriggan-Druiden"
 # check plural above
 
@@ -9915,7 +9915,7 @@ msgstr[1] "%d Lindwurmen"
 msgctxt "dat"
 msgid "a death drake"
 msgid_plural "%d death drakes"
-msgstr[0] "einem Todesdrache"
+msgstr[0] "einem Todesdrachen"
 msgstr[1] "%d Todesdrachen"
 # check plural above
 
@@ -9961,7 +9961,7 @@ msgstr[1] "%d Wyverns"
 msgctxt "dat"
 msgid "a komodo dragon"
 msgid_plural "%d komodo dragons"
-msgstr[0] "einem Komododrache"
+msgstr[0] "einem Komododrachen"
 msgstr[1] "%d Komododrachen"
 # check plural above
 
@@ -10098,14 +10098,14 @@ msgstr[1] "%d Lava-Orken"
 msgctxt "dat"
 msgid "a human"
 msgid_plural "%d humans"
-msgstr[0] "einem Mensch"
+msgstr[0] "einem Menschen"
 msgstr[1] "%d Menschen"
 # check plural above
 
 msgctxt "dat"
 msgid "a slave"
 msgid_plural "%d slaves"
-msgstr[0] "einem Sklave"
+msgstr[0] "einem Sklaven"
 msgstr[1] "%d Sklaven"
 # check plural above
 
@@ -10126,7 +10126,7 @@ msgstr[1] "%d Todesrittern"
 msgctxt "dat"
 msgid "a necromancer"
 msgid_plural "%d necromancers"
-msgstr[0] "einem Nekromant"
+msgstr[0] "einem Nekromanten"
 msgstr[1] "%d Nekromanten"
 
 msgctxt "dat"
@@ -10180,7 +10180,7 @@ msgstr[1] "%d Dienern des Flüsterns"
 msgctxt "dat"
 msgid "a ragged hierophant"
 msgid_plural "%d ragged hierophants"
-msgstr[0] "einem zerlumpten Hierophant"
+msgstr[0] "einem zerlumpten Hierophanten"
 msgstr[1] "%d zerlumpten Hierophanten"
 
 msgctxt "dat"
@@ -10493,7 +10493,7 @@ msgstr[1] "%d makaberen Massen"
 msgctxt "dat"
 msgid "an ancient zyme"
 msgid_plural "%d ancient zymes"
-msgstr[0] "einem alten Zyme"
+msgstr[0] "einem alten Zymen"
 msgstr[1] "%d alten Zymen"
 # check plural above
 
@@ -10597,7 +10597,7 @@ msgstr[1] "%d Fluchschädeln"
 msgctxt "dat"
 msgid "a curse toe"
 msgid_plural "%d curse toes"
-msgstr[0] "einem Fluchzehe"
+msgstr[0] "einem Fluchzehen"
 msgstr[1] "%d Fluchzehen"
 # check plural above
 
@@ -10639,7 +10639,7 @@ msgstr[1] "%d profanen Dienern"
 msgctxt "dat"
 msgid "a giant"
 msgid_plural "%d giants"
-msgstr[0] "einem Riese"
+msgstr[0] "einem Riesen"
 msgstr[1] "%d Riesen"
 # check plural above
 
@@ -10660,21 +10660,21 @@ msgstr[1] "%d Ettinen"
 msgctxt "dat"
 msgid "a fire giant"
 msgid_plural "%d fire giants"
-msgstr[0] "einem Feuerriese"
+msgstr[0] "einem Feuerriesen"
 msgstr[1] "%d Feuerriesen"
 # check plural above
 
 msgctxt "dat"
 msgid "a frost giant"
 msgid_plural "%d frost giants"
-msgstr[0] "einem Frostriese"
+msgstr[0] "einem Frostriesen"
 msgstr[1] "%d Frostriesen"
 # check plural above
 
 msgctxt "dat"
 msgid "a stone giant"
 msgid_plural "%d stone giants"
-msgstr[0] "einem Steinriese"
+msgstr[0] "einem Steinriesen"
 msgstr[1] "%d Steinriesen"
 # check plural above
 
@@ -10695,21 +10695,21 @@ msgstr[1] "%d Juggernauten"
 msgctxt "dat"
 msgid "an iron giant"
 msgid_plural "%d iron giants"
-msgstr[0] "einem Eisenriese"
+msgstr[0] "einem Eisenriesen"
 msgstr[1] "%d Eisenriesen"
 # check plural above
 
 msgctxt "dat"
 msgid "a dragon"
 msgid_plural "%d dragons"
-msgstr[0] "einem Drache"
+msgstr[0] "einem Drachen"
 msgstr[1] "%d Drachen"
 # check plural above
 
 msgctxt "dat"
 msgid "a fire dragon"
 msgid_plural "%d fire dragons"
-msgstr[0] "einem Feuerdrache"
+msgstr[0] "einem Feuerdrachen"
 msgstr[1] "%d Feuerdrachen"
 # check plural above
 
@@ -10730,77 +10730,77 @@ msgstr[1] "%d %d-köpfigen Hydren"
 msgctxt "dat"
 msgid "an ice dragon"
 msgid_plural "%d ice dragons"
-msgstr[0] "einem Eisdrache"
+msgstr[0] "einem Eisdrachen"
 msgstr[1] "%d Eisdrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "a steam dragon"
 msgid_plural "%d steam dragons"
-msgstr[0] "einem Dampfdrache"
+msgstr[0] "einem Dampfdrachen"
 msgstr[1] "%d Dampfdrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "a swamp dragon"
 msgid_plural "%d swamp dragons"
-msgstr[0] "einem Sumpfdrache"
+msgstr[0] "einem Sumpfdrachen"
 msgstr[1] "%d Sumpfdrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "an acid dragon"
 msgid_plural "%d acid dragons"
-msgstr[0] "einem Säuredrache"
+msgstr[0] "einem Säuredrachen"
 msgstr[1] "%d Säuredrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "a quicksilver dragon"
 msgid_plural "%d quicksilver dragons"
-msgstr[0] "einem Quecksilberdrache"
+msgstr[0] "einem Quecksilberdrachen"
 msgstr[1] "%d Quecksilberdrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "an iron dragon"
 msgid_plural "%d iron dragons"
-msgstr[0] "einem Eisendrache"
+msgstr[0] "einem Eisendrachen"
 msgstr[1] "%d Eisendrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "a storm dragon"
 msgid_plural "%d storm dragons"
-msgstr[0] "einem Sturmdrache"
+msgstr[0] "einem Sturmdrachen"
 msgstr[1] "%d Sturmdrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "a golden dragon"
 msgid_plural "%d golden dragons"
-msgstr[0] "einem Golddrache"
+msgstr[0] "einem Golddrachen"
 msgstr[1] "%d Golddrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "a shadow dragon"
 msgid_plural "%d shadow dragons"
-msgstr[0] "einem Schattendrache"
+msgstr[0] "einem Schattendrachen"
 msgstr[1] "%d Schattendrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "a bone dragon"
 msgid_plural "%d bone dragons"
-msgstr[0] "einem Knochendrache"
+msgstr[0] "einem Knochendrachen"
 msgstr[1] "%d Knochendrachen"
 # check plural above
 
 msgctxt "dat"
 msgid "a pearl dragon"
 msgid_plural "%d pearl dragons"
-msgstr[0] "einem Perlendrache"
+msgstr[0] "einem Perlendrachen"
 msgstr[1] "%d Perlendrachen"
 # check plural above
 
@@ -10986,7 +10986,7 @@ msgstr[1] "%d mutierten Bestien"
 msgctxt "dat"
 msgid "an ancestor"
 msgid_plural "%d ancestors"
-msgstr[0] "einem Ahne"
+msgstr[0] "einem Ahnen"
 msgstr[1] "%d Ahnen"
 # check plural above
 
@@ -11077,7 +11077,7 @@ msgstr[1] "%d großen Kobolden"
 msgctxt "dat"
 msgid "a kobold demonologist"
 msgid_plural "%d kobold demonologists"
-msgstr[0] "einem Kobold-Dämonologe"
+msgstr[0] "einem Kobold-Dämonologen"
 msgstr[1] "%d Kobold-Dämonologen"
 # check plural above
 
@@ -11149,14 +11149,14 @@ msgstr[1] "%d Naga-Magiern"
 msgctxt "dat"
 msgid "a naga sharpshooter"
 msgid_plural "%d naga sharpshooters"
-msgstr[0] "einem Naga-Scharfschütze"
+msgstr[0] "einem Naga-Scharfschützen"
 msgstr[1] "%d Naga-Scharfschützen"
 # check plural above
 
 msgctxt "dat"
 msgid "a naga ritualist"
 msgid_plural "%d naga ritualists"
-msgstr[0] "einem Naga-Ritualist"
+msgstr[0] "einem Naga-Ritualisten"
 msgstr[1] "%d Naga-Ritualisten"
 
 msgctxt "dat"
@@ -11255,14 +11255,14 @@ msgstr[1] "%d Pilzen"
 msgctxt "dat"
 msgid "a ballistomycete"
 msgid_plural "%d ballistomycetes"
-msgstr[0] "einem Ballistomycete"
+msgstr[0] "einem Ballistomyceten"
 msgstr[1] "%d Ballistomyceten"
 # check plural above
 
 msgctxt "dat"
 msgid "a hyperactive ballistomycete"
 msgid_plural "%d hyperactive ballistomycetes"
-msgstr[0] "einem hyperaktiven Ballistomycete"
+msgstr[0] "einem hyperaktiven Ballistomyceten"
 msgstr[1] "%d hyperaktiven Ballistomyceten"
 # check plural above
 
@@ -11430,7 +11430,7 @@ msgstr[1] "%d Tiefentroll-Erdmagiern"
 msgctxt "dat"
 msgid "a deep troll shaman"
 msgid_plural "%d deep troll shamans"
-msgstr[0] "einem Tiefentroll-Schamane"
+msgstr[0] "einem Tiefentroll-Schamanen"
 msgstr[1] "%d Tiefentroll-Schamanen"
 # check plural above
 
@@ -11479,19 +11479,19 @@ msgstr[1] "%d Phantomen"
 msgctxt "dat"
 msgid "a hungry ghost"
 msgid_plural "%d hungry ghosts"
-msgstr[0] "einem hungrigen Geist"
+msgstr[0] "einem hungrigen Geisten"
 msgstr[1] "%d hungrigen Geistern"
 
 msgctxt "dat"
 msgid "a flayed ghost"
 msgid_plural "%d flayed ghosts"
-msgstr[0] "einem enthäuteten Geist"
+msgstr[0] "einem enthäuteten Geisten"
 msgstr[1] "%d enthäuteten Geistern"
 
 msgctxt "dat"
 msgid "a player ghost"
 msgid_plural "%d player ghosts"
-msgstr[0] "einem Spielergeist"
+msgstr[0] "einem Spielergeisten"
 msgstr[1] "%d Spielergeistern"
 
 msgctxt "dat"
@@ -11516,19 +11516,19 @@ msgstr[1] "%d ertrunkenen Seelen"
 msgctxt "dat"
 msgid "a wraith"
 msgid_plural "%d wraiths"
-msgstr[0] "einem Geist"
+msgstr[0] "einem Geisten"
 msgstr[1] "%d Geistern"
 
 msgctxt "dat"
 msgid "a shadow wraith"
 msgid_plural "%d shadow wraiths"
-msgstr[0] "einem Schattengeist"
+msgstr[0] "einem Schattengeisten"
 msgstr[1] "%d Schattengeistern"
 
 msgctxt "dat"
 msgid "a freezing wraith"
 msgid_plural "%d freezing wraiths"
-msgstr[0] "einem Frostgeist"
+msgstr[0] "einem Frostgeisten"
 msgstr[1] "%d Frostgeistern"
 
 msgctxt "dat"
@@ -11629,19 +11629,19 @@ msgstr[1] "%d Catoblepasen"
 msgctxt "dat"
 msgid "an elephant"
 msgid_plural "%d elephants"
-msgstr[0] "einem Elefant"
+msgstr[0] "einem Elefanten"
 msgstr[1] "%d Elefanten"
 
 msgctxt "dat"
 msgid "a dire elephant"
 msgid_plural "%d dire elephants"
-msgstr[0] "einem Schreckenselefant"
+msgstr[0] "einem Schreckenselefanten"
 msgstr[1] "%d Schreckenselefanten"
 
 msgctxt "dat"
 msgid "a hellephant"
 msgid_plural "%d hellephants"
-msgstr[0] "einem Höllefant"
+msgstr[0] "einem Höllefanten"
 msgstr[1] "%d Höllefanten"
 
 msgctxt "dat"
@@ -11875,7 +11875,7 @@ msgstr[1] "%d quälenden Dämonenbruten"
 msgctxt "dat"
 msgid "a blood saint"
 msgid_plural "%d blood saints"
-msgstr[0] "einem Blutheilige"
+msgstr[0] "einem Blutheiligen"
 msgstr[1] "%d Blutheiligen"
 # check plural above
 
@@ -12278,14 +12278,14 @@ msgstr[1] "%d geschmolzenen Gargoyles"
 msgctxt "dat"
 msgid "a pandemonium lord"
 msgid_plural "%d pandemonium lords"
-msgstr[0] "einem Pandemoniumsherr"
+msgstr[0] "einem Pandemoniumsherrn"
 msgstr[1] "%d Pandemoniumsherren"
 # check plural above
 
 msgctxt "dat"
 msgid "a hell lord"
 msgid_plural "%d hell lords"
-msgstr[0] "einem Höllenherr"
+msgstr[0] "einem Höllenherrn"
 msgstr[1] "%d Höllenherren"
 # check plural above
 
