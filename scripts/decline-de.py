@@ -392,6 +392,10 @@ def process(infile_name, case_long, article):
     outfile.write("\n")
     outfile.write("################################\n")
     outfile.write("# " + article + " - " + case_long + "\n")
+    if case_long == "nominative":
+        outfile.write("# (+ accusative for fem./neut.)\n")
+    elif case_long == "accusative":
+        outfile.write("# (for masc. only)\n")
     outfile.write("################################\n")
 
     case = case_long[0: 3]
@@ -421,38 +425,40 @@ def process(infile_name, case_long, article):
                 check_german(deutsch)
                 gender = get_gender(deutsch)
                 
-                # separate " of <whatever>" suffixes - we will restore later
-                english, suffix_en = split_of(english)
-                deutsch, suffix_de = split_of(deutsch)
-                 
-                # msgctxt line
-                outfile.write("\n")
-                if case == "nom": 
-                    outfile.write('#msgctxt "' + case + '"\n')
+                if case == "akk" and gender != "masc":
+                    # no need to generate accusative for fem./neut. - it's the same as nominative
+                    pass
                 else:
-                    outfile.write('msgctxt "' + case + '"\n')
-                
-                # msgid line (English)
-                sing_en = decline_english_singular(english, article)
-                
-                if article == "definite":
-                    outfile.write('msgid  "' + sing_en + suffix_en + '"\n')
-                else:
-                    outfile.write('msgid "' + sing_en + suffix_en + '"\n')
-                    plural_en = make_english_plural(english)
-                    outfile.write('msgid_plural "' + plural_en + suffix_en + '"\n')
-                
-                # German translations
-                sing_de = decline_german_singular(deutsch, article, case)
-                
-                if article == "definite":
-                    outfile.write('msgstr "' + sing_de + suffix_de + '"\n')
-                else:
-                    (plural_de, certain) = make_german_plural(deutsch, case)
-                    outfile.write('msgstr[0] "' + sing_de + suffix_de + '"\n')    
-                    outfile.write('msgstr[1] "' + plural_de + suffix_de + '"\n')    
-                    if not certain:
-                        outfile.write("# check plural above\n")
+                    # separate " of <whatever>" suffixes - we will restore later
+                    english, suffix_en = split_of(english)
+                    deutsch, suffix_de = split_of(deutsch)
+                     
+                    # msgctxt line
+                    outfile.write("\n")
+                    if case != "nom": 
+                        outfile.write('msgctxt "' + case + '"\n')
+                    
+                    # msgid line (English)
+                    sing_en = decline_english_singular(english, article)
+                    
+                    if article == "definite":
+                        outfile.write('msgid  "' + sing_en + suffix_en + '"\n')
+                    else:
+                        outfile.write('msgid "' + sing_en + suffix_en + '"\n')
+                        plural_en = make_english_plural(english)
+                        outfile.write('msgid_plural "' + plural_en + suffix_en + '"\n')
+                    
+                    # German translations
+                    sing_de = decline_german_singular(deutsch, article, case)
+                    
+                    if article == "definite":
+                        outfile.write('msgstr "' + sing_de + suffix_de + '"\n')
+                    else:
+                        (plural_de, certain) = make_german_plural(deutsch, case)
+                        outfile.write('msgstr[0] "' + sing_de + suffix_de + '"\n')    
+                        outfile.write('msgstr[1] "' + plural_de + suffix_de + '"\n')    
+                        if not certain:
+                            outfile.write("# check plural above\n")
                 
                 english = ""
                 deutsch = ""
