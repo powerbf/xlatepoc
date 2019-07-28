@@ -301,6 +301,10 @@ def make_german_plural(singular, case):
         # add -er
         plural += "er"
         certain = True
+    elif re.search("bär$", singular, re.IGNORECASE):
+        # add -en
+        plural += "en"
+        certain = True
     elif re.search("segment$", singular, re.IGNORECASE):
         # add -e
         plural += "e"

@@ -5124,20 +5124,17 @@ msgstr[1] "%d Felide"
 msgid "a bear"
 msgid_plural "%d bears"
 msgstr[0] "ein Bär"
-msgstr[1] "%d Bäre"
-# check plural above
+msgstr[1] "%d Bären"
 
 msgid "a polar bear"
 msgid_plural "%d polar bears"
 msgstr[0] "ein Eisbär"
-msgstr[1] "%d Eisbäre"
-# check plural above
+msgstr[1] "%d Eisbären"
 
 msgid "a black bear"
 msgid_plural "%d black bears"
 msgstr[0] "ein Schwarzbär"
-msgstr[1] "%d Schwarzbäre"
-# check plural above
+msgstr[1] "%d Schwarzbären"
 
 msgid "a spriggan"
 msgid_plural "%d spriggans"
@@ -7737,22 +7734,19 @@ msgctxt "akk"
 msgid "a bear"
 msgid_plural "%d bears"
 msgstr[0] "einen Bären"
-msgstr[1] "%d Bäre"
-# check plural above
+msgstr[1] "%d Bären"
 
 msgctxt "akk"
 msgid "a polar bear"
 msgid_plural "%d polar bears"
 msgstr[0] "einen Eisbären"
-msgstr[1] "%d Eisbäre"
-# check plural above
+msgstr[1] "%d Eisbären"
 
 msgctxt "akk"
 msgid "a black bear"
 msgid_plural "%d black bears"
 msgstr[0] "einen Schwarzbären"
-msgstr[1] "%d Schwarzbäre"
-# check plural above
+msgstr[1] "%d Schwarzbären"
 
 msgctxt "akk"
 msgid "a spriggan"
@@ -9824,21 +9818,18 @@ msgid "a bear"
 msgid_plural "%d bears"
 msgstr[0] "einem Bären"
 msgstr[1] "%d Bären"
-# check plural above
 
 msgctxt "dat"
 msgid "a polar bear"
 msgid_plural "%d polar bears"
 msgstr[0] "einem Eisbären"
 msgstr[1] "%d Eisbären"
-# check plural above
 
 msgctxt "dat"
 msgid "a black bear"
 msgid_plural "%d black bears"
 msgstr[0] "einem Schwarzbären"
 msgstr[1] "%d Schwarzbären"
-# check plural above
 
 msgctxt "dat"
 msgid "a spriggan"
