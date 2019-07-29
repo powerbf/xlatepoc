@@ -54,12 +54,15 @@ int main(int argc, char *argv[])
         const char *msgid = NULL;
         const char *fmtstr = NULL;
         const char *monstr = NULL;
-        printf("\n");
 
         const monsterentry* mon_def = get_monster_data(i);
         if (mon_def == NULL)
         {
-            printf("ERROR: NUll monster data\n");
+            printf("ERROR: Null monster data\n");
+        }
+        else if (mon_def->genus == MONS_PROGRAM_BUG)
+        {
+            continue;
         }
 
         string the_monster = string("the ") + mon_def->name;
@@ -67,6 +70,8 @@ int main(int argc, char *argv[])
         string a_monster = article_a(mon_def->name);
 
         string sentence;
+
+        printf("\n");
 
         sentence = localize("You see %s.", a_monster.c_str());
         cout << sentence << endl;
