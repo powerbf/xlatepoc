@@ -8,8 +8,8 @@ BUILD_DIR=.
 SOURCES:=$(wildcard $(SOURCE_DIR)/*.cc)
 OBJECTS:=$(patsubst $(SOURCE_DIR)/%.cc,$(BUILD_DIR)/%.o,$(SOURCES))
 
-COMMON_OBJS:=$(filter-out %poc.o,$(OBJECTS))
-MAIN_OBJS:=$(filter %poc.o,$(OBJECTS))
+COMMON_OBJS:=$(filter-out %test.o,$(OBJECTS))
+MAIN_OBJS:=$(filter %test.o,$(OBJECTS))
 EXES:=$(patsubst %.o,%,$(MAIN_OBJS))
 
 LIBS=
@@ -44,7 +44,7 @@ translations: $(MOFILES)
 $(OUTPUT_DIRS):
 	mkdir -p $(OUTPUT_DIRS)
 
-$(BUILD_DIR)/%poc: $(BUILD_DIR)/%poc.o $(COMMON_OBJS)
+$(BUILD_DIR)/%test: $(BUILD_DIR)/%test.o $(COMMON_OBJS)
 	g++ -o $@ $(DEBUG_FLAGS) $^ $(LIBS)
 
 $(BUILD_DIR)/%.o: $(SOURCE_DIR)/%.cc

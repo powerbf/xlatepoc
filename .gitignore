@@ -30,7 +30,7 @@
 *.exe
 *.out
 *.app
-*poc
+*test
 
 # Generated translation files
 *.mo
