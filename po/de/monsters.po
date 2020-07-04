@@ -17,7 +17,7 @@
 #      the Enchantress -> die Hexenmeisterin (Google Translate and leo.org both gave me "die Zauberin", but I think this sounds better)
 #      Sorcerer -> Hexenmeister
 #      Mage -> Magier (so Earth Mage -> Erdmagier, etc.)
-#      Shifter -> Verwandler
+#      Shifter -> Verschieber (because verschieben means to move, displace)
 #
 ###############################################################################
 msgid ""
@@ -424,7 +424,7 @@ msgid  "the draconian monk"
 msgstr "der Drakonier-Mönch"
 
 msgid  "the draconian shifter"
-msgstr "der Drakonier-Verwandler"
+msgstr "der Drakonier-Verschieber"
 
 msgid  "the draconian annihilator"
 msgstr "der Drakonier-Vernichter"
@@ -1803,7 +1803,7 @@ msgstr "den Drakonier-Mönch"
 
 msgctxt "akk"
 msgid  "the draconian shifter"
-msgstr "den Drakonier-Verwandler"
+msgstr "den Drakonier-Verschieber"
 
 msgctxt "akk"
 msgid  "the draconian annihilator"
@@ -2999,7 +2999,7 @@ msgstr "dem Drakonier-Mönch"
 
 msgctxt "dat"
 msgid  "the draconian shifter"
-msgstr "dem Drakonier-Verwandler"
+msgstr "dem Drakonier-Verschieber"
 
 msgctxt "dat"
 msgid  "the draconian annihilator"
