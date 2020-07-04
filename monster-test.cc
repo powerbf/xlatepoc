@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
+#include <vector>
 
 #include "xlate.h"
 #include "localize.h"
@@ -65,28 +66,36 @@ int main(int argc, char *argv[])
             continue;
         }
 
-        string the_monster = string("the ") + mon_def->name;
+        cout << endl << "Monster: " << mon_def->name << endl;
 
-        string a_monster = article_a(mon_def->name);
+        vector<string> variants;
 
-        string sentence;
+        if (mons_is_unique(i))
+        {
+            variants.push_back(mon_def->name);
+        }
+        else {
+            variants.push_back(string("the ") + mon_def->name);
+            variants.push_back(article_a(mon_def->name));
+        }
 
-        printf("\n");
+        for (vector<string>::iterator it = variants.begin(); it != variants.end(); ++it)
+        {
+            string sentence;
 
-        sentence = localize("You see %s.", a_monster.c_str());
-        cout << sentence << endl;
+            // nominative
+            sentence = localize_sentence("%s hits you.", it->c_str());
+            cout << sentence << endl;
 
-        sentence = localize_sentence("%s shouts.", the_monster.c_str());
-        cout << sentence << endl;
+            // accusative
+            sentence = localize_sentence("You miss %s.", it->c_str());
+            cout << sentence << endl;
 
-        sentence = localize("You command %s to wait here.", the_monster.c_str());
-        cout << sentence << endl;
+            // dative
+            sentence = localize("You command %s to wait here.", it->c_str());
+            cout << sentence << endl;
+        }
 
-        sentence = localize_sentence("%s hits you.", the_monster.c_str());
-        cout << sentence << endl;
-
-        sentence = localize_sentence("You miss %s.", the_monster.c_str());
-        cout << sentence << endl;
     }
 
     return 0;
