@@ -2,12 +2,6 @@
 #
 # German translations for monster names
 #
-# Resources:
-#  - Google Translate (for initial rough translation)
-#  - dict.leo.org (English->German dictionary)
-#  - de.wikipedia.org
-#  - Google
-#
 # Translation notes:
 #
 #  - The German for "(hob)goblin" is "Kobold", but there are already kobolds in the game, so I've kept the English names.
