@@ -320,6 +320,13 @@ msgctxt "dat"
 msgid  "the Royal Jelly"
 msgstr "dem Gelée Royale"
 
+# nom/akk
+msgid  "the Serpent of Hell"
+msgstr "die Höllenschlange"
+
+msgctxt "dat"
+msgid  "the Serpent of Hell"
+msgstr "der Höllenschlange"
 
 
 ################################
@@ -1682,9 +1689,6 @@ msgstr "das Fuchsfeuer"
 
 msgid  "the nameless horror"
 msgstr "der namenlose Horror"
-
-msgid  "the Serpent of Hell"
-msgstr "die Schlange der Hölle"
 
 msgid  "the sensed monster"
 msgstr "das gespürte Monster"
@@ -4694,10 +4698,6 @@ msgid  "the nameless horror"
 msgstr "dem namenlosen Horror"
 
 msgctxt "dat"
-msgid  "the Serpent of Hell"
-msgstr "der Schlange der Hölle"
-
-msgctxt "dat"
 msgid  "the sensed monster"
 msgstr "dem gespürten Monster"
 
@@ -7310,11 +7310,6 @@ msgid "a nameless horror"
 msgid_plural "%d nameless horrors"
 msgstr[0] "ein namenloser Horror"
 msgstr[1] "%d namenlose Horror"
-
-msgid "a Serpent of Hell"
-msgid_plural "%d Serpents of Hell"
-msgstr[0] "eine Schlange der Hölle"
-msgstr[1] "%d Schlangen der Hölle"
 
 msgid "a sensed monster"
 msgid_plural "%d sensed monsters"
@@ -12399,12 +12394,6 @@ msgid "a nameless horror"
 msgid_plural "%d nameless horrors"
 msgstr[0] "einem namenlosen Horror"
 msgstr[1] "%d namenlosen Horror"
-
-msgctxt "dat"
-msgid "a Serpent of Hell"
-msgid_plural "%d Serpents of Hell"
-msgstr[0] "einer Schlange der Hölle"
-msgstr[1] "%d Schlangen der Hölle"
 
 msgctxt "dat"
 msgid "a sensed monster"
