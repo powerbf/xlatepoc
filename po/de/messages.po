@@ -22,6 +22,10 @@ msgid "Hello, world\n"
 msgstr "Grüße, Welt\n"
 
 #, c-format
+msgid "%s come into view."
+msgstr "{nom}%s kommen in Sicht."
+
+#, c-format
 msgid "You see %s."
 msgstr "Du siehst {akk}%s."
 

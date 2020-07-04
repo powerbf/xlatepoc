@@ -9,6 +9,7 @@
 
 #include "monsters-inc.h"
 #include "english.h"
+#include "stringutil.h"
 
 using namespace std;
 
@@ -96,6 +97,17 @@ int main(int argc, char *argv[])
             cout << sentence << endl;
         }
 
+        if (mons_is_unique(i))
+        {
+            continue;
+        }
+
+        string singular_en = article_a(mon_def->name);
+        string plural_en = string("%d ") + pluralise(mon_def->name);
+
+        string plural_xlated = dcnxlate("monsters", "nom", singular_en, plural_en, 2);
+        plural_xlated = make_stringf(plural_xlated.c_str(), 2);
+        cout << localize_sentence("%s come into view.", plural_xlated.c_str()) << endl;
     }
 
     return 0;
