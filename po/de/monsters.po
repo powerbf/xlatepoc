@@ -218,6 +218,9 @@ msgstr "Frederick"
 msgid  "Margery"
 msgstr "Margery"
 
+msgid  "Maggie"
+msgstr "Maggie"
+
 msgid  "Eustachio"
 msgstr "Eustachio"
 
