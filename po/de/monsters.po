@@ -1677,6 +1677,12 @@ msgstr "der Todeskolben"
 msgid  "the moon troll"
 msgstr "der Mondtroll"
 
+msgid  "the foxfire"
+msgstr "das Fuchsfeuer"
+
+msgid  "the nameless horror"
+msgstr "der namenlose Horror"
+
 msgid  "the Serpent of Hell"
 msgstr "die Schlange der Hölle"
 
@@ -2866,6 +2872,14 @@ msgstr "den Todeskolben"
 msgctxt "akk"
 msgid  "the moon troll"
 msgstr "den Mondtroll"
+
+msgctxt "akk"
+msgid  "the nameless horror"
+msgstr "den namenlosen Horror"
+
+msgctxt "akk"
+msgid  "the foxfire"
+msgstr "das Fuchsfeuer"
 
 ################################
 # definite - dative
@@ -4670,6 +4684,14 @@ msgstr "dem Todeskolben"
 msgctxt "dat"
 msgid  "the moon troll"
 msgstr "dem Mondtroll"
+
+msgctxt "dat"
+msgid  "the foxfire"
+msgstr "dem Fuchsfeuer"
+
+msgctxt "dat"
+msgid  "the nameless horror"
+msgstr "dem namenlosen Horror"
 
 msgctxt "dat"
 msgid  "the Serpent of Hell"
@@ -7279,6 +7301,16 @@ msgstr[0] "ein Mondtroll"
 msgstr[1] "%d Mondtrolle"
 # check plural above
 
+msgid "a foxfire"
+msgid_plural "%d foxfires"
+msgstr[0] "ein Fuchsfeuer"
+msgstr[1] "%d Fuchsfeuer"
+
+msgid "a nameless horror"
+msgid_plural "%d nameless horrors"
+msgstr[0] "ein namenloser Horror"
+msgstr[1] "%d namenlose Horror"
+
 msgid "a Serpent of Hell"
 msgid_plural "%d Serpents of Hell"
 msgstr[0] "eine Schlange der Hölle"
@@ -9320,6 +9352,12 @@ msgid_plural "%d moon trolls"
 msgstr[0] "einen Mondtroll"
 msgstr[1] "%d Mondtrolle"
 # check plural above
+
+msgctxt "akk"
+msgid "a nameless horror"
+msgid_plural "%d nameless horrors"
+msgstr[0] "einen namenlosen Horror"
+msgstr[1] "%d namenlose Horror"
 
 ################################
 # indefinite - dative
@@ -12349,6 +12387,18 @@ msgid_plural "%d moon trolls"
 msgstr[0] "einem Mondtroll"
 msgstr[1] "%d Mondtrollen"
 # check plural above
+
+msgctxt "dat"
+msgid "a foxfire"
+msgid_plural "%d foxfires"
+msgstr[0] "einem Fuchsfeuer"
+msgstr[1] "%d Fuchsfeuern"
+
+msgctxt "dat"
+msgid "a nameless horror"
+msgid_plural "%d nameless horrors"
+msgstr[0] "einem namenlosen Horror"
+msgstr[1] "%d namenlosen Horror"
 
 msgctxt "dat"
 msgid "a Serpent of Hell"

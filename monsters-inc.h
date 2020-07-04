@@ -32,7 +32,7 @@
 
 //#include "mon-info.h"
 #include "mon-util.h"
-#include "mon-data.h"
+//#include "mon-data.h"
 #include "monster.h"
 
 #include "externs.h"

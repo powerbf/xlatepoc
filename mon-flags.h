@@ -1,7 +1,5 @@
 #pragma once
 
-#include "enum.h"
-
 #define BIT(x) ((uint64_t)1<<(x))
 
 /// Properties of the monster class (other than resists/vulnerabilities).
@@ -117,8 +115,8 @@ enum monclass_flag_type : uint64_t
 
                         //BIT(36), // was M_ALWAYS_CORPSE
 
-    /// mostly doesn't try to melee
-    M_DONT_MELEE        = BIT(37),
+    /// prefer ranged attacks over melee
+    M_PREFER_RANGED     = BIT(37),
 
                         //BIT(38), // was M_ARTIFICIAL
 
