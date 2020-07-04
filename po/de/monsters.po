@@ -272,11 +272,7 @@ msgctxt "dat"
 msgid  "Crazy Yiuf"
 msgstr "Verrücktem Yiuf"
 
-#msgctxt "nom"
-msgid  "the Enchantress"
-msgstr "die Hexenmeisterin"
-
-msgctxt "akk"
+# nom/akk
 msgid  "the Enchantress"
 msgstr "die Hexenmeisterin"
 
@@ -296,11 +292,7 @@ msgctxt "dat"
 msgid  "Blork the Orc"
 msgstr "Blork dem Ork"
 
-#msgctxt "nom"
-msgid  "the Lernaean hydra"
-msgstr "die Lernäische Hydra"
-
-msgctxt "akk"
+# nom/akk
 msgid  "the Lernaean hydra"
 msgstr "die Lernäische Hydra"
 
@@ -308,11 +300,10 @@ msgctxt "dat"
 msgid  "the Lernaean hydra"
 msgstr "der Lernäischen Hydra"
 
-#msgctxt "nom"
+# nom/akk
 msgid  "the Royal Jelly"
 msgstr "das Gelée Royale"
 
-msgctxt "akk"
 msgid  "the Royal Jelly"
 msgstr "das Gelée Royale"
 
