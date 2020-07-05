@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <string>
 
-#include "xlate.h"
 #include "localize.h"
 #include "test-util.h"
 
@@ -24,16 +23,16 @@ int main(int argc, char *argv[])
 
     string result;
 
-    init_xlate("en_AU");
+    init_localization("en_AU");
 
     // check locale
     string locale = getlocale();
     cout << "====================\n";
     cout << "Locale is " << locale << endl;
-    cout << "Language is " << get_xlate_language() << endl;
+    cout << "Language is " << get_localization_language() << endl;
     cout << "====================\n\n";
 
-    result = xlate("Hello, world!");
+    result = localize("Hello, world!");
     check_result("basic test", "Greetings, globe!", result);
 
     result = localize("");
@@ -60,16 +59,16 @@ int main(int argc, char *argv[])
     result = localize("%d%% \\{per annum\\}", 1);
     check_result("escape sequences", "1% {per annum}", result);
 
-    result = nxlate("a flip flop", "%d flip flops", 1);
+    result = localize(LocalizationArg("a flip flop", "%d flip flops", 1));
     check_result("singular", "a thong", result);
 
-    result = nxlate("a flip flop", "%d flip flops", 2);
+    result = localize(LocalizationArg("a flip flop", "%d flip flops", 2));
     check_result("dual", "a pair of thongs", result);
 
-    result = nxlate("a flip flop", "%d flip flops", 3);
-    check_result("plural", "%d thongs", result);
+    result = localize(LocalizationArg("a flip flop", "%d flip flops", 3));
+    check_result("plural", "3 thongs", result);
 
-    result = xlate("a flip flop");
+    result = localize(LocalizationArg("a flip flop"));
     check_result("singular xlate", "a thong", result);
 
     // this will fail - you must use nxlate

@@ -47,6 +47,14 @@ private:
     void init();
 };
 
+/**
+ * Initialise the localisation system
+ */
+void init_localization(const string& lang);
+
+
+// Get the current localization language
+const string& get_localization_language();
 
 // Localize a format string and a list of args.
 // If there are multiple args, expects the first arg to be a format string.
@@ -62,3 +70,10 @@ string localize_sentence(const vector<LocalizationArg>& args);
 
 // convenience function using va_args (yuk!)
 string localize(const string& fmt_str, ...);
+
+// more convenience functions
+string localize(const LocalizationArg& arg);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2);
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3);
+
+

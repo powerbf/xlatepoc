@@ -394,6 +394,16 @@ LocalizationArg::LocalizationArg(const long double value)
     longDoubleVal = value;
 }
 
+void init_localization(const string& lang)
+{
+    init_xlate(lang);
+}
+
+const string& get_localization_language()
+{
+    return get_xlate_language();
+}
+
 string localize(const vector<LocalizationArg>& args)
 {
     if (args.empty())
@@ -598,4 +608,28 @@ string localize(const string& fmt_str, ...)
     va_end(args);
 
     return localize(niceArgs);
+}
+
+string localize(const LocalizationArg& arg)
+{
+    vector<LocalizationArg> args;
+    args.push_back(arg);
+    return localize(args);
+}
+
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2)
+{
+    vector<LocalizationArg> args;
+    args.push_back(arg1);
+    args.push_back(arg2);
+    return localize(args);
+}
+
+string localize(const LocalizationArg& arg1, const LocalizationArg& arg2, const LocalizationArg& arg3)
+{
+    vector<LocalizationArg> args;
+    args.push_back(arg1);
+    args.push_back(arg2);
+    args.push_back(arg3);
+    return localize(args);
 }

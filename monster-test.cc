@@ -4,7 +4,6 @@
 #include <string>
 #include <vector>
 
-#include "xlate.h"
 #include "localize.h"
 
 #include "monsters-inc.h"
@@ -41,14 +40,14 @@ int main(int argc, char *argv[])
 
     string language = (argc >= 2 ? argv[1] : "");
 
-    init_xlate(language);
+    init_localization(language);
 
     // check locale
     string locale = getlocale();
     cout << "====================\n";
-    cout << "Usage: xlatepoc [language]\n  where language = en, de\n\n";
+    cout << "Usage: monster-test [language]\n  where language = en, de\n\n";
     cout << "Locale is " << locale << endl;
-    cout << "Language is " << get_xlate_language() << endl;
+    cout << "Language is " << get_localization_language() << endl;
     cout << "====================\n\n";
 
     for (monster_type i = MONS_PROGRAM_BUG; i < NUM_MONSTERS; i++)

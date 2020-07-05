@@ -12,7 +12,7 @@ using std::string;
 // initialize
 void init_xlate(const string &lang);
 
-string get_xlate_language();
+const string& get_xlate_language();
 
 // translate with domain and context
 //

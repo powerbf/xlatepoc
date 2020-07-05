@@ -63,7 +63,7 @@ void init_xlate(const string &lang)
     textdomain(DEFAULT_DOMAIN.c_str());
 }
 
-string get_xlate_language()
+const string& get_xlate_language()
 {
     return language;
 }
