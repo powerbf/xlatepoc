@@ -77,7 +77,11 @@ int main(int argc, char *argv[])
     //check_result("plural xlate", "%d thongs", result);
 
     // test arg order change
-    result = localize_sentence("%s hits %s.", "the arrow", "the orc");
+    vector<LocalizationArg> args;
+    args.push_back(LocalizationArg("%s hits %s."));
+    args.push_back(LocalizationArg("the arrow"));
+    args.push_back(LocalizationArg("the orc"));
+    result = localize_sentence(args);
     check_result("arg order", "The orc is hit by the arrow.", result);
     return 0;
 }

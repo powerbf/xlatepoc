@@ -8,14 +8,44 @@
 #include <string>
 using std::string;
 
+#include <vector>
+using std::vector;
+/*
+ * Structure describing a localization argument
+ */
+struct LocalizationArg
+{
+public:
+    string domain;
+    string stringVal;
+    int intVal;
+    long longVal;
+    long long longLongVal;
+    double doubleVal;
+    long double longDoubleVal;
+
+    LocalizationArg();
+    LocalizationArg(const string& value, const string& domain);
+    LocalizationArg(const string& value);
+    LocalizationArg(const int value);
+    LocalizationArg(const long value);
+    LocalizationArg(const long long value);
+    LocalizationArg(const double value);
+    LocalizationArg(const long double value);
+};
+
+
 // Localize a format string and a list of args.
-//
-// It is expected that fmt_str and any other input strings are in English.
+// If there are multiple args, expects the first arg to be a format string.
+// It is expected that any input strings are in English.
 // If you pre-translate some strings it will probably still work in most cases.
 // However, there's a remote chance that the pre-translated string may match an English
 // string that we've provided a translation for and be erroneously translated again.
 // One theoretical case would be: "poison"(en) -> "Gift"(de) -> "Gift"(en) -> "Geschenk"(de).
-string localize(const string& fmt_str, ...);
+string localize(const vector<LocalizationArg>& args);
 
 // same as localize except it capitalizes first letter
-string localize_sentence(const string& fmt_str, ...);
+string localize_sentence(const vector<LocalizationArg>& args);
+
+// convenience function using va_args (yuk!)
+string localize(const string& fmt_str, ...);

@@ -262,7 +262,10 @@ static vector<string> _split_format(const string& fmt_str)
     return results;
 }
 
-// get arg types from format string
+/**
+ * Get arg types from format string.
+ * Returns a map indexed by argument id, beginning with 1.
+ */
 static map<int, const type_info*> _get_arg_types(const string& fmt)
 {
     map<int, const type_info*> results;
@@ -303,165 +306,149 @@ static void _resolve_escapes(string& str)
     _replace_all(str, "\\}", "}");
 }
 
-string localize(const string& fmt_string, va_list& args)
+LocalizationArg::LocalizationArg()
+    : intVal(0), longVal(0), longLongVal(0),
+      doubleVal(0.0), longDoubleVal(0.0)
 {
-    // get arg types for original English string
-    map<int, const type_info*> arg_types = _get_arg_types(fmt_string);
+}
 
-    vector<string> strings = _split_format(fmt_string);
+LocalizationArg::LocalizationArg(const string& value, const string& dom)
+    : domain(dom), stringVal(value), intVal(0), longVal(0), longLongVal(0),
+      doubleVal(0.0), longDoubleVal(0.0)
+{
+}
 
-    // store args in map
-    map<int, arg_t> arg_map;
-    int arg_count = 0;
-    for (vector<string>::iterator it = strings.begin() ; it != strings.end(); ++it)
+LocalizationArg::LocalizationArg(const string& value)
+    : stringVal(value), intVal(0), longVal(0), longLongVal(0),
+      doubleVal(0.0), longDoubleVal(0.0)
+{
+}
+
+LocalizationArg::LocalizationArg(const int value)
+    : intVal(value), longVal(0), longLongVal(0),
+      doubleVal(0.0), longDoubleVal(0.0)
+{
+}
+
+LocalizationArg::LocalizationArg(const long value)
+    : intVal(0), longVal(value), longLongVal(0),
+      doubleVal(0.0), longDoubleVal(0.0)
+{
+}
+
+LocalizationArg::LocalizationArg(const long long value)
+    : intVal(0), longVal(0), longLongVal(value),
+      doubleVal(0.0), longDoubleVal(0.0)
+{
+}
+
+LocalizationArg::LocalizationArg(const double value)
+    : intVal(0), longVal(0), longLongVal(0),
+      doubleVal(value), longDoubleVal(0.0)
+{
+}
+
+LocalizationArg::LocalizationArg(const long double value)
+    : intVal(0), longVal(0), longLongVal(0),
+      doubleVal(0.0), longDoubleVal(value)
+{
+}
+
+// Localize a simple string
+string localize(const string& str)
+{
+    string result = xlate(str);
+    return result;
+}
+
+string localize(const vector<LocalizationArg>& args)
+{
+    if (args.empty())
     {
-        if (it->length() < 2 || it->at(0) != '%' || it->at(1) == '%')
-        {
-            // not a format spec
-            continue;
-        }
-
-        // determine arg id
-        ++arg_count;
-        int arg_id = _get_arg_id(*it);
-        arg_id = (arg_id == 0 ? arg_count : arg_id);
-
-        const type_info* ti = arg_types[arg_id];
-
-        arg_t arg;
-        arg.ll = 0;
-        if (ti == NULL)
-        {
-            // do nothing
-            va_arg(args, void*); // pop one arg
-        }
-        else if (*ti == typeid(int*))
-        {
-            arg.pi = va_arg(args, int*);
-        }
-        else if (*ti == typeid(char*))
-        {
-            arg.s = va_arg(args, char*);
-        }
-        else if (*ti == typeid(void*))
-        {
-            arg.pv = va_arg(args, void*);
-        }
-        else if (*ti == typeid(long double))
-        {
-            arg.ld = va_arg(args, long double);
-        }
-        else if (*ti == typeid(double))
-        {
-            arg.d = va_arg(args, double);
-        }
-        else if (*ti == typeid(ptrdiff_t))
-        {
-            arg.pd = va_arg(args, ptrdiff_t);
-        }
-        else if (*ti == typeid(size_t))
-        {
-            arg.sz = va_arg(args, size_t);
-        }
-        else if (*ti == typeid(intmax_t) || *ti == typeid(uintmax_t))
-        {
-            arg.im = va_arg(args, intmax_t);
-        }
-        else if (*ti == typeid(long long) || *ti == typeid(unsigned long long))
-        {
-            arg.ll = va_arg(args, long long);
-        }
-        else if (*ti == typeid(long) || *ti == typeid(unsigned long))
-        {
-            arg.l = va_arg(args, long);
-        }
-        else
-        {
-            arg.i = va_arg(args, int);
-        }
-        arg_map.insert(pair<int, arg_t>(arg_id, arg));
+        return "";
     }
 
+    // first argument is the format string
+    LocalizationArg fmt_arg = args.at(0);
+
     // translate format string
-    string fmt_xlated = dxlate("messages", fmt_string);
-    strings = _split_format(fmt_xlated);
+    string fmt_xlated = dxlate(fmt_arg.domain, fmt_arg.stringVal);
+    if (args.size() == 1 || fmt_xlated.empty())
+    {
+        // We're done here
+        return fmt_xlated;
+    }
+
+    // get arg types for original English string
+    map<int, const type_info*> arg_types = _get_arg_types(fmt_arg.stringVal);
+
+    // now tokenize the translated string
+    vector<string> strings = _split_format(fmt_xlated);
 
     ostringstream ss;
 
     string context;
-    arg_count = 0;
+    int arg_count = 0;
     for (vector<string>::iterator it = strings.begin() ; it != strings.end(); ++it)
     {
         if (it->at(0) == '{' && it->length() > 1)
         {
             context = it->substr(1, it->length() - 2); // strip curly brackets
         }
-        else if (it->at(0) == '%' && it->length() > 1 && it->at(1) != '%')
+        else if (it->length() > 1 && it->at(0) == '%' && it->at(1) != '%')
         {
+            // this is a format specifier like %s, %d, etc.
+
             ++arg_count;
             int arg_id = _get_arg_id(*it);
             arg_id = (arg_id == 0 ? arg_count : arg_id);
 
             map<int, const type_info*>::iterator type_entry = arg_types.find(arg_id);
-            map<int, arg_t>::const_iterator arg_entry = arg_map.find(arg_id);
-            if (type_entry != arg_types.end() && arg_entry != arg_map.end())
+
+            // range check arg id
+            if (type_entry == arg_types.end() || arg_id >= args.size())
             {
-                string s;
+                // argument id is out of range - just regurgitate the original string
+                ss << *it;
+            }
+            else
+            {
+                const LocalizationArg& arg = args.at(arg_id);
+
                 string fmt_spec = _remove_arg_id(*it);
                 const type_info* type = _format_spec_to_type(fmt_spec);
                 const type_info* expected_type = type_entry->second;
-                const arg_t arg = arg_entry->second;
 
+                string s = fmt_spec;
                 if (expected_type == NULL || type == NULL || *type != *expected_type)
                 {
                     // something's wrong - skip this arg
                 }
-                else if (*type == typeid(int*))
-                {
-                    // expects us to write into the the int pointed to
-                    // I don't think we want to do this
-                }
                 else if (*type == typeid(char*))
                 {
                     // arg is string and needs to be localized
-                    string argx = dcxlate("monsters", context, arg.s);
+                    string argx = dcxlate(arg.domain, context, arg.stringVal);
                     s = make_stringf(fmt_spec.c_str(), argx.c_str());
-                }
-                else if (*type == typeid(void*))
-                {
-                    s = make_stringf(fmt_spec.c_str(), arg.pv);
                 }
                 else if (*type == typeid(long double))
                 {
-                    s = make_stringf(fmt_spec.c_str(), arg.ld);
+                    s = make_stringf(fmt_spec.c_str(), arg.longDoubleVal);
                 }
                 else if (*type == typeid(double))
                 {
-                    s = make_stringf(fmt_spec.c_str(), arg.d);
-                }
-                else if (*type == typeid(ptrdiff_t))
-                {
-                    s = make_stringf(fmt_spec.c_str(), arg.pd);
-                }
-                else if (*type == typeid(size_t))
-                {
-                    s = make_stringf(fmt_spec.c_str(), arg.sz);
-                }
-                else if (*type == typeid(intmax_t) || *type == typeid(uintmax_t))
-                {
-                    s = make_stringf(fmt_spec.c_str(), arg.im);
+                    s = make_stringf(fmt_spec.c_str(), arg.doubleVal);
                 }
                 else if (*type == typeid(long long) || *type == typeid(unsigned long long))
                 {
-                    s = make_stringf(fmt_spec.c_str(), arg.ll);
+                    s = make_stringf(fmt_spec.c_str(), arg.longLongVal);
                 }
                 else if (*type == typeid(long) || *type == typeid(unsigned long))
                 {
-                    s = make_stringf(fmt_spec.c_str(), arg.l);
+                    s = make_stringf(fmt_spec.c_str(), arg.longVal);
                 }
-                else
+                else if (*type == typeid(int) || *type == typeid(unsigned int))
                 {
-                    s = make_stringf(fmt_spec.c_str(), arg.i);
+                    s = make_stringf(fmt_spec.c_str(), arg.intVal);
                 }
                 ss << s;
             }
@@ -478,28 +465,87 @@ string localize(const string& fmt_string, va_list& args)
     return ss.str();
 }
 
+// same as localize except it capitalizes first letter
+string localize_sentence(const vector<LocalizationArg>& args)
+{
+    string result = localize(args);
+    return uppercase_first(result);
+}
+
+// convenience function using va_args (yuk!)
 string localize(const string& fmt_str, ...)
 {
     va_list args;
     va_start(args, fmt_str);
+    vector<LocalizationArg> niceArgs;
 
-    string result = localize(fmt_str, args);
+    niceArgs.push_back(LocalizationArg(fmt_str));
+
+    // get arg types for original English string
+    map<int, const type_info*> arg_types = _get_arg_types(fmt_str);
+
+    int last_arg_id = 0;
+    map<int, const type_info*>::iterator it;
+    for (it = arg_types.begin(); it != arg_types.end(); ++it)
+    {
+        const int arg_id = it->first;
+        const type_info& arg_type = *(it->second);
+
+        if (arg_id != last_arg_id + 1)
+        {
+            // something went wrong
+            break;
+        }
+
+        if (arg_type == typeid(char*))
+        {
+            niceArgs.push_back(LocalizationArg(va_arg(args, char*)));
+        }
+        else if (arg_type == typeid(long double))
+        {
+            niceArgs.push_back(LocalizationArg(va_arg(args, long double)));
+        }
+        else if (arg_type == typeid(double))
+        {
+            niceArgs.push_back(LocalizationArg(va_arg(args, double)));
+        }
+        else if (arg_type == typeid(long long) || arg_type == typeid(unsigned long long))
+        {
+            niceArgs.push_back(LocalizationArg(va_arg(args, long long)));
+        }
+        else if (arg_type == typeid(long) || arg_type == typeid(unsigned long))
+        {
+            niceArgs.push_back(LocalizationArg(va_arg(args, long)));
+        }
+        else if (arg_type == typeid(int) || arg_type == typeid(unsigned int))
+        {
+            niceArgs.push_back(LocalizationArg(va_arg(args, int)));
+        }
+        else if (arg_type == typeid(ptrdiff_t))
+        {
+            va_arg(args, ptrdiff_t);
+            niceArgs.push_back(LocalizationArg());
+        }
+        else if (arg_type == typeid(size_t))
+        {
+            va_arg(args, size_t);
+            niceArgs.push_back(LocalizationArg());
+        }
+        else if (arg_type == typeid(intmax_t) || arg_type == typeid(uintmax_t))
+        {
+            va_arg(args, intmax_t);
+            niceArgs.push_back(LocalizationArg());
+        }
+        else
+        {
+            va_arg(args, void*);
+            niceArgs.push_back(LocalizationArg());
+        }
+
+        last_arg_id = arg_id;
+    }
 
     va_end(args);
 
-    return result;
+    return localize(niceArgs);
 }
-
-// same as localize except it capitalizes first letter
-string localize_sentence(const string& fmt_str, ...)
-{
-    va_list args;
-    va_start(args, fmt_str);
-
-    string result = localize(fmt_str, args);
-
-    va_end(args);
-
-    return uppercase_first(result);
-}
-
