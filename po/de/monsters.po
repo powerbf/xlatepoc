@@ -304,9 +304,6 @@ msgstr "der Lernäischen Hydra"
 msgid  "the Royal Jelly"
 msgstr "das Gelée Royale"
 
-msgid  "the Royal Jelly"
-msgstr "das Gelée Royale"
-
 msgctxt "dat"
 msgid  "the Royal Jelly"
 msgstr "dem Gelée Royale"
