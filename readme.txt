@@ -1,5 +1,5 @@
 Init or update pot:
-xgettext --language=C++ --add-comments --sort-output -o po/messages.pot main.cc
+xgettext --language=C++ --from-code=UTF-8 --no-location --add-comments --sort-output -o po/messages.pot main.cc
 
 Init po file:
 msginit --input=po/messages.pot --locale=de --output=po/de/messages.po
