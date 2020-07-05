@@ -48,7 +48,7 @@ private:
 };
 
 /**
- * Initialise the localisation system
+ * Initialize the localization system
  */
 void init_localization(const string& lang);
 
