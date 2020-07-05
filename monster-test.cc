@@ -122,7 +122,19 @@ int main(int argc, char *argv[])
         args.push_back(LocalizationArg("monsters", singular_en, plural_en, 2));
         string sentence = localize_sentence(args);
         cout << sentence << endl;
-    }
+
+        args.clear();
+        args.push_back(LocalizationArg("You see %s."));
+        args.push_back(LocalizationArg("monsters", singular_en, plural_en, 1));
+        sentence = localize_sentence(args);
+        cout << sentence << endl;
+
+        args.clear();
+        args.push_back(LocalizationArg("You see %s."));
+        args.push_back(LocalizationArg("monsters", singular_en, plural_en, 2));
+        sentence = localize_sentence(args);
+        cout << sentence << endl;
+}
 
     return 0;
 }
