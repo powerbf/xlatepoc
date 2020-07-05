@@ -18,20 +18,33 @@ struct LocalizationArg
 public:
     string domain;
     string stringVal;
+    string plural;
+
+    // count of items, etc.
+    int count;
+
     int intVal;
     long longVal;
     long long longLongVal;
     double doubleVal;
     long double longDoubleVal;
 
+    // should this argument be translated? (defaults to true)
+    bool translate;
+
     LocalizationArg();
-    LocalizationArg(const string& value, const string& domain);
     LocalizationArg(const string& value);
+    LocalizationArg(const string& domain, const string& value);
+    LocalizationArg(const string& value, const string& plural_val, const int count);
+    LocalizationArg(const string& domain, const string& value, const string& plural_val, const int count);
     LocalizationArg(const int value);
     LocalizationArg(const long value);
     LocalizationArg(const long long value);
     LocalizationArg(const double value);
     LocalizationArg(const long double value);
+
+private:
+    void init();
 };
 
 

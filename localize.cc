@@ -306,59 +306,92 @@ static void _resolve_escapes(string& str)
     _replace_all(str, "\\}", "}");
 }
 
-LocalizationArg::LocalizationArg()
-    : intVal(0), longVal(0), longLongVal(0),
-      doubleVal(0.0), longDoubleVal(0.0)
+
+// localize a single string
+static string _localize_string(const string& domain, const string& context, const string& value, const string& plural_val, const int count)
 {
+    if (plural_val.empty())
+    {
+        return dcxlate(domain, context, value);
+    }
+    else
+    {
+        string result = dcnxlate(domain, context, value, plural_val, count);
+        result = make_stringf(result.c_str(), count);
+        return result;
+    }
 }
 
-LocalizationArg::LocalizationArg(const string& value, const string& dom)
-    : domain(dom), stringVal(value), intVal(0), longVal(0), longLongVal(0),
-      doubleVal(0.0), longDoubleVal(0.0)
+void LocalizationArg::init()
 {
+    intVal = 0;
+    longVal = 0L;
+    longLongVal = 0L;
+    doubleVal = 0.0;
+    longDoubleVal = 0.0;
+    count = 1;
+    translate = true;
+}
+
+LocalizationArg::LocalizationArg()
+{
+    init();
 }
 
 LocalizationArg::LocalizationArg(const string& value)
-    : stringVal(value), intVal(0), longVal(0), longLongVal(0),
-      doubleVal(0.0), longDoubleVal(0.0)
+    : stringVal(value)
 {
+    init();
+}
+
+LocalizationArg::LocalizationArg(const string& dom, const string& value)
+    : domain(dom), stringVal(value)
+{
+    init();
+}
+
+LocalizationArg::LocalizationArg(const string& value, const string& plural_val, const int num)
+    : stringVal(value), plural(plural_val)
+{
+    init();
+    count = num;
+}
+
+LocalizationArg::LocalizationArg(const string& dom, const string& value, const string& plural_val, const int num)
+    : domain(dom), stringVal(value), plural(plural_val)
+{
+    init();
+    count = num;
 }
 
 LocalizationArg::LocalizationArg(const int value)
-    : intVal(value), longVal(0), longLongVal(0),
-      doubleVal(0.0), longDoubleVal(0.0)
 {
+    init();
+    intVal = value;
 }
 
 LocalizationArg::LocalizationArg(const long value)
-    : intVal(0), longVal(value), longLongVal(0),
-      doubleVal(0.0), longDoubleVal(0.0)
 {
+    init();
+    longVal = value;
 }
 
 LocalizationArg::LocalizationArg(const long long value)
-    : intVal(0), longVal(0), longLongVal(value),
-      doubleVal(0.0), longDoubleVal(0.0)
 {
+    init();
+    longLongVal = value;
 }
 
 LocalizationArg::LocalizationArg(const double value)
-    : intVal(0), longVal(0), longLongVal(0),
-      doubleVal(value), longDoubleVal(0.0)
 {
+    init();
+    doubleVal = value;
 }
 
 LocalizationArg::LocalizationArg(const long double value)
-    : intVal(0), longVal(0), longLongVal(0),
-      doubleVal(0.0), longDoubleVal(value)
 {
-}
-
-// Localize a simple string
-string localize(const string& str)
-{
-    string result = xlate(str);
-    return result;
+    init();
+    longDoubleVal = value;
 }
 
 string localize(const vector<LocalizationArg>& args)
@@ -372,7 +405,16 @@ string localize(const vector<LocalizationArg>& args)
     LocalizationArg fmt_arg = args.at(0);
 
     // translate format string
-    string fmt_xlated = dxlate(fmt_arg.domain, fmt_arg.stringVal);
+    string fmt_xlated;
+    if (fmt_arg.translate)
+    {
+        fmt_xlated = _localize_string(fmt_arg.domain, "", fmt_arg.stringVal, fmt_arg.plural, fmt_arg.count);
+    }
+    else
+    {
+        fmt_xlated = fmt_arg.stringVal;
+    }
+
     if (args.size() == 1 || fmt_xlated.empty())
     {
         // We're done here
@@ -426,8 +468,16 @@ string localize(const vector<LocalizationArg>& args)
                 }
                 else if (*type == typeid(char*))
                 {
-                    // arg is string and needs to be localized
-                    string argx = dcxlate(arg.domain, context, arg.stringVal);
+                    // arg is string
+                    string argx;
+                    if (arg.translate)
+                    {
+                        argx = _localize_string(arg.domain, context, arg.stringVal, arg.plural, arg.count);
+                    }
+                    else
+                    {
+                        argx = arg.stringVal;
+                    }
                     s = make_stringf(fmt_spec.c_str(), argx.c_str());
                 }
                 else if (*type == typeid(long double))

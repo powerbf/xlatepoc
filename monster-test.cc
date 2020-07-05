@@ -90,21 +90,21 @@ int main(int argc, char *argv[])
             // nominative
             args.clear();
             args.push_back(LocalizationArg("%s hits you."));
-            args.push_back(LocalizationArg(*it, "monsters"));
+            args.push_back(LocalizationArg("monsters", *it));
             sentence = localize_sentence(args);
             cout << sentence << endl;
 
             // accusative
             args.clear();
             args.push_back(LocalizationArg("You miss %s."));
-            args.push_back(LocalizationArg(*it, "monsters"));
+            args.push_back(LocalizationArg("monsters", *it));
             sentence = localize_sentence(args);
             cout << sentence << endl;
 
             // dative
             args.clear();
             args.push_back(LocalizationArg("You command %s to wait here."));
-            args.push_back(LocalizationArg(*it, "monsters"));
+            args.push_back(LocalizationArg("monsters", *it));
             sentence = localize_sentence(args);
             cout << sentence << endl;
         }
@@ -117,11 +117,9 @@ int main(int argc, char *argv[])
         string singular_en = article_a(english_name);
         string plural_en = string("%d ") + pluralise(english_name);
 
-        string plural_xlated = dcnxlate("monsters", "nom", singular_en, plural_en, 2);
-        plural_xlated = make_stringf(plural_xlated.c_str(), 2);
         args.clear();
         args.push_back(LocalizationArg("%s come into view."));
-        args.push_back(LocalizationArg(plural_xlated, "monsters"));
+        args.push_back(LocalizationArg("monsters", singular_en, plural_en, 2));
         string sentence = localize_sentence(args);
         cout << sentence << endl;
     }
